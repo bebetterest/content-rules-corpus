@@ -1,0 +1,24 @@
+[
+  {
+    "id": "internet-information-service-management-measures",
+    "title": "互联网信息服务管理办法",
+    "source_url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1756",
+    "source_file": "all_rules/china/sources/internet-information-service-management-measures.moj.html",
+    "output_file": "all_rules/china/internet-information-service-management-measures_cn.md",
+    "retrieved_date": "2026-05-23",
+    "paragraph_count": 56,
+    "source_sha256": "13e8eba49225b6afa43d8279ca053681567e3fb4a4d03bd26143aa37074ed437",
+    "body_sha256": "00bf563c8eee4c0512e9ac6b96778c08775e8b7f0ae34fc70d9ddca7c56dcbad"
+  },
+  {
+    "id": "provisions-online-content-ecosystem",
+    "title": "网络信息内容生态治理规定",
+    "source_url": "https://www.cac.gov.cn/2019-12/20/c_1578375159509309.htm",
+    "source_file": "all_rules/china/sources/provisions-online-content-ecosystem.cac.html",
+    "output_file": "all_rules/china/provisions-on-governance-of-online-information-content-ecosystem_cn.md",
+    "retrieved_date": "2026-05-23",
+    "paragraph_count": 105,
+    "source_sha256": "e1d88863cb29c960b777f8a4441e99423113701e0da5dab65509a77592180fd0",
+    "body_sha256": "cf25741d0916a09011b12b125cf818ca0bbf4029cf56d4d252efe88c44e918e2"
+  }
+]
