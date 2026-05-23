@@ -1,0 +1,8 @@
+# Local agent guidance files
+AGENTS.md
+AGENTS_cn.md
+
+# Local environment files
+.env
+.env.*
+!.env.example
