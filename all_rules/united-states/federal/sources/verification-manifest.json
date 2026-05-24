@@ -432,5 +432,107 @@
         "content_type": "text/html"
       }
     ]
+  },
+  {
+    "id": "us-federal-18-usc-2258a",
+    "title": "18 U.S.C. § 2258A",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-2258a.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2258A&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-2258a.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 175,
+    "body_sha256": "1842166e94563dc9a9fcc5f1f903d5db07c99914e17d606c023901c38bc5a7b3",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-2258a.uscode-house-gov.html",
+        "sha256": "e0655705d235ec9e0a19e0ee42fc2952f041e27e29575e26e20b08b16cb28cca",
+        "bytes": 180315,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-2258b",
+    "title": "18 U.S.C. § 2258B",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-2258b.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2258B&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-2258b.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 108,
+    "body_sha256": "9368333dceb7d4658434b52d6cb64e6cadce8eb7b15f9f5cd27fddb120e98a72",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-2258b.uscode-house-gov.html",
+        "sha256": "d808d4c91ed7ed106e07cfec3d7d2e669a3f60d65b9bbe44fe9adf2ecb3ac24b",
+        "bytes": 156580,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-2258c",
+    "title": "18 U.S.C. § 2258C",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-2258c.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2258C&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-2258c.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 66,
+    "body_sha256": "05f15af5ccecf4e11aa2d5d411c023f3cefeed9ae3951f4c5c24e80bc977106a",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-2258c.uscode-house-gov.html",
+        "sha256": "4ae60278f11f85ae469edaf86b97161b30a694e5db11cd599283c5667444115e",
+        "bytes": 149478,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
   }
 ]

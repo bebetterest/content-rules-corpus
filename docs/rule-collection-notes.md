@@ -88,3 +88,12 @@ Extraction updates:
 - Rechecked Texas official statutes, bill text, and bill lookup paths, including the dynamic statutes query URL. They still returned HTTP 503 maintenance responses with `Retry-After: Tue, 26 May 2026 12:00:00 GMT`, so Texas remains the only source stub.
 
 Verification status after this pass: 50 registry entries are indexed; 49 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Federal Provider Reporting Gap Fill
+
+Federal extraction updates:
+
+- Added official U.S. Code sources for 18 U.S.C. § 2258A, § 2258B, and § 2258C. These cover provider reporting requirements for apparent child sexual exploitation or child pornography violations, reporting-related limited liability, and use of CyberTipline report technical elements.
+- The official Texas statutes, Texas bill text, Texas bill lookup, `www.legis.state.tx.us`, and Texas Legislature FTP/mirror paths were rechecked. They still returned HTTP 503 maintenance responses, SSL failures, or FTP timeouts on 2026-05-24, so the Texas codified entry remains the only source stub.
+
+Verification status after this pass: 53 registry entries are indexed; 52 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).

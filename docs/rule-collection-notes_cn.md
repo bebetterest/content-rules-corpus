@@ -88,3 +88,12 @@
 - 重新检查 Texas 官方 statutes、bill text、bill lookup 以及动态 statutes query URL。它们仍返回 HTTP 503 维护响应，并带有 `Retry-After: Tue, 26 May 2026 12:00:00 GMT`，因此 Texas 仍是唯一 source stub。
 
 本轮后的校验状态：registry 中 50 条记录均已进入索引；49 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 联邦 provider 报告义务补缺
+
+联邦抽取更新：
+
+- 新增 18 U.S.C. § 2258A、§ 2258B、§ 2258C 的官方 U.S. Code 来源。这些条文覆盖 apparent child sexual exploitation 或 child pornography violations 的 provider 报告义务、报告相关有限责任，以及 CyberTipline 报告技术元素的使用。
+- 重新检查 Texas 官方 statutes、Texas bill text、Texas bill lookup、`www.legis.state.tx.us` 以及 Texas Legislature FTP/mirror 路径。2026-05-24 这些来源仍返回 HTTP 503 维护响应、SSL 失败或 FTP 超时，因此 Texas codified 条目仍是唯一 source stub。
+
+本轮后的校验状态：registry 中 53 条记录均已进入索引；52 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "directory": "all_rules/united-states/federal",
   "generated_by": "scripts/generate_rule_indexes.mjs",
-  "rule_count": 14,
-  "descendant_rule_count": 14,
+  "rule_count": 17,
+  "descendant_rule_count": 17,
   "rules": [
     {
       "title": "16 CFR Part 312 - Children's Online Privacy Protection Rule",
@@ -129,6 +129,60 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "source_urls": [
         "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2256&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2258A",
+      "file": "18-usc-2258a.md",
+      "path": "all_rules/united-states/federal/18-usc-2258a.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal reporting requirement for electronic communication service providers and remote computing service providers concerning apparent child sexual exploitation and child pornography violations; nationwide federal law, subject to current amendments and enforcement interpretation.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2258A&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2258B",
+      "file": "18-usc-2258b.md",
+      "path": "all_rules/united-states/federal/18-usc-2258b.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal limited-liability provision related to provider reporting under 18 U.S.C. § 2258A; nationwide federal law, subject to current amendments and enforcement interpretation.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2258B&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2258C",
+      "file": "18-usc-2258c.md",
+      "path": "all_rules/united-states/federal/18-usc-2258c.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision governing use of provider reports and systems to combat child pornography; nationwide federal law, subject to current amendments and enforcement interpretation.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2258C&edition=prelim"
       ]
     },
     {
