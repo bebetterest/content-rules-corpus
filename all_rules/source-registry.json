@@ -572,6 +572,38 @@
       "min_body_chars": 3000
     },
     {
+      "id": "us-federal-47-usc-223",
+      "title": "47 U.S.C. § 223",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision concerning obscene or harassing communications using telecommunications devices or interactive computer services; nationwide federal law, subject to current amendments and court interpretation.",
+      "source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title47-section223&edition=prelim",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "output_file": "all_rules/united-states/federal/47-usc-223.md",
+      "language": "en",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "required_phrases": ["47 USC 223", "Obscene or harassing"],
+      "min_body_chars": 5000
+    },
+    {
+      "id": "us-federal-47-usc-231",
+      "title": "47 U.S.C. § 231",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision concerning restriction of access by minors to harmful material commercially distributed by means of the World Wide Web; nationwide federal law, subject to current amendments and court interpretation.",
+      "source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title47-section231&edition=prelim",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "output_file": "all_rules/united-states/federal/47-usc-231.md",
+      "language": "en",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "required_phrases": ["47 USC 231", "Restriction of access by minors", "World Wide Web"],
+      "min_body_chars": 4000
+    },
+    {
       "id": "us-federal-17-usc-512",
       "title": "17 U.S.C. § 512",
       "collection": "united-states",
@@ -604,6 +636,22 @@
       "min_body_chars": 3000
     },
     {
+      "id": "us-federal-18-usc-2251a",
+      "title": "18 U.S.C. § 2251A",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal offense provision concerning selling or buying of children; nationwide federal criminal law, subject to current amendments and court interpretation.",
+      "source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2251A&edition=prelim",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "output_file": "all_rules/united-states/federal/18-usc-2251a.md",
+      "language": "en",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "required_phrases": ["18 USC 2251A", "Selling or buying of children"],
+      "min_body_chars": 1000
+    },
+    {
       "id": "us-federal-18-usc-2252",
       "title": "18 U.S.C. § 2252",
       "collection": "united-states",
@@ -634,6 +682,22 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "required_phrases": ["18 USC 2252A", "child pornography"],
       "min_body_chars": 3000
+    },
+    {
+      "id": "us-federal-18-usc-2252b",
+      "title": "18 U.S.C. § 2252B",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal offense provision concerning misleading domain names on the Internet, including conduct involving minors; nationwide federal criminal law.",
+      "source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2252B&edition=prelim",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "output_file": "all_rules/united-states/federal/18-usc-2252b.md",
+      "language": "en",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "required_phrases": ["18 USC 2252B", "Misleading domain names", "Internet"],
+      "min_body_chars": 1000
     },
     {
       "id": "us-federal-18-usc-2256",
@@ -700,6 +764,22 @@
       "min_body_chars": 1000
     },
     {
+      "id": "us-federal-18-usc-2258d",
+      "title": "18 U.S.C. § 2258D",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision concerning NCMEC liability and minimizing access to visual depictions provided under section 2258A; nationwide federal law, subject to current amendments and enforcement interpretation.",
+      "source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2258D&edition=prelim",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "output_file": "all_rules/united-states/federal/18-usc-2258d.md",
+      "language": "en",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "required_phrases": ["18 USC 2258D", "Limited liability for NCMEC", "visual depiction provided under section 2258A"],
+      "min_body_chars": 1000
+    },
+    {
       "id": "us-federal-18-usc-2260",
       "title": "18 U.S.C. § 2260",
       "collection": "united-states",
@@ -746,6 +826,38 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "required_phrases": ["18 USC 875", "Interstate communications"],
       "min_body_chars": 1500
+    },
+    {
+      "id": "us-federal-18-usc-1466a",
+      "title": "18 U.S.C. § 1466A",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal offense provision concerning obscene visual representations of the sexual abuse of children; nationwide federal criminal law.",
+      "source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1466A&edition=prelim",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "output_file": "all_rules/united-states/federal/18-usc-1466a.md",
+      "language": "en",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "required_phrases": ["18 USC 1466A", "Obscene visual representations", "sexual abuse of children"],
+      "min_body_chars": 2000
+    },
+    {
+      "id": "us-federal-18-usc-1470",
+      "title": "18 U.S.C. § 1470",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal offense provision concerning transfer of obscene material to minors; nationwide federal criminal law.",
+      "source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1470&edition=prelim",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "output_file": "all_rules/united-states/federal/18-usc-1470.md",
+      "language": "en",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "required_phrases": ["18 USC 1470", "Transfer of obscene material to minors"],
+      "min_body_chars": 1000
     },
     {
       "id": "us-federal-18-usc-1591",
@@ -810,6 +922,22 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "required_phrases": ["18 USC 2421A", "Promotion or facilitation", "reckless disregard"],
       "min_body_chars": 2000
+    },
+    {
+      "id": "us-federal-18-usc-2422",
+      "title": "18 U.S.C. § 2422",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal coercion and enticement provision, including use of interstate or foreign commerce communications to persuade or entice minors; nationwide federal criminal law.",
+      "source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2422&edition=prelim",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "output_file": "all_rules/united-states/federal/18-usc-2422.md",
+      "language": "en",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "required_phrases": ["18 USC 2422", "Coercion and enticement", "minor"],
+      "min_body_chars": 1000
     },
     {
       "id": "us-federal-15-usc-6501",

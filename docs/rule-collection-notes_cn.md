@@ -106,3 +106,14 @@
 - 新增 statutory COPPA 官方 U.S. Code 条文 15 U.S.C. §§ 6501-6506，用于补充已收集的 16 CFR Part 312 COPPA Rule 来源。这些条文覆盖定义、不公平/欺骗行为监管、安全港、州执法、行政与适用范围、复核。
 
 本轮后的校验状态：registry 中 60 条记录均已进入索引；59 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 联邦未成年人安全与 obscenity 补缺
+
+联邦抽取更新：
+
+- 新增 47 U.S.C. §§ 223、231 官方 U.S. Code 来源，覆盖 obscene or harassing communications 以及限制未成年人访问 harmful World Wide Web material。
+- 新增 18 U.S.C. §§ 2251A、2252B、2258D、1466A、1470、2422 官方 U.S. Code 来源，覆盖 selling or buying of children、误导性互联网域名、NCMEC 有限责任和访问最小化、儿童性虐待的 obscene visual representations、向未成年人传输 obscene material、coercion/enticement。
+- 复核了最近改动后的 `scripts/fetch_rules.mjs`。该文件当前在工作区没有未提交 diff，`node --check scripts/fetch_rules.mjs` 通过，并且选择性官方来源抓取已成功跑完。
+- 修正 `18 U.S.C. § 2258D` registry 校验短语，使其匹配官方当前 U.S. Code 页面实际用语。该条目现在可从官方来源成功抽取，不再是 source stub。
+
+本轮后的校验状态：registry 中 68 条记录均已进入索引；67 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。

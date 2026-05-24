@@ -106,3 +106,14 @@ Federal extraction updates:
 - Added the official U.S. Code statutory COPPA sections, 15 U.S.C. §§ 6501-6506, to complement the already collected 16 CFR Part 312 COPPA Rule source. These sections cover definitions, unfair/deceptive practice regulation, safe harbors, State actions, administration/applicability, and review.
 
 Verification status after this pass: 60 registry entries are indexed; 59 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Federal Child Safety and Obscenity Gap Fill
+
+Federal extraction updates:
+
+- Added official U.S. Code sources for 47 U.S.C. §§ 223 and 231, covering obscene or harassing communications and restrictions on minors' access to harmful World Wide Web material.
+- Added official U.S. Code sources for 18 U.S.C. §§ 2251A, 2252B, 2258D, 1466A, 1470, and 2422, covering selling or buying of children, misleading Internet domain names, NCMEC limited liability and access minimization, obscene visual representations of child sexual abuse, transfer of obscene material to minors, and coercion/enticement.
+- Reviewed the current `scripts/fetch_rules.mjs` after the recent script changes. The working tree has no uncommitted diff for that file, `node --check scripts/fetch_rules.mjs` passes, and a selective official-source fetch completed successfully.
+- Corrected the `18 U.S.C. § 2258D` registry validation phrases to match the official current U.S. Code wording. The entry now extracts successfully from the official source instead of remaining a source stub.
+
+Verification status after this pass: 68 registry entries are indexed; 67 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
