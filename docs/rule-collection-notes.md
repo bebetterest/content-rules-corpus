@@ -209,3 +209,17 @@ Platform extraction updates:
 - No additional U.S. federal legal provisions were added in this pass.
 
 Verification status after this pass: 144 registry entries are indexed; 143 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Rule Detail Link Localization Pass
+
+Link and verification updates:
+
+- Added URL alias handling for downloaded rule source links, including X policy links across `help.x.com` and legacy `help.twitter.com` forms, YouTube Help article IDs with and without query strings, and HTTP/HTTPS variants for already downloaded sources.
+- Added `scripts/localize_rule_links.mjs` to scan all collected Markdown source-text sections and replace links to already downloaded official source artifacts with local relative links while preserving other online links.
+- Updated `scripts/fetch_rules.mjs` so downloaded Cloudflare/security challenge pages are rejected instead of being recorded as valid source artifacts; stale generated source artifacts for a refreshed entry are removed from the manifest directory when no longer referenced.
+- Updated `scripts/verify_rules.mjs` so verification fails if an HTML/XML source artifact is a challenge page or if a body link still points online to a source URL that has already been downloaded locally.
+- Regenerated X and YouTube platform outputs so already collected detailed policy links resolve locally. For X, all 18 linked detailed policy pages from the official `The X Rules` page were confirmed and saved as local artifacts, including Adult Content, Illegal or Certain Regulated Goods or Services, Child Safety, and Private Information. The fetcher can reuse an existing non-challenge official artifact when the current browser-rendered request is temporarily blocked by a challenge page.
+- Localized cross-rule links from Bilibili/Douyin bodies to already downloaded local official source artifacts where the linked source had already been collected.
+- No additional U.S. federal legal provisions were added in this pass.
+
+Verification status after this pass: `node scripts/verify_rules.mjs` verified 144 entries, with 143 extracted files and 1 source stub (`us-state-texas-scope-act`).

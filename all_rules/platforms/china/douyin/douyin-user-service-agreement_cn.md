@@ -16,7 +16,7 @@
 - Status Note: Official Douyin user service agreement page. A separately titled full community convention source was still not confirmed in this pass.
 - Source SHA-256:
 - all_rules/platforms/china/douyin/sources/platform-douyin-user-service-agreement.douyin-com.html: 12e8d0a130a2dae1d6f52c9bc18c4ea572ae1366c21b083936310b780b9cf2c7
-- Body SHA-256: 184ce80ec5b8e56cb39bf56d1b71f928b18807da8644b800673ae999d1ce9d7c
+- Body SHA-256: edb20c0f5d3bc36ee29ca04ae8d4e88fd76f8f3acdf318bef37c55b62cedb44f
 
 ## Source Text
 
@@ -204,7 +204,7 @@
 
 6.1 我们设立公众投诉、举报平台，您可以按照我们公示的投诉举报制度向我们投诉、举报各类违反法律法规、本协议约定的行为及内容，我们将及时受理和处理您的投诉、举报，以共同营造风清气正的网络空间。
 
-6.2 如您发现抖音内存在任何侵犯您权利的内容，您可参考《 [抖音侵权投诉指引](https://www.douyin.com/draft/douyin_agreement/infringement_guide.html) 》 的内容，按照抖音客户端或网站中提示的侵权举报途径通知我们，并提供您享有相关权利的证据，我们将会依据相关法律规定及时处理您的侵权举报。如您在抖音发布的内容被相关权利人发起侵权举报并被处理，且您不认可处理结果，您应根据抖音平台提示的方式，向抖音提交不侵权声明（ [模板下载](https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_lmhz_upfbvk/ljhwZthlaukjlkulzlp/draft/douyin-platform-infringement-declaration.docx) ）及相关权利证明材料进行申诉，我们同样将会依据相关法律规定及时处理您的申诉。
+6.2 如您发现抖音内存在任何侵犯您权利的内容，您可参考《 [抖音侵权投诉指引](sources/platform-douyin-infringement-guide.douyin-com.html) 》 的内容，按照抖音客户端或网站中提示的侵权举报途径通知我们，并提供您享有相关权利的证据，我们将会依据相关法律规定及时处理您的侵权举报。如您在抖音发布的内容被相关权利人发起侵权举报并被处理，且您不认可处理结果，您应根据抖音平台提示的方式，向抖音提交不侵权声明（ [模板下载](https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_lmhz_upfbvk/ljhwZthlaukjlkulzlp/draft/douyin-platform-infringement-declaration.docx) ）及相关权利证明材料进行申诉，我们同样将会依据相关法律规定及时处理您的申诉。
 
 7.违约处理
 

@@ -60,142 +60,142 @@
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 1350,
-    "body_sha256": "c695a59f49f8532701592f925e1d97fb74d0517a953e88b4524e485b658625f9",
+    "paragraph_count": 1348,
+    "body_sha256": "0c9bb5c30e2d26044fdd4a941790e04b1466c13260fb33e061c9310a85afd12a",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-01.support-google-com.html",
-        "sha256": "54a7afc8fc3b65c798e01ed58a5378e54c95b7e4399f8b7aa15b8429bcf746ea",
-        "bytes": 1366728,
+        "sha256": "71f04207ade4b06a3bdce996f376142cdfcddc27883303894ae3a6219cf3764b",
+        "bytes": 1366367,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-02.support-google-com.html",
-        "sha256": "a6a39bd4fb3e7d9f6e427bf76d63e5f37e652999c875b60d16949ca700ddbbf8",
-        "bytes": 1372401,
+        "sha256": "8255fa1723f36273f3ccbe0c727405b4b104db94d0f3a1d34fe91ec6c12fb0d2",
+        "bytes": 1372040,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-03.support-google-com.html",
-        "sha256": "63e45e675b0df53f9801dde61284fd021fdff5e3c2dc8c1e4bc5bc39af1521bf",
-        "bytes": 1362427,
+        "sha256": "b4380119aed7c2bac5440f3b71400124213c6418df57d6ae36a376cc179e5845",
+        "bytes": 1362435,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-04.support-google-com.html",
-        "sha256": "7a3cbc96c5ccb80a9553fb86b4a4b11fe8e4f154943c0ea61a34a735366acdb1",
-        "bytes": 1363967,
+        "sha256": "bc82ada70e3d32b29f4da1da6299de907c44ba56f12e3e776a0c91f41d087da3",
+        "bytes": 1363976,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-05.support-google-com.html",
-        "sha256": "eccc191a1e84d5eed170d8b7d494d648ab467fcd041083d1a06d8ba8c4028c5c",
-        "bytes": 1368573,
+        "sha256": "b4784cb48e3fb09d9e2a90eaedf353da8f8f11bfc5517bf5dbeceef7e3798aef",
+        "bytes": 1368936,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-06.support-google-com.html",
-        "sha256": "b82a67461afc693950a0e32aaaba6f0feceaaef66fc53f44c1ff1f8bbf736d53",
-        "bytes": 1362838,
+        "sha256": "0cdd81823f2481435c09660052ac45e456e145a41622f05df48782d017899802",
+        "bytes": 1362844,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-07.support-google-com.html",
-        "sha256": "4a9629325edd5d939f926c5ce476573cecc3f4317b6521bf1160a7c57a2d3fb7",
-        "bytes": 1359230,
+        "sha256": "4685309cea54ea279faf15e088f085d5d24e20b380185475d249f96876721a8e",
+        "bytes": 1358867,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-08.support-google-com.html",
-        "sha256": "0d4c2ec8bfe4294d51735d20b5d510e87dd16878e8bcd4c3ed7e3a1c2c8f8c11",
-        "bytes": 1371940,
+        "sha256": "877fc58e78a1c44f05b1730b6cab3a7f25a31ee5300fa137db40ae23f67b27c5",
+        "bytes": 1371566,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-09.support-google-com.html",
-        "sha256": "94e1220bb6365bedaefcec5da323d4f6bf603bbc448bb61574bbd2c6d4057ec3",
-        "bytes": 1365767,
+        "sha256": "90dc5cf79740d8ccb6d3481169c494d3f7a8029275db46d192de420b294bcb9d",
+        "bytes": 1365766,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-10.support-google-com.html",
-        "sha256": "b31ec7cca6b46f821fe7a21f9743128c089857d581b7113691ffb591d886502b",
-        "bytes": 1380797,
+        "sha256": "7243be272b04518603d7386b19c4783aaa69c81870f9d7bc10c73df914e0a06c",
+        "bytes": 1380786,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-11.support-google-com.html",
-        "sha256": "53747ecdf774e5955ce148e2a6a28ad455446f0c4c9c877b390949905515b1e0",
-        "bytes": 1366606,
+        "sha256": "8ecbc0a93e3e54ef4c067a69145396ef88aff26d32b93b582bbdde469ad8612c",
+        "bytes": 1366255,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-12.support-google-com.html",
-        "sha256": "f46cf3acd8fab995cc955317ac6055e2802c59292425a7811e23f5641eeeb416",
-        "bytes": 1378181,
+        "sha256": "55168b8dbab4b25f5d61b4c8c9c648cbccb7064c6b93299da1b00973cbb9e169",
+        "bytes": 1377824,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-13.support-google-com.html",
-        "sha256": "123a03ce16b6b3bf666b837b8d6089810787f5269868cf2ce6235657b0e039fb",
-        "bytes": 1375059,
+        "sha256": "b02f4ceb758bb1464f4bbe5172c6ddf98867d68343dc9f66a37fb3cd7a2fa8bb",
+        "bytes": 1375066,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-14.support-google-com.html",
-        "sha256": "754b94b7408725609680a6eb74c66b2737775798947236f777193c2b3e834313",
-        "bytes": 1366082,
+        "sha256": "b427e650d204127201111303a8579ba0aa3309e995715d66d7dce17df68515fa",
+        "bytes": 1366090,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-15.support-google-com.html",
-        "sha256": "1efefa24235c727976c4e709bebf643c820576589bf353a2086621e2f8a0ab03",
-        "bytes": 1371794,
+        "sha256": "31605295a51060f808cf87e08542ef085e09606c5c9cb35ff6aae68c5d65b245",
+        "bytes": 1371785,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-16.support-google-com.html",
-        "sha256": "6340ed8340bda24f02c456d0017eafec3082ad657987b16c3ebd2791940c7b3b",
-        "bytes": 1379103,
+        "sha256": "4cb6d5158c682d525a083b5a9adf6c090dd57b2fd2003cef800ddd98951875de",
+        "bytes": 1379116,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-17.support-google-com.html",
-        "sha256": "cb33ab847d488661a5834ae786deeee5222f41ec1dff0be745e4ba2500eb29bf",
+        "sha256": "84f7008006978659e82dac854c536991a42598122482d0259c5c6558340c2323",
         "bytes": 1370227,
         "downloader": "curl",
         "fallback_from": null,
@@ -203,40 +203,40 @@
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-18.support-google-com.html",
-        "sha256": "1a05f33185b9f8cf06f42981f5241ca9f570a7bdb51b56480fac0b718fa58889",
-        "bytes": 1363637,
+        "sha256": "8c76898e4120a01fa37235c1b51725a9fb3e12998d3e834e245ef2abedca4742",
+        "bytes": 1363641,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-19.support-google-com.html",
-        "sha256": "543359ec6a752fa4bbfbcf4a126e46dfd9496a22c0a597c46984dfa65f8938b2",
-        "bytes": 1376166,
+        "sha256": "cf77ad07a94f37674a4a9773a919e0e1539634a317ec7512717f84226c8a83a3",
+        "bytes": 1376172,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-20.support-google-com.html",
-        "sha256": "1ceb12032a7d648ee74602a7c825dee5351cc1cbb9ff598a99b55e829e5822a8",
-        "bytes": 1365735,
+        "sha256": "4e56833094fc07d5c1a5dbc5b1b80a8ea73553a6b5ecdbfe872c8324d2c1bd31",
+        "bytes": 1365746,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-21.support-google-com.html",
-        "sha256": "dcca68972f6f064b6ce6d35b4051f463802a131049b3bbb295c6e887849dac2e",
-        "bytes": 1370177,
+        "sha256": "9398beb0be169becd814112e2d74c11ed096197441eba6c5e71a7d67022be4e8",
+        "bytes": 1370540,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-22.support-google-com.html",
-        "sha256": "82e5f458ea89bdd1090220640b35d5488de53dcebd2c2bd1fa94caef73740f97",
-        "bytes": 1375068,
+        "sha256": "027542998f4a7aa1320f1ee63076f10c5dfb121ef783f44a6309634114baa82a",
+        "bytes": 1375064,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null

@@ -209,3 +209,17 @@
 - 本轮未继续新增美国联邦法律条文。
 
 本轮后的校验状态：registry 中 144 条记录均已进入索引；143 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 规则详情链接本地化
+
+链接与校验更新：
+
+- 新增已下载规则来源链接的 URL alias 处理，包括 `help.x.com` 与 legacy `help.twitter.com` 形式之间的 X policy 链接、带或不带 query string 的 YouTube Help article ID，以及已下载来源的 HTTP/HTTPS 变体。
+- 新增 `scripts/localize_rule_links.mjs`，扫描所有已收集 Markdown 的 source-text section，将指向已下载官方 source artifact 的正文在线链接替换为本地相对链接，同时保留其他在线链接。
+- 更新 `scripts/fetch_rules.mjs`，Cloudflare/security challenge 页面会被拒绝，不再登记为有效 source artifact；刷新某条目时，manifest 目录下不再被引用的旧生成 artifact 会被清理。
+- 更新 `scripts/verify_rules.mjs`，如果 HTML/XML source artifact 是 challenge 页面，或正文仍在线指向已经本地下载过的来源 URL，校验会失败。
+- 重新生成 X 和 YouTube 平台输出，使已收集的详细政策链接指向本地。X 本轮确认并保存官方 `The X Rules` 页面中的全部 18 个 detailed policy 本地 artifact，包括 Adult Content、Illegal or Certain Regulated Goods or Services、Child Safety 与 Private Information。抓取器现在可在当前浏览器渲染请求被 challenge 页面临时拦截时，复用同目录下既有且已确认不是 challenge 的官方 artifact。
+- 将 Bilibili/Douyin 正文中已对应到本库已下载官方来源的跨规则链接替换为本地 source artifact。
+- 本轮未继续新增美国联邦法律条文。
+
+本轮后的校验状态：`node scripts/verify_rules.mjs` 验证 144 条记录，其中 143 个文件已抽取正文，1 个文件仍为 source stub（`us-state-texas-scope-act`）。

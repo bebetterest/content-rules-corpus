@@ -10,12 +10,14 @@
     ],
     "linked_source_urls": [
       "https://help.x.com/en/rules-and-policies/violent-speech.html",
-      "https://help.x.com/rules-and-policies/violent-entities.html",
+      "https://help.x.com/en/rules-and-policies/violent-entities.html",
       "https://help.x.com/en/rules-and-policies/sexual-exploitation-policy.html",
       "https://help.x.com/en/rules-and-policies/abusive-behavior.html",
       "https://help.x.com/en/rules-and-policies/hateful-conduct-policy.html",
       "https://help.x.com/en/rules-and-policies/perpetrators-of-violent-attacks.html",
       "https://help.x.com/en/rules-and-policies/glorifying-self-harm.html",
+      "https://help.x.com/en/rules-and-policies/media-policy.html",
+      "https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors.html",
       "https://help.x.com/en/rules-and-policies/personal-information.html",
       "https://help.x.com/en/rules-and-policies/intimate-media.html",
       "https://help.x.com/en/rules-and-policies/authenticity.html",
@@ -26,16 +28,7 @@
       "https://help.x.com/en/rules-and-policies/copyright-policy.html",
       "https://help.x.com/en/rules-and-policies/enforcement-philosophy.html"
     ],
-    "linked_source_errors": [
-      {
-        "url": "https://help.x.com/en/rules-and-policies/media-policy.html",
-        "error": "attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://help.x.com/en/rules-and-policies/media-policy.html --timeout-ms 30000 --wait-ms 8000 --after-click-wait-ms 250 Traceback (most recent call last):"
-      },
-      {
-        "url": "https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors.html",
-        "error": "attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors.html --timeout-ms 30000 --wait-ms 8000 --after-click-wait-ms 250 Traceback (most recent call last):"
-      }
-    ],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/platforms/global/x/sources/platform-x-rules.help-x-com.html",
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-01-rules-and-policies-violent-speech.help-x-com.html",
@@ -45,6 +38,8 @@
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-05-rules-and-policies-hateful-conduct-policy.help-x-com.html",
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-06-rules-and-policies-perpetrators-of-violent-attacks.help-x-com.html",
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-07-rules-and-policies-glorifying-self-harm.help-x-com.html",
+      "all_rules/platforms/global/x/sources/platform-x-rules-linked-08-rules-and-policies-media-policy.help-x-com.html",
+      "all_rules/platforms/global/x/sources/platform-x-rules-linked-09-rules-and-policies-illegal-regulated-behaviors.help-x-com.html",
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-10-rules-and-policies-personal-information.help-x-com.html",
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-11-rules-and-policies-intimate-media.help-x-com.html",
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-12-rules-and-policies-authenticity.help-x-com.html",
@@ -63,6 +58,8 @@
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-05-rules-and-policies-hateful-conduct-policy.help-x-com.html",
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-06-rules-and-policies-perpetrators-of-violent-attacks.help-x-com.html",
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-07-rules-and-policies-glorifying-self-harm.help-x-com.html",
+      "all_rules/platforms/global/x/sources/platform-x-rules-linked-08-rules-and-policies-media-policy.help-x-com.html",
+      "all_rules/platforms/global/x/sources/platform-x-rules-linked-09-rules-and-policies-illegal-regulated-behaviors.help-x-com.html",
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-10-rules-and-policies-personal-information.help-x-com.html",
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-11-rules-and-policies-intimate-media.help-x-com.html",
       "all_rules/platforms/global/x/sources/platform-x-rules-linked-12-rules-and-policies-authenticity.help-x-com.html",
@@ -76,111 +73,127 @@
     "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
-    "extraction_note": "https://help.x.com/en/rules-and-policies/violent-speech.html: rendered page was a challenge page, not policy text; https://help.x.com/en/rules-and-policies/media-policy.html: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://help.x.com/en/rules-and-policies/media-policy.html --timeout-ms 30000 --wait-ms 8000 --after-click-wait-ms 250 Traceback (most recent call last):; https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors.html: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors.html --timeout-ms 30000 --wait-ms 8000 --after-click-wait-ms 250 Traceback (most recent call last):",
-    "paragraph_count": 1023,
-    "body_sha256": "defcf748b55b5df9c45b86acf416e0d47738d84c1b91d9b73aa3f89cf4ea3fc7",
+    "extraction_note": null,
+    "paragraph_count": 1188,
+    "body_sha256": "65b3464fd4512c96eee4f03ff733c0f7989c632297b4b38593f88a63883b4367",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules.help-x-com.html",
-        "sha256": "0c84cdeecf09538668b01e1e727f3bb0fcb2e42bb2fa93ade3da6abbc71bd4ce",
-        "bytes": 90318,
+        "sha256": "b7ad798496ad76cec1fda8b819fd9ce9f42c5c9d97fe6f11944c23d206ce1879",
+        "bytes": 90840,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-01-rules-and-policies-violent-speech.help-x-com.html",
-        "sha256": "75779b5a3a0701a968c1a2aad5e934947875bdebddecb9cbd8516ab3cb68b693",
-        "bytes": 31937,
+        "sha256": "e4a35144144308c591ed2cb7d0898c59368f8ed0ba2dee3bc36705129433c766",
+        "bytes": 89014,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-02-rules-and-policies-violent-entities.help-x-com.html",
-        "sha256": "44803d4b89dfcbd0b6cb5985c332371c284eee7eeffbc307e52f6b219f1aaa44",
-        "bytes": 86357,
+        "sha256": "2df0f4a3497a340542d65bdda2d27599f39e0ae53ab51bb0a31007a0765c0edf",
+        "bytes": 86353,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-03-rules-and-policies-sexual-exploitation-policy.help-x-com.html",
-        "sha256": "65fd8ba59c7b48ee94b4f567f833678eac7f715831c7cfd215f4dbde3f552935",
-        "bytes": 93388,
+        "sha256": "4f77fa1d18505e956ceaa9c38cfe8398336957fa2d4507cc5bdfa043665eb29e",
+        "bytes": 93390,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-04-rules-and-policies-abusive-behavior.help-x-com.html",
-        "sha256": "7b5f9171dda53e6c632c94fcf93085954ce4844d50f2bcde853d74145760164a",
-        "bytes": 90967,
+        "sha256": "be98da4cd72e10a18ae08f6a842d0d551b1cd6e7550ee5073623c606be9a121f",
+        "bytes": 90447,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-05-rules-and-policies-hateful-conduct-policy.help-x-com.html",
-        "sha256": "845b19c215418df22509738bcb0753fdf712beae17c8a05420ca8f259f3aa397",
-        "bytes": 92238,
+        "sha256": "a676db6f82da44c2f9cf4cdc80768980bbb9bc40b918a9cea0ac1411b8ba2fbb",
+        "bytes": 91869,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-06-rules-and-policies-perpetrators-of-violent-attacks.help-x-com.html",
-        "sha256": "55ad771d32cdeb6af627aefea27757d90f113a024d924bad847b5ce4d4174ee2",
-        "bytes": 94108,
+        "sha256": "9d798546ce75a92c6cd80fd505bfd3f9b812c2e27f54de4cfd6a2c199abe8c60",
+        "bytes": 94373,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-07-rules-and-policies-glorifying-self-harm.help-x-com.html",
-        "sha256": "fc19a1bb543c8cf5dceb60bfb3a8c33b69203f12a18ac9dd5d34925b0402ed01",
+        "sha256": "4e36c197f396d69494c4e2391be505524aae4f6c634672ecc749453381d4503d",
         "bytes": 86365,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
+        "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-08-rules-and-policies-media-policy.help-x-com.html",
+        "sha256": "91e64580516fa2a60347b321fe894a6c4ac2f7d20a091d0536642588b3757c09",
+        "bytes": 81974,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-09-rules-and-policies-illegal-regulated-behaviors.help-x-com.html",
+        "sha256": "073c6c2e2ef0c99327e63a34b728d66c515d149a4b097de34ccc75f395098c55",
+        "bytes": 94574,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-10-rules-and-policies-personal-information.help-x-com.html",
-        "sha256": "26664ac9af6006b3d539f3e97920b169a1eeda098c50ab8fbc65e83a88c14cca",
-        "bytes": 93188,
+        "sha256": "98a03cd955292949e08b803f13e7b199f24e9c3e1cf1fdd69a2d3959b00c684e",
+        "bytes": 93182,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-11-rules-and-policies-intimate-media.help-x-com.html",
-        "sha256": "949b999e89ad0e5d32fb4687e2ee3f0c7a08be2132b4a36c4d73e5df47fd95f9",
-        "bytes": 88482,
+        "sha256": "43c1b1aac919c555b1767dba721ca3a5f7871ab581de3df4210ed68e8a3edbd3",
+        "bytes": 88484,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-12-rules-and-policies-authenticity.help-x-com.html",
-        "sha256": "73c2489e68f1a33541bbd503e9ea1a396a53f9910bac27c563c9904db182079f",
-        "bytes": 111954,
+        "sha256": "4a2ddc84fe46270b4d70e0baace4368b072194ea51826fe57d2755ce973e82e3",
+        "bytes": 111948,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-13-rules-and-policies-election-integrity-policy.help-x-com.html",
-        "sha256": "cb74f64fb37d536ea70486fbbebec871179364560f7d261ce32f5b37f62694d8",
-        "bytes": 88881,
+        "sha256": "ccea3df84b139cdc2d42c7dfe8b54fdc412f3bcb94aa07626bff5ddabc8d4ca2",
+        "bytes": 88877,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-14-rules-and-policies-twitter-impersonation-and-deceptive-identities-policy.help-x-com.html",
-        "sha256": "94fb7c2222b5918c57b2ce8a86b0eca4b2441e109df753bfb44bd09b0e8c3a24",
+        "sha256": "923767730a2bf7e3b4f6e2b6d4250924208ef1648a83de4dd2a4973b352dc700",
         "bytes": 111954,
         "downloader": "playwright",
         "fallback_from": null,
@@ -188,23 +201,23 @@
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-15-rules-and-policies-manipulated-media.help-x-com.html",
-        "sha256": "4891945d4dbc10a12456028409352bdac72337d37e850f128cfc214f01f2009a",
-        "bytes": 111952,
+        "sha256": "5c4c0921bfbe3c0f2da968e1a0decd6ae8dc6f501fcc3729efafe30f153c5a5b",
+        "bytes": 111954,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-16-rules-and-policies-twitter-trademark-policy.help-x-com.html",
-        "sha256": "107ddd84a8b3bd13f24c906a608ba9e27a664d9e79744525b752339a739e255e",
-        "bytes": 83864,
+        "sha256": "98a3572fba32c7449d2c1300bd65eaead3aff58f50783ffd09bdf6aa1bb7ba20",
+        "bytes": 83862,
         "downloader": "playwright",
         "fallback_from": null,
         "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-17-rules-and-policies-copyright-policy.help-x-com.html",
-        "sha256": "4a3943a516c9d6e227011d745166316390ec18e0d9ee806e469c19c1ede51039",
+        "sha256": "c5090af90fe9835afe16faefe297e5a8e539231ef02d906ceb5bd481791c379d",
         "bytes": 125057,
         "downloader": "playwright",
         "fallback_from": null,
@@ -212,11 +225,11 @@
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-18-rules-and-policies-enforcement-philosophy.help-x-com.html",
-        "sha256": "b4fa5906d7a0e723bcdf86a7ed7667709aa6b749a05ed84906c4ff627dac5f63",
+        "sha256": "16ee6333304ca7848acb5e6a2d2feaed60341f7c8ff8da41db198afe53841e86",
         "bytes": 90185,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       }
     ]
   }

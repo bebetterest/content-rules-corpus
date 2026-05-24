@@ -402,9 +402,11 @@
       "extractor": "x-help-html",
       "output_file": "all_rules/platforms/global/x/x-rules.md",
       "language": "en",
-      "status_note": "Official X Help Center pages confirmed through Playwright-rendered official source artifacts. Some linked detailed X policy pages were not confirmed on 2026-05-24 because official help.x.com browser requests returned challenge pages or render errors; check the opening note and verification manifest for exact linked-source failures.",
-      "retry_count": 0,
-      "render_wait_ms": 8000,
+      "status_note": "Official X Help Center pages confirmed through Playwright-rendered official source artifacts. Linked detailed X policy pages are downloaded from official help.x.com sources when browser rendering confirms the page body; challenge pages are rejected and recorded as linked-source failures.",
+      "retry_count": 1,
+      "linked_retry_count": 2,
+      "linked_timeout_ms": 45000,
+      "render_wait_ms": 12000,
       "linked_source_url_patterns": [
         "^https://help\\.x\\.com/(?:en/)?rules-and-policies/(?:violent-speech|violent-entities|sexual-exploitation-policy|abusive-behavior|hateful-conduct-policy|perpetrators-of-violent-attacks|glorifying-self-harm|media-policy|illegal-regulated-behaviors|personal-information|intimate-media|authenticity|election-integrity-policy|twitter-impersonation-and-deceptive-identities-policy|manipulated-media|twitter-trademark-policy|copyright-policy|enforcement-philosophy)\\.html$"
       ],

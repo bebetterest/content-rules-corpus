@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { execFile as execFileCallback } from "node:child_process";
 import { promisify } from "node:util";
@@ -161,6 +161,105 @@ function sourceKey(url) {
   }
 }
 
+function schemeAgnosticSourceKey(parsed) {
+  return `scheme:${parsed.hostname.toLowerCase()}${parsed.pathname}${parsed.search}`;
+}
+
+function xPolicySlug(url) {
+  try {
+    const parsed = new URL(decodeEntities(String(url)));
+    const host = parsed.hostname.toLowerCase().replace(/^www\./, "");
+    if (!["help.x.com", "help.twitter.com"].includes(host)) {
+      return null;
+    }
+    const parts = parsed.pathname.split("/").filter(Boolean);
+    const policyIndex = parts.indexOf("rules-and-policies");
+    if (policyIndex === -1 || policyIndex + 1 >= parts.length) {
+      return null;
+    }
+    return parts[policyIndex + 1].replace(/\.html$/i, "");
+  } catch {
+    return null;
+  }
+}
+
+function canonicalXPolicyUrl(slug) {
+  return `https://help.x.com/en/rules-and-policies/${slug}.html`;
+}
+
+function youtubeAnswerId(url) {
+  try {
+    const parsed = new URL(decodeEntities(String(url)));
+    if (parsed.hostname.toLowerCase().replace(/^www\./, "") !== "support.google.com") {
+      return null;
+    }
+    return parsed.pathname.match(/^\/youtube\/answer\/(\d+)/)?.[1] || null;
+  } catch {
+    return null;
+  }
+}
+
+function sourceKeyAliases(url) {
+  const aliases = new Set([sourceKey(url)]);
+  try {
+    const parsed = new URL(decodeEntities(String(url)));
+    parsed.hash = "";
+    parsed.hostname = parsed.hostname.toLowerCase();
+    aliases.add(schemeAgnosticSourceKey(parsed));
+
+    const noSearch = new URL(parsed);
+    noSearch.search = "";
+    aliases.add(noSearch.toString());
+    aliases.add(schemeAgnosticSourceKey(noSearch));
+  } catch {
+    return [...aliases];
+  }
+
+  const slug = xPolicySlug(url);
+  if (slug) {
+    aliases.add(`x-policy:${slug}`);
+    aliases.add(sourceKey(canonicalXPolicyUrl(slug)));
+  }
+
+  const answerId = youtubeAnswerId(url);
+  if (answerId) {
+    aliases.add(`youtube-answer:${answerId}`);
+  }
+
+  return [...aliases];
+}
+
+function addSeenSourceUrl(seen, url) {
+  for (const key of sourceKeyAliases(url)) {
+    seen.add(key);
+  }
+}
+
+function hasSeenSourceUrl(seen, url) {
+  return sourceKeyAliases(url).some((key) => seen.has(key));
+}
+
+function addLinkMapTarget(linkMap, url, target) {
+  for (const key of sourceKeyAliases(url)) {
+    if (!linkMap.has(key)) {
+      linkMap.set(key, target);
+    }
+  }
+}
+
+function localTargetForUrl(linkMap, url) {
+  if (!linkMap) {
+    return null;
+  }
+  for (const key of sourceKeyAliases(url)) {
+    const localTarget = linkMap.get(key);
+    if (localTarget) {
+      return localTarget;
+    }
+  }
+  return null;
+}
+
 function resolveSourceUrl(href, baseUrl) {
   const decoded = decodeEntities(String(href || "").trim());
   if (!decoded || decoded.startsWith("mailto:") || decoded.startsWith("tel:") || decoded.startsWith("javascript:")) {
@@ -184,6 +283,15 @@ function shouldDownloadLinkedSource(entry, url) {
   }
   const exclude = linkedSourceMatchers(entry, "linked_source_exclude_url_patterns");
   return !exclude.some((pattern) => pattern.test(url));
+}
+
+function preferredLinkedSourceUrl(entry, url) {
+  const slug = xPolicySlug(url);
+  if (!slug) {
+    return url;
+  }
+  const canonicalUrl = canonicalXPolicyUrl(slug);
+  return shouldDownloadLinkedSource(entry, canonicalUrl) ? canonicalUrl : url;
 }
 
 function anchorLinksFromHtml(html, baseUrl) {
@@ -219,7 +327,10 @@ function anchorLinksFromHtml(html, baseUrl) {
 
 function discoverLinkedSourceUrls(entry, downloads) {
   const discovered = [];
-  const seen = new Set(sourceUrlsFor(entry).map(sourceKey));
+  const seen = new Set();
+  for (const url of sourceUrlsFor(entry)) {
+    addSeenSourceUrl(seen, url);
+  }
 
   for (const item of downloads) {
     if (!item.sourcePath || !["html", "xml"].includes(item.extension)) {
@@ -227,11 +338,12 @@ function discoverLinkedSourceUrls(entry, downloads) {
     }
     const html = decodeBuffer(item.buffer);
     for (const link of anchorLinksFromHtml(html, item.url)) {
-      if (!shouldDownloadLinkedSource(entry, link.url) || seen.has(link.key)) {
+      const candidateUrl = preferredLinkedSourceUrl(entry, link.url);
+      if (!shouldDownloadLinkedSource(entry, candidateUrl) || hasSeenSourceUrl(seen, candidateUrl)) {
         continue;
       }
-      seen.add(link.key);
-      discovered.push(link.url);
+      addSeenSourceUrl(seen, candidateUrl);
+      discovered.push(candidateUrl);
     }
   }
 
@@ -265,7 +377,9 @@ function extFor(entry, url, contentType = "") {
 }
 
 function downloadOptionsFor(entry, url) {
-  const options = {};
+  const options = {
+    rejectChallengePages: entry.reject_challenge_pages !== false,
+  };
   if (entry.omit_user_agent) {
     options.omitUserAgent = true;
   }
@@ -419,16 +533,23 @@ function sleep(ms) {
   });
 }
 
+function validateDownloadedSource(result, options = {}) {
+  if (options.rejectChallengePages && looksLikeChallengePage(result.buffer)) {
+    throw new Error("downloaded challenge page instead of confirmed source text");
+  }
+  return result;
+}
+
 async function downloadOnce(url, timeoutMs, options = {}) {
   if (options.rendered) {
-    return await renderSource(url, timeoutMs, options);
+    return validateDownloadedSource(await renderSource(url, timeoutMs, options), options);
   }
   if (options.preferCurl) {
     try {
-      return await curlSource(url, timeoutMs, options);
+      return validateDownloadedSource(await curlSource(url, timeoutMs, options), options);
     } catch (curlError) {
       try {
-        const result = await fetchSource(url, timeoutMs, options);
+        const result = validateDownloadedSource(await fetchSource(url, timeoutMs, options), options);
         return {
           ...result,
           fallback_from: curlError.message,
@@ -439,10 +560,10 @@ async function downloadOnce(url, timeoutMs, options = {}) {
     }
   }
   try {
-    return await fetchSource(url, timeoutMs, options);
+    return validateDownloadedSource(await fetchSource(url, timeoutMs, options), options);
   } catch (fetchError) {
     try {
-      const result = await curlSource(url, timeoutMs, options);
+      const result = validateDownloadedSource(await curlSource(url, timeoutMs, options), options);
       return {
         ...result,
         fallback_from: fetchError.message,
@@ -514,7 +635,7 @@ function htmlToLinkedText(html, baseUrl, linkMap) {
     if (!text || !url) {
       return full;
     }
-    const localTarget = linkMap?.get(sourceKey(url));
+    const localTarget = localTargetForUrl(linkMap, url);
     return ` [${text}](${markdownLinkTarget(localTarget || url)}) `;
   });
 
@@ -530,7 +651,7 @@ function htmlToLinkedText(html, baseUrl, linkMap) {
     if (!url) {
       return ` ${text} `;
     }
-    const localTarget = linkMap?.get(sourceKey(url));
+    const localTarget = localTargetForUrl(linkMap, url);
     return ` [${text}](${markdownLinkTarget(localTarget || url)}) `;
   });
 }
@@ -615,6 +736,14 @@ function decodeBuffer(buffer) {
     return new TextDecoder("windows-1252").decode(buffer);
   }
   return buffer.toString("utf8");
+}
+
+function looksLikeChallengePage(buffer) {
+  const text = decodeBuffer(buffer).slice(0, 100000);
+  return /<title>\s*Just a moment/i.test(text) ||
+    /security verification/i.test(text) ||
+    /challenges\.cloudflare\.com/i.test(text) ||
+    /\bcf_chl\b|__cf_chl/i.test(text);
 }
 
 function applyLineFilters(lines, entry) {
@@ -898,7 +1027,7 @@ function steamBbcodeToMarkdown(text, baseUrl, linkMap = new Map()) {
     if (!url || !cleanLabel) {
       return cleanLabel;
     }
-    const localTarget = linkMap.get(sourceKey(url));
+    const localTarget = localTargetForUrl(linkMap, url);
     return `[${cleanLabel}](${markdownLinkTarget(localTarget || url)})`;
   });
   output = output
@@ -1033,6 +1162,8 @@ function markdownFor(entry, extraction, downloads, linkedDownloads = []) {
   const openingNote =
     extraction.status === "stub"
       ? `\n> Opening Note: This file is a source stub only. The script downloaded or attempted to download the official source, but did not confirm complete original-text extraction. No rule body is reproduced here. Reason: ${extraction.note || "not specified"}\n`
+      : extraction.note && /linked source download failed|challenge|not confirmed|uncertain|verify|不确定/i.test(extraction.note)
+        ? `\n> Opening Note: ${entry.status_note || "Some linked source extraction remains uncertain."} Extraction note: ${extraction.note}\n`
       : entry.status_note && /uncertain|litigation|injunction|verify|not confirmed|不确定/i.test(entry.status_note)
         ? `\n> Opening Note: ${entry.status_note}\n`
         : "";
@@ -1094,6 +1225,44 @@ function sourceDownloadRecord(url, sourcePath, extension, downloaded) {
   };
 }
 
+async function cachedLinkedSourceRecord(entry, index, url, sourceDir) {
+  const extension = extFor(entry, url, "");
+  const sourcePath = path.join(sourceDir, slugForLinkedSource(entry, index, url, extension));
+  let buffer;
+  try {
+    buffer = await readFile(sourcePath);
+  } catch {
+    return null;
+  }
+  if (["html", "xml"].includes(extension) && looksLikeChallengePage(buffer)) {
+    return null;
+  }
+  return sourceDownloadRecord(url, sourcePath, extension, {
+    buffer,
+    contentType: "",
+    downloader: "cached",
+  });
+}
+
+async function cachedPrimarySourceRecord(entry, index, url, sourceDir) {
+  const extension = extFor(entry, url, "");
+  const sourcePath = path.join(sourceDir, slugForSource(entry, index, url, extension));
+  let buffer;
+  try {
+    buffer = await readFile(sourcePath);
+  } catch {
+    return null;
+  }
+  if (["html", "xml"].includes(extension) && looksLikeChallengePage(buffer)) {
+    return null;
+  }
+  return sourceDownloadRecord(url, sourcePath, extension, {
+    buffer,
+    contentType: "",
+    downloader: "cached",
+  });
+}
+
 async function processEntry(entry) {
   const outputPath = path.join(ROOT, entry.output_file);
   const outputDir = path.dirname(outputPath);
@@ -1111,6 +1280,11 @@ async function processEntry(entry) {
         downloadOptionsFor(entry, url)
       );
     } catch (error) {
+      const cached = await cachedPrimarySourceRecord(entry, index, url, sourceDir);
+      if (cached) {
+        downloads.push(cached);
+        continue;
+      }
       downloads.push({
         url,
         error: error.message,
@@ -1138,6 +1312,11 @@ async function processEntry(entry) {
         downloadOptionsFor(entry, url)
       );
     } catch (error) {
+      const cached = await cachedLinkedSourceRecord(entry, index, url, sourceDir);
+      if (cached) {
+        linkedDownloads.push(cached);
+        continue;
+      }
       linkedErrors.push({
         url,
         error: error.message,
@@ -1146,6 +1325,18 @@ async function processEntry(entry) {
     }
 
     const extension = extFor(entry, url, downloaded.contentType);
+    if (["html", "xml"].includes(extension) && looksLikeChallengePage(downloaded.buffer)) {
+      const cached = await cachedLinkedSourceRecord(entry, index, url, sourceDir);
+      if (cached) {
+        linkedDownloads.push(cached);
+        continue;
+      }
+      linkedErrors.push({
+        url,
+        error: "downloaded challenge page instead of confirmed source text",
+      });
+      continue;
+    }
     const sourcePath = path.join(sourceDir, slugForLinkedSource(entry, index, url, extension));
     await writeFile(sourcePath, downloaded.buffer);
     linkedDownloads.push(sourceDownloadRecord(url, sourcePath, extension, downloaded));
@@ -1154,7 +1345,7 @@ async function processEntry(entry) {
   const successfulDownloads = primaryDownloads.concat(linkedDownloads);
   const linkMap = new Map();
   for (const item of successfulDownloads) {
-    linkMap.set(sourceKey(item.url), outputRelative(outputPath, item.sourcePath));
+    addLinkMapTarget(linkMap, item.url, outputRelative(outputPath, item.sourcePath));
   }
 
   let extraction;
@@ -1241,8 +1432,12 @@ async function writeManifestFor(manifestEntries, registryEntries) {
     const manifestPath = path.join(sourceDir, "verification-manifest.json");
     const replacementIds = new Set(entries.map((entry) => entry.id));
     let mergedEntries = [];
+    let replacedSourceFiles = [];
     try {
       const existingEntries = JSON.parse(await readFile(manifestPath, "utf8"));
+      replacedSourceFiles = existingEntries
+        .filter((entry) => replacementIds.has(entry.id))
+        .flatMap((entry) => entry.source_files || [entry.source_file].filter(Boolean));
       mergedEntries = existingEntries.filter(
         (entry) => registryIds.has(entry.id) && !replacementIds.has(entry.id)
       );
@@ -1250,6 +1445,22 @@ async function writeManifestFor(manifestEntries, registryEntries) {
       mergedEntries = [];
     }
     mergedEntries.push(...entries);
+    const referencedSourceFiles = new Set(
+      mergedEntries.flatMap((entry) => entry.source_files || [entry.source_file].filter(Boolean))
+    );
+    for (const sourceFile of replacedSourceFiles) {
+      const absoluteSourceFile = path.join(ROOT, sourceFile);
+      if (
+        !referencedSourceFiles.has(sourceFile) &&
+        path.dirname(absoluteSourceFile) === sourceDir
+      ) {
+        await unlink(absoluteSourceFile).catch((error) => {
+          if (error.code !== "ENOENT") {
+            throw error;
+          }
+        });
+      }
+    }
     await writeFile(
       manifestPath,
       `${JSON.stringify(mergedEntries, null, 2)}\n`,

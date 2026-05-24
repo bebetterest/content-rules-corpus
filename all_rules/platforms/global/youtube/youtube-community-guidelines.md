@@ -34,29 +34,29 @@
 - Extraction Status: extracted
 - Status Note: Official YouTube Help Community Guidelines page plus major detailed policy pages linked from that official policy index.
 - Source SHA-256:
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-01.support-google-com.html: 54a7afc8fc3b65c798e01ed58a5378e54c95b7e4399f8b7aa15b8429bcf746ea
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-02.support-google-com.html: a6a39bd4fb3e7d9f6e427bf76d63e5f37e652999c875b60d16949ca700ddbbf8
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-03.support-google-com.html: 63e45e675b0df53f9801dde61284fd021fdff5e3c2dc8c1e4bc5bc39af1521bf
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-04.support-google-com.html: 7a3cbc96c5ccb80a9553fb86b4a4b11fe8e4f154943c0ea61a34a735366acdb1
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-05.support-google-com.html: eccc191a1e84d5eed170d8b7d494d648ab467fcd041083d1a06d8ba8c4028c5c
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-06.support-google-com.html: b82a67461afc693950a0e32aaaba6f0feceaaef66fc53f44c1ff1f8bbf736d53
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-07.support-google-com.html: 4a9629325edd5d939f926c5ce476573cecc3f4317b6521bf1160a7c57a2d3fb7
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-08.support-google-com.html: 0d4c2ec8bfe4294d51735d20b5d510e87dd16878e8bcd4c3ed7e3a1c2c8f8c11
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-09.support-google-com.html: 94e1220bb6365bedaefcec5da323d4f6bf603bbc448bb61574bbd2c6d4057ec3
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-10.support-google-com.html: b31ec7cca6b46f821fe7a21f9743128c089857d581b7113691ffb591d886502b
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-11.support-google-com.html: 53747ecdf774e5955ce148e2a6a28ad455446f0c4c9c877b390949905515b1e0
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-12.support-google-com.html: f46cf3acd8fab995cc955317ac6055e2802c59292425a7811e23f5641eeeb416
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-13.support-google-com.html: 123a03ce16b6b3bf666b837b8d6089810787f5269868cf2ce6235657b0e039fb
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-14.support-google-com.html: 754b94b7408725609680a6eb74c66b2737775798947236f777193c2b3e834313
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-15.support-google-com.html: 1efefa24235c727976c4e709bebf643c820576589bf353a2086621e2f8a0ab03
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-16.support-google-com.html: 6340ed8340bda24f02c456d0017eafec3082ad657987b16c3ebd2791940c7b3b
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-17.support-google-com.html: cb33ab847d488661a5834ae786deeee5222f41ec1dff0be745e4ba2500eb29bf
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-18.support-google-com.html: 1a05f33185b9f8cf06f42981f5241ca9f570a7bdb51b56480fac0b718fa58889
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-19.support-google-com.html: 543359ec6a752fa4bbfbcf4a126e46dfd9496a22c0a597c46984dfa65f8938b2
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-20.support-google-com.html: 1ceb12032a7d648ee74602a7c825dee5351cc1cbb9ff598a99b55e829e5822a8
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-21.support-google-com.html: dcca68972f6f064b6ce6d35b4051f463802a131049b3bbb295c6e887849dac2e
-- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-22.support-google-com.html: 82e5f458ea89bdd1090220640b35d5488de53dcebd2c2bd1fa94caef73740f97
-- Body SHA-256: c695a59f49f8532701592f925e1d97fb74d0517a953e88b4524e485b658625f9
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-01.support-google-com.html: 71f04207ade4b06a3bdce996f376142cdfcddc27883303894ae3a6219cf3764b
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-02.support-google-com.html: 8255fa1723f36273f3ccbe0c727405b4b104db94d0f3a1d34fe91ec6c12fb0d2
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-03.support-google-com.html: b4380119aed7c2bac5440f3b71400124213c6418df57d6ae36a376cc179e5845
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-04.support-google-com.html: bc82ada70e3d32b29f4da1da6299de907c44ba56f12e3e776a0c91f41d087da3
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-05.support-google-com.html: b4784cb48e3fb09d9e2a90eaedf353da8f8f11bfc5517bf5dbeceef7e3798aef
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-06.support-google-com.html: 0cdd81823f2481435c09660052ac45e456e145a41622f05df48782d017899802
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-07.support-google-com.html: 4685309cea54ea279faf15e088f085d5d24e20b380185475d249f96876721a8e
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-08.support-google-com.html: 877fc58e78a1c44f05b1730b6cab3a7f25a31ee5300fa137db40ae23f67b27c5
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-09.support-google-com.html: 90dc5cf79740d8ccb6d3481169c494d3f7a8029275db46d192de420b294bcb9d
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-10.support-google-com.html: 7243be272b04518603d7386b19c4783aaa69c81870f9d7bc10c73df914e0a06c
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-11.support-google-com.html: 8ecbc0a93e3e54ef4c067a69145396ef88aff26d32b93b582bbdde469ad8612c
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-12.support-google-com.html: 55168b8dbab4b25f5d61b4c8c9c648cbccb7064c6b93299da1b00973cbb9e169
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-13.support-google-com.html: b02f4ceb758bb1464f4bbe5172c6ddf98867d68343dc9f66a37fb3cd7a2fa8bb
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-14.support-google-com.html: b427e650d204127201111303a8579ba0aa3309e995715d66d7dce17df68515fa
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-15.support-google-com.html: 31605295a51060f808cf87e08542ef085e09606c5c9cb35ff6aae68c5d65b245
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-16.support-google-com.html: 4cb6d5158c682d525a083b5a9adf6c090dd57b2fd2003cef800ddd98951875de
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-17.support-google-com.html: 84f7008006978659e82dac854c536991a42598122482d0259c5c6558340c2323
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-18.support-google-com.html: 8c76898e4120a01fa37235c1b51725a9fb3e12998d3e834e245ef2abedca4742
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-19.support-google-com.html: cf77ad07a94f37674a4a9773a919e0e1539634a317ec7512717f84226c8a83a3
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-20.support-google-com.html: 4e56833094fc07d5c1a5dbc5b1b80a8ea73553a6b5ecdbfe872c8324d2c1bd31
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-21.support-google-com.html: 9398beb0be169becd814112e2d74c11ed096197441eba6c5e71a7d67022be4e8
+- all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-22.support-google-com.html: 027542998f4a7aa1320f1ee63076f10c5dfb121ef783f44a6309634114baa82a
+- Body SHA-256: 0c9bb5c30e2d26044fdd4a941790e04b1466c13260fb33e061c9310a85afd12a
 
 ## Source Text
 
@@ -68,7 +68,7 @@ If you see content that you think violates these guidelines, [report it](https:/
 
 Sometimes, content that would otherwise violate our Community Guidelines may stay on YouTube when it has [Educational, Documentary, Scientific, or Artistic (EDSA) context](https://support.google.com/youtube/answer/6345162) , including content that is in the public’s interest. In these cases, the content gets an EDSA exception.
 
-These policies apply to all types of content on our platform, including, for example, unlisted and private content, comments, [links](https://support.google.com/youtube/answer/9054257) , posts, and thumbnails. This list isn’t complete.
+These policies apply to all types of content on our platform, including, for example, unlisted and private content, comments, [links](sources/platform-youtube-community-guidelines-04.support-google-com.html) , posts, and thumbnails. This list isn’t complete.
 
 [Creating with Common Sense: YouTube Community Guidelines](https://www.youtube.com/watch?v=m8jHLFAmPO0)
 
@@ -78,63 +78,63 @@ Spam & deceptive practices
 
 The YouTube Community is one that's built on trust. Content that intends to scam, mislead, spam, or defraud other users isn't allowed on YouTube.
 
-- [Spam, deceptive practices, & scams policies](https://support.google.com/youtube/answer/2801973)
+- [Spam, deceptive practices, & scams policies](sources/platform-youtube-community-guidelines-02.support-google-com.html)
 
-- [Impersonation policy](https://support.google.com/youtube/answer/2801947)
+- [Impersonation policy](sources/platform-youtube-community-guidelines-03.support-google-com.html)
 
-- [External links policy](https://support.google.com/youtube/answer/9054257)
+- [External links policy](sources/platform-youtube-community-guidelines-04.support-google-com.html)
 
-- [Fake engagement policy](https://support.google.com/youtube/answer/3399767)
+- [Fake engagement policy](sources/platform-youtube-community-guidelines-05.support-google-com.html)
 
-- [Playlists policy](https://support.google.com/youtube/answer/9713446)
+- [Playlists policy](sources/platform-youtube-community-guidelines-06.support-google-com.html)
 
-- [Additional policies](https://support.google.com/youtube/answer/2801981)
+- [Additional policies](sources/platform-youtube-community-guidelines-07.support-google-com.html)
 
 Sensitive content
 
 We hope to protect viewers, creators, and especially minors. That's why we've got rules around keeping children safe, sex & nudity, and self harm. Learn what's allowed on YouTube and what to do if you see content that doesn't follow these policies.
 
-- [Nudity & sexual content policies](https://support.google.com/youtube/answer/2802002)
+- [Nudity & sexual content policies](sources/platform-youtube-community-guidelines-08.support-google-com.html)
 
-- [Thumbnails policy](https://support.google.com/youtube/answer/9229980)
+- [Thumbnails policy](sources/platform-youtube-community-guidelines-09.support-google-com.html)
 
-- [Child safety policy](https://support.google.com/youtube/answer/2801999)
+- [Child safety policy](sources/platform-youtube-community-guidelines-19.support-google-com.html)
 
-- [​Suicide, self-harm, and eating disorders policy](https://support.google.com/youtube/answer/2802245)
+- [​Suicide, self-harm, and eating disorders policy](sources/platform-youtube-community-guidelines-10.support-google-com.html)
 
-- [Vulgar language policy](https://support.google.com/youtube/answer/10072685)
+- [Vulgar language policy](sources/platform-youtube-community-guidelines-11.support-google-com.html)
 
 Violent or dangerous content
 
 Hate speech, predatory behavior, graphic violence, malicious attacks, and content that promotes harmful or dangerous behavior isn't allowed on YouTube.
 
-- [Harmful or dangerous content policies](https://support.google.com/youtube/answer/2801964)
+- [Harmful or dangerous content policies](sources/platform-youtube-community-guidelines-12.support-google-com.html)
 
-- [Violent or graphic content policies](https://support.google.com/youtube/answer/2802008)
+- [Violent or graphic content policies](sources/platform-youtube-community-guidelines-13.support-google-com.html)
 
-- [Violent criminal organizations policy](https://support.google.com/youtube/answer/9229472)
+- [Violent criminal organizations policy](sources/platform-youtube-community-guidelines-14.support-google-com.html)
 
-- [Hate speech policy](https://support.google.com/youtube/answer/2801939)
+- [Hate speech policy](sources/platform-youtube-community-guidelines-15.support-google-com.html)
 
-- [Harassment & cyberbullying policies](https://support.google.com/youtube/answer/2802268)
+- [Harassment & cyberbullying policies](sources/platform-youtube-community-guidelines-16.support-google-com.html)
 
 Regulated goods
 
 Certain goods can't be sold on YouTube. Find out what's allowed and what isn't.
 
-- [Sale of illegal or regulated goods or services policies](https://support.google.com/youtube/answer/9229611)
+- [Sale of illegal or regulated goods or services policies](sources/platform-youtube-community-guidelines-17.support-google-com.html)
 
-- [Firearms policy](https://support.google.com/youtube/answer/7667605)
+- [Firearms policy](sources/platform-youtube-community-guidelines-18.support-google-com.html)
 
 Misinformation
 
 Certain types of misleading or deceptive content with serious risk of egregious harm are not allowed on YouTube. This includes certain types of misinformation that can cause real-world harm, like promoting harmful remedies or treatments, certain types of technically manipulated content, or content interfering with democratic processes.
 
-- [Misinformation policies](https://support.google.com/youtube/answer/10834785)
+- [Misinformation policies](sources/platform-youtube-community-guidelines-20.support-google-com.html)
 
-- [Elections misinformation policies](https://support.google.com/youtube/answer/10835034)
+- [Elections misinformation policies](sources/platform-youtube-community-guidelines-21.support-google-com.html)
 
-- [Medical misinformation policies](https://support.google.com/youtube/answer/13813322)
+- [Medical misinformation policies](sources/platform-youtube-community-guidelines-22.support-google-com.html)
 
 Educational, Documentary, Scientific, and Artistic (EDSA) content
 
@@ -182,7 +182,7 @@ Don’t post content on YouTube if it fits any of the descriptions noted below.
 
 - 3rd party content: Live streams that include unauthorized 3rd party content that are not corrected after repeated warnings of possible abuse. Channel owners should actively monitor their live streams and correct any potential issues in a timely manner.
 
-This policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature. Keep in mind that this isn't a complete list. Please note these policies also apply to [external links](https://support.google.com/youtube/answer/9054257) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
+This policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature. Keep in mind that this isn't a complete list. Please note these policies also apply to [external links](sources/platform-youtube-community-guidelines-04.support-google-com.html) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
 
 Note: You're allowed to encourage viewers to subscribe, hit the like button, share, or leave a comment.
 
@@ -356,7 +356,7 @@ Don’t post links in your content on YouTube if they direct users to content th
 
 - Links to sites containing Child Sexual Abuse Imagery (CSAI)
 
-- Links to sites selling items noted in our [regulated goods guidelines](https://support.google.com/youtube/answer/9229611)
+- Links to sites selling items noted in our [regulated goods guidelines](sources/platform-youtube-community-guidelines-17.support-google-com.html)
 
 - Links to content that would violate our hate or harassment policies
 
@@ -368,7 +368,7 @@ Don’t post links in your content on YouTube if they direct users to content th
 
 This policy applies to video, audio, channel, comments, pinned comments, live streams, and any other YouTube product or feature. Links can take any form that would direct a user to a site off YouTube. These links include: clickable URLs, showing text of URLs in videos or images, and obfuscated URLs (such as writing “dot com” instead of “.com”). These links can also include verbally directing users to other sites, encouraging viewers to visit creator profiles or pages on other sites, or promising violative content on other sites. This list is not complete.
 
-Note: Affiliate content doesn't violate YouTube’s Terms of Use. Excessively posting affiliate content in dedicated accounts may violate our policies around spam. You can learn more about what's allowed in our [Spam, deceptive practices & scams policies](https://support.google.com/youtube/answer/2801973) .
+Note: Affiliate content doesn't violate YouTube’s Terms of Use. Excessively posting affiliate content in dedicated accounts may violate our policies around spam. You can learn more about what's allowed in our [Spam, deceptive practices & scams policies](sources/platform-youtube-community-guidelines-02.support-google-com.html) .
 
 Examples
 
@@ -600,7 +600,7 @@ Other types of content that violate this policy
 
 - Aggregating content that’s meant for sexual gratification
 
-- Any sexual content involving minors—see our [Child Safety on YouTube](https://support.google.com/youtube/answer/2801999) page for more information
+- Any sexual content involving minors—see our [Child Safety on YouTube](sources/platform-youtube-community-guidelines-19.support-google-com.html) page for more information
 
 Note: The above list isn't complete.
 
@@ -662,9 +662,7 @@ More examples
 
 - Content using otherwise everyday objects or scenarios, such as injections or eating, for the purpose of sexual gratification
 
--
-
-Video game content which has been developed or modified (“modded”) for sexual gratification, or focuses on themes of unwanted sexualization
+- Video game content which has been developed or modified (“modded”) for sexual gratification, or focuses on themes of unwanted sexualization
 
 What happens if content violates this policy
 
@@ -1088,7 +1086,7 @@ However, there are times when content is created that is sensitive and may pose 
 
 To protect and support your viewers and other users, please follow the Community Guidelines below when creating content related to suicide, self-harm, or eating disorders. Not following these Community Guidelines may result in a strike, removal of your content, or other restrictions to protect users. [Learn more](https://support.google.com/youtube/topic/9387060) .
 
-This Community Guidelines policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature.Keep in mind that this isn't a complete list. Please note these policies also apply to [external links](https://support.google.com/youtube/answer/9054257) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
+This Community Guidelines policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature.Keep in mind that this isn't a complete list. Please note these policies also apply to [external links](sources/platform-youtube-community-guidelines-04.support-google-com.html) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
 
 Don't post the following content:
 
@@ -1242,7 +1240,7 @@ Skip to a specific section of this article:
 
 - What happens when content violates this policy
 
-Important: This policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature. These policies also apply to [external links](https://support.google.com/youtube/answer/9054257) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
+Important: This policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature. These policies also apply to [external links](sources/platform-youtube-community-guidelines-04.support-google-com.html) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
 
 Harmful or dangerous content policy
 
@@ -1260,7 +1258,7 @@ Harmful or dangerous acts, challenges, and pranks
 
 - Harmful or dangerous acts: Acts performed by adults that have a risk of serious harm or death.
 
-- Minors participating in dangerous activities: Content that endangers the emotional and physical well-being of minors. For more info, review our [Child safety policy](https://support.google.com/youtube/answer/2801999) .
+- Minors participating in dangerous activities: Content that endangers the emotional and physical well-being of minors. For more info, review our [Child safety policy](sources/platform-youtube-community-guidelines-19.support-google-com.html) .
 
 Weapons content
 
@@ -1268,7 +1266,7 @@ Weapons content
 
 - Explosives: Giving instructions to make explosive devices or compounds meant to injure or kill others.
 
-- Firearms: For more info, review our [Firearms policy](https://support.google.com/youtube/answer/7667605) .
+- Firearms: For more info, review our [Firearms policy](sources/platform-youtube-community-guidelines-18.support-google-com.html) .
 
 Digital security content
 
@@ -1282,13 +1280,11 @@ Digital security content
 
 - Cryptophishing: Requests for cryptocurrency or cryptocurrency-related wallet details as a part of a phishing scheme.
 
-[Learn more about our spam, deceptive practices, and scams policies](https://support.google.com/youtube/answer/2801973) .
+[Learn more about our spam, deceptive practices, and scams policies](sources/platform-youtube-community-guidelines-02.support-google-com.html) .
 
 Illegal or regulated goods or services
 
--
-
-For more info, review our [Illegal or regulated goods or services policy](https://support.google.com/youtube/answer/9229611) .
+- For more info, review our [Illegal or regulated goods or services policy](sources/platform-youtube-community-guidelines-17.support-google-com.html) .
 
 If you or someone you know is struggling with substance abuse, gambling, other addictions, or mental health challenges, help is available. You can find resources [here](https://www.samhsa.gov/) .
 
@@ -1388,7 +1384,7 @@ Instructions to harm
 
 - Molotov cocktails
 
-- Violence involving children: Any real fights or violence between children. For more info, review our [Child Safety policy](https://support.google.com/youtube/answer/2801999) .
+- Violence involving children: Any real fights or violence between children. For more info, review our [Child Safety policy](sources/platform-youtube-community-guidelines-19.support-google-com.html) .
 
 Note: We may age-restrict content that has [documentary or educational context](https://support.google.com/youtube/answer/6345162) .
 
@@ -1424,7 +1420,7 @@ Educational, documentary, scientific, or artistic content
 
 Sometimes, content that would otherwise violate this policy is allowed to stay on YouTube when it has Educational, Documentary, Scientific, or Artistic (EDSA) context. We may also make exceptions for content that is in the public’s interest, such as congressional or parliamentary proceedings, campaign speeches, or debates over ongoing government actions. This is not a pass to promote dangerous or illegal activities that risk serious physical harm or death. [Learn about how YouTube evaluates EDSA content](https://support.google.com/youtube/answer/6345162) .
 
-Note: In some cases, EDSA content may be age-restricted. Certain content isn’t allowed on YouTube even if it has EDSA context added, such as content that [sells drugs or regulated pharmaceuticals without a prescription](https://support.google.com/youtube/answer/9229611) .
+Note: In some cases, EDSA content may be age-restricted. Certain content isn’t allowed on YouTube even if it has EDSA context added, such as content that [sells drugs or regulated pharmaceuticals without a prescription](sources/platform-youtube-community-guidelines-17.support-google-com.html) .
 
 Examples of EDSA content
 
@@ -1504,7 +1500,7 @@ Note that we may not allow the following kinds of content even if there's educat
 
 Please note that this is not a complete list.
 
-Keep in mind that this policy also applies to videos, video descriptions, thumbnails, comments, live streams, and any other YouTube product or feature. Please note these policies also apply to [external links](https://support.google.com/youtube/answer/9054257) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
+Keep in mind that this policy also applies to videos, video descriptions, thumbnails, comments, live streams, and any other YouTube product or feature. Please note these policies also apply to [external links](sources/platform-youtube-community-guidelines-04.support-google-com.html) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
 
 Educational content
 
@@ -1632,7 +1628,7 @@ YouTube relies on many factors, including government and international organizat
 
 If posting content related to terrorism or crime for an educational, documentary, scientific, or artistic purpose, be mindful to provide enough information in the video or audio itself so viewers understand the context. Graphic or controversial footage with sufficient context may be subject to age-restrictions or a warning screen. We may also make exceptions for content that is in the public’s interest, such as congressional or parliamentary proceedings, campaign speeches, or debates over ongoing government actions. This is not a pass to praise, promote, or aid violent extremist or criminal organizations.
 
-This policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature. Keep in mind that this isn't a complete list. Please note these policies also apply to [external links](https://support.google.com/youtube/answer/9054257) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
+This policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature. Keep in mind that this isn't a complete list. Please note these policies also apply to [external links](sources/platform-youtube-community-guidelines-04.support-google-com.html) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
 
 Examples
 
@@ -1708,7 +1704,7 @@ If you're posting content
 
 Don’t post content on YouTube if the purpose of that content is to do one or more of the following:
 
-- Encourage violence against individuals or groups based on their protected group status. We don’t allow threats on YouTube, and we treat implied calls for violence as real threats. You can learn more about our policies on [threats and harassment](https://support.google.com/youtube/answer/2802268) .
+- Encourage violence against individuals or groups based on their protected group status. We don’t allow threats on YouTube, and we treat implied calls for violence as real threats. You can learn more about our policies on [threats and harassment](sources/platform-youtube-community-guidelines-16.support-google-com.html) .
 
 - Incite hatred against individuals or groups based on their protected group status.
 
@@ -1738,7 +1734,7 @@ We may allow content that includes hate speech if that content includes addition
 
 - Historical footage of an event, like WWII, which doesn't promote violence or hatred.
 
-This policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature. Please note these policies also apply to [external links](https://support.google.com/youtube/answer/9054257) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
+This policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature. Please note these policies also apply to [external links](sources/platform-youtube-community-guidelines-04.support-google-com.html) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
 
 For educational, documentary, scientific, or artistic content that includes hate speech, this context must appear in the images or audio of the video itself. Providing it in the title or description is insufficient.
 
@@ -1806,7 +1802,7 @@ Harassment & cyberbullying policies
 
 The safety of our creators, viewers, and partners is our highest priority. We look to each of you to help us protect this unique and vibrant community. It’s important you understand our Community Guidelines, and the role they play in our shared responsibility to keep YouTube safe. Take the time to carefully read the policy below. You can also check out [this page](sources/platform-youtube-community-guidelines-01.support-google-com.html) for a full list of our guidelines.
 
-We don’t allow content that targets someone with prolonged insults or slurs based on their physical traits or [protected group status](https://support.google.com/youtube/answer/2801939#protected_group) .
+We don’t allow content that targets someone with prolonged insults or slurs based on their physical traits or [protected group status](sources/platform-youtube-community-guidelines-15.support-google-com.html) .
 
 We also don’t allow other harmful behaviors, like threats or doxxing. Keep in mind that we take a stricter approach on content that targets minors. For example, we don’t allow sharing a minor’s school name or school ID for malicious purposes. Third parties should not share someone else’s personal contact information, such as email, phone number, home address, or a minor’s social media handle or private messaging details. We also don't allow minors to share their own contact information. We may make exceptions for extracurricular activities for the purposes of school recruitment or applications, such as college sports.
 
@@ -1822,7 +1818,7 @@ If you're posting content
 
 Don’t post content on YouTube if it fits any of the descriptions noted below.
 
-- Content that contains prolonged insults or slurs based on someone's intrinsic attributes. These attributes include their [protected group status](https://support.google.com/youtube/answer/2801939) , physical attributes, or their status as a survivor of sexual assault, non-consensual intimate imagery distribution, domestic abuse, child abuse and more.
+- Content that contains prolonged insults or slurs based on someone's intrinsic attributes. These attributes include their [protected group status](sources/platform-youtube-community-guidelines-15.support-google-com.html) , physical attributes, or their status as a survivor of sexual assault, non-consensual intimate imagery distribution, domestic abuse, child abuse and more.
 
 - Content uploaded with the intent to shame, deceive or insult a minor. This means intending to make a minor feel unpleasant emotions, like distress, shame, or worthlessness; intending to trick them to behave in ways that may harm themselves or their property; or engaging in name-calling toward them. We also prohibit content that incites bullying against a minor. A minor is someone under 18 years old.
 
@@ -1866,7 +1862,7 @@ Other types of content that violate this policy
 
 - Content that fantasizes about, threatens, or supports sexual assault
 
-This policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature. Keep in mind that this isn't a complete list. Note that these policies also apply to [external links](https://support.google.com/youtube/answer/9054257) in your content. This can include clickable URLs, verbally directing users to other sites in video and other forms.
+This policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature. Keep in mind that this isn't a complete list. Note that these policies also apply to [external links](sources/platform-youtube-community-guidelines-04.support-google-com.html) in your content. This can include clickable URLs, verbally directing users to other sites in video and other forms.
 
 Exceptions
 
@@ -1898,7 +1894,7 @@ Here are some examples of content that’s not allowed on YouTube:
 
 - Repeatedly showing pictures of someone and then making statements like “Look at this creature’s teeth, they’re so disgusting!”, with similar commentary targeting intrinsic attributes throughout the video.
 
-- Targeting an individual based on their membership in a [protected group](https://support.google.com/youtube/answer/2801939) , such as by saying: “Look at this [slur targeting a protected group]!”
+- Targeting an individual based on their membership in a [protected group](sources/platform-youtube-community-guidelines-15.support-google-com.html) , such as by saying: “Look at this [slur targeting a protected group]!”
 
 - Using an extreme insult to dehumanize an individual based on their intrinsic attributes. For example: “Look at this dog of a woman! She's got the face of an animal and her body is mangy, just like a dog's!”
 
@@ -1968,7 +1964,7 @@ Don't post content on YouTube if it aims to directly sell, link to, or facilitat
 
 - Endangered species or parts of endangered species
 
-- [Firearms and certain firearms accessories](https://support.google.com/youtube/answer/7667605)
+- [Firearms and certain firearms accessories](sources/platform-youtube-community-guidelines-18.support-google-com.html)
 
 - Nicotine, including vaping products
 
@@ -1994,7 +1990,7 @@ Additionally, the following content isn’t allowed on YouTube:
 
 - Instructional cheating: Content which provides instructions for academic cheating.
 
-This policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature. Keep in mind that this isn't a complete list. Please note these policies also apply to [external links](https://support.google.com/youtube/answer/9054257) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
+This policy applies to videos, video descriptions, comments, live streams, and any other YouTube product or feature. Keep in mind that this isn't a complete list. Please note these policies also apply to [external links](sources/platform-youtube-community-guidelines-04.support-google-com.html) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
 
 Examples
 
@@ -2302,7 +2298,7 @@ Don’t post content on YouTube if it fits any of the descriptions below.
 
 This policy applies to videos, video descriptions, comments, posts, live streams, playlists, and any other YouTube product or feature. Keep in mind that this isn't a complete list.
 
-Please note these policies also apply to [external links](https://support.google.com/youtube/answer/9054257) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
+Please note these policies also apply to [external links](sources/platform-youtube-community-guidelines-04.support-google-com.html) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
 
 Age-restricted content
 
@@ -2310,7 +2306,7 @@ We may add an age restriction to content that includes any of the following.
 
 - Harmful or dangerous acts that adults or minors could imitate: Content containing adults participating in dangerous activities that adults or minors could easily imitate.
 
-- Note: Simply saying, “Don’t try this at home” may not result in an exception. Learn more about [age restricted Harmful or Dangerous content](https://support.google.com/youtube/answer/2801964#age_restricted_removal) .
+- Note: Simply saying, “Don’t try this at home” may not result in an exception. Learn more about [age restricted Harmful or Dangerous content](sources/platform-youtube-community-guidelines-12.support-google-com.html) .
 
 - Adult themes in family content: Content meant for adult audiences but could easily be confused with family content. This includes cartoons that contain adult themes such as violence, sex, or death. Remember you can age restrict your content upon upload if it’s intended for [mature audiences](https://support.google.com/youtube/answer/2950063) .
 
@@ -2384,7 +2380,7 @@ More examples
 
 - Fight or bullying content featuring kids without educational, documentary, scientific or artistic context and blurring.
 
-- Challenges, pranks, or stunts that pose the risk of physical injury or serious emotional distress. You can learn more about what’s not allowed in our policies [around challenges and pranks](https://support.google.com/youtube/answer/2801964) .
+- Challenges, pranks, or stunts that pose the risk of physical injury or serious emotional distress. You can learn more about what’s not allowed in our policies [around challenges and pranks](sources/platform-youtube-community-guidelines-12.support-google-com.html) .
 
 - Encouraging minors to participate in dangerous activities, even if there are no minors in the content.
 
@@ -2448,7 +2444,7 @@ Misattributed content
 
 - Content showing a military crackdown on protesters with false claims that the content is from a current event, when the footage is actually several years old.
 
-Remember these are just some examples, and don't post content if you think it might violate these policies. Please note these policies also apply to [external links](https://support.google.com/youtube/answer/9054257) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
+Remember these are just some examples, and don't post content if you think it might violate these policies. Please note these policies also apply to [external links](sources/platform-youtube-community-guidelines-04.support-google-com.html) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
 
 Educational, documentary, scientific, or artistic content
 
@@ -2526,19 +2522,19 @@ Related policies
 
 Elections-related content is also subject to other Community Guidelines. This could include, for example:
 
-- Content that threatens individuals such as election workers, candidates, or voters isn’t allowed under our [Harassment & cyberbullying policies](https://support.google.com/youtube/answer/2802268) .
+- Content that threatens individuals such as election workers, candidates, or voters isn’t allowed under our [Harassment & cyberbullying policies](sources/platform-youtube-community-guidelines-16.support-google-com.html) .
 
-- Content that has been technically manipulated or doctored in a way that misleads users - usually beyond clips taken out of context - and may pose a serious risk of egregious harm isn’t allowed under our [Misinformation policies](https://support.google.com/youtube/answer/10834785) . For example, footage that has been technically manipulated to make a candidate for public office falsely claim they’re dropping out of the race.
+- Content that has been technically manipulated or doctored in a way that misleads users - usually beyond clips taken out of context - and may pose a serious risk of egregious harm isn’t allowed under our [Misinformation policies](sources/platform-youtube-community-guidelines-20.support-google-com.html) . For example, footage that has been technically manipulated to make a candidate for public office falsely claim they’re dropping out of the race.
 
-- Content that may pose a serious risk of egregious harm by falsely claiming that old footage from a past event is from a current event isn’t allowed under our [Misinformation policies](https://support.google.com/youtube/answer/10834785) . For example, a video that shows a head of state condoning a violent conflict that he or she never actually condoned.
+- Content that may pose a serious risk of egregious harm by falsely claiming that old footage from a past event is from a current event isn’t allowed under our [Misinformation policies](sources/platform-youtube-community-guidelines-20.support-google-com.html) . For example, a video that shows a head of state condoning a violent conflict that he or she never actually condoned.
 
-- Content that encourages others to commit violent acts, including acts targeting election workers, candidates, or voters isn’t allowed under our [Violent or graphic content policies](https://support.google.com/youtube/answer/2802008) .
+- Content that encourages others to commit violent acts, including acts targeting election workers, candidates, or voters isn’t allowed under our [Violent or graphic content policies](sources/platform-youtube-community-guidelines-13.support-google-com.html) .
 
-- Content that’s intended to impersonate a person or channel, such as a political candidate or their political party, isn’t allowed under our [Impersonation policy](https://support.google.com/youtube/answer/2801947) .
+- Content that’s intended to impersonate a person or channel, such as a political candidate or their political party, isn’t allowed under our [Impersonation policy](sources/platform-youtube-community-guidelines-03.support-google-com.html) .
 
 - Content that contains external links to material that would violate our policies and can cause a serious risk of egregious harm, like misleading or deceptive content relating to an election, hate speech targeting protected groups, or harassment targeting election workers, candidates, or voters. This can include clickable URLs, verbally directing users to other sites in a video, and other forms of link-sharing.
 
-Remember these are just some examples, and don't post content if you think it might violate these policies. [Advertiser-friendly content guidelines](https://support.google.com/youtube/answer/6162278) also apply. Please note these policies also apply to [external links](https://support.google.com/youtube/answer/9054257) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
+Remember these are just some examples, and don't post content if you think it might violate these policies. [Advertiser-friendly content guidelines](https://support.google.com/youtube/answer/6162278) also apply. Please note these policies also apply to [external links](sources/platform-youtube-community-guidelines-04.support-google-com.html) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
 
 What happens if content violates this policy
 
@@ -2572,7 +2568,7 @@ Prevention misinformation: We do not allow content that promotes information tha
 
 Treatment misinformation: We do not allow content that promotes information that contradicts health authority guidance on treatments for specific health conditions, including promotion of specific harmful substances or practices that have not been approved by local health authorities as safe or effective, or that have been confirmed to cause severe harm.
 
-These policies apply to videos, video descriptions, comments, live streams, and any other YouTube product or feature. Keep in mind that this isn't a complete list. Please note these policies also apply to [external links](https://support.google.com/youtube/answer/9054257) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
+These policies apply to videos, video descriptions, comments, live streams, and any other YouTube product or feature. Keep in mind that this isn't a complete list. Please note these policies also apply to [external links](sources/platform-youtube-community-guidelines-04.support-google-com.html) in your content. This can include clickable URLs, verbally directing users to other sites in video, as well as other forms.
 
 Examples
 

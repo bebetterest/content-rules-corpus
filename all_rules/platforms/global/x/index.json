@@ -18,7 +18,7 @@
       "fetch_method": "rendered-html",
       "extractor": "x-help-html",
       "extraction_status": "extracted",
-      "status_note": "Official X Help Center pages confirmed through Playwright-rendered official source artifacts. Other linked detailed X policy pages, including illegal-regulated-behaviors and hateful-conduct-policy, were not confirmed on 2026-05-24 because official help.x.com browser requests returned Cloudflare challenge pages.",
+      "status_note": "Official X Help Center pages confirmed through Playwright-rendered official source artifacts. Linked detailed X policy pages are downloaded from official help.x.com sources when browser rendering confirms the page body; challenge pages are rejected and recorded as linked-source failures.",
       "source_urls": [
         "https://help.x.com/rules-and-policies/twitter-rules"
       ]

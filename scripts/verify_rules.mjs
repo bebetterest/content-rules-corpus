@@ -23,8 +23,112 @@ function sha256Bytes(bytes) {
   return createHash("sha256").update(bytes).digest("hex");
 }
 
+function decodeEntities(text) {
+  return String(text)
+    .replace(/&amp;/gi, "&")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&quot;/gi, '"')
+    .replace(/&apos;/gi, "'")
+    .replace(/&#39;/gi, "'")
+    .replace(/&#x([0-9a-f]+);/gi, (_, value) => String.fromCodePoint(Number.parseInt(value, 16)))
+    .replace(/&#(\d+);/g, (_, value) => String.fromCodePoint(Number.parseInt(value, 10)));
+}
+
 function repoRelative(filePath) {
   return path.relative(ROOT, filePath).split(path.sep).join("/");
+}
+
+function sourceKey(url) {
+  try {
+    const parsed = new URL(decodeEntities(String(url)));
+    parsed.hash = "";
+    parsed.hostname = parsed.hostname.toLowerCase();
+    for (const key of [...parsed.searchParams.keys()]) {
+      if (key.startsWith("utm_")) {
+        parsed.searchParams.delete(key);
+      }
+    }
+    return parsed.toString();
+  } catch {
+    return decodeEntities(String(url)).replace(/#.*$/, "");
+  }
+}
+
+function schemeAgnosticSourceKey(parsed) {
+  return `scheme:${parsed.hostname.toLowerCase()}${parsed.pathname}${parsed.search}`;
+}
+
+function xPolicySlug(url) {
+  try {
+    const parsed = new URL(decodeEntities(String(url)));
+    const host = parsed.hostname.toLowerCase().replace(/^www\./, "");
+    if (!["help.x.com", "help.twitter.com"].includes(host)) {
+      return null;
+    }
+    const parts = parsed.pathname.split("/").filter(Boolean);
+    const policyIndex = parts.indexOf("rules-and-policies");
+    if (policyIndex === -1 || policyIndex + 1 >= parts.length) {
+      return null;
+    }
+    return parts[policyIndex + 1].replace(/\.html$/i, "");
+  } catch {
+    return null;
+  }
+}
+
+function canonicalXPolicyUrl(slug) {
+  return `https://help.x.com/en/rules-and-policies/${slug}.html`;
+}
+
+function youtubeAnswerId(url) {
+  try {
+    const parsed = new URL(decodeEntities(String(url)));
+    if (parsed.hostname.toLowerCase().replace(/^www\./, "") !== "support.google.com") {
+      return null;
+    }
+    return parsed.pathname.match(/^\/youtube\/answer\/(\d+)/)?.[1] || null;
+  } catch {
+    return null;
+  }
+}
+
+function sourceKeyAliases(url) {
+  const aliases = new Set([sourceKey(url)]);
+  try {
+    const parsed = new URL(decodeEntities(String(url)));
+    parsed.hash = "";
+    parsed.hostname = parsed.hostname.toLowerCase();
+    aliases.add(schemeAgnosticSourceKey(parsed));
+
+    const noSearch = new URL(parsed);
+    noSearch.search = "";
+    aliases.add(noSearch.toString());
+    aliases.add(schemeAgnosticSourceKey(noSearch));
+  } catch {
+    return [...aliases];
+  }
+
+  const slug = xPolicySlug(url);
+  if (slug) {
+    aliases.add(`x-policy:${slug}`);
+    aliases.add(sourceKey(canonicalXPolicyUrl(slug)));
+  }
+
+  const answerId = youtubeAnswerId(url);
+  if (answerId) {
+    aliases.add(`youtube-answer:${answerId}`);
+  }
+
+  return [...aliases];
+}
+
+function looksLikeChallengePage(bytes) {
+  const text = bytes.subarray(0, 100000).toString("utf8");
+  return /<title>\s*Just a moment/i.test(text) ||
+    /security verification/i.test(text) ||
+    /challenges\.cloudflare\.com/i.test(text) ||
+    /\bcf_chl\b|__cf_chl/i.test(text);
 }
 
 async function rgFiles(pattern) {
@@ -68,6 +172,9 @@ async function verifySourceArtifactHash(sourceFile, expectedHash, expectedBytes,
   }
   if (Number.isInteger(expectedBytes) && sourceBytes.length !== expectedBytes) {
     failures.push(`${label}: source artifact byte count mismatch for ${sourceFile}`);
+  }
+  if (/\.(html|xml)$/i.test(sourceFile) && looksLikeChallengePage(sourceBytes)) {
+    failures.push(`${label}: source artifact is a challenge page, not confirmed source text: ${sourceFile}`);
   }
 }
 
@@ -135,6 +242,43 @@ function collectReferencedSourceFiles(entry, referencedSourceFiles) {
         referencedSourceFiles.add(source.source_file);
       }
     }
+  }
+}
+
+function addSourceUrlAliases(sourceKeys, url) {
+  if (!url) {
+    return;
+  }
+  for (const key of sourceKeyAliases(url)) {
+    sourceKeys.add(key);
+  }
+}
+
+function addManifestSourceKeys(entry, sourceKeys) {
+  for (const sourceUrl of entry.source_urls || [entry.source_url].filter(Boolean)) {
+    addSourceUrlAliases(sourceKeys, sourceUrl);
+  }
+  for (const linkedSourceUrl of entry.linked_source_urls || []) {
+    addSourceUrlAliases(sourceKeys, linkedSourceUrl);
+  }
+}
+
+function extractMarkdownHttpLinks(text) {
+  return [...text.matchAll(/\[[^\]]+\]\((https?:\/\/[^)\s]+)\)/g)].map((match) => match[1]);
+}
+
+function verifyDownloadedSourceLinksLocalized(entry, body, localizableSourceKeys, failures) {
+  if (!body) {
+    return;
+  }
+  const remainingOnlineSourceLinks = new Set();
+  for (const url of extractMarkdownHttpLinks(body)) {
+    if (sourceKeyAliases(url).some((key) => localizableSourceKeys.has(key))) {
+      remainingOnlineSourceLinks.add(url);
+    }
+  }
+  for (const url of remainingOnlineSourceLinks) {
+    failures.push(`${entry.id}: body link to downloaded source remains online instead of local: ${url}`);
   }
 }
 
@@ -329,9 +473,18 @@ async function main() {
   let extracted = 0;
   let stubs = 0;
   const referencedSourceFiles = new Set();
+  const manifests = [];
+  const localizableSourceKeys = new Set();
 
   for (const manifestFile of manifestFiles) {
     const entries = JSON.parse(await readFile(path.join(ROOT, manifestFile), "utf8"));
+    manifests.push({ manifestFile, entries });
+    for (const entry of entries) {
+      addManifestSourceKeys(entry, localizableSourceKeys);
+    }
+  }
+
+  for (const { entries } of manifests) {
     for (const entry of entries) {
       checked += 1;
       collectReferencedSourceFiles(entry, referencedSourceFiles);
@@ -380,6 +533,8 @@ async function main() {
           failures.push(`${entry.id}: legacy entry missing 正文 section`);
         } else if (sha256(body) !== entry.body_sha256) {
           failures.push(`${entry.id}: legacy body SHA-256 mismatch`);
+        } else {
+          verifyDownloadedSourceLinksLocalized(entry, body, localizableSourceKeys, failures);
         }
       } else if (entry.extraction_status === "extracted") {
         extracted += 1;
@@ -388,6 +543,8 @@ async function main() {
           failures.push(`${entry.id}: extracted entry missing Source Text section`);
         } else if (sha256(body) !== entry.body_sha256) {
           failures.push(`${entry.id}: body SHA-256 mismatch`);
+        } else {
+          verifyDownloadedSourceLinksLocalized(entry, body, localizableSourceKeys, failures);
         }
       } else if (entry.extraction_status === "stub") {
         stubs += 1;

@@ -16,7 +16,7 @@
 - Source SHA-256:
 - all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-01.member-bilibili-com.html: 11b89d18fac7c28c3e0efea3e55a9683616f9771ec63df3e789d9aaa7ee30e02
 - all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-02.s1-hdslb-com.html: 3a3421dd531b130e1865a4c671c131b87cdd4dc4d939b4d4589371b82d9e2d6b
-- Body SHA-256: f537edc1e788790556cab123e3ccfef44b0a97e96ed0958c6e7ed101b4ee956a
+- Body SHA-256: 4c5170e3e6ae6d76420f55c999b046da4d3046edb3396a79de1fbc9423336787
 
 ## Source Text
 
@@ -1112,7 +1112,7 @@ bilibili会根据明确可识别的创作标识信息、内容的独创性、创
 
 [《互联网宗教信息服务管理办法》](http://www.gov.cn/gongbao/content/2022/content_5678093.htm)
 
-[《网络信息内容生态治理规定》](http://www.cac.gov.cn/2019-12/20/c_1578375159509309.htm)
+[《网络信息内容生态治理规定》](../../../china/sources/provisions-online-content-ecosystem.cac.html)
 
 [《互联网用户公众账号信息服务管理规定》](http://www.cac.gov.cn/2021-01/22/c_1612887880656609.htm)
 
