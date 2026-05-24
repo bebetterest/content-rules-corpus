@@ -1,0 +1,36 @@
+[
+  {
+    "id": "platform-bluesky-community-guidelines",
+    "title": "Bluesky Community Guidelines",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/global/bluesky/bluesky-community-guidelines.md",
+    "source_urls": [
+      "https://bsky.social/about/support/community-guidelines"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines.bsky-social.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 121,
+    "body_sha256": "c207041b20637fb24f0e833620e06491812958d5d2396079cb45afb9526c0ad6",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines.bsky-social.html",
+        "sha256": "c11e9720d88f29158ea0e5d4a6fd292acf9cde5a7cacd8d8293a4ae46058b256",
+        "bytes": 43684,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      }
+    ]
+  }
+]

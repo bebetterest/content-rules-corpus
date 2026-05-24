@@ -3,9 +3,16 @@
   "directory": "all_rules/platforms/global",
   "generated_by": "scripts/generate_rule_indexes.mjs",
   "rule_count": 0,
-  "descendant_rule_count": 13,
+  "descendant_rule_count": 16,
   "rules": [],
   "children": [
+    {
+      "name": "bluesky",
+      "path": "all_rules/platforms/global/bluesky",
+      "index": "all_rules/platforms/global/bluesky/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
     {
       "name": "discord",
       "path": "all_rules/platforms/global/discord",
@@ -17,6 +24,13 @@
       "name": "github",
       "path": "all_rules/platforms/global/github",
       "index": "all_rules/platforms/global/github/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "gitlab",
+      "path": "all_rules/platforms/global/gitlab",
+      "index": "all_rules/platforms/global/gitlab/index.json",
       "rule_count": 1,
       "descendant_rule_count": 1
     },
@@ -73,6 +87,13 @@
       "name": "tiktok",
       "path": "all_rules/platforms/global/tiktok",
       "index": "all_rules/platforms/global/tiktok/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "tumblr",
+      "path": "all_rules/platforms/global/tumblr",
+      "index": "all_rules/platforms/global/tumblr/index.json",
       "rule_count": 1,
       "descendant_rule_count": 1
     },

@@ -197,3 +197,15 @@
 - 本轮未继续新增美国联邦法律条文。
 
 本轮后的校验状态：registry 中 141 条记录均已进入索引；140 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 全球平台 GitLab、Bluesky 与 Tumblr 补缺
+
+平台抽取更新：
+
+- 新增 GitLab Handbook 官方 Acceptable Use Policy，覆盖 unacceptable service use、illegal or malicious activity、privacy misuse、harassment/defamation、spam/phishing、service disruption，以及 AI-powered service restrictions。
+- 新增 Bluesky support 官方 Community Guidelines，覆盖 public safety、threats and violence、child safety、adult content consent boundaries、self-harm and dangerous behavior、privacy、anti-discrimination、anti-harassment、authenticity、information integrity、regulated goods、intellectual property、site security、ban evasion。
+- 新增 tumblr.com 官方 User Guidelines，覆盖 terrorism、hate speech、harm to minors、self-harm promotion、sexually explicit material、violent threats/gore、spam、automation、IP infringement、impersonation、harassment、privacy violations、unlawful uses、regulated goods、election interference。
+- Medium Rules 作为候选来源检查过，但 2026-05-24 官方 help.medium.com 页面向自动下载返回 Cloudflare challenge，因此未确认完整官方正文抽取，本轮未纳入。
+- 本轮未继续新增美国联邦法律条文。
+
+本轮后的校验状态：registry 中 144 条记录均已进入索引；143 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。

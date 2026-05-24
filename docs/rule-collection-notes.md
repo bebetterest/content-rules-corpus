@@ -197,3 +197,15 @@ Platform extraction updates:
 - No additional U.S. federal legal provisions were added in this pass.
 
 Verification status after this pass: 141 registry entries are indexed; 140 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Global Platform GitLab, Bluesky, and Tumblr Gap Fill
+
+Platform extraction updates:
+
+- Added GitLab's official Acceptable Use Policy from the GitLab Handbook, covering unacceptable service use, illegal or malicious activity, privacy misuse, harassment/defamation, spam/phishing, service disruption, and AI-powered service restrictions.
+- Added Bluesky's official Community Guidelines from the Bluesky support site, covering public safety, threats and violence, child safety, adult content consent boundaries, self-harm and dangerous behavior, privacy, anti-discrimination, anti-harassment, authenticity, information integrity, regulated goods, intellectual property, site security, and ban evasion.
+- Added Tumblr's official User Guidelines from tumblr.com, covering terrorism, hate speech, harm to minors, self-harm promotion, sexually explicit material, violent threats/gore, spam, automation, IP infringement, impersonation, harassment, privacy violations, unlawful uses, regulated goods, and election interference.
+- Medium Rules were checked as a candidate, but the official help.medium.com page returned a Cloudflare challenge to automated download on 2026-05-24. It was not added because complete official extraction was not confirmed.
+- No additional U.S. federal legal provisions were added in this pass.
+
+Verification status after this pass: 144 registry entries are indexed; 143 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).

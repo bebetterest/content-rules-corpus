@@ -1,0 +1,36 @@
+[
+  {
+    "id": "platform-tumblr-user-guidelines",
+    "title": "Tumblr User Guidelines",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/global/tumblr/tumblr-user-guidelines.md",
+    "source_urls": [
+      "https://www.tumblr.com/policy/en/user-guidelines"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines.tumblr-com.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 68,
+    "body_sha256": "1ac4103918214bb5ce1602edead3229d4c5a982fca7facf42385261a950df1de",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines.tumblr-com.html",
+        "sha256": "55f725f08a9a1cd07d99f5c91b942c9aed126943870decba5037ad3d66ed1ba0",
+        "bytes": 47923,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      }
+    ]
+  }
+]
