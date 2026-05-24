@@ -2,8 +2,8 @@
   "schema_version": 1,
   "directory": "all_rules/united-states/federal",
   "generated_by": "scripts/generate_rule_indexes.mjs",
-  "rule_count": 42,
-  "descendant_rule_count": 42,
+  "rule_count": 54,
+  "descendant_rule_count": 54,
   "rules": [
     {
       "title": "15 U.S.C. § 6501",
@@ -150,6 +150,78 @@
       ]
     },
     {
+      "title": "18 U.S.C. § 1028",
+      "file": "18-usc-1028.md",
+      "path": "all_rules/united-states/federal/18-usc-1028.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal identity-document, authentication-feature, and information fraud provision; nationwide federal criminal law relevant to identity abuse and fraud policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1028&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 1028A",
+      "file": "18-usc-1028a.md",
+      "path": "all_rules/united-states/federal/18-usc-1028a.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal aggravated identity-theft provision; nationwide federal criminal law relevant to identity abuse and fraud policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1028A&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 1029",
+      "file": "18-usc-1029.md",
+      "path": "all_rules/united-states/federal/18-usc-1029.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal access-device fraud provision; nationwide federal criminal law relevant to payment-card, credential, and fraud policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1029&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 1030",
+      "file": "18-usc-1030.md",
+      "path": "all_rules/united-states/federal/18-usc-1030.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal computer-fraud and abuse provision; nationwide federal criminal law relevant to hacking, unauthorized access, credential abuse, malware, and platform-integrity policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1030&edition=prelim"
+      ]
+    },
+    {
       "title": "18 U.S.C. § 1037",
       "file": "18-usc-1037.md",
       "path": "all_rules/united-states/federal/18-usc-1037.md",
@@ -201,6 +273,78 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "source_urls": [
         "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section119&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 1341",
+      "file": "18-usc-1341.md",
+      "path": "all_rules/united-states/federal/18-usc-1341.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal mail-fraud provision; nationwide federal criminal law relevant to fraud, scams, and deceptive-conduct policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1341&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 1343",
+      "file": "18-usc-1343.md",
+      "path": "all_rules/united-states/federal/18-usc-1343.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal wire-fraud provision; nationwide federal criminal law relevant to online fraud, scams, and deceptive-conduct policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1343&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 1344",
+      "file": "18-usc-1344.md",
+      "path": "all_rules/united-states/federal/18-usc-1344.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal bank-fraud provision; nationwide federal criminal law relevant to financial fraud and scam policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1344&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 1349",
+      "file": "18-usc-1349.md",
+      "path": "all_rules/united-states/federal/18-usc-1349.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal attempt-and-conspiracy provision for fraud offenses in the same chapter; nationwide federal criminal law relevant to fraud and scam policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1349&edition=prelim"
       ]
     },
     {
@@ -687,6 +831,78 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "source_urls": [
         "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section879&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 922",
+      "file": "18-usc-922.md",
+      "path": "all_rules/united-states/federal/18-usc-922.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal firearms unlawful-acts provision; nationwide federal criminal law relevant to regulated-goods content and transaction policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section922&edition=prelim"
+      ]
+    },
+    {
+      "title": "21 U.S.C. § 841",
+      "file": "21-usc-841.md",
+      "path": "all_rules/united-states/federal/21-usc-841.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal controlled-substances prohibited-acts provision; nationwide federal criminal law relevant to regulated-goods and illicit-drug transaction policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section841&edition=prelim"
+      ]
+    },
+    {
+      "title": "21 U.S.C. § 843",
+      "file": "21-usc-843.md",
+      "path": "all_rules/united-states/federal/21-usc-843.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal controlled-substances prohibited-acts provision including use of communication facilities; nationwide federal criminal law relevant to regulated-goods and illicit-drug transaction policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section843&edition=prelim"
+      ]
+    },
+    {
+      "title": "21 U.S.C. § 863",
+      "file": "21-usc-863.md",
+      "path": "all_rules/united-states/federal/21-usc-863.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal drug-paraphernalia provision; nationwide federal law relevant to regulated-goods and illicit-drug transaction policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section863&edition=prelim"
       ]
     },
     {

@@ -1384,5 +1384,413 @@
         "content_type": null
       }
     ]
+  },
+  {
+    "id": "us-federal-18-usc-922",
+    "title": "18 U.S.C. § 922",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-922.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section922&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-922.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 540,
+    "body_sha256": "0f221697a0b3f0eb82bdad61268daf8e3450dfbf14b6c61dd63161e7c4d0a392",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-922.uscode-house-gov.html",
+        "sha256": "f8b93a96901c4b9f6f27c04049718e855a3f8309bc346458baea388ad4857c89",
+        "bytes": 317621,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-1028",
+    "title": "18 U.S.C. § 1028",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-1028.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1028&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-1028.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 209,
+    "body_sha256": "91c4f1662c96cac003a4a4e02ce7389fe55b8dc632d6f45e98b35c62d6cc7fd0",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-1028.uscode-house-gov.html",
+        "sha256": "b74cbd6c6fa1cd6126b702201322894c22ae524bef27b99b8d810eb76f66f526",
+        "bytes": 192115,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-1028a",
+    "title": "18 U.S.C. § 1028A",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-1028a.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1028A&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-1028a.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 72,
+    "body_sha256": "abf5f8c722bfa88b6950d69ae524778ee8346b86004897c646c19c394474e07b",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-1028a.uscode-house-gov.html",
+        "sha256": "2ac2339d5252dd8a345651504851cd70149b16ca0b08a2cdce6a7b030d4b1fe0",
+        "bytes": 151187,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-1029",
+    "title": "18 U.S.C. § 1029",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-1029.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1029&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-1029.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 142,
+    "body_sha256": "ce940154e01e6b665192ee58bdfa4dc9dc6b54b37b3d5d7cd48bbc8ab6c7761a",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-1029.uscode-house-gov.html",
+        "sha256": "baa2d9c36e18ba86e1bbe98b2dfb856bcdce0533904d76d31beae0ad588b509a",
+        "bytes": 174588,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-1030",
+    "title": "18 U.S.C. § 1030",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-1030.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1030&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-1030.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 267,
+    "body_sha256": "3626a10a5b8c458d5605c9db14056431fa3d196fa4a8f3fc27d4a0d65624f70c",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-1030.uscode-house-gov.html",
+        "sha256": "5bb0bbe59d1c3b609102802f17e3d83bccad05466393ae13dea517c76e9293ba",
+        "bytes": 213703,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-1341",
+    "title": "18 U.S.C. § 1341",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-1341.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1341&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-1341.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 72,
+    "body_sha256": "a1c43a4ca72f54dd37186cf922438d9df540d1aaad4b1f719b1f4bc378bdd2e0",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-1341.uscode-house-gov.html",
+        "sha256": "dcd2ce6b537b37c8577feae75f4c2b49ffe7f9a7f9e407df84b952857ed03de5",
+        "bytes": 153666,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-1343",
+    "title": "18 U.S.C. § 1343",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-1343.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1343&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-1343.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 56,
+    "body_sha256": "eadf8e338f0ced567eff1680cca790d0e4413d981e4c653bf0f46759f2890374",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-1343.uscode-house-gov.html",
+        "sha256": "5e2e559fe066ed387bbb705c5d90edbc8075cf84e775f8fa9648577a99339135",
+        "bytes": 146832,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-1344",
+    "title": "18 U.S.C. § 1344",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-1344.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1344&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-1344.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 57,
+    "body_sha256": "537a7f3081624a58f3bf757f864d4027f467fec6065b854507988d4b56fbfb3a",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-1344.uscode-house-gov.html",
+        "sha256": "c18e1687f9faaf448137d26f8d7aeee66996053a57888a8e7d90f1c00fd921f9",
+        "bytes": 144262,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-1349",
+    "title": "18 U.S.C. § 1349",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-1349.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1349&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-1349.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 48,
+    "body_sha256": "7913fd55347bbffdce7af8323654cfaf15c8cc24fb61384ea8a841cf37234633",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-1349.uscode-house-gov.html",
+        "sha256": "52b2e1bdd9b2a8e5f605a1c3b76cbc182e67d5348a9e56511ab0711d2495b1fd",
+        "bytes": 141391,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-21-usc-841",
+    "title": "21 U.S.C. § 841",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/21-usc-841.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section841&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-21-usc-841.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 285,
+    "body_sha256": "6245d3856410bb66a57b54a826a8a0aaca89d8528c82c3bb60ca1157cb51d0a1",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-21-usc-841.uscode-house-gov.html",
+        "sha256": "0ea0adc7ef72fbf27171c2949f93fb87f3e52831719401c811b0abd471ebeba7",
+        "bytes": 239893,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-21-usc-843",
+    "title": "21 U.S.C. § 843",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/21-usc-843.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section843&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-21-usc-843.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 124,
+    "body_sha256": "a463270653f898596491f93c8a8ab285ba54a711c7ba0b43d844e7eaa81b4bee",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-21-usc-843.uscode-house-gov.html",
+        "sha256": "6279689647d13726783c575aa61ac768f5daf498e5c439f26163cc19ee6432bf",
+        "bytes": 171768,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-21-usc-863",
+    "title": "21 U.S.C. § 863",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/21-usc-863.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title21-section863&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-21-usc-863.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 98,
+    "body_sha256": "58c31b4a57c7d55406ddbfb6b6fefe18a05b0d68b530342eb3c21c5e365cd052",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-21-usc-863.uscode-house-gov.html",
+        "sha256": "5d2dbdac097d2d03bb00b574825abf441a530fb0380f71e4744748f749008ff2",
+        "bytes": 152652,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
   }
 ]

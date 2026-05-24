@@ -129,3 +129,15 @@
 - 18 U.S.C. § 877 首次抓取遇到临时 U.S. Code TLS/download 失败，并按规则正确生成 source stub；随后定向重试成功下载官方来源并转为 extracted 文件。
 
 本轮后的校验状态：registry 中 78 条记录均已进入索引；77 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 联邦 fraud、identity、cyber abuse 与 regulated goods 补缺
+
+联邦抽取更新：
+
+- 新增 18 U.S.C. §§ 1028、1028A、1029、1030 官方 U.S. Code 来源，覆盖 identity-document 与 authentication-feature fraud、aggravated identity theft、access-device fraud、computer fraud/abuse。
+- 新增 18 U.S.C. §§ 1341、1343、1344、1349 官方 U.S. Code 来源，覆盖 mail fraud、wire fraud、bank fraud，以及 fraud offenses 的 attempt/conspiracy。
+- 新增 18 U.S.C. § 922 官方 U.S. Code 来源，覆盖与 regulated-goods 内容和交易政策相关的联邦 firearms unlawful acts。
+- 新增 21 U.S.C. §§ 841、843、863 官方 U.S. Code 来源，覆盖 controlled-substances prohibited acts、use of communication facilities、drug paraphernalia。
+- 12 个新增来源均从官方 U.S. Code 页面下载，保留原始 HTML artifact，抽取为 Markdown，并通过正文哈希校验。
+
+本轮后的校验状态：registry 中 90 条记录均已进入索引；89 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。

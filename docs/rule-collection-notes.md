@@ -129,3 +129,15 @@ Federal extraction updates:
 - 18 U.S.C. § 877 initially hit a transient U.S. Code TLS/download failure and correctly generated a source stub; a targeted retry downloaded the official source and converted it to an extracted file.
 
 Verification status after this pass: 78 registry entries are indexed; 77 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Federal Fraud, Identity, Cyber Abuse, and Regulated Goods Gap Fill
+
+Federal extraction updates:
+
+- Added official U.S. Code sources for 18 U.S.C. §§ 1028, 1028A, 1029, and 1030, covering identity-document and authentication-feature fraud, aggravated identity theft, access-device fraud, and computer fraud/abuse.
+- Added official U.S. Code sources for 18 U.S.C. §§ 1341, 1343, 1344, and 1349, covering mail fraud, wire fraud, bank fraud, and attempt/conspiracy for fraud offenses.
+- Added official U.S. Code source for 18 U.S.C. § 922, covering federal firearms unlawful acts relevant to regulated-goods content and transaction policies.
+- Added official U.S. Code sources for 21 U.S.C. §§ 841, 843, and 863, covering controlled-substances prohibited acts, use of communication facilities, and drug paraphernalia.
+- All 12 new sources were downloaded from official U.S. Code pages, retained as raw HTML artifacts, extracted to Markdown, and verified with body hashes.
+
+Verification status after this pass: 90 registry entries are indexed; 89 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
