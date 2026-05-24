@@ -8,6 +8,12 @@
 - Source Authority: Douyin
 - Source URL:
 - https://www.douyin.com/draft/douyin_agreement/infringement_guide.html
+- Linked Source URL:
+- https://school.jinritemai.com/doudian/web/article/101651 -> sources/platform-douyin-infringement-guide-linked-01-article-101651.school-jinritemai-com.html
+- https://lifexue.com/rule/detail/120591?enter_method=search&source= -> sources/platform-douyin-infringement-guide-linked-02-detail-120591.lifexue-com.html
+- https://game.open.douyin.com/support/content/132732?graphId=537&pageId=308&spaceId=182&timestamp=1715394801408 -> sources/platform-douyin-infringement-guide-linked-03-content-132732.game-open-douyin-com.html
+- https://www.douyin.com/qinquan/report?enter_from=pc_agreement -> sources/platform-douyin-infringement-guide-linked-04-qinquan-report.douyin-com.html
+- https://sf3-cdn-tos.douyinstatic.com/obj/ies-hotsoon-draft/douyin_agreement/f23f7cc5-4d09-4ebd-b1aa-218162d5d75a.html -> sources/platform-douyin-infringement-guide-linked-05-douyin-agreement-f23f7cc5-4d09-4ebd-b1aa-218162d5d75a.sf3-cdn-tos-douyinstatic-com.html
 - Retrieval Date: 2026-05-24
 - Language: zh-CN
 - Fetch Method: html
@@ -16,7 +22,12 @@
 - Status Note: Public official full community convention source was not confirmed; this is an official Douyin reporting guide and should not be treated as the full Douyin community rules.
 - Source SHA-256:
 - all_rules/platforms/china/douyin/sources/platform-douyin-infringement-guide.douyin-com.html: 6905990c050dd2e29da8f41f376fbde6647288a0be1bdd784ac3324010d8b896
-- Body SHA-256: a8cea7bf5b8ed533f54b7a1253901be8ea3c78d63239d9e4d72d6e72813bf491
+- all_rules/platforms/china/douyin/sources/platform-douyin-infringement-guide-linked-01-article-101651.school-jinritemai-com.html: 9d5aaf7ccec0325eb0960d21b589ba8a7dfee8079a711c84894f1f768cfd7bc3
+- all_rules/platforms/china/douyin/sources/platform-douyin-infringement-guide-linked-02-detail-120591.lifexue-com.html: 9df85dc85492e2bd1493ce8310c41c2b75732546fb5b06998857903f1ec7ece2
+- all_rules/platforms/china/douyin/sources/platform-douyin-infringement-guide-linked-03-content-132732.game-open-douyin-com.html: c2d781b146d0ffa2311c86d8fea8293bf08adbb196ee5f6ecc53b369330c0df7
+- all_rules/platforms/china/douyin/sources/platform-douyin-infringement-guide-linked-04-qinquan-report.douyin-com.html: e740faa262f1c3f0dcf459dfad99f9a56068f3d3d39a211cbabc834082c49280
+- all_rules/platforms/china/douyin/sources/platform-douyin-infringement-guide-linked-05-douyin-agreement-f23f7cc5-4d09-4ebd-b1aa-218162d5d75a.sf3-cdn-tos-douyinstatic-com.html: b940352092826f59fb01f0011e7d153565702f55c6db0900c71f82033dd3d7cd
+- Body SHA-256: 80dfc18a66ec6171aa0ca7fa26238edb1be0b712a112bc8106cd2a88e6ff5d8d
 
 ## Source Text
 
@@ -32,11 +43,11 @@
 
 - 如你发现 抖音小程序涉嫌侵权 ，请通过点击 [抖音开放平台](https://developer.open-douyin.com/) ，选择页面右下角「侵权投诉」模块，并参考页面指引进行投诉。
 
-- 如你发现 商品橱窗或购物车商品涉嫌侵权 ，请参考 [知识产权侵权通知受理规范](https://school.jinritemai.com/doudian/web/article/101651) ，通过 [抖音电商知识产权保护平台](http://ippro.bytedance.com/) （ [http://ippro.bytedance.com](http://ippro.bytedance.com/) ，请复制网址后在浏览器中打开）发起侵权通知。
+- 如你发现 商品橱窗或购物车商品涉嫌侵权 ，请参考 [知识产权侵权通知受理规范](sources/platform-douyin-infringement-guide-linked-01-article-101651.school-jinritemai-com.html) ，通过 [抖音电商知识产权保护平台](http://ippro.bytedance.com/) （ [http://ippro.bytedance.com](http://ippro.bytedance.com/) ，请复制网址后在浏览器中打开）发起侵权通知。
 
-- 如你发现 生活服务/团购商品、小房子商品或生活服务商家涉嫌侵权 ，请参考 [抖音生活服务侵权通知受理流程](https://lifexue.com/rule/detail/120591?enter_method=search&source=) ，通过shfw-jubao@bytedance.com发起侵权通知。
+- 如你发现 生活服务/团购商品、小房子商品或生活服务商家涉嫌侵权 ，请参考 [抖音生活服务侵权通知受理流程](sources/platform-douyin-infringement-guide-linked-02-detail-120591.lifexue-com.html) ，通过shfw-jubao@bytedance.com发起侵权通知。
 
-- 如你发现 在抖音上架的游戏涉嫌侵权 ，请参考 [侵权投诉规范 - 抖音游戏厂商合作平台学习中心](https://game.open.douyin.com/support/content/132732?graphId=537&pageId=308&spaceId=182&timestamp=1715394801408) ，通过 douyin_game_platform@bytedance.com 发起侵权通知。
+- 如你发现 在抖音上架的游戏涉嫌侵权 ，请参考 [侵权投诉规范 - 抖音游戏厂商合作平台学习中心](sources/platform-douyin-infringement-guide-linked-03-content-132732.game-open-douyin-com.html) ，通过 douyin_game_platform@bytedance.com 发起侵权通知。
 
 - 如你发现 汽水音乐平台上的音乐侵犯了你享有的著作权合法权益 ，你可以发送邮件至 music.copyright@bytedance.com 发起侵权通知，并提供你享有相关权利的证据。
 
@@ -80,7 +91,7 @@
 
 1.1.2 抖音官网内提交侵权举报
 
-如你认为他人用户资料、他人发布的视频/图文涉嫌侵害你的合法权益，你可以点击【 [批量侵权举报](https://www.douyin.com/qinquan/report?enter_from=pc_agreement) 】，获取涉嫌侵权的抖音账号主页链接、抖音视频/图文链接，并按照页面指引完成侵权举报。
+如你认为他人用户资料、他人发布的视频/图文涉嫌侵害你的合法权益，你可以点击【 [批量侵权举报](sources/platform-douyin-infringement-guide-linked-04-qinquan-report.douyin-com.html) 】，获取涉嫌侵权的抖音账号主页链接、抖音视频/图文链接，并按照页面指引完成侵权举报。
 
 1.1.3 邮件方式提交侵权举报
 
@@ -198,7 +209,7 @@ d.若权利人的专利为实用新型专利或外观设计专利，还需提供
 
 1.1 举报方在抖音App「首页」-左上角「三」-「通知消息」-「系统通知」中的「侵权投诉」相关站内信中点击「撤销投诉」，可撤销在App内发起的侵权举报。
 
-1.2 举报方通过「历史记录」-「查看明细」可撤销在抖音官网【 [批量侵权举报](https://www.douyin.com/qinquan/report?enter_from=pc_agreement) 】发起的侵权举报。
+1.2 举报方通过「历史记录」-「查看明细」可撤销在抖音官网【 [批量侵权举报](sources/platform-douyin-infringement-guide-linked-04-qinquan-report.douyin-com.html) 】发起的侵权举报。
 
 1.3 举报方使用发起侵权举报的邮箱发邮件至qinquan@bytedance.com，并提供以下材料，可撤销通过邮件发起的侵权举报：
 
@@ -212,7 +223,7 @@ d.若权利人的专利为实用新型专利或外观设计专利，还需提供
 
 四、侵权类型介绍及创作注意事项
 
-详细的侵权类型介绍及创作注意事项可见 [侵权类型、规则及案例解析](https://sf3-cdn-tos.douyinstatic.com/obj/ies-hotsoon-draft/douyin_agreement/f23f7cc5-4d09-4ebd-b1aa-218162d5d75a.html) 。
+详细的侵权类型介绍及创作注意事项可见 [侵权类型、规则及案例解析](sources/platform-douyin-infringement-guide-linked-05-douyin-agreement-f23f7cc5-4d09-4ebd-b1aa-218162d5d75a.sf3-cdn-tos-douyinstatic-com.html) 。
 
 五、注意事项
 
@@ -221,3 +232,251 @@ d.若权利人的专利为实用新型专利或外观设计专利，还需提供
 2. 非侵权举报： 当你发现他人用户资料、视频、评论等内容存在违反抖音社区规则的情况，你可选择对应的举报理由向平台反馈。
 
 3. 侵权举报方或被举报方应根据《民法典》等相关法律法规、本指引及在侵权举报处理过程中平台通过产品页面、站内信或邮件等方式的告知，通过平台指定的方式提交准确、完善的材料，积极维护自身合法权益 。
+
+---
+
+抖音生活服务-学习中心
+
+[首页](https://lifexue.com/) [课程中心](https://lifexue.com/course?enter_method=tab) [知识百科](https://lifexue.com/knowledge?enter_method=tab) [案例专区](https://lifexue.com/case?enter_method=tab) [规则中心](https://lifexue.com/rule?enter_method=tab)
+
+近期搜索
+
+立即登录
+
+life_xue@bytedance.com
+
+相关网站
+
+[抖音来客](https://life.douyin.com/p/login)
+
+[抖音林客](https://www.life-partner.cn/)
+
+[抖音集星](https://www.lifecreator.cn/)
+
+抖音销帮
+
+官方微信号
+
+学习中心微信号
+
+© 2022 成都所见所得科技有限公司
+
+[营业执照](https://lf-cdn-tos.bytescm.com/obj/static/life_service/learning_center/pc/static/assets/business-license.022f2fbe.pdf)
+
+[蜀ICP备2022008657号-5](https://beian.miit.gov.cn/)
+
+[川公网安备 51019002005228号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51019002005228)
+
+50%
+
+75%
+
+100%
+
+125%
+
+150%
+
+175%
+
+200%
+
+There was an error previewing the file
+
+50%
+
+75%
+
+100%
+
+125%
+
+150%
+
+175%
+
+200%
+
+There was an error previewing the file
+
+50%
+
+75%
+
+100%
+
+125%
+
+150%
+
+175%
+
+200%
+
+There was an error previewing the file
+
+清空
+
+---
+
+抖音游戏厂商合作平台
+
+---
+
+批量侵权举报
+
+扫码登录
+
+如何扫码
+
+打开 「抖音APP」 点击左上角
+
+扫一扫
+
+验证码登录
+
+密码登录
+
+获取验证码
+
+登录
+
+登录即代表同意 [用户协议](douyin-user-service-agreement_cn.md) 和 [隐私政策](douyin-user-service-agreement_cn.md)
+
+---
+
+侵权类型、规则及案例解析
+
+侵权类型、规则及案例解析
+
+一、侵权类型
+
+常见侵权类型分为侵害人身权益类和知识产权类。其中人身权益类包括肖像权、名誉权和隐私权等；知识产权类包括著作权、商标权和专利权等。
+
+1. 肖像权
+
+根据《民法典》第一千零一十八条规定，自然人享有肖像权，有权依法制作、使用、公开或者许可他人使用自己的肖像。肖像是通过影像、雕塑、绘画等方式在一定载体上所反映的特定自然人可以被识别的外部形象。
+
+该法第九百九十九条规定，为公共利益实施新闻报道、舆论监督等行为的，可以合理使用民事主体的肖像，使用不合理侵害民事主体人格权的，应当依法承担民事责任。
+
+2. 名誉权
+
+根据《民法典》第一千零二十四条规定，民事主体享有名誉权。任何组织或者个人不得以侮辱、诽谤等方式侵害他人的名誉权。名誉是对民事主体的品德、声望、才能、信用等的社会评价。
+
+该法第一千零二十五条规定， 行为人为公共利益实施新闻报道、舆论监督等行为，影响他人名誉的，不承担民事责任，但是有下列情形之一的除外：
+
+（一）捏造、歪曲事实；
+
+（二）对他人提供的严重失实内容未尽到合理核实义务；
+
+（三）使用侮辱性言辞等贬损他人名誉。
+
+3. 隐私权
+
+根据《民法典》第一千零三十二条规定，自然人享有隐私权。隐私是自然人的私人生活安宁和不愿为他人知晓的私密空间、私密活动、私密信息。
+
+该法第一千零三十三条规定，除法律另有规定或者权利人明确同意外，任何组织或者个人不得实施下列行为：
+
+（一）以电话、短信、即时通讯工具、电子邮件、传单等方式侵扰他人的私人生活安宁；
+
+（二）进入、拍摄、窥视他人的住宅、宾馆房间等私密空间；
+
+（三）拍摄、窥视、窃听、公开他人的私密活动；
+
+（四）拍摄、窥视他人身体的私密部位；
+
+（五）处理他人的私密信息；
+
+（六）以其他方式侵害他人的隐私权。
+
+4. 著作权
+
+根据《著作权法》第一条、第三条规定，文学、艺术和科学领域内具有独创性并能以一定形式表现的智力成果（如文字、音乐、戏剧、舞蹈、美术、摄影、视听作品等），均构成作品，著作权人享有著作权。
+
+除该法及其它法律法规另有规定外，未经著作权人许可通过信息网络传播其作品或改编其作品；使用他人作品应当支付报酬而未支付；歪曲、篡改、剽窃他人作品等，均属于著作权侵权。
+
+5.商标权
+
+根据《商标法》第三条规定，经商标局核准注册的商标为注册商标，商标注册人享有商标专用权，受法律保护。
+
+根据该法第五十七条规定，有下列行为之一的，均属侵犯注册商标专用权：
+
+（一）未经商标注册人的许可，在同一种商品上使用与其注册商标相同的商标的；
+
+（二）未经商标注册人的许可，在同一种商品上使用与其注册商标近似的商标，或者在类似商品上使用与其注册商标相同或者近似的商标，容易导致混淆的；
+
+（三）销售侵犯注册商标专用权的商品的；
+
+（四）伪造、擅自制造他人注册商标标识或者销售伪造、擅自制造的注册商标标识的；
+
+（五）未经商标注册人同意，更换其注册商标并将该更换商标的商品又投入市场的；
+
+（六）故意为侵犯他人商标专用权行为提供便利条件，帮助他人实施侵犯商标专用权行为的；
+
+（七）给他人的注册商标专用权造成其他损害的。
+
+6. 专利权
+
+根据《专利法》相关规定，专利权是指国家根据发明人或设计人的申请，以向社会公开发明创造的内容，以及发明创造对社会具有符合法律规定的利益为前提，根据法定程序在一定期限内授予发明人或设计人的一种排他性权利。
+
+除该法及其他法律法规另有规定外，未经专利权人许可，为生产经营目的制造、使用、许诺销售、销售、进口发明和实用新型专利产品，或者使用发明和实用新型专利方法以及使用、许诺销售、销售、进口依照该专利方法直接获得的产品；未经专利权人许可，为生产经营目的制造、许诺销售、销售、进口其外观设计专利产品，均属于侵犯专利权。
+
+二、避免侵权的创作注意事项
+
+1. 侵权表现与投诉方式
+
+[什么是侵权？被侵权了该怎么办？——权益之计|抖音#侵权与#维权 系列课程第一讲](https://www.douyin.com/share/video/6891161924663364871)
+
+2. 著作权侵权
+
+[权益之计第六课：著作权。关于搬运和抄袭的问题都在这里～ #侵权 #维权](https://www.douyin.com/share/video/6901621333722025224)
+
+[权益之计第七课：创作者如何规避侵权风险 #侵权 #维权](https://www.douyin.com/share/video/6902326632636370183)
+
+[怎么样正确引用别人的作品呢？不侵权从我做起！ #抖音安全课堂](https://www.douyin.com/share/video/6825532971647257867)
+
+3. 肖像权侵权
+
+[别人拍我，侵犯了肖像权吗？“权益”之计——关于 #肖像权 #隐私权 的小知识。 #侵权](https://www.douyin.com/share/video/6894226641254386958)
+
+4. 名誉权侵权
+
+[揭老赖、骗子商家，我做错了吗？”权益之计第五课——聊聊关于 #名誉权的那些事！ #侵权 #维权](https://www.douyin.com/share/video/6899631421623717133)
+
+三、权利人发起侵权投诉的案例
+
+1. 名誉权侵权
+
+[当企业遭遇恶意诋毁时该怎么办？](https://www.douyin.com/video/7522020816276475176)
+
+[当企业遭遇恶意炒作，翻炒旧闻，蹭热点等恶意营销时该怎么办？](https://www.douyin.com/video/7523168057993235763)
+
+[当企业被集纳、伪造负面信息，被唱衰行业、恶意蹭热点时该怎么办？](https://www.douyin.com/video/7525012376832281866)
+
+[没有证据的情况下，企业被无端指责该怎么办？](https://www.douyin.com/video/7526853750556806434)
+
+[当有人在网络上谩骂、侮辱你，侵犯你的个人名誉权时，该如何进行投诉举报？](https://www.douyin.com/video/7535000413699886375)
+
+[别人捏造虚假的事实，并加以传播，损害你的名誉；遇到这种情况，该如何举报维权？](https://www.douyin.com/share/video/7536150315079355682/?mid=7536150322836327222)
+
+[他人故意编造并传播你的虚假负面信息，被侵犯个人名誉权时该怎么办？](https://www.douyin.com/share/video/7540606084159917348/?mid=7540606071325379362)
+
+2. 肖像权侵权
+
+[企业家被滥用肖像、恶搞肖像，引发谣言满天飞，这种情况该怎么办？](https://www.douyin.com/video/7530532186745163018)
+
+[若有人不经过你的同意，便用AI技术恶意合成你的肖像，并用来进行营销或传播不实信息，该如何举报维权？](https://www.douyin.com/video/7553955989733575946)
+
+[个人肖像被“恶搞”？遇到这种情况该如何进行举报维权？](https://www.douyin.com/share/video/7565853380967517482/?mid=7565853410931510067)
+
+3. 隐私权侵权
+
+[若是因为个人纠纷，被别人在网上曝光了你的住址、电话号码、身份证等敏感信息，该如何举报维权？](https://www.douyin.com/share/video/7548295072317427004/?mid=7548295023308458787)
+
+[未经本人同意，被他人擅自曝光私人聊天记录，或被他人泄露你的就医信息、私生活信息等敏感内容，该如何举报维权？](https://www.douyin.com/video/7552748548345826570)
+
+[无心之失泄露了家人隐私，这种时候该怎么保护我们的权益？](https://www.douyin.com/share/video/7566907760055422227/?mid=7566907690056829730)
+
+4. 著作权侵权
+
+[自己辛苦拍摄的照片被别人搬运抄袭，被侵犯了著作权时该怎么办呢？](https://www.douyin.com/video/7572054870014971163)

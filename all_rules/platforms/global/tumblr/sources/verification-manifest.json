@@ -8,18 +8,26 @@
     "source_urls": [
       "https://www.tumblr.com/policy/en/user-guidelines"
     ],
-    "linked_source_urls": [],
+    "linked_source_urls": [
+      "https://www.tumblr.com/policy/contest-guidelines",
+      "https://www.tumblr.com/policy/terms-of-service"
+    ],
     "linked_source_errors": [],
     "source_files": [
-      "all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines.tumblr-com.html"
+      "all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines.tumblr-com.html",
+      "all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines-linked-01-policy-contest-guidelines.tumblr-com.html",
+      "all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines-linked-02-policy-terms-of-service.tumblr-com.html"
     ],
-    "linked_source_files": [],
+    "linked_source_files": [
+      "all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines-linked-01-policy-contest-guidelines.tumblr-com.html",
+      "all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines-linked-02-policy-terms-of-service.tumblr-com.html"
+    ],
     "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 68,
-    "body_sha256": "1ac4103918214bb5ce1602edead3229d4c5a982fca7facf42385261a950df1de",
+    "paragraph_count": 222,
+    "body_sha256": "a5244e00226a9e3b5e346d52225f4b61baab7bf162fb9f616a4bbe517946b7eb",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -27,6 +35,22 @@
         "source_file": "all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines.tumblr-com.html",
         "sha256": "55f725f08a9a1cd07d99f5c91b942c9aed126943870decba5037ad3d66ed1ba0",
         "bytes": 47923,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines-linked-01-policy-contest-guidelines.tumblr-com.html",
+        "sha256": "7c48a5e820e4b3215b0a201e337c2b9f99386b548727f8df3a6609bc8f1570df",
+        "bytes": 31091,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines-linked-02-policy-terms-of-service.tumblr-com.html",
+        "sha256": "81bb99cd1794cb1aaa195bdda7849d152c1ce6522aa0a6f4536f91ad3db0399d",
+        "bytes": 72965,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null

@@ -8,18 +8,23 @@
     "source_urls": [
       "https://help.steampowered.com/en/faqs/view/6862-8119-C23E-EA7B"
     ],
-    "linked_source_urls": [],
+    "linked_source_urls": [
+      "https://store.steampowered.com/online_conduct"
+    ],
     "linked_source_errors": [],
     "source_files": [
-      "all_rules/platforms/global/steam/sources/platform-steam-rules-guidelines.help-steampowered-com.html"
+      "all_rules/platforms/global/steam/sources/platform-steam-rules-guidelines.help-steampowered-com.html",
+      "all_rules/platforms/global/steam/sources/platform-steam-rules-guidelines-linked-01-online-conduct.store-steampowered-com.html"
     ],
-    "linked_source_files": [],
+    "linked_source_files": [
+      "all_rules/platforms/global/steam/sources/platform-steam-rules-guidelines-linked-01-online-conduct.store-steampowered-com.html"
+    ],
     "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
     "paragraph_count": 105,
-    "body_sha256": "cb0a377df4e87319b99379b15f2f3d052ab41c7e63ca39c31db7675195163a94",
+    "body_sha256": "4130155be2108e953ab1627a38230f091695c32be1f8d9f02021a413dcae9c68",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -27,9 +32,17 @@
         "source_file": "all_rules/platforms/global/steam/sources/platform-steam-rules-guidelines.help-steampowered-com.html",
         "sha256": "161089db4931a442edcd2f89d7f5f9bf7d8e9f2d66ce88fe06ef982da6957611",
         "bytes": 37399,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=UTF-8"
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/steam/sources/platform-steam-rules-guidelines-linked-01-online-conduct.store-steampowered-com.html",
+        "sha256": "7c6058ef02d4bd87edeb71854ce497998f99632fa6625f08b0f4562df6c4e43e",
+        "bytes": 33031,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
       }
     ]
   }

@@ -145,11 +145,21 @@ function sourceUrlsFor(entry) {
   return [];
 }
 
+function isHashRoutedSourceUrl(parsed) {
+  const host = parsed.hostname.toLowerCase().replace(/^www\./, "");
+  return (
+    (host === "bilibili.com" && parsed.pathname === "/blackboard/help.html") ||
+    (host === "link.bilibili.com" && parsed.pathname === "/p/eden/news")
+  );
+}
+
 function sourceKey(url) {
   try {
     const parsed = new URL(decodeEntities(String(url)));
-    parsed.hash = "";
     parsed.hostname = parsed.hostname.toLowerCase();
+    if (!isHashRoutedSourceUrl(parsed)) {
+      parsed.hash = "";
+    }
     for (const key of [...parsed.searchParams.keys()]) {
       if (key.startsWith("utm_")) {
         parsed.searchParams.delete(key);
@@ -162,7 +172,8 @@ function sourceKey(url) {
 }
 
 function schemeAgnosticSourceKey(parsed) {
-  return `scheme:${parsed.hostname.toLowerCase()}${parsed.pathname}${parsed.search}`;
+  const hash = isHashRoutedSourceUrl(parsed) ? parsed.hash : "";
+  return `scheme:${parsed.hostname.toLowerCase()}${parsed.pathname}${parsed.search}${hash}`;
 }
 
 function xPolicySlug(url) {
@@ -203,8 +214,10 @@ function sourceKeyAliases(url) {
   const aliases = new Set([sourceKey(url)]);
   try {
     const parsed = new URL(decodeEntities(String(url)));
-    parsed.hash = "";
     parsed.hostname = parsed.hostname.toLowerCase();
+    if (!isHashRoutedSourceUrl(parsed)) {
+      parsed.hash = "";
+    }
     aliases.add(schemeAgnosticSourceKey(parsed));
 
     const noSearch = new URL(parsed);
@@ -276,7 +289,26 @@ function linkedSourceMatchers(entry, fieldName) {
   return (entry[fieldName] || []).map((pattern) => new RegExp(pattern, "i"));
 }
 
+function explicitLinkedSourceUrlsFor(entry) {
+  return Array.isArray(entry.linked_source_urls) ? entry.linked_source_urls : [];
+}
+
+function explicitLinkedSourceKeys(entry) {
+  const keys = new Set();
+  for (const url of explicitLinkedSourceUrlsFor(entry)) {
+    for (const key of sourceKeyAliases(url)) {
+      keys.add(key);
+    }
+  }
+  return keys;
+}
+
 function shouldDownloadLinkedSource(entry, url) {
+  const explicitKeys = explicitLinkedSourceKeys(entry);
+  if (sourceKeyAliases(url).some((key) => explicitKeys.has(key))) {
+    return true;
+  }
+
   const include = linkedSourceMatchers(entry, "linked_source_url_patterns");
   if (include.length === 0 || !include.some((pattern) => pattern.test(url))) {
     return false;
@@ -290,8 +322,23 @@ function preferredLinkedSourceUrl(entry, url) {
   if (!slug) {
     return url;
   }
+  if (slug === "parody-account-policy") {
+    return "https://help.x.com/en/rules-and-policies/parody-account-policy";
+  }
   const canonicalUrl = canonicalXPolicyUrl(slug);
   return shouldDownloadLinkedSource(entry, canonicalUrl) ? canonicalUrl : url;
+}
+
+function addLinkedSourceUrl(entry, url, seen, queue, depth, maxLinkedSources) {
+  const candidateUrl = preferredLinkedSourceUrl(entry, url);
+  if (!shouldDownloadLinkedSource(entry, candidateUrl) || hasSeenSourceUrl(seen, candidateUrl)) {
+    return;
+  }
+  if (Number.isInteger(maxLinkedSources) && queue.length >= maxLinkedSources) {
+    return;
+  }
+  addSeenSourceUrl(seen, candidateUrl);
+  queue.push({ url: candidateUrl, depth });
 }
 
 function anchorLinksFromHtml(html, baseUrl) {
@@ -325,30 +372,16 @@ function anchorLinksFromHtml(html, baseUrl) {
   return links;
 }
 
-function discoverLinkedSourceUrls(entry, downloads) {
-  const discovered = [];
-  const seen = new Set();
-  for (const url of sourceUrlsFor(entry)) {
-    addSeenSourceUrl(seen, url);
-  }
-
+function discoverLinkedSourceUrls(entry, downloads, seen, queue, depth, maxLinkedSources) {
   for (const item of downloads) {
     if (!item.sourcePath || !["html", "xml"].includes(item.extension)) {
       continue;
     }
     const html = decodeBuffer(item.buffer);
     for (const link of anchorLinksFromHtml(html, item.url)) {
-      const candidateUrl = preferredLinkedSourceUrl(entry, link.url);
-      if (!shouldDownloadLinkedSource(entry, candidateUrl) || hasSeenSourceUrl(seen, candidateUrl)) {
-        continue;
-      }
-      addSeenSourceUrl(seen, candidateUrl);
-      discovered.push(candidateUrl);
+      addLinkedSourceUrl(entry, link.url, seen, queue, depth, maxLinkedSources);
     }
   }
-
-  const limit = entry.max_linked_sources ?? discovered.length;
-  return discovered.slice(0, limit);
 }
 
 function extFor(entry, url, contentType = "") {
@@ -376,7 +409,7 @@ function extFor(entry, url, contentType = "") {
   return "html";
 }
 
-function downloadOptionsFor(entry, url) {
+function downloadOptionsFor(entry, url, optionsFor = {}) {
   const options = {
     rejectChallengePages: entry.reject_challenge_pages !== false,
   };
@@ -389,15 +422,27 @@ function downloadOptionsFor(entry, url) {
   if (entry.prefer_curl) {
     options.preferCurl = true;
   }
-  if (entry.fetch_method === "rendered-html") {
+  const effectiveFetchMethod = optionsFor.linked && entry.linked_fetch_method
+    ? entry.linked_fetch_method
+    : entry.fetch_method;
+  if (effectiveFetchMethod === "rendered-html") {
     options.rendered = true;
-    options.renderWaitMs = entry.render_wait_ms || 6000;
-    options.renderAfterClickWaitMs = entry.render_after_click_wait_ms || 250;
-    options.renderClickSelectors = Array.isArray(entry.render_click_selectors)
-      ? entry.render_click_selectors
-      : entry.render_click_selector
-        ? [entry.render_click_selector]
-        : [];
+    options.renderWaitMs = optionsFor.linked
+      ? entry.linked_render_wait_ms || entry.render_wait_ms || 6000
+      : entry.render_wait_ms || 6000;
+    options.renderAfterClickWaitMs = optionsFor.linked
+      ? entry.linked_render_after_click_wait_ms || entry.render_after_click_wait_ms || 250
+      : entry.render_after_click_wait_ms || 250;
+    const renderClickSelectors = optionsFor.linked && (entry.linked_render_click_selectors || entry.linked_render_click_selector)
+      ? (Array.isArray(entry.linked_render_click_selectors)
+        ? entry.linked_render_click_selectors
+        : [entry.linked_render_click_selector])
+      : (Array.isArray(entry.render_click_selectors)
+        ? entry.render_click_selectors
+        : entry.render_click_selector
+          ? [entry.render_click_selector]
+          : []);
+    options.renderClickSelectors = renderClickSelectors.filter(Boolean);
   }
   if (entry.extractor === "xiaohongshu-contract-json" && url.includes("/oacontract/")) {
     return {
@@ -524,7 +569,12 @@ async function renderSource(url, timeoutMs, options = {}) {
 }
 
 function cleanError(message) {
-  return cleanText(String(message)).split("\n").slice(0, 2).join(" ");
+  const lines = cleanText(String(message)).split("\n").filter(Boolean);
+  const tracebackIndex = lines.findIndex((line) => line.startsWith("Traceback"));
+  if (tracebackIndex !== -1) {
+    return [lines[0], ...lines.slice(-2)].filter(Boolean).join(" ");
+  }
+  return lines.slice(0, 2).join(" ");
 }
 
 function sleep(ms) {
@@ -1271,6 +1321,14 @@ async function processEntry(entry) {
 
   const downloads = [];
   for (const [index, url] of sourceUrlsFor(entry).entries()) {
+    if (entry.prefer_cached_primary_sources_first) {
+      const cached = await cachedPrimarySourceRecord(entry, index, url, sourceDir);
+      if (cached) {
+        downloads.push(cached);
+        continue;
+      }
+    }
+
     let downloaded;
     try {
       downloaded = await download(
@@ -1299,22 +1357,55 @@ async function processEntry(entry) {
   }
 
   const primaryDownloads = downloads.filter((item) => item.sourcePath);
-  const linkedSourceUrls = discoverLinkedSourceUrls(entry, primaryDownloads);
+  const linkedSourceQueue = [];
+  const seenLinkedSourceUrls = new Set();
+  const maxLinkedSources = entry.max_linked_sources ?? null;
+  for (const url of sourceUrlsFor(entry)) {
+    addSeenSourceUrl(seenLinkedSourceUrls, url);
+  }
+  for (const url of explicitLinkedSourceUrlsFor(entry)) {
+    addLinkedSourceUrl(entry, url, seenLinkedSourceUrls, linkedSourceQueue, 1, maxLinkedSources);
+  }
+  discoverLinkedSourceUrls(entry, primaryDownloads, seenLinkedSourceUrls, linkedSourceQueue, 1, maxLinkedSources);
+
   const linkedDownloads = [];
   const linkedErrors = [];
-  for (const [index, url] of linkedSourceUrls.entries()) {
+  const maxDiscoveryDepth = entry.linked_source_discovery_depth ?? 1;
+  for (let queueIndex = 0; queueIndex < linkedSourceQueue.length; queueIndex += 1) {
+    if (
+      Number.isInteger(maxLinkedSources) &&
+      linkedDownloads.length + linkedErrors.length >= maxLinkedSources
+    ) {
+      break;
+    }
+    const { url, depth } = linkedSourceQueue[queueIndex];
+    const sourceIndex = linkedDownloads.length + linkedErrors.length;
+    if (entry.prefer_cached_linked_sources_first) {
+      const cached = await cachedLinkedSourceRecord(entry, sourceIndex, url, sourceDir);
+      if (cached) {
+        linkedDownloads.push(cached);
+        if (depth < maxDiscoveryDepth) {
+          discoverLinkedSourceUrls(entry, [cached], seenLinkedSourceUrls, linkedSourceQueue, depth + 1, maxLinkedSources);
+        }
+        continue;
+      }
+    }
+
     let downloaded;
     try {
       downloaded = await download(
         url,
         entry.linked_timeout_ms || entry.timeout_ms || DEFAULT_TIMEOUT_MS,
         entry.linked_retry_count ?? entry.retry_count ?? DEFAULT_RETRY_COUNT,
-        downloadOptionsFor(entry, url)
+        downloadOptionsFor(entry, url, { linked: true })
       );
     } catch (error) {
-      const cached = await cachedLinkedSourceRecord(entry, index, url, sourceDir);
+      const cached = await cachedLinkedSourceRecord(entry, sourceIndex, url, sourceDir);
       if (cached) {
         linkedDownloads.push(cached);
+        if (depth < maxDiscoveryDepth) {
+          discoverLinkedSourceUrls(entry, [cached], seenLinkedSourceUrls, linkedSourceQueue, depth + 1, maxLinkedSources);
+        }
         continue;
       }
       linkedErrors.push({
@@ -1326,9 +1417,12 @@ async function processEntry(entry) {
 
     const extension = extFor(entry, url, downloaded.contentType);
     if (["html", "xml"].includes(extension) && looksLikeChallengePage(downloaded.buffer)) {
-      const cached = await cachedLinkedSourceRecord(entry, index, url, sourceDir);
+      const cached = await cachedLinkedSourceRecord(entry, sourceIndex, url, sourceDir);
       if (cached) {
         linkedDownloads.push(cached);
+        if (depth < maxDiscoveryDepth) {
+          discoverLinkedSourceUrls(entry, [cached], seenLinkedSourceUrls, linkedSourceQueue, depth + 1, maxLinkedSources);
+        }
         continue;
       }
       linkedErrors.push({
@@ -1337,9 +1431,13 @@ async function processEntry(entry) {
       });
       continue;
     }
-    const sourcePath = path.join(sourceDir, slugForLinkedSource(entry, index, url, extension));
+    const sourcePath = path.join(sourceDir, slugForLinkedSource(entry, sourceIndex, url, extension));
     await writeFile(sourcePath, downloaded.buffer);
-    linkedDownloads.push(sourceDownloadRecord(url, sourcePath, extension, downloaded));
+    const linkedRecord = sourceDownloadRecord(url, sourcePath, extension, downloaded);
+    linkedDownloads.push(linkedRecord);
+    if (depth < maxDiscoveryDepth) {
+      discoverLinkedSourceUrls(entry, [linkedRecord], seenLinkedSourceUrls, linkedSourceQueue, depth + 1, maxLinkedSources);
+    }
   }
 
   const successfulDownloads = primaryDownloads.concat(linkedDownloads);

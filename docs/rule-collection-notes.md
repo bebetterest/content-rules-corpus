@@ -223,3 +223,30 @@ Link and verification updates:
 - No additional U.S. federal legal provisions were added in this pass.
 
 Verification status after this pass: `node scripts/verify_rules.mjs` verified 144 entries, with 143 extracted files and 1 source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Discord and TikTok Linked Detail Completion Pass
+
+Link and extraction updates:
+
+- Added explicit official linked-detail sources for Discord Community Guidelines, including Terms of Service, developer policy pages, reporting guidance, off-platform behavior, and policy explainers for harassment, doxxing, hateful conduct, violent extremism, child safety, sexual content, self-harm, platform manipulation, misinformation, deceptive practices, IP, dangerous goods, gambling, human trafficking, and sexual solicitation.
+- Added explicit official linked-detail sources for TikTok Community Guidelines, including safety-center, transparency, legal, reporting, account-safety, youth-safety, AI-generated content, IP, gambling, scams, privacy/security, and commercial-disclosure pages.
+- Switched Discord and TikTok linked-detail fetching to browser-rendered HTML with cache reuse so already confirmed artifacts are not redownloaded, while JavaScript-rendered policy pages can still be collected through reproducible code.
+- Discord linked-source collection now confirms 27 local linked official artifacts with no linked-source errors.
+- TikTok linked-source collection now confirms 32 local linked official artifacts. Five `support.tiktok.com` pages still return browser navigation failures in this environment; those unresolved links are recorded in the TikTok file opening note and manifest instead of being silently treated as complete.
+- Improved fetch error summarization so rendered-page failures include the meaningful final navigation error instead of only the start of a Python traceback.
+- No additional U.S. federal legal provisions were added in this pass.
+
+Verification status after this pass: `node scripts/verify_rules.mjs` verified 144 entries, with 143 extracted files and 1 source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Linked Rule Detail Expansion Pass
+
+Link and extraction updates:
+
+- Extended `scripts/fetch_rules.mjs` so registry entries can declare explicit `linked_source_urls`, discover allowed linked sources recursively, use linked-source-specific rendered fetch settings, and reuse cached primary or linked artifacts when official sources are temporarily unstable.
+- Fixed URL aliasing for hash-routed official pages such as Bilibili `blackboard/help.html#/?qid=...`, where the hash identifies distinct rule/help content and must not be collapsed as a normal anchor.
+- Updated `scripts/localize_rule_links.mjs` so single-source rule entries are localized to the collected Markdown file, while multi-source and linked-detail sources continue to point at local raw artifacts.
+- Expanded linked local source coverage for Bilibili, Douyin, X, YouTube, GitHub, Steam, Bluesky, and Tumblr platform rule files. X now has 34 linked official detail artifacts and YouTube has 22 additional linked official Help artifacts.
+- Excluded non-content-rule X cookie pages from recursive rule-detail discovery after confirming they were not part of the content/community-rule corpus.
+- No additional U.S. federal legal provisions were added in this pass.
+
+Verification status after this pass: `node scripts/verify_rules.mjs` verified 144 entries, with 143 extracted files and 1 source stub (`us-state-texas-scope-act`).

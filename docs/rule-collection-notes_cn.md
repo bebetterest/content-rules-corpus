@@ -223,3 +223,30 @@
 - 本轮未继续新增美国联邦法律条文。
 
 本轮后的校验状态：`node scripts/verify_rules.mjs` 验证 144 条记录，其中 143 个文件已抽取正文，1 个文件仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 Discord 与 TikTok 规则详情链接补全轮次
+
+链接与抽取更新：
+
+- 为 Discord Community Guidelines 增加显式官方 linked-detail 来源，包括 Terms of Service、developer policy 页面、reporting guidance、off-platform behavior，以及 harassment、doxxing、hateful conduct、violent extremism、child safety、sexual content、self-harm、platform manipulation、misinformation、deceptive practices、IP、dangerous goods、gambling、human trafficking、sexual solicitation 等 policy explainers。
+- 为 TikTok Community Guidelines 增加显式官方 linked-detail 来源，包括 safety-center、transparency、legal、reporting、account-safety、youth-safety、AI-generated content、IP、gambling、scams、privacy/security、commercial-disclosure 等页面。
+- 将 Discord 与 TikTok 的 linked-detail 抓取切换为浏览器渲染 HTML，并继续复用缓存；已经确认的 artifact 不重复下载，JavaScript 渲染的政策页仍通过可复现代码采集。
+- Discord linked-source collection 现在确认 27 个本地官方 linked artifact，且没有 linked-source errors。
+- TikTok linked-source collection 现在确认 32 个本地官方 linked artifact。还有 5 个 `support.tiktok.com` 页面在当前环境中返回浏览器导航失败；这些未解决链接已写入 TikTok 文件开头说明和 manifest，而不是静默标记为完成。
+- 改进抓取错误摘要，渲染页面失败时会保留有意义的最终导航错误，而不是只留下 Python traceback 开头。
+- 本轮未增加任何美国联邦法律条文。
+
+本轮后的校验状态：`node scripts/verify_rules.mjs` 验证 144 条记录，其中 143 个文件已抽取正文，1 个文件仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 规则详情链接扩展轮次
+
+链接与抽取更新：
+
+- 扩展 `scripts/fetch_rules.mjs`，registry 条目现在可以声明显式 `linked_source_urls`、递归发现允许的 linked sources、使用 linked-source 专用渲染抓取设置，并在官方来源临时不稳定时复用已存在的 primary 或 linked 本地 artifact。
+- 修正 Bilibili `blackboard/help.html#/?qid=...` 这类 hash 路由官方页面的 URL alias 逻辑；此类 hash 用来区分不同规则/帮助内容，不能像普通页面锚点一样合并。
+- 更新 `scripts/localize_rule_links.mjs`，单来源规则条目本地化到已收集 Markdown 文件；多来源与 linked-detail 来源仍指向本地原始 artifact。
+- 扩展 Bilibili、Douyin、X、YouTube、GitHub、Steam、Bluesky、Tumblr 平台规则文件的 linked 本地来源覆盖。X 现在有 34 个 linked 官方详情 artifact，YouTube 增加了 22 个 linked 官方 Help artifact。
+- 在确认 X cookie 页面不属于内容/社区规则语料后，将其从递归规则详情发现中排除。
+- 本轮未增加任何美国联邦法律条文。
+
+本轮后的校验状态：`node scripts/verify_rules.mjs` 验证 144 条记录，其中 143 个文件已抽取正文，1 个文件仍为 source stub（`us-state-texas-scope-act`）。

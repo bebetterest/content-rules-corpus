@@ -90,7 +90,22 @@
       "min_body_chars": 2000,
       "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "privacy_doxxing", "intellectual_property"],
       "platform_group": "china/bilibili",
-      "platform_name": "Bilibili"
+      "platform_name": "Bilibili",
+      "linked_fetch_method": "rendered-html",
+      "linked_render_wait_ms": 7000,
+      "linked_timeout_ms": 20000,
+      "linked_retry_count": 0,
+      "prefer_cached_linked_sources_first": true,
+      "linked_source_urls": [
+        "https://link.bilibili.com/p/eden/news#/newsdetail?id=135",
+        "https://www.bilibili.com/blackboard/blackroomrule_v17.html",
+        "https://www.bilibili.com/blackboard/help.html#/?qid=90776f35efa3492f9eaa4a7db2d6033a&pid=722fe76ea7d641588b2a01164eaa1701",
+        "https://www.bilibili.com/read/cv16567771?spm_id_from=333.999.0.0",
+        "https://www.bilibili.com/blackboard/help.html#/?qid=e55a848237ea43a4900eda655d76c03b&pid=15cd151d07964bcca90086ddbfb5ccb8",
+        "https://www.bilibili.com/blackboard/help.html#/?qid=341",
+        "https://www.bilibili.com/blackboard/help.html#/?qid=9a6a3254395240378c153710a14f364a&pid=ab41e1b88c454d3f9914c5af12fc77b2"
+      ],
+      "max_linked_sources": 7
     },
     {
       "id": "platform-zhihu-terms",
@@ -166,7 +181,20 @@
       "min_body_chars": 1000,
       "risk_categories": ["illegal_activity", "intellectual_property", "privacy_doxxing", "platform_integrity"],
       "platform_group": "china/douyin",
-      "platform_name": "Douyin"
+      "platform_name": "Douyin",
+      "linked_fetch_method": "rendered-html",
+      "linked_render_wait_ms": 7000,
+      "linked_timeout_ms": 20000,
+      "linked_retry_count": 0,
+      "prefer_cached_linked_sources_first": true,
+      "linked_source_urls": [
+        "https://school.jinritemai.com/doudian/web/article/101651",
+        "https://lifexue.com/rule/detail/120591?enter_method=search&source=",
+        "https://game.open.douyin.com/support/content/132732?graphId=537&pageId=308&spaceId=182&timestamp=1715394801408",
+        "https://www.douyin.com/qinquan/report?enter_from=pc_agreement",
+        "https://sf3-cdn-tos.douyinstatic.com/obj/ies-hotsoon-draft/douyin_agreement/f23f7cc5-4d09-4ebd-b1aa-218162d5d75a.html"
+      ],
+      "max_linked_sources": 5
     },
     {
       "id": "platform-douyin-user-service-agreement",
@@ -185,7 +213,23 @@
       "min_body_chars": 8000,
       "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "misinformation", "privacy_doxxing", "platform_integrity", "intellectual_property"],
       "platform_group": "china/douyin",
-      "platform_name": "Douyin"
+      "platform_name": "Douyin",
+      "linked_fetch_method": "rendered-html",
+      "linked_render_wait_ms": 7000,
+      "linked_timeout_ms": 20000,
+      "linked_retry_count": 0,
+      "prefer_cached_linked_sources_first": true,
+      "linked_source_urls": [
+        "https://lf26-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/douyin_agreement/b482fa28-25db-4b0a-8840-2a4a1882cd35.html?hide_nav_bar=1&enter_from=user_agreement",
+        "https://aweme.snssdk.com/ucenter_web/app/aweme/delete-account-notice?_theme=light&hide_nav_bar=1&title=%E6%8A%96%E9%9F%B3%E6%B3%A8%E9%94%80%E9%A1%BB%E7%9F%A5&hide_status_bar=0&disable_auto_expose=1&font_scale=1.0",
+        "https://aweme.snssdk.com/ucenter_web/app/aweme/delete-account-notice?hide_nav_bar=1&title=%E6%8A%96%E9%9F%B3%E6%B3%A8%E9%94%80%E9%A1%BB%E7%9F%A5&hide_status_bar=0&disable_auto_expose=1&font_scale=1.0",
+        "https://trust.douyin.com/article/69831756697378034?enter_from=channel_page&channel=safety",
+        "https://www.douyin.com/rule/policy?activeId=self_decipline&enter_from=pc_douyin_user_service_agreement",
+        "https://www.douyin.com/rule/main",
+        "https://www.douyin.com/draft/douyin_agreement/douyin_agreement_privacy.html",
+        "https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/douyin_agreement/70c3d13a-73cf-403a-8ecf-a16f70887c21.html?hide_nav_bar=1"
+      ],
+      "max_linked_sources": 8
     },
     {
       "id": "platform-xiaohongshu-community-guideline",
@@ -351,6 +395,35 @@
       "platform_group": "global/youtube",
       "platform_name": "YouTube",
       "prefer_curl": true,
+      "prefer_cached_primary_sources_first": true,
+      "linked_timeout_ms": 12000,
+      "linked_retry_count": 1,
+      "prefer_cached_linked_sources_first": true,
+      "linked_source_urls": [
+        "https://support.google.com/youtube/answer/2802027",
+        "https://support.google.com/youtube/answer/6345162",
+        "https://support.google.com/youtube/answer/10767342",
+        "https://support.google.com/youtube/answer/13748639#clickable",
+        "https://support.google.com/youtube/answer/1311392",
+        "https://support.google.com/youtube/answer/2802168",
+        "https://support.google.com/youtube/answer/2802032",
+        "https://support.google.com/youtube/answer/11585688",
+        "https://support.google.com/youtube/answer/2802167",
+        "https://support.google.com/youtube/answer/10070779",
+        "https://support.google.com/youtube/answer/10726080",
+        "https://support.google.com/youtube/answer/2853834?hl=en",
+        "https://support.google.com/youtube/answer/9910779",
+        "https://support.google.com/youtube/topic/9257891",
+        "https://support.google.com/youtube/topic/9387060",
+        "https://support.google.com/youtube/answer/9528076",
+        "https://support.google.com/youtube/answer/2950063",
+        "https://support.google.com/youtube/answer/9229229",
+        "https://support.google.com/youtube/answer/9563682",
+        "https://support.google.com/youtube/answer/6162278",
+        "https://support.google.com/youtube/answer/2801895",
+        "https://support.google.com/youtube/answer/9057652"
+      ],
+      "max_linked_sources": 22,
       "boundary_end": "Was this helpful?"
     },
     {
@@ -370,6 +443,12 @@
       "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "misinformation", "self_harm", "platform_integrity"],
       "platform_group": "global/tiktok",
       "platform_name": "TikTok",
+      "prefer_cached_primary_sources_first": true,
+      "linked_fetch_method": "rendered-html",
+      "linked_render_wait_ms": 10000,
+      "linked_timeout_ms": 30000,
+      "linked_retry_count": 0,
+      "prefer_cached_linked_sources_first": true,
       "source_urls": [
         "https://www.tiktok.com/community-guidelines/en/overview?cgversion=2025H2update",
         "https://www.tiktok.com/community-guidelines/en/community-principles?cgversion=2025H2update",
@@ -384,6 +463,46 @@
         "https://www.tiktok.com/community-guidelines/en/accounts-features?cgversion=2025H2update",
         "https://www.tiktok.com/community-guidelines/en/enforcement?cgversion=2025H2update"
       ],
+      "linked_source_urls": [
+        "https://www.tiktok.com/safety/community-controls/?lang=en",
+        "https://support.tiktok.com/en/account-and-privacy/account-privacy-settings/privacy-and-safety-settings-for-users-under-age-18",
+        "https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-levels-on-tiktok-posts",
+        "https://newsroom.tiktok.com/en-us/tiktok-for-younger-users",
+        "https://www.tiktok.com/legal/childrens-privacy-policy?lang=en",
+        "https://support.tiktok.com/en/safety-hc/account-and-user-safety/underage-appeals-on-tiktok",
+        "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-user",
+        "https://www.tiktok.com/legal/report/privacy?lang=en",
+        "https://www.tiktok.com/transparency/en/combating-csea",
+        "https://www.tiktok.com/safety/youth-portal/?lang=en",
+        "https://www.tiktok.com/safety/guardians-guide/?lang=en",
+        "https://www.tiktok.com/safety/countering-hate?lang=en",
+        "https://www.tiktok.com/safety/bullying-prevention/?lang=en",
+        "https://www.tiktok.com/safety/sexual-assault-resources/?lang=en",
+        "https://www.tiktok.com/safety/suicide-self-harm/?lang=en",
+        "https://www.tiktok.com/safety/eating-disorder/?lang=en",
+        "https://www.tiktok.com/safety/online-challenges/?lang=en",
+        "https://www.tiktok.com/safety/animal-welfare/?lang=en",
+        "https://www.tiktok.com/transparency/combating-misinformation#GFCP/?lang=en",
+        "https://support.tiktok.com/en/using-tiktok/growing-your-audience/government-politician-and-political-party-accounts",
+        "https://www.tiktok.com/legal/page/global/bc-policy/en",
+        "https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content",
+        "https://www.tiktok.com/legal/page/global/copyright-policy/en",
+        "https://www.tiktok.com/transparency/en/countering-influence-operations",
+        "https://www.tiktok.com/safety/substance-support/?lang=en",
+        "https://www.tiktok.com/safety/gambling-support/?lang=en",
+        "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/branded-content-policy",
+        "https://www.tiktok.com/safety/scams/?lang=en",
+        "https://www.tiktok.com/transparency/en/security-privacy",
+        "https://www.tiktok.com/safety/privacy-and-security-on-tiktok/?lang=en",
+        "https://www.tiktok.com/transparency/en/recommendation-system",
+        "https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans",
+        "https://www.tiktok.com/safety/live-safety-guide/?lang=en",
+        "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service",
+        "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video",
+        "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment",
+        "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message"
+      ],
+      "max_linked_sources": 37,
       "render_wait_ms": 5000,
       "boundary_start": "Released",
       "boundary_end": "Was it helpful?"
@@ -406,11 +525,21 @@
       "retry_count": 1,
       "linked_retry_count": 2,
       "linked_timeout_ms": 45000,
+      "prefer_cached_primary_sources_first": true,
+      "prefer_cached_linked_sources_first": true,
       "render_wait_ms": 12000,
       "linked_source_url_patterns": [
-        "^https://help\\.x\\.com/(?:en/)?rules-and-policies/(?:violent-speech|violent-entities|sexual-exploitation-policy|abusive-behavior|hateful-conduct-policy|perpetrators-of-violent-attacks|glorifying-self-harm|media-policy|illegal-regulated-behaviors|personal-information|intimate-media|authenticity|election-integrity-policy|twitter-impersonation-and-deceptive-identities-policy|manipulated-media|twitter-trademark-policy|copyright-policy|enforcement-philosophy)\\.html$"
+        "^https://help\\.x\\.com/(?:en/)?rules-and-policies/[a-z0-9-]+(?:\\.html)?$",
+        "^https://help\\.twitter\\.com/(?:en/)?rules-and-policies/[a-z0-9-]+(?:\\.html)?$",
+        "^https://help\\.x\\.com/(?:en/)?safety-and-security/self-harm-and-suicide(?:\\.html)?$",
+        "^https://developer\\.twitter\\.com/en/developer-terms/agreement-and-policy$"
       ],
-      "max_linked_sources": 18,
+      "linked_source_exclude_url_patterns": [
+        "^https://help\\.x\\.com/(?:en/)?rules-and-policies/(?:twitter-cookies|x-cookies|cookie-description-lists|x-rules)(?:\\.html)?$",
+        "^https://help\\.twitter\\.com/(?:en/)?rules-and-policies/(?:twitter-cookies|x-cookies|cookie-description-lists|x-rules)(?:\\.html)?$"
+      ],
+      "max_linked_sources": 60,
+      "linked_source_discovery_depth": 2,
       "require_linked_sources": false,
       "required_phrases": ["The X Rules", "Illegal or Certain Regulated Goods or Services"],
       "min_body_chars": 4000,
@@ -454,7 +583,43 @@
       "min_body_chars": 5000,
       "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "platform_integrity"],
       "platform_group": "global/discord",
-      "platform_name": "Discord"
+      "platform_name": "Discord",
+      "prefer_cached_primary_sources_first": true,
+      "linked_fetch_method": "rendered-html",
+      "linked_render_wait_ms": 10000,
+      "linked_timeout_ms": 30000,
+      "linked_retry_count": 0,
+      "prefer_cached_linked_sources_first": true,
+      "linked_source_urls": [
+        "https://discord.com/terms",
+        "https://discord.com/developers/docs/policies-and-agreements/developer-terms-of-service",
+        "https://discord.com/developers/docs/policies-and-agreements/developer-policy",
+        "https://support.discord.com/hc/en-us/articles/10575066024983",
+        "https://discord.com/safety/off-platform-behaviors-policy-explainer",
+        "https://discord.com/safety/360044103651-reporting-abusive-behavior-to-discord",
+        "https://discord.com/safety/bullying-harassment-threats-policy-explainer",
+        "https://discord.com/safety/doxxing-policy-explainer",
+        "https://discord.com/safety/hateful-conduct-policy-explainer",
+        "https://discord.com/safety/violent-extremism-policy-explainer",
+        "https://discord.com/safety/violence-graphic-content-policy-explainer",
+        "https://discord.com/safety/child-safety-policy-explainer",
+        "https://discord.com/safety/safer-place-for-teens",
+        "https://discord.com/safety/sexual-content-policy-explainer",
+        "https://discord.com/safety/non-consensual-intimate-media-policy-explainer",
+        "https://discord.com/safety/suicide-self-harm-policy-explainer",
+        "https://discord.com/safety/platform-manipulation-policy-explainer",
+        "https://discord.com/safety/misinformation-policy-explainer",
+        "https://discord.com/safety/identity-authenticity-policy-explainer",
+        "https://discord.com/safety/deceptive-practices-policy-explainer",
+        "https://discord.com/safety/discord-support-abuse-policy-explainer",
+        "https://discord.com/safety/copyright-trademark-policy-explainer",
+        "https://support.discord.com/hc/en-us/articles/4410339349655-Discord-s-Copyright-IP-Policy",
+        "https://discord.com/safety/dangerous-regulated-goods-policy-explainer",
+        "https://discord.com/safety/gambling-policy-explainer",
+        "https://discord.com/safety/human-trafficking-policy-explainer",
+        "https://discord.com/safety/sexual-solicitation-policy-explainer"
+      ],
+      "max_linked_sources": 27
     },
     {
       "id": "platform-twitch-community-guidelines",
@@ -589,7 +754,19 @@
       "min_body_chars": 20000,
       "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "misinformation", "platform_integrity", "intellectual_property"],
       "platform_group": "global/github",
-      "platform_name": "GitHub"
+      "platform_name": "GitHub",
+      "prefer_cached_primary_sources_first": true,
+      "prefer_cached_linked_sources_first": true,
+      "linked_source_urls": [
+        "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+        "https://docs.github.com/en/site-policy/github-terms/github-corporate-terms-of-service",
+        "https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement",
+        "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+        "https://docs.github.com/en/site-policy/github-terms/github-community-guidelines",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-appeal-and-reinstatement",
+        "https://docs.github.com/en/site-policy/content-removal-policies/github-private-information-removal-policy"
+      ],
+      "max_linked_sources": 7
     },
     {
       "id": "platform-steam-rules-guidelines",
@@ -608,7 +785,14 @@
       "min_body_chars": 8000,
       "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "platform_integrity", "intellectual_property"],
       "platform_group": "global/steam",
-      "platform_name": "Steam"
+      "platform_name": "Steam",
+      "prefer_cached_primary_sources_first": true,
+      "prefer_cached_linked_sources_first": true,
+      "extract_linked_sources": false,
+      "linked_source_urls": [
+        "https://store.steampowered.com/online_conduct"
+      ],
+      "max_linked_sources": 1
     },
     {
       "id": "platform-gitlab-acceptable-use-policy",
@@ -651,6 +835,14 @@
       "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "misinformation", "privacy_doxxing", "self_harm", "platform_integrity", "intellectual_property"],
       "platform_group": "global/bluesky",
       "platform_name": "Bluesky",
+      "prefer_cached_primary_sources_first": true,
+      "prefer_cached_linked_sources_first": true,
+      "linked_source_urls": [
+        "https://bsky.social/about/support/tos",
+        "https://bsky.social/about/support/privacy-policy",
+        "https://bsky.social/about/support/copyright"
+      ],
+      "max_linked_sources": 3,
       "boundary_start": "Last Updated: September 19, 2025",
       "boundary_end": "Bluesky is a Public Benefit Corporation"
     },
@@ -674,6 +866,13 @@
       "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "platform_integrity", "intellectual_property"],
       "platform_group": "global/tumblr",
       "platform_name": "Tumblr",
+      "prefer_cached_primary_sources_first": true,
+      "prefer_cached_linked_sources_first": true,
+      "linked_source_urls": [
+        "https://www.tumblr.com/policy/contest-guidelines",
+        "https://www.tumblr.com/policy/terms-of-service"
+      ],
+      "max_linked_sources": 2,
       "boundary_start": "User Guidelines",
       "boundary_end": "Link to Prior Versions"
     },

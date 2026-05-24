@@ -8,18 +8,29 @@
     "source_urls": [
       "https://bsky.social/about/support/community-guidelines"
     ],
-    "linked_source_urls": [],
+    "linked_source_urls": [
+      "https://bsky.social/about/support/tos",
+      "https://bsky.social/about/support/privacy-policy",
+      "https://bsky.social/about/support/copyright"
+    ],
     "linked_source_errors": [],
     "source_files": [
-      "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines.bsky-social.html"
+      "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines.bsky-social.html",
+      "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines-linked-01-support-tos.bsky-social.html",
+      "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines-linked-02-support-privacy-policy.bsky-social.html",
+      "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines-linked-03-support-copyright.bsky-social.html"
     ],
-    "linked_source_files": [],
+    "linked_source_files": [
+      "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines-linked-01-support-tos.bsky-social.html",
+      "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines-linked-02-support-privacy-policy.bsky-social.html",
+      "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines-linked-03-support-copyright.bsky-social.html"
+    ],
     "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 121,
-    "body_sha256": "c207041b20637fb24f0e833620e06491812958d5d2396079cb45afb9526c0ad6",
+    "paragraph_count": 683,
+    "body_sha256": "af44b8fa4078ff060594e71c346b8697008d67dc8fa4357c69cd89f2df35c5a9",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -27,6 +38,30 @@
         "source_file": "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines.bsky-social.html",
         "sha256": "c11e9720d88f29158ea0e5d4a6fd292acf9cde5a7cacd8d8293a4ae46058b256",
         "bytes": 43684,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines-linked-01-support-tos.bsky-social.html",
+        "sha256": "0cabc502b35d7c0fdfd61e12ac8427eabe2d1984e03cf19e50d5e4f73b0684c6",
+        "bytes": 63090,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines-linked-02-support-privacy-policy.bsky-social.html",
+        "sha256": "cbb0457107e5d040a50eed903814a5ceccbe98cbf73a612b9716654c849c23bd",
+        "bytes": 67291,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines-linked-03-support-copyright.bsky-social.html",
+        "sha256": "2e8fc0b4ffb16682d167c2f9a48409fb8366d427dc19d5db4eae8c3bf352a4f8",
+        "bytes": 33101,
         "downloader": "curl",
         "fallback_from": null,
         "content_type": null

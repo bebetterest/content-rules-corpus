@@ -35,11 +35,21 @@ function markdownLinkTarget(url) {
   return String(url).replace(/\)/g, "%29");
 }
 
+function isHashRoutedSourceUrl(parsed) {
+  const host = parsed.hostname.toLowerCase().replace(/^www\./, "");
+  return (
+    (host === "bilibili.com" && parsed.pathname === "/blackboard/help.html") ||
+    (host === "link.bilibili.com" && parsed.pathname === "/p/eden/news")
+  );
+}
+
 function sourceKey(url) {
   try {
     const parsed = new URL(decodeEntities(url));
-    parsed.hash = "";
     parsed.hostname = parsed.hostname.toLowerCase();
+    if (!isHashRoutedSourceUrl(parsed)) {
+      parsed.hash = "";
+    }
     for (const key of [...parsed.searchParams.keys()]) {
       if (key.startsWith("utm_")) {
         parsed.searchParams.delete(key);
@@ -52,7 +62,8 @@ function sourceKey(url) {
 }
 
 function schemeAgnosticSourceKey(parsed) {
-  return `scheme:${parsed.hostname.toLowerCase()}${parsed.pathname}${parsed.search}`;
+  const hash = isHashRoutedSourceUrl(parsed) ? parsed.hash : "";
+  return `scheme:${parsed.hostname.toLowerCase()}${parsed.pathname}${parsed.search}${hash}`;
 }
 
 function xPolicySlug(url) {
@@ -93,8 +104,10 @@ function sourceKeyAliases(url) {
   const aliases = new Set([sourceKey(url)]);
   try {
     const parsed = new URL(decodeEntities(url));
-    parsed.hash = "";
     parsed.hostname = parsed.hostname.toLowerCase();
+    if (!isHashRoutedSourceUrl(parsed)) {
+      parsed.hash = "";
+    }
     aliases.add(schemeAgnosticSourceKey(parsed));
 
     const noSearch = new URL(parsed);
@@ -138,6 +151,14 @@ function addSourceTarget(sourceTargets, url, sourceFile) {
   }
 }
 
+function primaryTargetForEntry(entry, sourceFiles) {
+  const sourceUrls = entry.source_urls || [entry.source_url].filter(Boolean);
+  if (sourceUrls.length === 1 && entry.output_file) {
+    return [entry.output_file];
+  }
+  return sourceFiles;
+}
+
 function orderedSourceFiles(entry) {
   if (Array.isArray(entry.source_sha256)) {
     return entry.source_sha256
@@ -159,8 +180,9 @@ async function loadManifests() {
     for (const entry of entries) {
       const sourceUrls = entry.source_urls || [entry.source_url].filter(Boolean);
       const files = orderedSourceFiles(entry);
+      const primaryTargets = primaryTargetForEntry(entry, files);
       for (const [index, sourceUrl] of sourceUrls.entries()) {
-        addSourceTarget(sourceTargets, sourceUrl, files[index]);
+        addSourceTarget(sourceTargets, sourceUrl, primaryTargets[index] || files[index]);
       }
       for (const [index, linkedSourceUrl] of (entry.linked_source_urls || []).entries()) {
         addSourceTarget(sourceTargets, linkedSourceUrl, entry.linked_source_files?.[index]);

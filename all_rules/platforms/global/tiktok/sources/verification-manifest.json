@@ -19,6 +19,62 @@
       "https://www.tiktok.com/community-guidelines/en/accounts-features?cgversion=2025H2update",
       "https://www.tiktok.com/community-guidelines/en/enforcement?cgversion=2025H2update"
     ],
+    "linked_source_urls": [
+      "https://www.tiktok.com/safety/community-controls/?lang=en",
+      "https://support.tiktok.com/en/account-and-privacy/account-privacy-settings/privacy-and-safety-settings-for-users-under-age-18",
+      "https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-levels-on-tiktok-posts",
+      "https://newsroom.tiktok.com/en-us/tiktok-for-younger-users",
+      "https://www.tiktok.com/legal/childrens-privacy-policy?lang=en",
+      "https://support.tiktok.com/en/safety-hc/account-and-user-safety/underage-appeals-on-tiktok",
+      "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-user",
+      "https://www.tiktok.com/legal/report/privacy?lang=en",
+      "https://www.tiktok.com/transparency/en/combating-csea",
+      "https://www.tiktok.com/safety/youth-portal/?lang=en",
+      "https://www.tiktok.com/safety/guardians-guide/?lang=en",
+      "https://www.tiktok.com/safety/countering-hate?lang=en",
+      "https://www.tiktok.com/safety/bullying-prevention/?lang=en",
+      "https://www.tiktok.com/safety/sexual-assault-resources/?lang=en",
+      "https://www.tiktok.com/safety/suicide-self-harm/?lang=en",
+      "https://www.tiktok.com/safety/eating-disorder/?lang=en",
+      "https://www.tiktok.com/safety/online-challenges/?lang=en",
+      "https://www.tiktok.com/safety/animal-welfare/?lang=en",
+      "https://www.tiktok.com/transparency/combating-misinformation#GFCP/?lang=en",
+      "https://support.tiktok.com/en/using-tiktok/growing-your-audience/government-politician-and-political-party-accounts",
+      "https://www.tiktok.com/legal/page/global/bc-policy/en",
+      "https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content",
+      "https://www.tiktok.com/legal/page/global/copyright-policy/en",
+      "https://www.tiktok.com/transparency/en/countering-influence-operations",
+      "https://www.tiktok.com/safety/substance-support/?lang=en",
+      "https://www.tiktok.com/safety/gambling-support/?lang=en",
+      "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/branded-content-policy",
+      "https://www.tiktok.com/safety/scams/?lang=en",
+      "https://www.tiktok.com/transparency/en/security-privacy",
+      "https://www.tiktok.com/safety/privacy-and-security-on-tiktok/?lang=en",
+      "https://www.tiktok.com/transparency/en/recommendation-system",
+      "https://www.tiktok.com/safety/live-safety-guide/?lang=en"
+    ],
+    "linked_source_errors": [
+      {
+        "url": "https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans",
+        "error": "attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans\", waiting until \"domcontentloaded\""
+      },
+      {
+        "url": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service",
+        "error": "attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service\", waiting until \"domcontentloaded\""
+      },
+      {
+        "url": "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video",
+        "error": "attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video\", waiting until \"domcontentloaded\""
+      },
+      {
+        "url": "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment",
+        "error": "attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment\", waiting until \"domcontentloaded\""
+      },
+      {
+        "url": "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message",
+        "error": "attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message\", waiting until \"domcontentloaded\""
+      }
+    ],
     "source_files": [
       "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-01.tiktok-com.html",
       "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-02.tiktok-com.html",
@@ -31,14 +87,80 @@
       "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-09.tiktok-com.html",
       "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-10.tiktok-com.html",
       "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-11.tiktok-com.html",
-      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-12.tiktok-com.html"
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-12.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-01-safety-community-controls.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-02-account-privacy-settings-privacy-and-safety-settings-for-users-under-age-18.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-03-account-and-user-safety-content-levels-on-tiktok-posts.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-04-en-us-tiktok-for-younger-users.newsroom-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-05-legal-childrens-privacy-policy.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-06-account-and-user-safety-underage-appeals-on-tiktok.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-07-report-a-problem-report-a-user.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-08-report-privacy.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-09-en-combating-csea.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-10-safety-youth-portal.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-11-safety-guardians-guide.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-12-safety-countering-hate.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-13-safety-bullying-prevention.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-14-safety-sexual-assault-resources.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-15-safety-suicide-self-harm.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-16-safety-eating-disorder.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-17-safety-online-challenges.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-18-safety-animal-welfare.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-19-transparency-combating-misinformation.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-20-growing-your-audience-government-politician-and-political-party-accounts.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-21-bc-policy-en.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-22-creating-videos-ai-generated-content.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-23-copyright-policy-en.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-24-en-countering-influence-operations.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-25-safety-substance-support.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-26-safety-gambling-support.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-27-creator-and-business-accounts-branded-content-policy.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-28-safety-scams.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-29-en-security-privacy.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-30-safety-privacy-and-security-on-tiktok.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-31-en-recommendation-system.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-33-safety-live-safety-guide.tiktok-com.html"
+    ],
+    "linked_source_files": [
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-01-safety-community-controls.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-02-account-privacy-settings-privacy-and-safety-settings-for-users-under-age-18.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-03-account-and-user-safety-content-levels-on-tiktok-posts.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-04-en-us-tiktok-for-younger-users.newsroom-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-05-legal-childrens-privacy-policy.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-06-account-and-user-safety-underage-appeals-on-tiktok.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-07-report-a-problem-report-a-user.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-08-report-privacy.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-09-en-combating-csea.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-10-safety-youth-portal.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-11-safety-guardians-guide.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-12-safety-countering-hate.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-13-safety-bullying-prevention.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-14-safety-sexual-assault-resources.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-15-safety-suicide-self-harm.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-16-safety-eating-disorder.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-17-safety-online-challenges.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-18-safety-animal-welfare.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-19-transparency-combating-misinformation.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-20-growing-your-audience-government-politician-and-political-party-accounts.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-21-bc-policy-en.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-22-creating-videos-ai-generated-content.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-23-copyright-policy-en.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-24-en-countering-influence-operations.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-25-safety-substance-support.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-26-safety-gambling-support.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-27-creator-and-business-accounts-branded-content-policy.support-tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-28-safety-scams.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-29-en-security-privacy.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-30-safety-privacy-and-security-on-tiktok.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-31-en-recommendation-system.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-33-safety-live-safety-guide.tiktok-com.html"
     ],
     "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
-    "extraction_note": null,
-    "paragraph_count": 345,
-    "body_sha256": "1b242428c05cdba6bba20e2221c408d7e7cab820147906ac5cb0909b53dc6ec5",
+    "extraction_note": "https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans\", waiting until \"domcontentloaded\"; https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service\", waiting until \"domcontentloaded\"; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video\", waiting until \"domcontentloaded\"; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment\", waiting until \"domcontentloaded\"; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message\", waiting until \"domcontentloaded\"",
+    "paragraph_count": 1136,
+    "body_sha256": "c23e70105e9bb21cbaeb014c5959d0e3eb8939cafa9633fed4f02dc037b6c72d",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -46,97 +168,353 @@
         "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-01.tiktok-com.html",
         "sha256": "6e4a3199430debd1dbf05fe5d53aec8b144df63289afbc013bf0b9ab67217a18",
         "bytes": 89145,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-02.tiktok-com.html",
         "sha256": "2c0d9fb77df08f8ee5d3d15230bbf50f494953b7d3bd2b0144a7bcea9ff87a3e",
         "bytes": 77586,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-03.tiktok-com.html",
         "sha256": "b3edfd08857f6584941354f2e546acd72f3602edbeefebb5a3afb8a5d70b6220",
         "bytes": 79004,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-04.tiktok-com.html",
         "sha256": "fbd796b4ec014000606675e908d0c05907d63400cf6bad4e08f721245dde099f",
         "bytes": 94762,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-05.tiktok-com.html",
         "sha256": "c3f18ac6d1dcd76ecd2619eb7a5a9f6a0401d58898825ab0509b89d95d564b9c",
         "bytes": 80640,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-06.tiktok-com.html",
         "sha256": "dcd96f3ee96200afbf05d7937e823615ac9b6a04fd81fec87e5a01b53bf116d8",
         "bytes": 81626,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-07.tiktok-com.html",
         "sha256": "a2636a24849a53a78b53060e3f05bf32fd9b8d7b82e62b05e996ca6dff8a824e",
         "bytes": 90053,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-08.tiktok-com.html",
         "sha256": "4915631aba76e4ee03b94a0130dd51e714b0642f08238060ed7f47d0eda34dbd",
         "bytes": 83392,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-09.tiktok-com.html",
         "sha256": "bbf42d5683f1f81eb08ced9b5a93706a9cc0b03e882c72ca41ed7820a07b6399",
         "bytes": 54910,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-10.tiktok-com.html",
         "sha256": "e01b5eb5632048fe84617ff91b27c97f2886ed168d9356044c10783dd78c6b19",
         "bytes": 75550,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-11.tiktok-com.html",
         "sha256": "60d1106afc5d7b7638f8f237560368cc2024a2e3cd24f14a8589ff62decdcdd2",
         "bytes": 101839,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-12.tiktok-com.html",
         "sha256": "0e9e42590503ae64bc0f18541020170ca5bdb90ec57e5a2ebe64bfb1bf5fe8fd",
         "bytes": 80413,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-01-safety-community-controls.tiktok-com.html",
+        "sha256": "69f8797fd148012c3e17e6bce959d66e17e74f120c79918815b22164224328a6",
+        "bytes": 236205,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-02-account-privacy-settings-privacy-and-safety-settings-for-users-under-age-18.support-tiktok-com.html",
+        "sha256": "d4e926c11f48de77a1e95cd20e751ec1e5ffefb8540b9ceb3a59911636c23f55",
+        "bytes": 35550,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-03-account-and-user-safety-content-levels-on-tiktok-posts.support-tiktok-com.html",
+        "sha256": "d4e926c11f48de77a1e95cd20e751ec1e5ffefb8540b9ceb3a59911636c23f55",
+        "bytes": 35550,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-04-en-us-tiktok-for-younger-users.newsroom-tiktok-com.html",
+        "sha256": "07ad2f031b7b3bb3917f0f231fdc830face9554366a850e3e501d6e7d225fd2d",
+        "bytes": 106499,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-05-legal-childrens-privacy-policy.tiktok-com.html",
+        "sha256": "fbcc73fe09abed55e6629e8eafb73683efb2470eea58d545c489189ee5554236",
+        "bytes": 187863,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-06-account-and-user-safety-underage-appeals-on-tiktok.support-tiktok-com.html",
+        "sha256": "d4e926c11f48de77a1e95cd20e751ec1e5ffefb8540b9ceb3a59911636c23f55",
+        "bytes": 35550,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-07-report-a-problem-report-a-user.support-tiktok-com.html",
+        "sha256": "d4e926c11f48de77a1e95cd20e751ec1e5ffefb8540b9ceb3a59911636c23f55",
+        "bytes": 35550,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-08-report-privacy.tiktok-com.html",
+        "sha256": "955965d67d058f57009479096398fce7dc814c87a8783a0befd841bd2d6363fb",
+        "bytes": 277349,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-09-en-combating-csea.tiktok-com.html",
+        "sha256": "e2eec4981aa37ee5b887f1cc3fe0db65117975282d89d6f7e957e719cbed1248",
+        "bytes": 5193969,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-10-safety-youth-portal.tiktok-com.html",
+        "sha256": "5b2b2759b9664bfb0ba28d05d4cb90476694f77b34eabceaf4e3fd85682fa02c",
+        "bytes": 205723,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-11-safety-guardians-guide.tiktok-com.html",
+        "sha256": "f24cedbf0e7198355d1fe5cd283a83aecf8b1a2c1c19f2c083c60a214e16117c",
+        "bytes": 424863,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-12-safety-countering-hate.tiktok-com.html",
+        "sha256": "8916ea4ea38ba2e23d0a3ed378eb429b8ea65c839bfbe05b0cbfe786d22dc599",
+        "bytes": 249521,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-13-safety-bullying-prevention.tiktok-com.html",
+        "sha256": "730e25783904a2dc5da3a331c65f02c906bbf6a35623e8cd67b00bcc9c0be131",
+        "bytes": 280067,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-14-safety-sexual-assault-resources.tiktok-com.html",
+        "sha256": "e42d4775d1968917fad5b796d4fe86193222134c993391b6aef70b3758c52b66",
+        "bytes": 332123,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-15-safety-suicide-self-harm.tiktok-com.html",
+        "sha256": "76db983ea1c25b0b03b031de12939ca8138b2ae005053a7a2b56fc872c69c27b",
+        "bytes": 345373,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-16-safety-eating-disorder.tiktok-com.html",
+        "sha256": "60b33ddb35fb59be8bdb3be48fe64ee1b3cee6be3c61f782881d8e2b9879e66f",
+        "bytes": 280213,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-17-safety-online-challenges.tiktok-com.html",
+        "sha256": "8bed9d62bf115575a300f98e66e615b56b8a3a7f57b19bcaa299406ea8f19753",
+        "bytes": 237359,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-18-safety-animal-welfare.tiktok-com.html",
+        "sha256": "813298123c8f5555e7ea2fd429b39e5df3df39a82ce0946ffa740959a8e11ece",
+        "bytes": 242725,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-19-transparency-combating-misinformation.tiktok-com.html",
+        "sha256": "aeaee5a64cbb66be85de82a27e5341067ecce7248476699a4a6853868d15157c",
+        "bytes": 89566,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-20-growing-your-audience-government-politician-and-political-party-accounts.support-tiktok-com.html",
+        "sha256": "d4e926c11f48de77a1e95cd20e751ec1e5ffefb8540b9ceb3a59911636c23f55",
+        "bytes": 35550,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-21-bc-policy-en.tiktok-com.html",
+        "sha256": "19223cb9339faf20a8a5b1369d919c62ccbe7a2883e0d7d8a429c7f19a21f041",
+        "bytes": 234827,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-22-creating-videos-ai-generated-content.support-tiktok-com.html",
+        "sha256": "5c8281947f90b497332405e8468a756328cfd5226f7dfa1029b149e02559237d",
+        "bytes": 40481,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-23-copyright-policy-en.tiktok-com.html",
+        "sha256": "773b43c9da65d37c1b837e6acf11465c778236b8e64eb511048c27fe89662904",
+        "bytes": 211825,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-24-en-countering-influence-operations.tiktok-com.html",
+        "sha256": "421186248a9512d779d86557321c40465b7681752e9184ac56744742df03350d",
+        "bytes": 83752,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-25-safety-substance-support.tiktok-com.html",
+        "sha256": "324daa884dba8074c523d0907d6f8ada49c01998c9e85bb5b4de051f117bcd11",
+        "bytes": 62596,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-26-safety-gambling-support.tiktok-com.html",
+        "sha256": "e7abd1a43c6674830357a5e7f1a3a4c6c4d6da0fb34d4208adea2674aa0697fd",
+        "bytes": 228115,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-27-creator-and-business-accounts-branded-content-policy.support-tiktok-com.html",
+        "sha256": "e9ccd7079bea3fc2c39ac6d0f090a5feda7bcc95ba1aa36f973a7e50e377bbf9",
+        "bytes": 372041,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-28-safety-scams.tiktok-com.html",
+        "sha256": "37b55d786de31dec0d602b26014d58fc7165ed4d35ac37b1ecd26956dcbcd4cc",
+        "bytes": 265845,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-29-en-security-privacy.tiktok-com.html",
+        "sha256": "fa72bad9a8b198c6dabf27c0518c61654c258c002e0db51739dbc5c36f0be949",
+        "bytes": 5182115,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-30-safety-privacy-and-security-on-tiktok.tiktok-com.html",
+        "sha256": "a640349b389f60172c49e59c75f9aa7400bffcd3a5d3da2cc156508babc3201c",
+        "bytes": 82372,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-31-en-recommendation-system.tiktok-com.html",
+        "sha256": "7b0d922ed2253a2bea2c3a57b97ee37403625025e8e4354325f84466018afad9",
+        "bytes": 89017,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-33-safety-live-safety-guide.tiktok-com.html",
+        "sha256": "be6d4007bbe8d7ab8a654e1a62dcb3e6fb18cc91bbfd27dd03c29bb5beeefb43",
+        "bytes": 90369,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
       }
     ]
   }

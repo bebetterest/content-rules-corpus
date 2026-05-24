@@ -6,6 +6,8 @@
 - Source Authority: Steam Support / Valve
 - Source URL:
 - https://help.steampowered.com/en/faqs/view/6862-8119-C23E-EA7B
+- Linked Source URL:
+- https://store.steampowered.com/online_conduct -> sources/platform-steam-rules-guidelines-linked-01-online-conduct.store-steampowered-com.html
 - Retrieval Date: 2026-05-24
 - Language: en
 - Fetch Method: html
@@ -14,7 +16,8 @@
 - Status Note: Official Steam Support FAQ page. The rule body is stored in the official page FAQ data payload and extracted from that downloaded artifact.
 - Source SHA-256:
 - all_rules/platforms/global/steam/sources/platform-steam-rules-guidelines.help-steampowered-com.html: 161089db4931a442edcd2f89d7f5f9bf7d8e9f2d66ce88fe06ef982da6957611
-- Body SHA-256: cb0a377df4e87319b99379b15f2f3d052ab41c7e63ca39c31db7675195163a94
+- all_rules/platforms/global/steam/sources/platform-steam-rules-guidelines-linked-01-online-conduct.store-steampowered-com.html: 7c6058ef02d4bd87edeb71854ce497998f99632fa6625f08b0f4562df6c4e43e
+- Body SHA-256: 4130155be2108e953ab1627a38230f091695c32be1f8d9f02021a413dcae9c68
 
 ## Source Text
 
@@ -28,7 +31,7 @@ We also understand that it is challenging to evaluate appropriateness within suc
 
 ## Online Conduct
 
-Our [Online Conduct rules](https://store.steampowered.com/online_conduct) broadly apply to all behaviors and content on Steam. Content or behaviors that violate these rules are not allowed. Accounts that post such content or engage in such behavior may be subject to restrictions.
+Our [Online Conduct rules](sources/platform-steam-rules-guidelines-linked-01-online-conduct.store-steampowered-com.html) broadly apply to all behaviors and content on Steam. Content or behaviors that violate these rules are not allowed. Accounts that post such content or engage in such behavior may be subject to restrictions.
 
 The guidelines below are intended to provide more context for how the online conduct rules apply to various areas of Steam, while also including additional specifics for those areas.
 

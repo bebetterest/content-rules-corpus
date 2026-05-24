@@ -39,11 +39,21 @@ function repoRelative(filePath) {
   return path.relative(ROOT, filePath).split(path.sep).join("/");
 }
 
+function isHashRoutedSourceUrl(parsed) {
+  const host = parsed.hostname.toLowerCase().replace(/^www\./, "");
+  return (
+    (host === "bilibili.com" && parsed.pathname === "/blackboard/help.html") ||
+    (host === "link.bilibili.com" && parsed.pathname === "/p/eden/news")
+  );
+}
+
 function sourceKey(url) {
   try {
     const parsed = new URL(decodeEntities(String(url)));
-    parsed.hash = "";
     parsed.hostname = parsed.hostname.toLowerCase();
+    if (!isHashRoutedSourceUrl(parsed)) {
+      parsed.hash = "";
+    }
     for (const key of [...parsed.searchParams.keys()]) {
       if (key.startsWith("utm_")) {
         parsed.searchParams.delete(key);
@@ -56,7 +66,8 @@ function sourceKey(url) {
 }
 
 function schemeAgnosticSourceKey(parsed) {
-  return `scheme:${parsed.hostname.toLowerCase()}${parsed.pathname}${parsed.search}`;
+  const hash = isHashRoutedSourceUrl(parsed) ? parsed.hash : "";
+  return `scheme:${parsed.hostname.toLowerCase()}${parsed.pathname}${parsed.search}${hash}`;
 }
 
 function xPolicySlug(url) {
@@ -97,8 +108,10 @@ function sourceKeyAliases(url) {
   const aliases = new Set([sourceKey(url)]);
   try {
     const parsed = new URL(decodeEntities(String(url)));
-    parsed.hash = "";
     parsed.hostname = parsed.hostname.toLowerCase();
+    if (!isHashRoutedSourceUrl(parsed)) {
+      parsed.hash = "";
+    }
     aliases.add(schemeAgnosticSourceKey(parsed));
 
     const noSearch = new URL(parsed);

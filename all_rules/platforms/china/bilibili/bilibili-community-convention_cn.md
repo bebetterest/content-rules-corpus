@@ -7,6 +7,14 @@
 - Source URL:
 - https://member.bilibili.com/studio/convention/?navhide=1
 - https://s1.hdslb.com/bfs/static/creator-monorepo/convention/static/js/index.b2b1ac9c.js
+- Linked Source URL:
+- https://link.bilibili.com/p/eden/news#/newsdetail?id=135 -> sources/platform-bilibili-community-convention-linked-01-eden-news.link-bilibili-com.html
+- https://www.bilibili.com/blackboard/blackroomrule_v17.html -> sources/platform-bilibili-community-convention-linked-02-blackboard-blackroomrule-v17.bilibili-com.html
+- https://www.bilibili.com/blackboard/help.html#/?qid=90776f35efa3492f9eaa4a7db2d6033a&pid=722fe76ea7d641588b2a01164eaa1701 -> sources/platform-bilibili-community-convention-linked-03-blackboard-help.bilibili-com.html
+- https://www.bilibili.com/read/cv16567771?spm_id_from=333.999.0.0 -> sources/platform-bilibili-community-convention-linked-04-read-cv16567771.bilibili-com.html
+- https://www.bilibili.com/blackboard/help.html#/?qid=e55a848237ea43a4900eda655d76c03b&pid=15cd151d07964bcca90086ddbfb5ccb8 -> sources/platform-bilibili-community-convention-linked-05-blackboard-help.bilibili-com.html
+- https://www.bilibili.com/blackboard/help.html#/?qid=341 -> sources/platform-bilibili-community-convention-linked-06-blackboard-help.bilibili-com.html
+- https://www.bilibili.com/blackboard/help.html#/?qid=9a6a3254395240378c153710a14f364a&pid=ab41e1b88c454d3f9914c5af12fc77b2 -> sources/platform-bilibili-community-convention-linked-07-blackboard-help.bilibili-com.html
 - Retrieval Date: 2026-05-24
 - Language: zh-CN
 - Fetch Method: html+js-bundle
@@ -16,7 +24,14 @@
 - Source SHA-256:
 - all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-01.member-bilibili-com.html: 11b89d18fac7c28c3e0efea3e55a9683616f9771ec63df3e789d9aaa7ee30e02
 - all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-02.s1-hdslb-com.html: 3a3421dd531b130e1865a4c671c131b87cdd4dc4d939b4d4589371b82d9e2d6b
-- Body SHA-256: 4c5170e3e6ae6d76420f55c999b046da4d3046edb3396a79de1fbc9423336787
+- all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-linked-01-eden-news.link-bilibili-com.html: 45b42b4bd2b0f6d8c35626a1d134dc817616a0810ec69a6c938746d838cb4521
+- all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-linked-02-blackboard-blackroomrule-v17.bilibili-com.html: c3be7837075e8ff9dc137c8729c35a552e5c44696d45d5d1dc4a269c9df711d1
+- all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-linked-03-blackboard-help.bilibili-com.html: de19dd657b076f304cafee34e355ae26140a2de8bd4d03a8554f08c4918b6f47
+- all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-linked-04-read-cv16567771.bilibili-com.html: 976c1e57780eb666b958c6a8190ac30ca4ca3896aaa56e760cf2ac507bd18a76
+- all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-linked-05-blackboard-help.bilibili-com.html: 772a85d712fb3c7fc32d400778c2d3b931d6fb20033b49dfbeba2f9c0c45316b
+- all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-linked-06-blackboard-help.bilibili-com.html: f676178c2703d60f74203d9cded960fdb6c758d3a9d31cd3d2a1d683c1c99491
+- all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-linked-07-blackboard-help.bilibili-com.html: 8cda1eee4e33b8b920c889713465929986e8e636c3e3451042d0f0db6c5bef65
+- Body SHA-256: 42dd51f3220333a46db9d1bc8a92c6b625480f051e67fa12ed403ec7538fcaea
 
 ## Source Text
 
@@ -52,9 +67,9 @@
 
 7、用户之间友好的交流环境是健康良好社区氛围的重要基础，bilibili对于平台中出现的互动发言（评论、弹幕等）违规问题，bilibili将考虑以更严格的态度进行管理，维护站内友善和谐的沟通氛围。
 
-8、对于bilibili直播规范细节，详情可参阅 [点击打开链接](https://link.bilibili.com/p/eden/news#/newsdetail?id=135)
+8、对于bilibili直播规范细节，详情可参阅 [点击打开链接](sources/platform-bilibili-community-convention-linked-01-eden-news.link-bilibili-com.html)
 
-9、对于bilibili账号处罚细节，详情可参阅 [点击打开链接](https://www.bilibili.com/blackboard/blackroomrule_v17.html)
+9、对于bilibili账号处罚细节，详情可参阅 [点击打开链接](sources/platform-bilibili-community-convention-linked-02-blackboard-blackroomrule-v17.bilibili-com.html)
 
 10、为加强“自媒体”管理，健全管理制度机制，bilibili将逐步引导粉丝量 50 万以上“自媒体”账号进行前台实名展示。如不同意实名，bilibili将酌情对相关账号及其发布内容采取限制内容传播、限制营利权限等处置，详情可见 [点击打开链接](https://www.bilibili.com/opus/858609081124913204)
 
@@ -254,7 +269,7 @@
 
 ③搬运著作权人禁止转载的内容或搬运站内长期活跃的创作者内容。
 
-关于著作权常见问题，详情可见: [点击打开链接](https://www.bilibili.com/blackboard/help.html#/?qid=90776f35efa3492f9eaa4a7db2d6033a&pid=722fe76ea7d641588b2a01164eaa1701)
+关于著作权常见问题，详情可见: [点击打开链接](sources/platform-bilibili-community-convention-linked-03-blackboard-help.bilibili-com.html)
 
 （2）禁止未经权利人同意发布其身份、照片、姓名、生活细节等个人信息，或以其它方式侵害他人个人隐私；
 
@@ -736,7 +751,7 @@ bilibili根据相关法规对新闻信息进行管理。针对新闻信息的日
 
 bilibili鼓励具备专业资质的创作者以信息真实性、准确性、可追溯性为前提，以尊重客观规律、实事求是的方式进行相关专业领域内容创作，避免因内容失实、误导造成他人生命健康损害、财产损失。
 
-依照相关法规要求，通过bilibili平台发布涉及财经、医疗、司法、教育等专业领域内容的，应向bilibili申请专业资质认证并依照相关要求提交资质证明。bilibili也将对相关专业领域内容进行严格管理。 [职业资质认证已升级！最新规则出炉 ~](https://www.bilibili.com/read/cv16567771?spm_id_from=333.999.0.0)
+依照相关法规要求，通过bilibili平台发布涉及财经、医疗、司法、教育等专业领域内容的，应向bilibili申请专业资质认证并依照相关要求提交资质证明。bilibili也将对相关专业领域内容进行严格管理。 [职业资质认证已升级！最新规则出炉 ~](sources/platform-bilibili-community-convention-linked-04-read-cv16567771.bilibili-com.html)
 
 对于违反规范的情形，bilibili将采取不仅限于删除下线、限制内容传播、添加平台提醒标识的处置，管理范围包括但不限于：
 
@@ -878,7 +893,7 @@ bilibili认为以下内容属于违规行为，包括但不限于：
 
 若您需要使用抽奖功能，可使用官方动态抽奖工具，详情可参考
 
-[全站使用说明 - 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ - bilibili](https://www.bilibili.com/blackboard/help.html#/?qid=e55a848237ea43a4900eda655d76c03b&pid=15cd151d07964bcca90086ddbfb5ccb8)
+[全站使用说明 - 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ - bilibili](sources/platform-bilibili-community-convention-linked-05-blackboard-help.bilibili-com.html)
 
 ### 低质及不良观感
 
@@ -1018,7 +1033,7 @@ bilibili将对威胁到网络技术服务稳定和网络信息安全的行为予
 
 如直播活动涉及上述违规内容的，也将对其采取不仅限于扣除SAN值、警告提醒、取消直播推荐资格、切断直播流、限制开播、封禁直播间的处置。
 
-如果需要发布含有商业推广的内容，请参考下方链接内的“ [内容合作（商单）相关](https://www.bilibili.com/blackboard/help.html#/?qid=341) ”信息。
+如果需要发布含有商业推广的内容，请参考下方链接内的“ [内容合作（商单）相关](sources/platform-bilibili-community-convention-linked-06-blackboard-help.bilibili-com.html) ”信息。
 
 ## 投稿规范
 
@@ -1058,7 +1073,7 @@ bilibili会根据明确可识别的创作标识信息、内容的独创性、创
 
 3、关于防撞：在视频音画内容基本一致或相似度过高，但通过添加“防撞”用途的无关分P来规避撞车判定的，仍会被判定为撞车或重复投稿。
 
-如对撞车判定存在疑义（如原作者被判定撞车），可参照“申诉管理”中“稿件撞车”部分进行申诉，详情链接如下： [点击打开链接](https://www.bilibili.com/blackboard/help.html#/?qid=9a6a3254395240378c153710a14f364a&pid=ab41e1b88c454d3f9914c5af12fc77b2)
+如对撞车判定存在疑义（如原作者被判定撞车），可参照“申诉管理”中“稿件撞车”部分进行申诉，详情链接如下： [点击打开链接](sources/platform-bilibili-community-convention-linked-07-blackboard-help.bilibili-com.html)
 
 ### 标签（TAG）违规问题
 
@@ -1112,7 +1127,7 @@ bilibili会根据明确可识别的创作标识信息、内容的独创性、创
 
 [《互联网宗教信息服务管理办法》](http://www.gov.cn/gongbao/content/2022/content_5678093.htm)
 
-[《网络信息内容生态治理规定》](../../../china/sources/provisions-online-content-ecosystem.cac.html)
+[《网络信息内容生态治理规定》](../../../china/provisions-on-governance-of-online-information-content-ecosystem_cn.md)
 
 [《互联网用户公众账号信息服务管理规定》](http://www.cac.gov.cn/2021-01/22/c_1612887880656609.htm)
 
