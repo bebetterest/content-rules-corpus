@@ -484,6 +484,20 @@ function markdownLinkTarget(url) {
   return String(url).replace(/\)/g, "%29");
 }
 
+function mergeStandaloneListMarkers(lines) {
+  const merged = [];
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index];
+    if (line === "-" && lines[index + 1] && lines[index + 1] !== "-") {
+      merged.push(`- ${lines[index + 1]}`);
+      index += 1;
+    } else {
+      merged.push(line);
+    }
+  }
+  return merged;
+}
+
 function htmlToLinkedText(html, baseUrl, linkMap) {
   const withSelfClosingAnchors = html.replace(/<a\b[^>]*href=(["'])(.*?)\1[^>]*\/>\s*([^<\n]+)/gi, (full, _quote, href, label) => {
     const text = htmlToText(label);
@@ -538,11 +552,38 @@ function stripHtmlToLines(html, options = {}) {
     .replace(/<br\s*\/?\s*>/gi, "\n")
     .replace(/<[^>]+>/g, " ");
 
-  return cleanText(withBreaks).split("\n").filter(Boolean);
+  return mergeStandaloneListMarkers(cleanText(withBreaks).split("\n").filter(Boolean));
 }
 
 function htmlToText(html) {
   return cleanText(html.replace(/<[^>]+>/g, " "));
+}
+
+function htmlElementById(html, id) {
+  const startPattern = new RegExp(`<([a-z0-9]+)\\b(?=[^>]*\\bid=(["'])${id}\\2)[^>]*>`, "i");
+  const startMatch = startPattern.exec(html);
+  if (!startMatch) {
+    return null;
+  }
+
+  const tagName = startMatch[1].toLowerCase();
+  const openClosePattern = new RegExp(`<\\/?${tagName}\\b[^>]*>`, "gi");
+  openClosePattern.lastIndex = startMatch.index;
+  let depth = 0;
+  let match;
+
+  while ((match = openClosePattern.exec(html))) {
+    if (match[0].startsWith("</")) {
+      depth -= 1;
+      if (depth === 0) {
+        return html.slice(startMatch.index, openClosePattern.lastIndex);
+      }
+    } else if (!match[0].endsWith("/>")) {
+      depth += 1;
+    }
+  }
+
+  return null;
 }
 
 function cleanText(text) {
@@ -817,6 +858,90 @@ function extractGoogleHelpArticle(entry, downloads, linkMap = new Map()) {
   return validateExtractedBody(entry, parts.join("\n\n---\n\n"), extractionNotes);
 }
 
+function extractGitHubDocsArticle(entry, downloads, linkMap = new Map()) {
+  const parts = [];
+  const extractionNotes = [];
+
+  for (const item of downloads) {
+    const html = decodeBuffer(item.buffer);
+    const titleMatch = html.match(/<h1\b[^>]*id=(["'])title-h1\1[^>]*>([\s\S]*?)<\/h1>/i);
+    const title = titleMatch ? htmlToText(titleMatch[2]) : "";
+    const articleHtml = htmlElementById(html, "article-contents");
+    if (!articleHtml) {
+      extractionNotes.push(`${item.url}: GitHub Docs article contents were not found`);
+      continue;
+    }
+
+    const lines = applyLineFilters(stripHtmlToLines(articleHtml, { baseUrl: item.url, linkMap }), entry);
+    if (lines.length > 0) {
+      parts.push([title ? `# ${title}` : "", lines.join("\n\n")].filter(Boolean).join("\n\n"));
+    }
+  }
+
+  return validateExtractedBody(entry, parts.join("\n\n---\n\n"), extractionNotes);
+}
+
+function steamBbcodeToMarkdown(text, baseUrl, linkMap = new Map()) {
+  let output = decodeEntities(text).replace(/\r/g, "\n");
+  output = output.replace(/\[url=([^\]]+)\]([\s\S]*?)\[\/url\]/gi, (_full, href, label) => {
+    const url = resolveSourceUrl(href, baseUrl);
+    const cleanLabel = cleanText(label);
+    if (!url || !cleanLabel) {
+      return cleanLabel;
+    }
+    const localTarget = linkMap.get(sourceKey(url));
+    return `[${cleanLabel}](${markdownLinkTarget(localTarget || url)})`;
+  });
+  output = output
+    .replace(/\[h1(?:\s+[^\]]*)?\]/gi, "\n\n## ")
+    .replace(/\[\/h1\]/gi, "\n\n")
+    .replace(/\[h2(?:\s+[^\]]*)?\]/gi, "\n\n### ")
+    .replace(/\[\/h2\]/gi, "\n\n")
+    .replace(/\[h3(?:\s+[^\]]*)?\]/gi, "\n\n#### ")
+    .replace(/\[\/h3\]/gi, "\n\n")
+    .replace(/\[hr\]\s*\[\/hr\]/gi, "\n\n")
+    .replace(/\[list\]/gi, "\n")
+    .replace(/\[\/list\]/gi, "\n")
+    .replace(/\[\*\]/g, "\n- ")
+    .replace(/\[\/?(?:b|i|u|strike|code|quote|url|h[1-6]|list|hr)[^\]]*\]/gi, "");
+  return cleanText(output);
+}
+
+function extractSteamFaqStore(entry, downloads, linkMap = new Map()) {
+  const parts = [];
+  const extractionNotes = [];
+
+  for (const item of downloads) {
+    const html = decodeBuffer(item.buffer);
+    const faqStoreMatch = html.match(/\bdata-faqstore=(["'])([\s\S]*?)\1/i);
+    if (!faqStoreMatch) {
+      extractionNotes.push(`${item.url}: Steam FAQ data store was not found`);
+      continue;
+    }
+
+    try {
+      const faqStore = JSON.parse(decodeEntities(faqStoreMatch[2]));
+      const faqs = Object.values(faqStore.faqs || {});
+      if (faqs.length === 0) {
+        extractionNotes.push(`${item.url}: Steam FAQ data store contains no FAQ records`);
+        continue;
+      }
+      for (const faq of faqs) {
+        if (!faq?.content) {
+          continue;
+        }
+        const title = faq.title ? `# ${cleanText(faq.title)}` : "";
+        const body = steamBbcodeToMarkdown(faq.content, item.url, linkMap);
+        parts.push([title, body].filter(Boolean).join("\n\n"));
+      }
+    } catch (error) {
+      extractionNotes.push(`${item.url}: Steam FAQ data store parse failed: ${error.message}`);
+    }
+  }
+
+  return validateExtractedBody(entry, parts.join("\n\n---\n\n"), extractionNotes);
+}
+
 async function extractBody(entry, downloads, linkMap = new Map()) {
   if (entry.fetch_method === "stub" || entry.extractor === "stub") {
     return {
@@ -839,6 +964,12 @@ async function extractBody(entry, downloads, linkMap = new Map()) {
   }
   if (entry.extractor === "google-help-article") {
     return extractGoogleHelpArticle(entry, downloads, linkMap);
+  }
+  if (entry.extractor === "github-docs-article") {
+    return extractGitHubDocsArticle(entry, downloads, linkMap);
+  }
+  if (entry.extractor === "steam-faqstore-json") {
+    return extractSteamFaqStore(entry, downloads, linkMap);
   }
   if (entry.extractor === "html-data-json") {
     return extractJsonHtmlData(entry, downloads, "HTML data", linkMap);

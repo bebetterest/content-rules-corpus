@@ -186,3 +186,14 @@ Federal extraction updates:
 - These entries fill additional hate/harassment, rights-interference, civic-integrity, intimidation, and retaliation gaps.
 
 Verification status after this pass: 139 registry entries are indexed; 138 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Global Platform GitHub and Steam Gap Fill
+
+Platform extraction updates:
+
+- Added GitHub official acceptable-use sources from GitHub Docs, including the main Acceptable Use Policies page and detailed policy pages for malware/exploits, bullying and harassment, doxxing/privacy invasion, hate speech, impersonation, misinformation, sexually obscene content, violent threats, terrorism and violent extremism, child sexual exploitation or abuse, non-consensual intimate imagery, and synthetic media/AI tools.
+- Added Steam official rules and guidelines for discussions, reviews, and user-generated content from the Steam Support FAQ page. The source text is extracted from the official FAQ data payload stored in the downloaded HTML artifact.
+- Added dedicated extractors for GitHub Docs article bodies and Steam FAQ payloads so navigation, shell markup, and script data are not treated as rule text.
+- No additional U.S. federal legal provisions were added in this pass.
+
+Verification status after this pass: 141 registry entries are indexed; 140 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).

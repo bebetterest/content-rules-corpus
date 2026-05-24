@@ -3,13 +3,20 @@
   "directory": "all_rules/platforms/global",
   "generated_by": "scripts/generate_rule_indexes.mjs",
   "rule_count": 0,
-  "descendant_rule_count": 11,
+  "descendant_rule_count": 13,
   "rules": [],
   "children": [
     {
       "name": "discord",
       "path": "all_rules/platforms/global/discord",
       "index": "all_rules/platforms/global/discord/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "github",
+      "path": "all_rules/platforms/global/github",
+      "index": "all_rules/platforms/global/github/index.json",
       "rule_count": 1,
       "descendant_rule_count": 1
     },
@@ -52,6 +59,13 @@
       "name": "snapchat",
       "path": "all_rules/platforms/global/snapchat",
       "index": "all_rules/platforms/global/snapchat/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "steam",
+      "path": "all_rules/platforms/global/steam",
+      "index": "all_rules/platforms/global/steam/index.json",
       "rule_count": 1,
       "descendant_rule_count": 1
     },

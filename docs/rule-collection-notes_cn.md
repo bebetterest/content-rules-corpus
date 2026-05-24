@@ -186,3 +186,14 @@
 - 这些条目进一步补齐 hate/harassment、rights-interference、civic-integrity、intimidation、retaliation 缺口。
 
 本轮后的校验状态：registry 中 139 条记录均已进入索引；138 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 全球平台 GitHub 与 Steam 补缺
+
+平台抽取更新：
+
+- 新增 GitHub Docs 官方 acceptable-use 来源，包括主 Acceptable Use Policies 页面，以及 malware/exploits、bullying and harassment、doxxing/privacy invasion、hate speech、impersonation、misinformation、sexually obscene content、violent threats、terrorism and violent extremism、child sexual exploitation or abuse、non-consensual intimate imagery、synthetic media/AI tools 等详细政策页面。
+- 新增 Steam Support 官方 discussions、reviews、user-generated content rules and guidelines。正文从下载 HTML artifact 中的官方 FAQ data payload 抽取。
+- 新增 GitHub Docs article body 与 Steam FAQ payload 专用抽取器，避免把导航、页面 shell 标记和脚本数据当作规则正文。
+- 本轮未继续新增美国联邦法律条文。
+
+本轮后的校验状态：registry 中 141 条记录均已进入索引；140 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。

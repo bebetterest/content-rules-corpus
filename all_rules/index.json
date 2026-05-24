@@ -3,7 +3,7 @@
   "directory": "all_rules",
   "generated_by": "scripts/generate_rule_indexes.mjs",
   "rule_count": 0,
-  "descendant_rule_count": 139,
+  "descendant_rule_count": 141,
   "rules": [],
   "children": [
     {
@@ -18,7 +18,7 @@
       "path": "all_rules/platforms",
       "index": "all_rules/platforms/index.json",
       "rule_count": 0,
-      "descendant_rule_count": 22
+      "descendant_rule_count": 24
     },
     {
       "name": "united-states",

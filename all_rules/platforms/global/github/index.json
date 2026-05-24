@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/global/github",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "GitHub Acceptable Use Policies",
+      "file": "github-acceptable-use-policies.md",
+      "path": "all_rules/platforms/global/github/github-acceptable-use-policies.md",
+      "collection": "platforms",
+      "jurisdiction": "Global / platform policy",
+      "scope_note": "GitHub acceptable-use and detailed safety policies for user content and activity on GitHub; not a government legal code.",
+      "source_authority": "GitHub Docs",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "github-docs-article",
+      "extraction_status": "extracted",
+      "status_note": "Official GitHub Docs acceptable-use page plus detailed official acceptable-use policy pages linked from the same policy collection.",
+      "source_urls": [
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-active-malware-or-exploits",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-bullying-and-harassment",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-disrupting-the-experience-of-other-users",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-doxxing-and-invasion-of-privacy",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-hate-speech-and-discrimination",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-impersonation",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-misinformation-and-disinformation",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-sexually-obscene-content",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-threats-of-violence-and-gratuitously-violent-content",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-terrorism-and-violent-extremism",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-child-sexual-exploitation-or-abuse",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-non-consensual-intimate-imagery",
+        "https://docs.github.com/en/site-policy/acceptable-use-policies/github-synthetic-media-and-ai-tools"
+      ]
+    }
+  ],
+  "children": []
+}
