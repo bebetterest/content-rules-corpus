@@ -1,0 +1,2 @@
+# Preserve downloaded source artifacts exactly and avoid text whitespace checks.
+all_rules/**/sources/** -diff

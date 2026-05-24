@@ -1,0 +1,22 @@
+[
+  {
+    "id": "platform-roblox-community-standards",
+    "title": "Roblox Community Standards",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/global/roblox/roblox-community-standards.md",
+    "source_urls": [
+      "https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Standards"
+    ],
+    "source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "stub",
+    "extraction_note": "https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Standards: attempt 1: fetch failed: HTTP 403; curl failed: curl: (56) The requested URL returned error: 403",
+    "paragraph_count": 0,
+    "body_sha256": null,
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": []
+  }
+]

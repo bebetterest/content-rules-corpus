@@ -1,0 +1,33 @@
+[
+  {
+    "id": "platform-tiktok-community-guidelines",
+    "title": "TikTok Community Guidelines",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/global/tiktok/tiktok-community-guidelines.md",
+    "source_urls": [
+      "https://www.tiktok.com/community-guidelines/en/"
+    ],
+    "source_files": [
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines.tiktok-com.html"
+    ],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "stub",
+    "extraction_note": "extracted text length 30 is below minimum 5000; missing required phrase(s): Community Guidelines",
+    "paragraph_count": 0,
+    "body_sha256": null,
+    "attempted_text_sha256": "3da6fae2b4fd6a6329e00d57a1f35216906212a32d4de6c5a5eb050a38865a7e",
+    "attempted_text_length": 30,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines.tiktok-com.html",
+        "sha256": "028b02ff8c202080956e43324c7716cb1300f04dce8e7741b5c7503de42874e3",
+        "bytes": 171082,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  }
+]

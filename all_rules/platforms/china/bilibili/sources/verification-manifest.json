@@ -1,0 +1,43 @@
+[
+  {
+    "id": "platform-bilibili-community-convention",
+    "title": "bilibili社区公约",
+    "collection": "platforms",
+    "jurisdiction": "China / platform policy",
+    "output_file": "all_rules/platforms/china/bilibili/bilibili-community-convention_cn.md",
+    "source_urls": [
+      "https://member.bilibili.com/studio/convention/?navhide=1",
+      "https://s1.hdslb.com/bfs/static/creator-monorepo/convention/static/js/index.b2b1ac9c.js"
+    ],
+    "source_files": [
+      "all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-01.member-bilibili-com.html",
+      "all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-02.s1-hdslb-com.html"
+    ],
+    "retrieved_date": "2026-05-24",
+    "language": "zh-CN",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 560,
+    "body_sha256": "3ec9a8d7133f624f349da22f841b28a19dc27ffe221f94d7da3daf19d5fdef4d",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-01.member-bilibili-com.html",
+        "sha256": "11b89d18fac7c28c3e0efea3e55a9683616f9771ec63df3e789d9aaa7ee30e02",
+        "bytes": 1742,
+        "downloader": "fetch",
+        "fallback_from": null,
+        "content_type": "text/html"
+      },
+      {
+        "source_file": "all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-02.s1-hdslb-com.html",
+        "sha256": "3a3421dd531b130e1865a4c671c131b87cdd4dc4d939b4d4589371b82d9e2d6b",
+        "bytes": 133490,
+        "downloader": "fetch",
+        "fallback_from": null,
+        "content_type": "application/javascript; charset=utf-8"
+      }
+    ]
+  }
+]

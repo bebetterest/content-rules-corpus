@@ -1,0 +1,25 @@
+[
+  {
+    "id": "platform-x-rules",
+    "title": "The X Rules",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/global/x/x-rules.md",
+    "source_urls": [
+      "https://help.x.com/en/rules-and-policies/x-rules",
+      "https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors",
+      "https://help.x.com/en/rules-and-policies/violent-speech",
+      "https://help.x.com/en/rules-and-policies/hateful-conduct-policy"
+    ],
+    "source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "stub",
+    "extraction_note": "https://help.x.com/en/rules-and-policies/x-rules: attempt 1: fetch failed: fetch failed; curl failed: curl: (56) The requested URL returned error: 403; https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors: attempt 1: fetch failed: fetch failed; curl failed: curl: (56) The requested URL returned error: 403; https://help.x.com/en/rules-and-policies/violent-speech: attempt 1: fetch failed: This operation was aborted; curl failed: curl: (56) The requested URL returned error: 403; https://help.x.com/en/rules-and-policies/hateful-conduct-policy: attempt 1: fetch failed: This operation was aborted; curl failed: curl: (56) The requested URL returned error: 403",
+    "paragraph_count": 0,
+    "body_sha256": null,
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": []
+  }
+]

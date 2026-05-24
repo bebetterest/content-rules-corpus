@@ -1,0 +1,17 @@
+# 美国规则
+
+本目录收集美国内容安全相关法律、法规和规则来源。
+
+## 目录结构
+
+- `federal/`：联邦法律、法规、公共法律及相关联邦官方来源。
+- `states/`：州层面来源。每个州法文件必须明确说明仅在该州法律范围内适用，不是全国联邦法。
+
+## 处理规则
+
+- 正文必须通过 `scripts/fetch_rules.mjs` 从官方或可信一手来源生成。
+- 州法文件必须在任何正文之前包含 `Scope Note:`。
+- 如果现行有效性、诉讼状态、禁令状态、成文化状态或抽取完整性存在不确定，必须在文件开头说明。
+- 如果无法确认完整官方全文，只保留生成的 source stub。
+
+English version: [README.md](/Users/hobeter/Desktop/code/rules/all_rules/united-states/README.md)

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "platform-kuaishou-community-management-standard",
+    "title": "快手社区管理规范",
+    "collection": "platforms",
+    "jurisdiction": "China / platform policy",
+    "output_file": "all_rules/platforms/china/kuaishou/kuaishou-community-management-standard_cn.md",
+    "source_urls": [
+      "https://www.kuaishou.com/norm?tab=community"
+    ],
+    "source_files": [
+      "all_rules/platforms/china/kuaishou/sources/platform-kuaishou-community-management-standard.kuaishou-com.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "zh-CN",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 145,
+    "body_sha256": "fa13a5a9ff5f8e888ca3e684acd385fadb2617cd711dbd26b8f3d3981c799dff",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/china/kuaishou/sources/platform-kuaishou-community-management-standard.kuaishou-com.html",
+        "sha256": "74f9d95be85c680ccfb5821acfec08681052a72412d22f353be29b86d08bae58",
+        "bytes": 28395,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "us-state-ohio-social-media-parental-notification-act",
+    "title": "Ohio Social Media Parental Notification Act",
+    "collection": "united-states",
+    "jurisdiction": "Ohio state law",
+    "output_file": "all_rules/united-states/states/ohio/ohio-social-media-parental-notification-act.md",
+    "source_urls": [
+      "https://www.ohioattorneygeneral.gov/Media/News-Releases/December-2023/Parental-Notification-by-Social-Media-Operators-Ac"
+    ],
+    "source_files": [
+      "all_rules/united-states/states/ohio/sources/us-state-ohio-social-media-parental-notification-act.ohioattorneygeneral-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "stub",
+    "extraction_note": "Source is intentionally tracked as a stub; no full-text extraction was attempted.",
+    "paragraph_count": 0,
+    "body_sha256": null,
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/states/ohio/sources/us-state-ohio-social-media-parental-notification-act.ohioattorneygeneral-gov.html",
+        "sha256": "7a22e5877534016a5069ec5242aba3201152bcb46138fdb89dd3e47e9d7c92af",
+        "bytes": 30756,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  }
+]

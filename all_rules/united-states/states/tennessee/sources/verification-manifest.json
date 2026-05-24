@@ -1,0 +1,33 @@
+[
+  {
+    "id": "us-state-tennessee-protecting-children-social-media-act",
+    "title": "Tennessee Protecting Children from Social Media Act",
+    "collection": "united-states",
+    "jurisdiction": "Tennessee state law",
+    "output_file": "all_rules/united-states/states/tennessee/tennessee-protecting-children-from-social-media-act.md",
+    "source_urls": [
+      "https://www.capitol.tn.gov/Bills/113/Bill/HB1891.pdf"
+    ],
+    "source_files": [
+      "all_rules/united-states/states/tennessee/sources/us-state-tennessee-protecting-children-social-media-act.capitol-tn-gov.pdf"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 110,
+    "body_sha256": "c72c760de7f2033d723eebb7082311c06d54e78d45e1281af0c897e0ca9fcedf",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/states/tennessee/sources/us-state-tennessee-protecting-children-social-media-act.capitol-tn-gov.pdf",
+        "sha256": "92110dde316bffba4f9351b5d4a91f4e1bc22e644147425d3ce71018fccbfdb4",
+        "bytes": 21838,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  }
+]

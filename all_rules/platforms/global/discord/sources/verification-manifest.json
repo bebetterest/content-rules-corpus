@@ -1,0 +1,33 @@
+[
+  {
+    "id": "platform-discord-community-guidelines",
+    "title": "Discord Community Guidelines",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/global/discord/discord-community-guidelines.md",
+    "source_urls": [
+      "https://discord.com/guidelines"
+    ],
+    "source_files": [
+      "all_rules/platforms/global/discord/sources/platform-discord-community-guidelines.discord-com.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 249,
+    "body_sha256": "2dc7f85ddcde4d11d020ff4e3fe5d319949e198faf74640fcfc9255fa289254c",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/global/discord/sources/platform-discord-community-guidelines.discord-com.html",
+        "sha256": "36f836adc2bc11342799213b4148121dba233cfc2beb9b84305f2219c781cb65",
+        "bytes": 82190,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  }
+]

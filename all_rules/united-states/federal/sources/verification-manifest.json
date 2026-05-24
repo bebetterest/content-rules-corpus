@@ -1,0 +1,436 @@
+[
+  {
+    "id": "us-federal-47-usc-230",
+    "title": "47 U.S.C. § 230",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/47-usc-230.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title47-section230&edition=prelim"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-47-usc-230.uscode-house-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 135,
+    "body_sha256": "f79d5bda7d24282e6db0819e0a492c0053942983d659436080831ffd1d7a3194",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-47-usc-230.uscode-house-gov.html",
+        "sha256": "4961a32efedaa4b131b2d75ec6f295222a58a5a4b131c2a516184890cc99b11e",
+        "bytes": 162047,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-17-usc-512",
+    "title": "17 U.S.C. § 512",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/17-usc-512.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title17-section512&edition=prelim"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-17-usc-512.uscode-house-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 180,
+    "body_sha256": "d3e417e2657fc31e7010360f3a9c0c9547b1946d51593361f4e44e48b83f4b2e",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-17-usc-512.uscode-house-gov.html",
+        "sha256": "c62b1cf39c04d25d5578e6c9a776aaf2dfcb9935c11815f8eb0dbc7501fa1b9e",
+        "bytes": 181650,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-2251",
+    "title": "18 U.S.C. § 2251",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-2251.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2251&edition=prelim"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-2251.uscode-house-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 254,
+    "body_sha256": "3f69048ee2449cc7a20f2007e25eeaa5c4c2a19a23ecd1cec0d22b62074a8fbb",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-2251.uscode-house-gov.html",
+        "sha256": "3c4e5be94b1a8938ee4b0a8bbb5de9fa3a0863aa25f1281929d2df3937ee6ff0",
+        "bytes": 214922,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-2252",
+    "title": "18 U.S.C. § 2252",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-2252.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2252&edition=prelim"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-2252.uscode-house-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 145,
+    "body_sha256": "611588cef488838206136c56231b51ba6325c0ec7c71c8e19cae6a84cfc6598b",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-2252.uscode-house-gov.html",
+        "sha256": "3c4c6b78a4339588b0f5b5d2d23b2c151dbe00c43559032a26846c4b4ccedf3c",
+        "bytes": 173634,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-2252a",
+    "title": "18 U.S.C. § 2252A",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-2252a.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2252A&edition=prelim"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-2252a.uscode-house-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 156,
+    "body_sha256": "e5f191c86fac03d4cd528d048a7524e3e75285f7898fb2ddf937dda911bdf840",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-2252a.uscode-house-gov.html",
+        "sha256": "444774440349e811db541d73ff9ab1bbccb9995191b18cac91bee234841b5a11",
+        "bytes": 175600,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-2256",
+    "title": "18 U.S.C. § 2256",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-2256.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2256&edition=prelim"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-2256.uscode-house-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 135,
+    "body_sha256": "d691fa6c49eb9d5c6894d4985a510d221e42ba42834b23f12f42a6aa3b789fc7",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-2256.uscode-house-gov.html",
+        "sha256": "b9ce8f8801eb675398e149416f79cf5d32206e00da8e900fac070eaf0befc5ac",
+        "bytes": 160967,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-2260",
+    "title": "18 U.S.C. § 2260",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-2260.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2260&edition=prelim"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-2260.uscode-house-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 68,
+    "body_sha256": "a0ce2ae19d7fd3162aa420745333ffe4493e6e5e46c423195d71df0dd74534c2",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-2260.uscode-house-gov.html",
+        "sha256": "3e5a0da3cc534b84f0a2bfa5920d4c8ee57e64a3bf0480aee7003ee63c381852",
+        "bytes": 146922,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-2261a",
+    "title": "18 U.S.C. § 2261A",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-2261a.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2261A&edition=prelim"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-2261a.uscode-house-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 83,
+    "body_sha256": "ea69ff35b5820a318d6aa9eeb66a767dc8f705de75811a8f193db0ea924d8074",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-2261a.uscode-house-gov.html",
+        "sha256": "760cba5f581cf625ecb8e55a2510e3f82d18e599fea82502fbb6ea38fc1a905a",
+        "bytes": 150222,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-875",
+    "title": "18 U.S.C. § 875",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-875.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section875&edition=prelim"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-875.uscode-house-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 70,
+    "body_sha256": "3339c871cf5af71256d8409f545f1e416e62e699a03eaa7d162aefa8fbadce92",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-875.uscode-house-gov.html",
+        "sha256": "4714b97448159895bd79b0287f01e02bc365716ba792ea78c5b20942eaa3996a",
+        "bytes": 146264,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-1591",
+    "title": "18 U.S.C. § 1591",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-1591.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1591&edition=prelim"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-1591.uscode-house-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 118,
+    "body_sha256": "566ae662b0b93df704f40de82f3aa0f70f75526d21522ae6f7a84281155748c9",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-1591.uscode-house-gov.html",
+        "sha256": "ba417a4f141b67702ccf71131df2a23e12d74332dd823f3555ab7344fef4aeea",
+        "bytes": 159789,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-2339a",
+    "title": "18 U.S.C. § 2339A",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-2339a.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2339A&edition=prelim"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-2339a.uscode-house-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 97,
+    "body_sha256": "48e8fdb9da5614e9af1b96213579271dfbfdc3a9fb9418de4df1677bc45e872c",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-2339a.uscode-house-gov.html",
+        "sha256": "988d45df818cb95bbdb0ee077531d3cbd609a31eeff319174fd77bab61a924b8",
+        "bytes": 158039,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-18-usc-2339b",
+    "title": "18 U.S.C. § 2339B",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-2339b.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2339B&edition=prelim"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-2339b.uscode-house-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 160,
+    "body_sha256": "0afd1ae70add123a2dd6767ace8873ff96142585b61dd79b1e5e6f912e46618d",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-2339b.uscode-house-gov.html",
+        "sha256": "185fe65b6e1c00d3bb652e452c4b2c47ff645815651867cde20d4174d01abded",
+        "bytes": 171762,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-coppa-rule-16-cfr-part-312",
+    "title": "16 CFR Part 312 - Children's Online Privacy Protection Rule",
+    "collection": "united-states",
+    "jurisdiction": "United States federal regulation",
+    "output_file": "all_rules/united-states/federal/16-cfr-part-312-coppa-rule.md",
+    "source_urls": [
+      "https://www.ecfr.gov/api/versioner/v1/full/2026-05-21/title-16.xml?part=312"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-coppa-rule-16-cfr-part-312.ecfr-gov.xml"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 197,
+    "body_sha256": "92fab8ffd06134f27c136bf5422fed701e312e189838deac7783dd29ef9a1e34",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-coppa-rule-16-cfr-part-312.ecfr-gov.xml",
+        "sha256": "e7de115eca9b7e8cd8851a2f3fb952c0fd510122fb92c41f00478034b7f38a43",
+        "bytes": 49580,
+        "downloader": "fetch",
+        "fallback_from": null,
+        "content_type": "application/xml; charset=utf-8"
+      }
+    ]
+  },
+  {
+    "id": "us-federal-take-it-down-act-public-law-119-12",
+    "title": "TAKE IT DOWN Act - Public Law 119-12",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/take-it-down-act-public-law-119-12.md",
+    "source_urls": [
+      "https://www.govinfo.gov/content/pkg/PLAW-119publ12/html/PLAW-119publ12.htm"
+    ],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-take-it-down-act-public-law-119-12.govinfo-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 463,
+    "body_sha256": "1ba3592e8d77c34fcfb73c46ecab2c27e95068c0e057125e7fbbbea093358532",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-take-it-down-act-public-law-119-12.govinfo-gov.html",
+        "sha256": "ec3e9bf342bc39778cca8845ee9f2bd61e8130517a799ddc95618997e8f7f8da",
+        "bytes": 28491,
+        "downloader": "fetch",
+        "fallback_from": null,
+        "content_type": "text/html"
+      }
+    ]
+  }
+]

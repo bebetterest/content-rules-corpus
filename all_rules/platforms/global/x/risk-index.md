@@ -1,0 +1,18 @@
+# X Illegal and High-Risk Content Index
+
+This index is a navigation aid for collected official rule sources. It does not replace the original official rules. If application is uncertain, verify against the collected source file and its source URL.
+
+## Tagged Categories
+
+- Child safety and exploitation
+- Fraud, scams, and deceptive conduct
+- Hate, harassment, and abuse
+- Illegal activity
+- Platform integrity, spam, and manipulation
+- Privacy, doxxing, and personal data abuse
+- Regulated or prohibited goods and services
+- Violence, threats, and dangerous acts
+
+## Official Sources
+
+- The X Rules: https://help.x.com/en/rules-and-policies/x-rules, https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors, https://help.x.com/en/rules-and-policies/violent-speech, https://help.x.com/en/rules-and-policies/hateful-conduct-policy

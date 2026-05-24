@@ -1,0 +1,43 @@
+[
+  {
+    "id": "platform-xiaohongshu-community-guideline",
+    "title": "小红书社区规范",
+    "collection": "platforms",
+    "jurisdiction": "China / platform policy",
+    "output_file": "all_rules/platforms/china/xiaohongshu/xiaohongshu-community-guideline_cn.md",
+    "source_urls": [
+      "https://agree.xiaohongshu.com/h5/terms/ZXXY20221213003/-1",
+      "https://oacontract.xiaohongshu.com/oacontract/v1/contract/findContractContent?id=-1&contractNo=ZXXY20221213003"
+    ],
+    "source_files": [
+      "all_rules/platforms/china/xiaohongshu/sources/platform-xiaohongshu-community-guideline-01.agree-xiaohongshu-com.html",
+      "all_rules/platforms/china/xiaohongshu/sources/platform-xiaohongshu-community-guideline-02.oacontract-xiaohongshu-com.json"
+    ],
+    "retrieved_date": "2026-05-24",
+    "language": "zh-CN",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 115,
+    "body_sha256": "785e29bb17fa6a8aff7c86bb2ac922b63a2c81bcdb3715a781563db87fd9296d",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/china/xiaohongshu/sources/platform-xiaohongshu-community-guideline-01.agree-xiaohongshu-com.html",
+        "sha256": "78f479bac997b0f3bd13be3ef5361bbecd8d108f4c2ff25e66f234830195a406",
+        "bytes": 9201,
+        "downloader": "fetch",
+        "fallback_from": null,
+        "content_type": "text/html"
+      },
+      {
+        "source_file": "all_rules/platforms/china/xiaohongshu/sources/platform-xiaohongshu-community-guideline-02.oacontract-xiaohongshu-com.json",
+        "sha256": "45a1fd5f5391e2b6bc0da6592d50be8f6fc6e792e57307f4c8d94f6489d5a1a5",
+        "bytes": 19415,
+        "downloader": "fetch",
+        "fallback_from": null,
+        "content_type": "application/json;charset=UTF-8"
+      }
+    ]
+  }
+]

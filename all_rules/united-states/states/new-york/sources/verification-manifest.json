@@ -1,0 +1,33 @@
+[
+  {
+    "id": "us-state-new-york-safe-for-kids-act",
+    "title": "New York General Business Law Article 45 - SAFE For Kids Act",
+    "collection": "united-states",
+    "jurisdiction": "New York state law",
+    "output_file": "all_rules/united-states/states/new-york/new-york-safe-for-kids-act.md",
+    "source_urls": [
+      "https://legislation.nysenate.gov/pdf/bills/2023/S7694A"
+    ],
+    "source_files": [
+      "all_rules/united-states/states/new-york/sources/us-state-new-york-safe-for-kids-act.legislation-nysenate-gov.pdf"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 14,
+    "body_sha256": "f526b4a2adfad2038a429f299293e32c075bb3f0243f07887cac554eaffcba3a",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/states/new-york/sources/us-state-new-york-safe-for-kids-act.legislation-nysenate-gov.pdf",
+        "sha256": "c3c171c77247f86a1c6d11a340571bcee2a5f87cd2ee946484d61a3aadb1ffaf",
+        "bytes": 19047,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  }
+]

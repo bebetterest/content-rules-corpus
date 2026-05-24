@@ -1,0 +1,83 @@
+[
+  {
+    "id": "platform-meta-community-standards",
+    "title": "Meta Community Standards",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/global/meta/meta-community-standards.md",
+    "source_urls": [
+      "https://transparency.meta.com/policies/community-standards/",
+      "https://transparency.meta.com/policies/community-standards/violence-incitement/",
+      "https://transparency.meta.com/policies/community-standards/dangerous-individuals-organizations/",
+      "https://transparency.meta.com/policies/community-standards/child-sexual-exploitation-abuse-nudity/",
+      "https://transparency.meta.com/policies/community-standards/hate-speech/",
+      "https://transparency.meta.com/policies/community-standards/restricted-goods-services/"
+    ],
+    "source_files": [
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-01.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-02.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-03.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-04.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-05.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-06.transparency-meta-com.html"
+    ],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "stub",
+    "extraction_note": "extracted text length 336 is below minimum 5000",
+    "paragraph_count": 0,
+    "body_sha256": null,
+    "attempted_text_sha256": "8412b53b0d3d2a67b5aa5bfe43023a7fa290ef8754ccb8559e5a19a5e393af78",
+    "attempted_text_length": 336,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-01.transparency-meta-com.html",
+        "sha256": "472cb09e277ad538be230a9e54a53af82e46997901559d581aaa9438ac5532d7",
+        "bytes": 242688,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-02.transparency-meta-com.html",
+        "sha256": "a749d6d08b9c2b33704b72c80161bad90d2beddfc53dc3d5e9f8090f7aeb7a94",
+        "bytes": 244983,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-03.transparency-meta-com.html",
+        "sha256": "59e3cd52fafb8d292126695846a01f18663727040fab31a9239dd9b7b89839d5",
+        "bytes": 246774,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-04.transparency-meta-com.html",
+        "sha256": "13e239e61d31d50ff232326621567c7ce237822c094ee718cc00767dc9e9f0ac",
+        "bytes": 247119,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-05.transparency-meta-com.html",
+        "sha256": "ba8ef6538da5f29f4d88f8bfe2d35f8f02f9bc22d2452090e92a302e072e0853",
+        "bytes": 244438,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-06.transparency-meta-com.html",
+        "sha256": "80d54e67928ee420600c99c788b298d03e27ea724e3549f5ec0fcd7f8dabfdc7",
+        "bytes": 245689,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  }
+]

@@ -6,3 +6,6 @@ AGENTS_cn.md
 .env
 .env.*
 !.env.example
+
+# macOS local metadata
+.DS_Store

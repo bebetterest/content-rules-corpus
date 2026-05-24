@@ -1,0 +1,33 @@
+[
+  {
+    "id": "us-state-louisiana-social-media-minors",
+    "title": "Louisiana Social Media Platform Minors Provisions",
+    "collection": "united-states",
+    "jurisdiction": "Louisiana state law",
+    "output_file": "all_rules/united-states/states/louisiana/louisiana-social-media-platform-minors-provisions.md",
+    "source_urls": [
+      "https://legis.la.gov/legis/LawPrint.aspx?d=1337818"
+    ],
+    "source_files": [
+      "all_rules/united-states/states/louisiana/sources/us-state-louisiana-social-media-minors.legis-la-gov.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 41,
+    "body_sha256": "2ba1aaf650e76392175922c73a04ddca0c966ad05ff7b2ffdd0df459d2aee96d",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/states/louisiana/sources/us-state-louisiana-social-media-minors.legis-la-gov.html",
+        "sha256": "858a6fd2dc23fee3e553af47918a3e2be2274c38569a08543dc55f3a1b430c8a",
+        "bytes": 7634,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  }
+]

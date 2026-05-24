@@ -5,11 +5,22 @@ This repository collects rule, regulation, standard, and policy texts in a sourc
 ## Current Scope
 
 - `all_rules/china/`: authoritative Chinese regulatory texts and source metadata.
+- `all_rules/platforms/`: official platform content and community policy sources, grouped by platform.
+- `all_rules/united-states/`: U.S. federal and state content-safety-related legal and regulatory sources.
+- `all_rules/source-registry.json`: source registry used by the general fetch pipeline.
 
 ## Repository Layout
 
 - `all_rules/`: collected rule texts, grouped by jurisdiction or rule family.
 - `docs/`: project notes, collection decisions, and maintenance records.
+- `scripts/`: reproducible download, extraction, and verification scripts.
+
+## Fetching and Verification
+
+- `node scripts/fetch_china_rules.mjs`: refresh the initial China regulatory seed set.
+- `node scripts/fetch_rules.mjs --collection platforms`: refresh platform policy sources from `all_rules/source-registry.json`.
+- `node scripts/fetch_rules.mjs --collection united-states`: refresh U.S. federal and state sources from `all_rules/source-registry.json`.
+- `node scripts/verify_rules.mjs`: verify source URLs, body hashes, legacy China hashes, and required state-law scope notes.
 
 ## Collection Principles
 
@@ -17,5 +28,7 @@ This repository collects rule, regulation, standard, and policy texts in a sourc
 - Record the source URL, issuing authority, publication or revision dates, and retrieval date in each collected file.
 - Do not manually type or rewrite official rule text. Download authoritative sources and generate collected Markdown through reproducible extraction code.
 - Preserve official original text without translation unless an official translation exists or the user explicitly requests a separate non-authoritative translation.
+- If source authority, current validity, completeness, or extraction accuracy is uncertain, state the uncertainty at the beginning of the collected file.
+- If an official source cannot be downloaded or complete extraction cannot be confirmed, generate a source stub instead of reproducing body text.
 
 Chinese version: [README_cn.md](/Users/hobeter/Desktop/code/rules/README_cn.md)

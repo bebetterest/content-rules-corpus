@@ -1,0 +1,33 @@
+[
+  {
+    "id": "platform-weibo-community-convention",
+    "title": "微博社区公约",
+    "collection": "platforms",
+    "jurisdiction": "China / platform policy",
+    "output_file": "all_rules/platforms/china/weibo/weibo-community-convention_cn.md",
+    "source_urls": [
+      "https://service.account.weibo.com/h5/roles/gongyue?ua=vivo-V2241A__weibo__14.2.2__android__android14"
+    ],
+    "source_files": [
+      "all_rules/platforms/china/weibo/sources/platform-weibo-community-convention.service-account-weibo-com.html"
+    ],
+    "retrieved_date": "2026-05-23",
+    "language": "zh-CN",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 263,
+    "body_sha256": "842899bc67fb2c77d3119dae05c88659a8c2da68d503837eb26ec29387eab95f",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/china/weibo/sources/platform-weibo-community-convention.service-account-weibo-com.html",
+        "sha256": "922b1d17647520c7b72bd7ec33efda248e79d3421b65d24348137e364d9d1518",
+        "bytes": 32087,
+        "downloader": "fetch",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "platform-pinterest-community-guidelines",
+    "title": "Pinterest Community Guidelines",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/global/pinterest/pinterest-community-guidelines.md",
+    "source_urls": [
+      "https://policy.pinterest.com/en/community-guidelines"
+    ],
+    "source_files": [
+      "all_rules/platforms/global/pinterest/sources/platform-pinterest-community-guidelines.policy-pinterest-com.html"
+    ],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 306,
+    "body_sha256": "1034aa3229a2687aaeee26fb22791e9faf4b6ef01cd34bb72a94f68956c8aa61",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/global/pinterest/sources/platform-pinterest-community-guidelines.policy-pinterest-com.html",
+        "sha256": "ad879446e480aee4e85e0dc16ac50a958a4d562afdd1b13e3bbea639eb08dfc6",
+        "bytes": 49858,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  }
+]
