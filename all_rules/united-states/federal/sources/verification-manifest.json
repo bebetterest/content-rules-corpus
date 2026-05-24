@@ -2268,5 +2268,447 @@
         "content_type": null
       }
     ]
+  },
+  {
+    "id": "us-federal-15-usc-7701",
+    "title": "15 U.S.C. § 7701",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7701.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7701&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7701.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 71,
+    "body_sha256": "63fcf9908369f195c38a7e9d477058444d0117e446627aa9b505291a55aae06a",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7701.uscode-house-gov.html",
+        "sha256": "61ea6400802457eefd343f56b91110982ddf4eded12c88072ef58b4c413bf4a0",
+        "bytes": 149641,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-7702",
+    "title": "15 U.S.C. § 7702",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7702.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7702&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7702.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 114,
+    "body_sha256": "ac75d6501d2bcd252f8f136d2c22026dbf2be211782b2dece733bac4d542a72a",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7702.uscode-house-gov.html",
+        "sha256": "22812e0b517bb7700976847525ea9c23e13248495c83de8ea594f7648d60d7e8",
+        "bytes": 157178,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-7703",
+    "title": "15 U.S.C. § 7703",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7703.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7703&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7703.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 69,
+    "body_sha256": "568aff8a91399118a70b5fb9902a8c898af1f1b86f2b6f9198fb872954846590",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7703.uscode-house-gov.html",
+        "sha256": "535ff92eab2e0e32c879b6bdacc5f22f9472d9cb470f2c2d676a0787402a3430",
+        "bytes": 147938,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-7704",
+    "title": "15 U.S.C. § 7704",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7704.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7704&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7704.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 122,
+    "body_sha256": "6022e1246f2d733f89e394f12bf4c86d888e6fab6fcd51604967ec0ddd4ec30d",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7704.uscode-house-gov.html",
+        "sha256": "e0a71aa4d4d21080807af033e161347d302039ff6db7a387a47f2067cfdc5584",
+        "bytes": 160065,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-7705",
+    "title": "15 U.S.C. § 7705",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7705.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7705&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7705.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 72,
+    "body_sha256": "bbaba8023fc1d48f7d49ceae95b7400863a47067214fe739741185d4f01d78ed",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7705.uscode-house-gov.html",
+        "sha256": "79682cfaf24d4adfb7ebb8afc51fb853ed5008b200d40b5215fe9b5d5ef78ecd",
+        "bytes": 147507,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-7706",
+    "title": "15 U.S.C. § 7706",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7706.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7706&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7706.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 159,
+    "body_sha256": "f5c3dc7dcfcf9e243e98085acaa7a6ed4a597e8c68b9e7579e45fc4c446d79b6",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7706.uscode-house-gov.html",
+        "sha256": "c0152390da98d9e2f5cf36d61d5cadbd902029b54b13a7cb12e8c67d65f288b4",
+        "bytes": 180153,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-7707",
+    "title": "15 U.S.C. § 7707",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7707.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7707&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7707.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 65,
+    "body_sha256": "33eb9d1ad1fdfa4bc9f5aede435378e611d1783627ae252bb228125a53f604f3",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7707.uscode-house-gov.html",
+        "sha256": "51f11695c034a73ff997bc30cc6f495e3ac8b2742efe7df91ca9cb75bef88cdf",
+        "bytes": 145796,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-7708",
+    "title": "15 U.S.C. § 7708",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7708.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7708&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7708.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 54,
+    "body_sha256": "3b54ca6e4fa2189f65c1e45c47c0ac9cb5c41f65ffa6c32081ecc3176e3dd0e0",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7708.uscode-house-gov.html",
+        "sha256": "d7ab654fe726ba8fbf8bcc0e3fe672d6722ac2b701fe24f5afe03d87281dfe1e",
+        "bytes": 141991,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-7709",
+    "title": "15 U.S.C. § 7709",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7709.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7709&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7709.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 60,
+    "body_sha256": "e9b1027f599cdbd824e4e7d550ae7a16d6fc0e40556cf5be0718f5186ce073f2",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7709.uscode-house-gov.html",
+        "sha256": "da09fb3b757849d6262675651ee03e6a48cbdb8fadd84f1c79973a2ed855e9f8",
+        "bytes": 144814,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-7710",
+    "title": "15 U.S.C. § 7710",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7710.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7710&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7710.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 60,
+    "body_sha256": "268e0f193370f1ccdfcaa4de69670f90cd0ff9a5e3ac677c65e98df706607b19",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7710.uscode-house-gov.html",
+        "sha256": "c543a30a461c55f2ef676412610a48f21fd4df542135833135c45ae18131fcdc",
+        "bytes": 145074,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-7711",
+    "title": "15 U.S.C. § 7711",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7711.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7711&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7711.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 57,
+    "body_sha256": "82abe192225b70a062abcddfdf7c0c66934277ed5fcca7ad22850d0e0d8ebb37",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7711.uscode-house-gov.html",
+        "sha256": "96ad1d361c3ba8c5010904171f1e75b9d3fb981876a510083799dd1390bc67de",
+        "bytes": 145605,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-7712",
+    "title": "15 U.S.C. § 7712",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7712.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7712&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7712.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 67,
+    "body_sha256": "2c5e5cbe60ff4277156234fc1a8fbd2986c49e0daf8a82c144fc81ac51eac135",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7712.uscode-house-gov.html",
+        "sha256": "1220dfb411468af4d159857a6cd5c845c9209c6a491a86696cb1cc55414e5e76",
+        "bytes": 147033,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-7713",
+    "title": "15 U.S.C. § 7713",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-7713.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7713&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-7713.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 54,
+    "body_sha256": "52b563a7e0989effcf3b882cf3b805a5bbbc901896976bb74cbe1d2b701b832e",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-7713.uscode-house-gov.html",
+        "sha256": "1f07cf99b4e31980f5987cacc9d515c3c958f8903e1d1db29d7b9818cd0b7666",
+        "bytes": 143349,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
   }
 ]

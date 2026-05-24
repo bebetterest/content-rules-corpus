@@ -153,3 +153,14 @@ Federal extraction updates:
 - 18 U.S.C. § 931 initially generated a source stub because the registry phrase used a nonmatching paraphrase; the phrase was corrected to the official wording (`crime of violence`) and the entry now extracts successfully.
 
 Verification status after this pass: 104 registry entries are indexed; 103 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Federal CAN-SPAM Gap Fill
+
+Federal extraction updates:
+
+- Added official U.S. Code sources for 15 U.S.C. §§ 7701-7713, the CAN-SPAM statutory framework for commercial electronic mail.
+- The new sources cover congressional findings and policy, definitions, predatory and abusive commercial e-mail, user protections for commercial electronic mail, knowingly promoted businesses, enforcement, effect on other laws, the Do-Not-E-Mail registry, studies, enforcement rewards and labeling, regulations, wireless application, and separability.
+- These entries complement the already collected 18 U.S.C. § 1037 electronic-mail fraud source and fill a spam/scams policy gap with the civil and regulatory CAN-SPAM provisions.
+- All 13 new sections were downloaded from official U.S. Code pages, retained as raw HTML artifacts, extracted to Markdown, and verified with body hashes.
+
+Verification status after this pass: 117 registry entries are indexed; 116 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).

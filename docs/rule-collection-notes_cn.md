@@ -153,3 +153,14 @@
 - 18 U.S.C. § 931 首次生成 source stub，因为 registry 短语使用了不匹配官方正文的概括词；已改为官方用语 `crime of violence`，该条目现在可成功抽取。
 
 本轮后的校验状态：registry 中 104 条记录均已进入索引；103 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 联邦 CAN-SPAM 补缺
+
+联邦抽取更新：
+
+- 新增 15 U.S.C. §§ 7701-7713 官方 U.S. Code 来源，即 commercial electronic mail 的 CAN-SPAM 法定框架。
+- 新增来源覆盖 congressional findings and policy、definitions、predatory and abusive commercial e-mail、commercial electronic mail user protections、knowingly promoted businesses、enforcement、effect on other laws、Do-Not-E-Mail registry、studies、enforcement rewards and labeling、regulations、wireless application、separability。
+- 这些条目补充已收集的 18 U.S.C. § 1037 electronic-mail fraud 来源，用 CAN-SPAM 的民事和监管条款补齐 spam/scams 政策缺口。
+- 13 个新增 section 均从官方 U.S. Code 页面下载，保留原始 HTML artifact，抽取为 Markdown，并通过正文哈希校验。
+
+本轮后的校验状态：registry 中 117 条记录均已进入索引；116 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。

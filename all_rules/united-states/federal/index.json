@@ -2,8 +2,8 @@
   "schema_version": 1,
   "directory": "all_rules/united-states/federal",
   "generated_by": "scripts/generate_rule_indexes.mjs",
-  "rule_count": 68,
-  "descendant_rule_count": 68,
+  "rule_count": 81,
+  "descendant_rule_count": 81,
   "rules": [
     {
       "title": "15 U.S.C. § 6501",
@@ -111,6 +111,240 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "source_urls": [
         "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6506&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7701",
+      "file": "15-usc-7701.md",
+      "path": "all_rules/united-states/federal/15-usc-7701.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM congressional findings and policy provision; nationwide federal law relevant to commercial electronic mail, spam, fraud, and online marketing policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7701&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7702",
+      "file": "15-usc-7702.md",
+      "path": "all_rules/united-states/federal/15-usc-7702.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM definitions provision; nationwide federal law relevant to commercial electronic mail and spam policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7702&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7703",
+      "file": "15-usc-7703.md",
+      "path": "all_rules/united-states/federal/15-usc-7703.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM provision against predatory and abusive commercial e-mail; nationwide federal law relevant to spam, fraud, and platform-integrity policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7703&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7704",
+      "file": "15-usc-7704.md",
+      "path": "all_rules/united-states/federal/15-usc-7704.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM protections for users of commercial electronic mail; nationwide federal law relevant to deceptive headers, subject lines, opt-out handling, and spam policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7704&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7705",
+      "file": "15-usc-7705.md",
+      "path": "all_rules/united-states/federal/15-usc-7705.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM provision for businesses knowingly promoted by electronic mail with false or misleading transmission information; nationwide federal law relevant to spam, fraud, and affiliate marketing policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7705&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7706",
+      "file": "15-usc-7706.md",
+      "path": "all_rules/united-states/federal/15-usc-7706.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM enforcement provision; nationwide federal law relevant to commercial electronic mail enforcement by federal agencies, States, and Internet access service providers.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7706&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7707",
+      "file": "15-usc-7707.md",
+      "path": "all_rules/united-states/federal/15-usc-7707.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM preemption and effect-on-other-laws provision; nationwide federal law relevant to state spam-law interaction and platform anti-spam policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7707&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7708",
+      "file": "15-usc-7708.md",
+      "path": "all_rules/united-states/federal/15-usc-7708.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM Do-Not-E-Mail registry provision; nationwide federal law relevant to unsolicited commercial electronic mail policy.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7708&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7709",
+      "file": "15-usc-7709.md",
+      "path": "all_rules/united-states/federal/15-usc-7709.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM study provision concerning effects of commercial electronic mail; nationwide federal law relevant to spam-policy background.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7709&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7710",
+      "file": "15-usc-7710.md",
+      "path": "all_rules/united-states/federal/15-usc-7710.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM provision concerning enforcement rewards and labeling; nationwide federal law relevant to spam enforcement and sexually oriented material labeling.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7710&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7711",
+      "file": "15-usc-7711.md",
+      "path": "all_rules/united-states/federal/15-usc-7711.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM regulations provision; nationwide federal law relevant to FTC commercial electronic mail rules.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7711&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7712",
+      "file": "15-usc-7712.md",
+      "path": "all_rules/united-states/federal/15-usc-7712.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM wireless application provision; nationwide federal law relevant to mobile commercial electronic mail and wireless spam policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7712&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 7713",
+      "file": "15-usc-7713.md",
+      "path": "all_rules/united-states/federal/15-usc-7713.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal CAN-SPAM separability provision; nationwide federal law relevant to the CAN-SPAM statutory framework.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section7713&edition=prelim"
       ]
     },
     {
