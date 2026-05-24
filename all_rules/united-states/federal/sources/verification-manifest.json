@@ -534,5 +534,243 @@
         "content_type": null
       }
     ]
+  },
+  {
+    "id": "us-federal-18-usc-2421a",
+    "title": "18 U.S.C. § 2421A",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/18-usc-2421a.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2421A&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-18-usc-2421a.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 58,
+    "body_sha256": "44caed071bd7138fd8ec4661bccd6294a0bfb3b3d946580ca5e3f6310fd70678",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-18-usc-2421a.uscode-house-gov.html",
+        "sha256": "e8bd76e453a775a5f426b7234197c418c635237bd1718fff930b70c20c79cf3d",
+        "bytes": 145226,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6501",
+    "title": "15 U.S.C. § 6501",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6501.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6501&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6501.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 105,
+    "body_sha256": "7d3f4eb4a9a3557d7eabda17836b5f0f8f5f0b17628b14aa6ca5f4d6d9b055f1",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6501.uscode-house-gov.html",
+        "sha256": "8b838fedec0ffd2210d70f246395b29cf38c8be4647e970d35ceb2d7be278c66",
+        "bytes": 152390,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6502",
+    "title": "15 U.S.C. § 6502",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6502.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6502&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6502.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 90,
+    "body_sha256": "76c245eb64e77fb811c7c461b1858ad01489160ae70a424b3d17645f8f8df75b",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6502.uscode-house-gov.html",
+        "sha256": "5e20773341a150a5b788cf0fe2761624b67669934857dcacff2dc4c3acc9a285",
+        "bytes": 152061,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6503",
+    "title": "15 U.S.C. § 6503",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6503.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6503&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6503.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 58,
+    "body_sha256": "673a39d01cf869436b6164de709f68af97fb57f954285edee5355430ac362f91",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6503.uscode-house-gov.html",
+        "sha256": "048cfce72f89e33107926fd8c2f5eb82bc6c222e24aee0f5dbf88b1455c6a177",
+        "bytes": 143952,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6504",
+    "title": "15 U.S.C. § 6504",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6504.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6504&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6504.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 90,
+    "body_sha256": "62b610eeb0ab40cc6359e974f6f3e809b4d2a165014062a49bb9aecfd75ea6a5",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6504.uscode-house-gov.html",
+        "sha256": "a02fa33a57f241bb9242c2c102c75f11f5ff1293c994a5202f47d99982ff365e",
+        "bytes": 148234,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6505",
+    "title": "15 U.S.C. § 6505",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6505.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6505&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6505.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 79,
+    "body_sha256": "10f9c9186e158254e9c4c902b4dce9160fcc54bfb48ac79427bbc5aaeb76d89a",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6505.uscode-house-gov.html",
+        "sha256": "3c4b72b43027c5b950ef01c34a0ca8275f1022878620b7a7c1eb4753798017e8",
+        "bytes": 154728,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6506",
+    "title": "15 U.S.C. § 6506",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6506.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6506&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6506.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 50,
+    "body_sha256": "b5349a2d1be18cd14eff571f438f5dedc706e8e7809443bba37c9c94bd9826a5",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6506.uscode-house-gov.html",
+        "sha256": "cacde0106dc4ad5d75b02e31aed6222298103caeca835bcae24bdbeca18e4c60",
+        "bytes": 141732,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
   }
 ]

@@ -97,3 +97,12 @@ Federal extraction updates:
 - The official Texas statutes, Texas bill text, Texas bill lookup, `www.legis.state.tx.us`, and Texas Legislature FTP/mirror paths were rechecked. They still returned HTTP 503 maintenance responses, SSL failures, or FTP timeouts on 2026-05-24, so the Texas codified entry remains the only source stub.
 
 Verification status after this pass: 53 registry entries are indexed; 52 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Federal COPPA and FOSTA/SESTA Gap Fill
+
+Federal extraction updates:
+
+- Added the official U.S. Code source for 18 U.S.C. § 2421A, the promotion-or-facilitation provision referenced by the 47 U.S.C. § 230 federal and state criminal-law exceptions.
+- Added the official U.S. Code statutory COPPA sections, 15 U.S.C. §§ 6501-6506, to complement the already collected 16 CFR Part 312 COPPA Rule source. These sections cover definitions, unfair/deceptive practice regulation, safe harbors, State actions, administration/applicability, and review.
+
+Verification status after this pass: 60 registry entries are indexed; 59 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).

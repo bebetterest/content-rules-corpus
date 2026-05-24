@@ -97,3 +97,12 @@
 - 重新检查 Texas 官方 statutes、Texas bill text、Texas bill lookup、`www.legis.state.tx.us` 以及 Texas Legislature FTP/mirror 路径。2026-05-24 这些来源仍返回 HTTP 503 维护响应、SSL 失败或 FTP 超时，因此 Texas codified 条目仍是唯一 source stub。
 
 本轮后的校验状态：registry 中 53 条记录均已进入索引；52 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 联邦 COPPA 与 FOSTA/SESTA 补缺
+
+联邦抽取更新：
+
+- 新增 18 U.S.C. § 2421A 的官方 U.S. Code 来源；该条是 47 U.S.C. § 230 联邦和州刑事法律例外中引用的 promotion-or-facilitation 条款。
+- 新增 statutory COPPA 官方 U.S. Code 条文 15 U.S.C. §§ 6501-6506，用于补充已收集的 16 CFR Part 312 COPPA Rule 来源。这些条文覆盖定义、不公平/欺骗行为监管、安全港、州执法、行政与适用范围、复核。
+
+本轮后的校验状态：registry 中 60 条记录均已进入索引；59 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。

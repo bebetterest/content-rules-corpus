@@ -3,15 +3,15 @@
   "directory": "all_rules/united-states",
   "generated_by": "scripts/generate_rule_indexes.mjs",
   "rule_count": 0,
-  "descendant_rule_count": 29,
+  "descendant_rule_count": 36,
   "rules": [],
   "children": [
     {
       "name": "federal",
       "path": "all_rules/united-states/federal",
       "index": "all_rules/united-states/federal/index.json",
-      "rule_count": 17,
-      "descendant_rule_count": 17
+      "rule_count": 24,
+      "descendant_rule_count": 24
     },
     {
       "name": "states",
