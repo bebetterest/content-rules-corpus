@@ -117,3 +117,15 @@ Federal extraction updates:
 - Corrected the `18 U.S.C. § 2258D` registry validation phrases to match the official current U.S. Code wording. The entry now extracts successfully from the official source instead of remaining a source stub.
 
 Verification status after this pass: 68 registry entries are indexed; 67 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Federal Threats, Hate Crimes, Hoaxes, and Spam Gap Fill
+
+Federal extraction updates:
+
+- Added official U.S. Code sources for 18 U.S.C. §§ 871, 876, 877, and 879, covering threats against the President or successors, mailed threatening communications, foreign-country mailed threats, and threats against former Presidents and other protected persons.
+- Added official U.S. Code sources for 18 U.S.C. §§ 247 and 249, covering damage to religious property, obstruction of free exercise of religious beliefs, and federal hate-crime acts.
+- Added official U.S. Code sources for 18 U.S.C. §§ 1037 and 1038, covering electronic-mail fraud/spam conduct and false information or hoaxes involving specified dangerous conduct.
+- Added official U.S. Code sources for 18 U.S.C. §§ 119 and 2101, covering publication of restricted personal information about covered officials and riots involving facilities of interstate or foreign commerce.
+- 18 U.S.C. § 877 initially hit a transient U.S. Code TLS/download failure and correctly generated a source stub; a targeted retry downloaded the official source and converted it to an extracted file.
+
+Verification status after this pass: 78 registry entries are indexed; 77 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).

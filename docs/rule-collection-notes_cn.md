@@ -117,3 +117,15 @@
 - 修正 `18 U.S.C. § 2258D` registry 校验短语，使其匹配官方当前 U.S. Code 页面实际用语。该条目现在可从官方来源成功抽取，不再是 source stub。
 
 本轮后的校验状态：registry 中 68 条记录均已进入索引；67 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 联邦威胁、仇恨犯罪、hoaxes 与 spam 补缺
+
+联邦抽取更新：
+
+- 新增 18 U.S.C. §§ 871、876、877、879 官方 U.S. Code 来源，覆盖针对总统或继任者的威胁、邮寄威胁通信、来自外国的邮寄威胁，以及针对前总统和其他受保护人员的威胁。
+- 新增 18 U.S.C. §§ 247、249 官方 U.S. Code 来源，覆盖损坏宗教财产、阻碍宗教信仰自由行使，以及联邦 hate-crime acts。
+- 新增 18 U.S.C. §§ 1037、1038 官方 U.S. Code 来源，覆盖 electronic-mail fraud/spam 行为，以及涉及特定危险行为的 false information or hoaxes。
+- 新增 18 U.S.C. §§ 119、2101 官方 U.S. Code 来源，覆盖公开受保护官员 restricted personal information，以及涉及 interstate or foreign commerce facilities 的 riots。
+- 18 U.S.C. § 877 首次抓取遇到临时 U.S. Code TLS/download 失败，并按规则正确生成 source stub；随后定向重试成功下载官方来源并转为 extracted 文件。
+
+本轮后的校验状态：registry 中 78 条记录均已进入索引；77 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。

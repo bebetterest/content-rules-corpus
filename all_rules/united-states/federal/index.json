@@ -2,8 +2,8 @@
   "schema_version": 1,
   "directory": "all_rules/united-states/federal",
   "generated_by": "scripts/generate_rule_indexes.mjs",
-  "rule_count": 32,
-  "descendant_rule_count": 32,
+  "rule_count": 42,
+  "descendant_rule_count": 42,
   "rules": [
     {
       "title": "15 U.S.C. § 6501",
@@ -150,6 +150,60 @@
       ]
     },
     {
+      "title": "18 U.S.C. § 1037",
+      "file": "18-usc-1037.md",
+      "path": "all_rules/united-states/federal/18-usc-1037.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision concerning fraud and related activity in connection with electronic mail; nationwide federal criminal law relevant to platform-integrity and spam enforcement.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1037&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 1038",
+      "file": "18-usc-1038.md",
+      "path": "all_rules/united-states/federal/18-usc-1038.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision concerning false information and hoaxes involving specified criminal conduct; nationwide federal criminal law relevant to dangerous false-content enforcement.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1038&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 119",
+      "file": "18-usc-119.md",
+      "path": "all_rules/united-states/federal/18-usc-119.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision concerning publication of restricted personal information about covered individuals performing certain official duties; nationwide federal criminal law, subject to current amendments and court interpretation.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section119&edition=prelim"
+      ]
+    },
+    {
       "title": "18 U.S.C. § 1466A",
       "file": "18-usc-1466a.md",
       "path": "all_rules/united-states/federal/18-usc-1466a.md",
@@ -201,6 +255,24 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "source_urls": [
         "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1591&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2101",
+      "file": "18-usc-2101.md",
+      "path": "all_rules/united-states/federal/18-usc-2101.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal riots provision, including certain uses of facilities of interstate or foreign commerce; nationwide federal criminal law, subject to constitutional and court interpretation.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2101&edition=prelim"
       ]
     },
     {
@@ -371,13 +443,13 @@
       "path": "all_rules/united-states/federal/18-usc-2258d.md",
       "collection": "united-states",
       "jurisdiction": "United States federal law",
-      "scope_note": "Federal provision concerning minimizing access to child pornography images by the National Center for Missing and Exploited Children; nationwide federal law, subject to current amendments and enforcement interpretation.",
+      "scope_note": "Federal provision concerning NCMEC liability and minimizing access to visual depictions provided under section 2258A; nationwide federal law, subject to current amendments and enforcement interpretation.",
       "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
       "retrieval_date": "2026-05-24",
       "language": "en",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "extraction_status": "stub",
+      "extraction_status": "extracted",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "source_urls": [
         "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2258D&edition=prelim"
@@ -492,6 +564,60 @@
       ]
     },
     {
+      "title": "18 U.S.C. § 247",
+      "file": "18-usc-247.md",
+      "path": "all_rules/united-states/federal/18-usc-247.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision concerning damage to religious property and obstruction of persons in the free exercise of religious beliefs; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section247&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 249",
+      "file": "18-usc-249.md",
+      "path": "all_rules/united-states/federal/18-usc-249.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal hate-crime acts provision; nationwide federal criminal law, subject to current amendments and court interpretation.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section249&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 871",
+      "file": "18-usc-871.md",
+      "path": "all_rules/united-states/federal/18-usc-871.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision concerning threats against the President and successors to the Presidency; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section871&edition=prelim"
+      ]
+    },
+    {
       "title": "18 U.S.C. § 875",
       "file": "18-usc-875.md",
       "path": "all_rules/united-states/federal/18-usc-875.md",
@@ -507,6 +633,60 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "source_urls": [
         "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section875&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 876",
+      "file": "18-usc-876.md",
+      "path": "all_rules/united-states/federal/18-usc-876.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision concerning mailing threatening communications; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section876&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 877",
+      "file": "18-usc-877.md",
+      "path": "all_rules/united-states/federal/18-usc-877.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision concerning mailing threatening communications from a foreign country; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section877&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 879",
+      "file": "18-usc-879.md",
+      "path": "all_rules/united-states/federal/18-usc-879.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision concerning threats against former Presidents and certain other protected persons; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section879&edition=prelim"
       ]
     },
     {
