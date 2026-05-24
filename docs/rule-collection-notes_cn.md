@@ -164,3 +164,14 @@
 - 13 个新增 section 均从官方 U.S. Code 页面下载，保留原始 HTML artifact，抽取为 Markdown，并通过正文哈希校验。
 
 本轮后的校验状态：registry 中 117 条记录均已进入索引；116 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 联邦 FTC Act 与 GLBA pretexting 补缺
+
+联邦抽取更新：
+
+- 新增 15 U.S.C. §§ 45、52、53、57a、57b 官方 U.S. Code 来源，覆盖 unfair or deceptive acts or practices、false advertisements、FTC injunctions、unfair/deceptive-practices rulemaking，以及相关 civil actions。
+- 新增 15 U.S.C. §§ 6821-6827 官方 U.S. Code 来源，即 GLBA customer-information pretexting 框架，覆盖 financial-institution customer information privacy protection、administrative enforcement、criminal penalties、State-law interaction、agency guidance、reports、definitions。
+- 这些条目进一步补齐 scams、deceptive conduct、phishing、financial-information privacy、personal-data abuse 缺口。
+- 12 个新增 section 均从官方 U.S. Code 页面下载，保留原始 HTML artifact，抽取为 Markdown，并通过正文哈希校验。
+
+本轮后的校验状态：registry 中 129 条记录均已进入索引；128 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。

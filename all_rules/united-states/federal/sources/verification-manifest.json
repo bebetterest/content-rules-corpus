@@ -2710,5 +2710,413 @@
         "content_type": null
       }
     ]
+  },
+  {
+    "id": "us-federal-15-usc-45",
+    "title": "15 U.S.C. § 45",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-45.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section45&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-45.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 192,
+    "body_sha256": "d31d820db7bb97d7404d2f424ae828b4ceb8caf4fdb1c9073f438767f31e69aa",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-45.uscode-house-gov.html",
+        "sha256": "71a5d3a864d2c39c0174398f39b6f9eeb064c94f408882b49e9b23cc3e5c2b4d",
+        "bytes": 209097,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-52",
+    "title": "15 U.S.C. § 52",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-52.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section52&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-52.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 72,
+    "body_sha256": "fcfe125bb99c503236d6a974d7c472ac9f1a954478587ba3ee468934eb6280ed",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-52.uscode-house-gov.html",
+        "sha256": "9c3ac01777a3a08d912d539daf975b06ad42ac1c2401693b3530de01f19b615f",
+        "bytes": 147748,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-53",
+    "title": "15 U.S.C. § 53",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-53.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section53&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-53.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 76,
+    "body_sha256": "bfa1049b8d124f7152258d3eada2faf765357d1ca4345338c7751695b85d534b",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-53.uscode-house-gov.html",
+        "sha256": "1a545db2e9f0059fa00a974eca92ca03579734bf2c7582597a8f99ab04ae8e0c",
+        "bytes": 152698,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-57a",
+    "title": "15 U.S.C. § 57a",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-57a.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section57a&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-57a.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 193,
+    "body_sha256": "5409350b51c792f359af0929e97010aabee0c80d5b356332845c25af908a1020",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-57a.uscode-house-gov.html",
+        "sha256": "c4c333f28c025226d29b085dea5f5912e378a2b8f4c694dbca097f1456cd7277",
+        "bytes": 208974,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-57b",
+    "title": "15 U.S.C. § 57b",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-57b.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section57b&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-57b.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 64,
+    "body_sha256": "db72fb9e142042a3b71d88871df52c955e04f607ef80c27c4028b2a484ac59f6",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-57b.uscode-house-gov.html",
+        "sha256": "531d4f636820bac9bc99374543bce20a583dc82e0ed37ec702ce8a60011a72de",
+        "bytes": 150040,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6821",
+    "title": "15 U.S.C. § 6821",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6821.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6821&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6821.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 67,
+    "body_sha256": "28d46bdc6abd10c82996b2b07deeea546c4b517a225c4662e6236671a734f37a",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6821.uscode-house-gov.html",
+        "sha256": "82e938e9394c8ebb02837794221699f5aed635e15e3368c9f4d7ef3cc28ca769",
+        "bytes": 146548,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6822",
+    "title": "15 U.S.C. § 6822",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6822.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6822&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6822.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 68,
+    "body_sha256": "e550ec16cf61f662fe29d068b9164106dfef7314714ec308a1e0fd094e62f281",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6822.uscode-house-gov.html",
+        "sha256": "baf3769bdc8c4263ee04d514c03ee8f9a012fd53704cb46bfcb977a3c118146a",
+        "bytes": 149176,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6823",
+    "title": "15 U.S.C. § 6823",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6823.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6823&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6823.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 51,
+    "body_sha256": "fb55f6e0fbb3a6b72e30def106d9ff71df11084286e1ac3e3aa4297e180e9c21",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6823.uscode-house-gov.html",
+        "sha256": "28075ebb639ae449efd441c36a6bc69cad6c92bc0c9af9036d852b977f526c9b",
+        "bytes": 142673,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6824",
+    "title": "15 U.S.C. § 6824",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6824.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6824&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6824.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 51,
+    "body_sha256": "637985926beab2f4b036bea96568068418aea53c47750e63594891ba6ce6985a",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6824.uscode-house-gov.html",
+        "sha256": "cb0308c48ae292011a1e30943e1df6f68097f62adaa7758465a345c6bdad0272",
+        "bytes": 142654,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6825",
+    "title": "15 U.S.C. § 6825",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6825.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6825&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6825.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 48,
+    "body_sha256": "4ec2e869e264ab1ad1beea60f8b2b88f01da26dd409530350427fad147779882",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6825.uscode-house-gov.html",
+        "sha256": "24cbe2edfe27dad02744cb3c62de221baf4869911c6d5dc04154383d5cfd1ff8",
+        "bytes": 142236,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6826",
+    "title": "15 U.S.C. § 6826",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6826.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6826&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6826.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 53,
+    "body_sha256": "e4a61fe396c08a0769b1a7d742abd345c84d57dde4af733a7758de9ba93be644",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6826.uscode-house-gov.html",
+        "sha256": "55c028f1d76858471846ecb81f95d8bfc64ab37123a0c1410b3f6847a31772ef",
+        "bytes": 142467,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "us-federal-15-usc-6827",
+    "title": "15 U.S.C. § 6827",
+    "collection": "united-states",
+    "jurisdiction": "United States federal law",
+    "output_file": "all_rules/united-states/federal/15-usc-6827.md",
+    "source_urls": [
+      "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6827&edition=prelim"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/federal/sources/us-federal-15-usc-6827.uscode-house-gov.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 72,
+    "body_sha256": "56a1c25188e1db45e86b86286feea39764b064f0d01d4a0569c4e6c1fc8bd524",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/federal/sources/us-federal-15-usc-6827.uscode-house-gov.html",
+        "sha256": "3eb41f86387d4e0c01172431042ae8e4be252527d91661c6465bb42401a9e864",
+        "bytes": 148886,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
   }
 ]

@@ -2,9 +2,99 @@
   "schema_version": 1,
   "directory": "all_rules/united-states/federal",
   "generated_by": "scripts/generate_rule_indexes.mjs",
-  "rule_count": 81,
-  "descendant_rule_count": 81,
+  "rule_count": 93,
+  "descendant_rule_count": 93,
   "rules": [
+    {
+      "title": "15 U.S.C. § 45",
+      "file": "15-usc-45.md",
+      "path": "all_rules/united-states/federal/15-usc-45.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal Trade Commission Act provision concerning unfair methods of competition and unfair or deceptive acts or practices; nationwide federal law relevant to scams, deceptive conduct, platform-integrity, and consumer-protection policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section45&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 52",
+      "file": "15-usc-52.md",
+      "path": "all_rules/united-states/federal/15-usc-52.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal Trade Commission Act false-advertising provision; nationwide federal law relevant to deceptive ads, scams, and consumer-protection policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section52&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 53",
+      "file": "15-usc-53.md",
+      "path": "all_rules/united-states/federal/15-usc-53.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal Trade Commission Act false-advertising injunction provision; nationwide federal law relevant to deceptive ads, scams, and consumer-protection policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section53&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 57a",
+      "file": "15-usc-57a.md",
+      "path": "all_rules/united-states/federal/15-usc-57a.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal Trade Commission Act unfair-or-deceptive-practices rulemaking provision; nationwide federal law relevant to consumer-protection and deceptive-conduct policy frameworks.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section57a&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 57b",
+      "file": "15-usc-57b.md",
+      "path": "all_rules/united-states/federal/15-usc-57b.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal Trade Commission Act civil-action provision for violations of rules and cease-and-desist orders; nationwide federal law relevant to deceptive-conduct enforcement.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section57b&edition=prelim"
+      ]
+    },
     {
       "title": "15 U.S.C. § 6501",
       "file": "15-usc-6501.md",
@@ -111,6 +201,132 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "source_urls": [
         "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6506&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 6821",
+      "file": "15-usc-6821.md",
+      "path": "all_rules/united-states/federal/15-usc-6821.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal GLBA pretexting provision protecting customer information of financial institutions; nationwide federal law relevant to phishing, identity abuse, privacy, and personal-data abuse policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6821&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 6822",
+      "file": "15-usc-6822.md",
+      "path": "all_rules/united-states/federal/15-usc-6822.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal GLBA administrative enforcement provision for customer-information pretexting rules; nationwide federal law relevant to privacy and fraud enforcement.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6822&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 6823",
+      "file": "15-usc-6823.md",
+      "path": "all_rules/united-states/federal/15-usc-6823.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal GLBA criminal penalty provision for customer-information pretexting rules; nationwide federal law relevant to privacy and identity-abuse enforcement.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6823&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 6824",
+      "file": "15-usc-6824.md",
+      "path": "all_rules/united-states/federal/15-usc-6824.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal GLBA relation-to-State-laws provision for customer-information pretexting rules; nationwide federal law relevant to privacy-law interaction.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6824&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 6825",
+      "file": "15-usc-6825.md",
+      "path": "all_rules/united-states/federal/15-usc-6825.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal GLBA agency-guidance provision for customer-information pretexting rules; nationwide federal law relevant to privacy and fraud prevention guidance.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6825&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 6826",
+      "file": "15-usc-6826.md",
+      "path": "all_rules/united-states/federal/15-usc-6826.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal GLBA reports provision for customer-information pretexting rules; nationwide federal law relevant to privacy-law oversight.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6826&edition=prelim"
+      ]
+    },
+    {
+      "title": "15 U.S.C. § 6827",
+      "file": "15-usc-6827.md",
+      "path": "all_rules/united-states/federal/15-usc-6827.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal GLBA definitions provision for customer-information pretexting rules; nationwide federal law relevant to financial-information privacy and identity-abuse policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section6827&edition=prelim"
       ]
     },
     {

@@ -164,3 +164,14 @@ Federal extraction updates:
 - All 13 new sections were downloaded from official U.S. Code pages, retained as raw HTML artifacts, extracted to Markdown, and verified with body hashes.
 
 Verification status after this pass: 117 registry entries are indexed; 116 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Federal FTC Act and GLBA Pretexting Gap Fill
+
+Federal extraction updates:
+
+- Added official U.S. Code sources for 15 U.S.C. §§ 45, 52, 53, 57a, and 57b, covering unfair or deceptive acts or practices, false advertisements, FTC injunctions, unfair/deceptive-practices rulemaking, and related civil actions.
+- Added official U.S. Code sources for 15 U.S.C. §§ 6821-6827, the GLBA customer-information pretexting framework, covering privacy protection for financial-institution customer information, administrative enforcement, criminal penalties, State-law interaction, agency guidance, reports, and definitions.
+- These entries fill additional scams, deceptive-conduct, phishing, financial-information privacy, and personal-data abuse gaps.
+- All 12 new sections were downloaded from official U.S. Code pages, retained as raw HTML artifacts, extracted to Markdown, and verified with body hashes.
+
+Verification status after this pass: 129 registry entries are indexed; 128 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
