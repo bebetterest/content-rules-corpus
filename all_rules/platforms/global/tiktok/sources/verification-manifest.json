@@ -6,27 +6,137 @@
     "jurisdiction": "Global / platform policy",
     "output_file": "all_rules/platforms/global/tiktok/tiktok-community-guidelines.md",
     "source_urls": [
-      "https://www.tiktok.com/community-guidelines/en/"
+      "https://www.tiktok.com/community-guidelines/en/overview?cgversion=2025H2update",
+      "https://www.tiktok.com/community-guidelines/en/community-principles?cgversion=2025H2update",
+      "https://www.tiktok.com/community-guidelines/en/youth-safety?cgversion=2025H2update",
+      "https://www.tiktok.com/community-guidelines/en/safety-civility?cgversion=2025H2update",
+      "https://www.tiktok.com/community-guidelines/en/mental-behavioral-health?cgversion=2025H2update",
+      "https://www.tiktok.com/community-guidelines/en/sensitive-mature-themes?cgversion=2025H2update",
+      "https://www.tiktok.com/community-guidelines/en/integrity-authenticity?cgversion=2025H2update",
+      "https://www.tiktok.com/community-guidelines/en/regulated-commercial-activities?cgversion=2025H2update",
+      "https://www.tiktok.com/community-guidelines/en/privacy-security?cgversion=2025H2update",
+      "https://www.tiktok.com/community-guidelines/fyf-standards/?cgversion=2025H2update&lang=en",
+      "https://www.tiktok.com/community-guidelines/en/accounts-features?cgversion=2025H2update",
+      "https://www.tiktok.com/community-guidelines/en/enforcement?cgversion=2025H2update"
     ],
     "source_files": [
-      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines.tiktok-com.html"
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-01.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-02.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-03.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-04.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-05.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-06.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-07.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-08.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-09.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-10.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-11.tiktok-com.html",
+      "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-12.tiktok-com.html"
     ],
     "retrieved_date": "2026-05-24",
     "language": "en",
-    "extraction_status": "stub",
-    "extraction_note": "extracted text length 30 is below minimum 5000; missing required phrase(s): Community Guidelines",
-    "paragraph_count": 0,
-    "body_sha256": null,
-    "attempted_text_sha256": "3da6fae2b4fd6a6329e00d57a1f35216906212a32d4de6c5a5eb050a38865a7e",
-    "attempted_text_length": 30,
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 345,
+    "body_sha256": "1b242428c05cdba6bba20e2221c408d7e7cab820147906ac5cb0909b53dc6ec5",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
     "source_sha256": [
       {
-        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines.tiktok-com.html",
-        "sha256": "028b02ff8c202080956e43324c7716cb1300f04dce8e7741b5c7503de42874e3",
-        "bytes": 171082,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
-        "content_type": null
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-01.tiktok-com.html",
+        "sha256": "6e4a3199430debd1dbf05fe5d53aec8b144df63289afbc013bf0b9ab67217a18",
+        "bytes": 89145,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-02.tiktok-com.html",
+        "sha256": "2c0d9fb77df08f8ee5d3d15230bbf50f494953b7d3bd2b0144a7bcea9ff87a3e",
+        "bytes": 77586,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-03.tiktok-com.html",
+        "sha256": "b3edfd08857f6584941354f2e546acd72f3602edbeefebb5a3afb8a5d70b6220",
+        "bytes": 79004,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-04.tiktok-com.html",
+        "sha256": "fbd796b4ec014000606675e908d0c05907d63400cf6bad4e08f721245dde099f",
+        "bytes": 94762,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-05.tiktok-com.html",
+        "sha256": "c3f18ac6d1dcd76ecd2619eb7a5a9f6a0401d58898825ab0509b89d95d564b9c",
+        "bytes": 80640,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-06.tiktok-com.html",
+        "sha256": "dcd96f3ee96200afbf05d7937e823615ac9b6a04fd81fec87e5a01b53bf116d8",
+        "bytes": 81626,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-07.tiktok-com.html",
+        "sha256": "a2636a24849a53a78b53060e3f05bf32fd9b8d7b82e62b05e996ca6dff8a824e",
+        "bytes": 90053,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-08.tiktok-com.html",
+        "sha256": "4915631aba76e4ee03b94a0130dd51e714b0642f08238060ed7f47d0eda34dbd",
+        "bytes": 83392,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-09.tiktok-com.html",
+        "sha256": "bbf42d5683f1f81eb08ced9b5a93706a9cc0b03e882c72ca41ed7820a07b6399",
+        "bytes": 54910,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-10.tiktok-com.html",
+        "sha256": "e01b5eb5632048fe84617ff91b27c97f2886ed168d9356044c10783dd78c6b19",
+        "bytes": 75550,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-11.tiktok-com.html",
+        "sha256": "60d1106afc5d7b7638f8f237560368cc2024a2e3cd24f14a8589ff62decdcdd2",
+        "bytes": 101839,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-12.tiktok-com.html",
+        "sha256": "0e9e42590503ae64bc0f18541020170ca5bdb90ec57e5a2ebe64bfb1bf5fe8fd",
+        "bytes": 80413,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
       }
     ]
   }

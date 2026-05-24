@@ -1,26 +1,73 @@
 # The X Rules
 
-> Opening Note: This file is a source stub only. The script downloaded or attempted to download the official source, but did not confirm complete original-text extraction. No rule body is reproduced here. Reason: https://help.x.com/en/rules-and-policies/x-rules: attempt 1: fetch failed: fetch failed; curl failed: curl: (56) The requested URL returned error: 403; https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors: attempt 1: fetch failed: fetch failed; curl failed: curl: (56) The requested URL returned error: 403; https://help.x.com/en/rules-and-policies/violent-speech: attempt 1: fetch failed: This operation was aborted; curl failed: curl: (56) The requested URL returned error: 403; https://help.x.com/en/rules-and-policies/hateful-conduct-policy: attempt 1: fetch failed: This operation was aborted; curl failed: curl: (56) The requested URL returned error: 403
+> Opening Note: Official X Help Center pages confirmed through Playwright-rendered official source artifacts. Other linked detailed X policy pages, including illegal-regulated-behaviors and hateful-conduct-policy, were not confirmed on 2026-05-24 because official help.x.com browser requests returned Cloudflare challenge pages.
 
 - Collection: platforms
 - Jurisdiction: Global / platform policy
 - Scope Note: X platform rules and selected safety policies; not a government legal code.
 - Source Authority: X Help Center
 - Source URL:
-- https://help.x.com/en/rules-and-policies/x-rules
-- https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors
-- https://help.x.com/en/rules-and-policies/violent-speech
-- https://help.x.com/en/rules-and-policies/hateful-conduct-policy
+- https://help.x.com/rules-and-policies/twitter-rules
 - Retrieval Date: 2026-05-24
 - Language: en
-- Fetch Method: html
-- Extractor: generic-html
-- Extraction Status: stub
-- Status Note: Official X Help Center pages. Current automated fetches return a Cloudflare challenge, so this entry must remain a stub unless a complete official source artifact is downloaded.
+- Fetch Method: rendered-html
+- Extractor: x-help-html
+- Extraction Status: extracted
+- Status Note: Official X Help Center pages confirmed through Playwright-rendered official source artifacts. Other linked detailed X policy pages, including illegal-regulated-behaviors and hateful-conduct-policy, were not confirmed on 2026-05-24 because official help.x.com browser requests returned Cloudflare challenge pages.
 - Source SHA-256:
-- not available because no source artifact was downloaded
-- Body SHA-256: not generated because this is a source stub
+- all_rules/platforms/global/x/sources/platform-x-rules.help-x-com.html: 8888c792873bdf45494257b7b0b14288d03f9c0fc0f1f7841aefc236cb75b414
+- Body SHA-256: d897e07af214a7cb88b97067cfba88887af57edac6fb84046a19d32ee628365d
 
-## Source Stub
+## Source Text
 
-No source text is reproduced in this file because complete extraction was not confirmed.
+The X Rules
+
+X's purpose is to serve the public conversation. Violence, harassment and other similar types of behavior discourage people from expressing themselves, and ultimately diminish the value of global public conversation. Our rules are to ensure all people can participate in the public conversation freely and safely.
+
+Safety
+
+Violent Content: You may share graphic media if it is properly labeled, not prominently displayed and is not excessively gory or depicting sexual violence, but explicitly threatening, inciting, glorifying, or expressing desire for violence is not allowed. Learn more .
+
+Violent & Hateful Entities: You can’t affiliate with or promote the activities of violent and hateful entities. Learn more .
+
+Child Safety: We have zero tolerance for any forms of child sexual exploitation and remove certain media depicting physical child abuse to prevent the normalization of violence against children. Learn more .
+
+Abuse/Harassment: You may not share abusive content, engage in the targeted harassment of someone, or incite other people to do so. Learn more .
+
+Hateful conduct: You may not attack other people on the basis of race, ethnicity, national origin, caste, sexual orientation, gender, gender identity, religious affiliation, age, disability, or serious disease. Learn more .
+
+Perpetrators of Violent Attacks: We will remove any accounts maintained by individual perpetrators of terrorist, violent extremist, or mass violent attacks, and may also remove posts disseminating manifestos or other content produced by perpetrators. Learn more .
+
+Suicide: You may not promote or encourage suicide or self-harm. Learn more .
+
+Adult Content: You may share consensually produced and distributed adult nudity or sexual behavior, provided it's properly labeled and not prominently displayed. Learn more .
+
+Illegal or Certain Regulated Goods or Services: You may not use our service for any unlawful purpose or in furtherance of illegal activities. This includes selling, buying, or facilitating transactions in illegal goods or services, as well as certain types of regulated goods or services. Learn more .
+
+Privacy
+
+Private Information: You may not publish or post other people's private information (such as home phone number and address) without their express authorization and permission. We also prohibit threatening to expose private information or incentivizing others to do so. Learn more .
+
+Non-Consensual Nudity: You may not post or share intimate photos or videos of someone that were produced or distributed without their consent. Learn more .
+
+Account Compromise: You may not use or attempt to use credentials, passwords, tokens, keys, cookies or other data to log into or otherwise access, add, delete or modify the private information or account features of any X account other than your own (or those you have been directly authorized to do so via X’s Teams authorization, OAuth authorization or similar mechanism).
+
+Authenticity
+
+Platform Manipulation and Spam: You may not use X’s services in a manner intended to artificially amplify or suppress information or engage in behavior that manipulates or disrupts people’s experience on X. Learn more .
+
+Civic Integrity : You may not use X’s services for the purpose of manipulating or interfering in elections or other civic processes. This includes posting or sharing content that may suppress participation or mislead people about when, where, or how to participate in a civic process. Learn more .
+
+Misleading and Deceptive Identities: You may not impersonate individuals, groups, or organizations to mislead, confuse, or deceive others, nor use a fake identity in a manner that disrupts the experience of others on X. Learn more .
+
+Synthetic and Manipulated Media: You may not deceptively share synthetic or manipulated media that are likely to cause harm. In addition, we may label posts containing synthetic and manipulated media to help people understand their authenticity and to provide additional context. Learn more .
+
+Copyright and Trademark: You may not violate others’ intellectual property rights, including copyright and trademark. Learn more about our trademark policy and copyright policy .
+
+Third-party advertising in video content
+
+You may not submit, post, or display any video content on or through our services that includes third-party advertising, such as pre-roll video ads or sponsorship graphics, without our prior consent.
+
+Enforcement and Appeals
+
+Learn more about our approach to enforcement , including potential consequences for violating these rules or attempting to circumvent enforcement, as well as how to appeal.

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/global/youtube",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "YouTube Community Guidelines",
+      "file": "youtube-community-guidelines.md",
+      "path": "all_rules/platforms/global/youtube/youtube-community-guidelines.md",
+      "collection": "platforms",
+      "jurisdiction": "Global / platform policy",
+      "scope_note": "YouTube platform community guidelines and selected detailed safety policies; not a government legal code.",
+      "source_authority": "YouTube Help / Google",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official YouTube Help pages. YouTube maintains additional policy pages not all included in this first batch.",
+      "source_urls": [
+        "https://support.google.com/youtube/answer/9288567?hl=en",
+        "https://support.google.com/youtube/answer/2801964?hl=en",
+        "https://support.google.com/youtube/answer/9229611?hl=en",
+        "https://support.google.com/youtube/answer/2801999?hl=en"
+      ]
+    }
+  ],
+  "children": []
+}

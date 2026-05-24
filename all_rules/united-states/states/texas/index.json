@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/united-states/states/texas",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "Texas Business & Commerce Code Chapter 509 - Use of Digital Services by Minors",
+      "file": "texas-business-commerce-code-chapter-509.md",
+      "path": "all_rules/united-states/states/texas/texas-business-commerce-code-chapter-509.md",
+      "collection": "united-states",
+      "jurisdiction": "Texas state law",
+      "scope_note": "Applies only within the scope of Texas law; not nationwide federal law. Current enforceability may be affected by litigation or injunctions and must be checked before legal use.",
+      "source_authority": "Texas Constitution and Statutes",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "pdf",
+      "extractor": "generic-html",
+      "extraction_status": "stub",
+      "status_note": "Official Texas Constitution and Statutes codified source. On 2026-05-24, the official Texas statutes and legislature sites returned HTTP 503 maintenance responses with Retry-After Tue, 26 May 2026 12:00:00 GMT, so this entry remains a source stub until the official source is available.",
+      "source_urls": [
+        "https://statutes.capitol.texas.gov/Docs/BC/pdf/BC.509.pdf"
+      ]
+    }
+  ],
+  "children": []
+}

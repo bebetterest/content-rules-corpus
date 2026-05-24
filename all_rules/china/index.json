@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/china",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 2,
+  "descendant_rule_count": 2,
+  "rules": [
+    {
+      "title": "互联网信息服务管理办法",
+      "file": "internet-information-service-management-measures_cn.md",
+      "path": "all_rules/china/internet-information-service-management-measures_cn.md",
+      "jurisdiction": "中国",
+      "document_type": "行政法规",
+      "issuing_authority": "中华人民共和国国务院",
+      "publication_date": "2000-09-25",
+      "revision_history": "2011-01-08 第一次修订；2024-12-06 第二次修订",
+      "source_authority": "国家行政法规库",
+      "retrieval_date": "2026-05-23",
+      "generation_method": "由 scripts/fetch_china_rules.mjs 下载官方 HTML 后抽取生成",
+      "status_note": "本文件保存国家行政法规库展示的现行中文原文全文，不包含翻译。",
+      "source_urls": [
+        "https://xzfg.moj.gov.cn/front/law/detail?LawID=1756"
+      ]
+    },
+    {
+      "title": "网络信息内容生态治理规定",
+      "file": "provisions-on-governance-of-online-information-content-ecosystem_cn.md",
+      "path": "all_rules/china/provisions-on-governance-of-online-information-content-ecosystem_cn.md",
+      "jurisdiction": "中国",
+      "document_type": "部门规章",
+      "issuing_authority": "国家互联网信息办公室",
+      "publication_date": "2019-12-15",
+      "retrieval_date": "2026-05-23",
+      "generation_method": "由 scripts/fetch_china_rules.mjs 下载官方 HTML 后抽取生成",
+      "status_note": "本文件保存国家互联网信息办公室发布页面展示的中文原文全文，不包含翻译。",
+      "source_urls": [
+        "https://www.cac.gov.cn/2019-12/20/c_1578375159509309.htm"
+      ]
+    }
+  ],
+  "children": []
+}

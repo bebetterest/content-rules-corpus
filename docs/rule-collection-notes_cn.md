@@ -52,3 +52,26 @@
 - Meta Transparency Center 页面可以下载，但下载 HTML 中没有可确认的完整政策正文，需要后续补充渲染或 API 抽取。
 
 本轮校验结果：`node scripts/verify_rules.mjs` 验证 49 条记录，其中 41 个文件已抽取正文，8 个文件仍为 source stub。
+
+## 2026-05-24 目录 JSON 索引
+
+导航更新：
+
+- 新增 `scripts/generate_rule_indexes.mjs`，为 `all_rules/` 下每个非 `sources/` 目录生成 `index.json`。
+- 每个目录索引列出该目录直属的规则 Markdown 文件，包括抽取出的标题、文件名、路径、可用来源元数据，以及子目录索引链接。
+- 更新 `scripts/verify_rules.mjs`，如果规则目录缺少索引、直属规则 Markdown 未被列入索引、索引指向缺失文件，或原始来源文件哈希与 manifest 不一致，校验会失败。
+
+## 2026-05-24 浏览器渲染补缺轮次
+
+抽取更新：
+
+- 新增 `scripts/render_url.py`，并在 `scripts/fetch_rules.mjs` 中支持 `rendered-html`，用于正文必须经过浏览器渲染才出现在 HTML artifact 中的官方来源。
+- 增加渲染页面点击选择器能力，使官方折叠区域可以先展开，再保存渲染后的原始 artifact。
+- Roblox Community Standards 改用官方 `about.roblox.com` 页面，展开官方折叠区域，并抽取详细政策正文。
+- Meta Community Standards 收集从 Meta 官方政策索引发现的 27 个 Transparency Center Community Standards 分类页，去除重复站点导航，并保存渲染 artifact。
+- TikTok Community Guidelines 收集官方 2025 H2 渲染版规则页面，修剪页脚和导航内容，并保存渲染 artifact。
+- X 现在从 `help.x.com` 抽取官方渲染后的 `The X Rules` 文章正文。其他 X 详细政策子页，包括 illegal-regulated-behaviors 和 hateful-conduct-policy，本轮未确认，因为官方浏览器渲染请求返回 Cloudflare challenge 页面。
+- Utah、Mississippi、Ohio 州条目已从 stub 转为官方来源正文抽取。Utah 和 Mississippi 的官方来源站点需要 insecure-TLS curl fallback；Mississippi 还需要 Windows-1252 解码。
+- Texas 改为首选的 Texas Constitution and Statutes Chapter 509 官方 codified PDF 来源。2026-05-24，Texas statutes 和 legislature 官方站点返回 HTTP 503 维护响应，并带有 `Retry-After: Tue, 26 May 2026 12:00:00 GMT`，因此 Texas 仍保留 source stub。
+
+本轮后的校验状态：registry 中 49 条记录均已进入索引；48 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。

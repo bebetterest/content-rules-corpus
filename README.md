@@ -20,7 +20,10 @@ This repository collects rule, regulation, standard, and policy texts in a sourc
 - `node scripts/fetch_china_rules.mjs`: refresh the initial China regulatory seed set.
 - `node scripts/fetch_rules.mjs --collection platforms`: refresh platform policy sources from `all_rules/source-registry.json`.
 - `node scripts/fetch_rules.mjs --collection united-states`: refresh U.S. federal and state sources from `all_rules/source-registry.json`.
-- `node scripts/verify_rules.mjs`: verify source URLs, body hashes, legacy China hashes, and required state-law scope notes.
+- `node scripts/generate_rule_indexes.mjs`: refresh per-directory `index.json` files under `all_rules/` for internal navigation.
+- `node scripts/verify_rules.mjs`: verify source URLs, raw source artifact hashes, body hashes, legacy China hashes, required state-law scope notes, and directory indexes.
+
+Some platform entries use `fetch_method: "rendered-html"` and require Python Playwright with a Chromium browser installed. Those entries still save the rendered official HTML artifact before Markdown extraction.
 
 ## Collection Principles
 

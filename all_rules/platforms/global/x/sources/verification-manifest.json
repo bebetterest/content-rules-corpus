@@ -6,20 +6,28 @@
     "jurisdiction": "Global / platform policy",
     "output_file": "all_rules/platforms/global/x/x-rules.md",
     "source_urls": [
-      "https://help.x.com/en/rules-and-policies/x-rules",
-      "https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors",
-      "https://help.x.com/en/rules-and-policies/violent-speech",
-      "https://help.x.com/en/rules-and-policies/hateful-conduct-policy"
+      "https://help.x.com/rules-and-policies/twitter-rules"
     ],
-    "source_files": [],
+    "source_files": [
+      "all_rules/platforms/global/x/sources/platform-x-rules.help-x-com.html"
+    ],
     "retrieved_date": "2026-05-24",
     "language": "en",
-    "extraction_status": "stub",
-    "extraction_note": "https://help.x.com/en/rules-and-policies/x-rules: attempt 1: fetch failed: fetch failed; curl failed: curl: (56) The requested URL returned error: 403; https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors: attempt 1: fetch failed: fetch failed; curl failed: curl: (56) The requested URL returned error: 403; https://help.x.com/en/rules-and-policies/violent-speech: attempt 1: fetch failed: This operation was aborted; curl failed: curl: (56) The requested URL returned error: 403; https://help.x.com/en/rules-and-policies/hateful-conduct-policy: attempt 1: fetch failed: This operation was aborted; curl failed: curl: (56) The requested URL returned error: 403",
-    "paragraph_count": 0,
-    "body_sha256": null,
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 26,
+    "body_sha256": "d897e07af214a7cb88b97067cfba88887af57edac6fb84046a19d32ee628365d",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
-    "source_sha256": []
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/global/x/sources/platform-x-rules.help-x-com.html",
+        "sha256": "8888c792873bdf45494257b7b0b14288d03f9c0fc0f1f7841aefc236cb75b414",
+        "bytes": 90734,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      }
+    ]
   }
 ]

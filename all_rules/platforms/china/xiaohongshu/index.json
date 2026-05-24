@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/china/xiaohongshu",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "小红书社区规范",
+      "file": "xiaohongshu-community-guideline_cn.md",
+      "path": "all_rules/platforms/china/xiaohongshu/xiaohongshu-community-guideline_cn.md",
+      "collection": "platforms",
+      "jurisdiction": "China / platform policy",
+      "scope_note": "Xiaohongshu community policy source candidate; not a government legal code.",
+      "source_authority": "Xiaohongshu agreement service",
+      "retrieval_date": "2026-05-24",
+      "language": "zh-CN",
+      "fetch_method": "html+json-post",
+      "extractor": "xiaohongshu-contract-json",
+      "extraction_status": "extracted",
+      "status_note": "Official Xiaohongshu agreement page plus its official contract-content API response.",
+      "source_urls": [
+        "https://agree.xiaohongshu.com/h5/terms/ZXXY20221213003/-1",
+        "https://oacontract.xiaohongshu.com/oacontract/v1/contract/findContractContent?id=-1&contractNo=ZXXY20221213003"
+      ]
+    }
+  ],
+  "children": []
+}

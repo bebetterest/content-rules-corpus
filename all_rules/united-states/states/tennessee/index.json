@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/united-states/states/tennessee",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "Tennessee Protecting Children from Social Media Act",
+      "file": "tennessee-protecting-children-from-social-media-act.md",
+      "path": "all_rules/united-states/states/tennessee/tennessee-protecting-children-from-social-media-act.md",
+      "collection": "united-states",
+      "jurisdiction": "Tennessee state law",
+      "scope_note": "Applies only within the scope of Tennessee law; not nationwide federal law. Current enforceability may be affected by litigation or injunctions and must be checked before legal use.",
+      "source_authority": "Tennessee General Assembly",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "pdf",
+      "extractor": "pdf-text",
+      "extraction_status": "extracted",
+      "status_note": "Official Tennessee bill PDF source. Check codified text and current litigation status before legal use.",
+      "source_urls": [
+        "https://www.capitol.tn.gov/Bills/113/Bill/HB1891.pdf"
+      ]
+    }
+  ],
+  "children": []
+}

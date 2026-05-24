@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/united-states/states/california",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 3,
+  "descendant_rule_count": 3,
+  "rules": [
+    {
+      "title": "California Age-Appropriate Design Code Act",
+      "file": "california-age-appropriate-design-code-act.md",
+      "path": "all_rules/united-states/states/california/california-age-appropriate-design-code-act.md",
+      "collection": "united-states",
+      "jurisdiction": "California state law",
+      "scope_note": "Applies only within the scope of California law; not nationwide federal law. Current enforceability may be affected by litigation or injunctions and must be checked before legal use.",
+      "source_authority": "California Legislative Information",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official California code source. Enforceability and litigation status should be verified before legal use.",
+      "source_urls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.47.&part=4.&chapter=&article="
+      ]
+    },
+    {
+      "title": "California Protecting Our Kids from Social Media Addiction Act",
+      "file": "california-protecting-our-kids-from-social-media-addiction-act.md",
+      "path": "all_rules/united-states/states/california/california-protecting-our-kids-from-social-media-addiction-act.md",
+      "collection": "united-states",
+      "jurisdiction": "California state law",
+      "scope_note": "Applies only within the scope of California law; not nationwide federal law. Current enforceability, operative dates, and litigation status must be checked before legal use.",
+      "source_authority": "California Legislative Information",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official California code source. Operative dates and litigation status should be verified before legal use.",
+      "source_urls": [
+        "https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=24.&division=20.&lawCode=HSC&part=&title="
+      ]
+    },
+    {
+      "title": "California Social Media Terms of Service Reports Law",
+      "file": "california-social-media-terms-of-service-reports.md",
+      "path": "all_rules/united-states/states/california/california-social-media-terms-of-service-reports.md",
+      "collection": "united-states",
+      "jurisdiction": "California state law",
+      "scope_note": "Applies only within the scope of California law; not nationwide federal law. Current enforceability may be affected by litigation or injunctions and must be checked before legal use.",
+      "source_authority": "California Legislative Information",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official California code source. Enforceability and litigation status should be verified before legal use.",
+      "source_urls": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=8.&title=&part=&chapter=22.8.&article="
+      ]
+    }
+  ],
+  "children": []
+}

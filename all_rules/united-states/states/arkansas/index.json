@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/united-states/states/arkansas",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "Arkansas Social Media Safety Act - Act 689 of 2023",
+      "file": "arkansas-social-media-safety-act-689-2023.md",
+      "path": "all_rules/united-states/states/arkansas/arkansas-social-media-safety-act-689-2023.md",
+      "collection": "united-states",
+      "jurisdiction": "Arkansas state law",
+      "scope_note": "Applies only within the scope of Arkansas law; not nationwide federal law. Current enforceability has been subject to litigation and must be checked before legal use.",
+      "source_authority": "Arkansas State Legislature",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "pdf",
+      "extractor": "pdf-text",
+      "extraction_status": "extracted",
+      "status_note": "Official Arkansas act PDF source. Current injunction/litigation status should be verified before legal use.",
+      "source_urls": [
+        "https://www.arkleg.state.ar.us/Acts/FTPDocument?ddBienniumSession=2023%2F2023R&file=689.pdf&path=%2FACTS%2F2023R%2FPublic%2F"
+      ]
+    }
+  ],
+  "children": []
+}

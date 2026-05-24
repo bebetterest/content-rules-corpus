@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/united-states/states/florida",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "Florida Online Protections for Minors",
+      "file": "florida-online-protections-for-minors.md",
+      "path": "all_rules/united-states/states/florida/florida-online-protections-for-minors.md",
+      "collection": "united-states",
+      "jurisdiction": "Florida state law",
+      "scope_note": "Applies only within the scope of Florida law; not nationwide federal law. Current enforceability may be affected by litigation or injunctions and must be checked before legal use.",
+      "source_authority": "Online Sunshine / Florida Legislature",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official Florida statutes source. Enforceability and litigation status should be verified before legal use.",
+      "source_urls": [
+        "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0500-0599/0501/Sections/0501.1736.html",
+        "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0500-0599/0501/Sections/0501.1737.html",
+        "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0500-0599/0501/Sections/0501.1738.html"
+      ]
+    }
+  ],
+  "children": []
+}

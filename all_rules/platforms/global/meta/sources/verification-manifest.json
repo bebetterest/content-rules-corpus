@@ -6,12 +6,33 @@
     "jurisdiction": "Global / platform policy",
     "output_file": "all_rules/platforms/global/meta/meta-community-standards.md",
     "source_urls": [
-      "https://transparency.meta.com/policies/community-standards/",
-      "https://transparency.meta.com/policies/community-standards/violence-incitement/",
-      "https://transparency.meta.com/policies/community-standards/dangerous-individuals-organizations/",
+      "https://transparency.meta.com/policies/community-standards/account-integrity/",
+      "https://transparency.meta.com/policies/community-standards/additional-protection-minors/",
+      "https://transparency.meta.com/policies/community-standards/adult-nudity-sexual-activity/",
+      "https://transparency.meta.com/policies/community-standards/authentic-identity-representation/",
+      "https://transparency.meta.com/policies/community-standards/bullying-harassment/",
       "https://transparency.meta.com/policies/community-standards/child-sexual-exploitation-abuse-nudity/",
+      "https://transparency.meta.com/policies/community-standards/coordinating-harm-publicizing-crime/",
+      "https://transparency.meta.com/policies/community-standards/cybersecurity/",
+      "https://transparency.meta.com/policies/community-standards/dangerous-individuals-organizations/",
+      "https://transparency.meta.com/policies/community-standards/fraud-scams/",
       "https://transparency.meta.com/policies/community-standards/hate-speech/",
-      "https://transparency.meta.com/policies/community-standards/restricted-goods-services/"
+      "https://transparency.meta.com/policies/community-standards/human-exploitation/",
+      "https://transparency.meta.com/policies/community-standards/inauthentic-behavior/",
+      "https://transparency.meta.com/policies/community-standards/intellectual-property/",
+      "https://transparency.meta.com/policies/community-standards/locally-illegal-products-services/",
+      "https://transparency.meta.com/policies/community-standards/memorialization/",
+      "https://transparency.meta.com/policies/community-standards/meta-intellectual-property/",
+      "https://transparency.meta.com/policies/community-standards/misinformation/",
+      "https://transparency.meta.com/policies/community-standards/privacy-violations-image-privacy-rights/",
+      "https://transparency.meta.com/policies/community-standards/regulated-goods/",
+      "https://transparency.meta.com/policies/community-standards/sexual-exploitation-adults/",
+      "https://transparency.meta.com/policies/community-standards/sexual-solicitation/",
+      "https://transparency.meta.com/policies/community-standards/spam/",
+      "https://transparency.meta.com/policies/community-standards/suicide-self-injury/",
+      "https://transparency.meta.com/policies/community-standards/user-requests/",
+      "https://transparency.meta.com/policies/community-standards/violence-incitement/",
+      "https://transparency.meta.com/policies/community-standards/violent-graphic-content/"
     ],
     "source_files": [
       "all_rules/platforms/global/meta/sources/platform-meta-community-standards-01.transparency-meta-com.html",
@@ -19,64 +40,253 @@
       "all_rules/platforms/global/meta/sources/platform-meta-community-standards-03.transparency-meta-com.html",
       "all_rules/platforms/global/meta/sources/platform-meta-community-standards-04.transparency-meta-com.html",
       "all_rules/platforms/global/meta/sources/platform-meta-community-standards-05.transparency-meta-com.html",
-      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-06.transparency-meta-com.html"
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-06.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-07.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-08.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-09.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-10.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-11.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-12.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-13.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-14.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-15.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-16.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-17.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-18.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-19.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-20.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-21.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-22.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-23.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-24.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-25.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-26.transparency-meta-com.html",
+      "all_rules/platforms/global/meta/sources/platform-meta-community-standards-27.transparency-meta-com.html"
     ],
     "retrieved_date": "2026-05-24",
     "language": "en",
-    "extraction_status": "stub",
-    "extraction_note": "extracted text length 336 is below minimum 5000",
-    "paragraph_count": 0,
-    "body_sha256": null,
-    "attempted_text_sha256": "8412b53b0d3d2a67b5aa5bfe43023a7fa290ef8754ccb8559e5a19a5e393af78",
-    "attempted_text_length": 336,
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 2813,
+    "body_sha256": "d0ecc2323bbb829f935591bdd7d53de9e4d754201a503a861b3dcd6d33dea4a0",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
     "source_sha256": [
       {
         "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-01.transparency-meta-com.html",
-        "sha256": "472cb09e277ad538be230a9e54a53af82e46997901559d581aaa9438ac5532d7",
-        "bytes": 242688,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
-        "content_type": null
+        "sha256": "e36ff25e2076ba6a4b196d33e9ebbb23a8586bed437ed9ead68e10f8839b5051",
+        "bytes": 1032281,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-02.transparency-meta-com.html",
-        "sha256": "a749d6d08b9c2b33704b72c80161bad90d2beddfc53dc3d5e9f8090f7aeb7a94",
-        "bytes": 244983,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
-        "content_type": null
+        "sha256": "10f37ef63c8e5e3247971c49a7e4229766f15fcf3d41f3a56de21c25ed31d26e",
+        "bytes": 626042,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-03.transparency-meta-com.html",
-        "sha256": "59e3cd52fafb8d292126695846a01f18663727040fab31a9239dd9b7b89839d5",
-        "bytes": 246774,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
-        "content_type": null
+        "sha256": "1265bb2e343e4f80f201060bd0994d8c97268e33ffd2b8fa11e1d0703d4644b5",
+        "bytes": 1256979,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-04.transparency-meta-com.html",
-        "sha256": "13e239e61d31d50ff232326621567c7ce237822c094ee718cc00767dc9e9f0ac",
-        "bytes": 247119,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
-        "content_type": null
+        "sha256": "ec5757f381bb1fd955627aa38b1b2182aaa227de62b142102effe3048e70bf60",
+        "bytes": 681030,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-05.transparency-meta-com.html",
-        "sha256": "ba8ef6538da5f29f4d88f8bfe2d35f8f02f9bc22d2452090e92a302e072e0853",
-        "bytes": 244438,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
-        "content_type": null
+        "sha256": "f6d51d812333c8ec1c4e9262d5b2d51f49007d6000059806b5cadc31454e72a5",
+        "bytes": 2006754,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
       },
       {
         "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-06.transparency-meta-com.html",
-        "sha256": "80d54e67928ee420600c99c788b298d03e27ea724e3549f5ec0fcd7f8dabfdc7",
-        "bytes": 245689,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
-        "content_type": null
+        "sha256": "19814307c6256df931599d9395b2d5847d114d038c3201e6d8d60b79aba5850e",
+        "bytes": 1388844,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-07.transparency-meta-com.html",
+        "sha256": "2f73bfc756ebed9435aed8b31ec0a65abed10c85c7520e1de733cd817cba39d0",
+        "bytes": 1179951,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-08.transparency-meta-com.html",
+        "sha256": "d0a9f60e4b2e7c95eba85422f50a8e9e7971799fcda9d529110b7f5ed2010f60",
+        "bytes": 700256,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-09.transparency-meta-com.html",
+        "sha256": "bb916b9fd2bce3237b605f818d830455b41e5ac73d569defac99e49665c2994e",
+        "bytes": 1616917,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-10.transparency-meta-com.html",
+        "sha256": "02f20fa26efd4857f7e34c5a913ca6fc4ab032feeb98b6b3599c44a1281487de",
+        "bytes": 1269018,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-11.transparency-meta-com.html",
+        "sha256": "f0a89e9b03214b8ee739d3a3d019db2dee9551280296ac7009e304c4ba602348",
+        "bytes": 1662395,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-12.transparency-meta-com.html",
+        "sha256": "b95edb127ec4ec4fd6867ed092862a3a71d73bcb0646d4b5f770206094e9f992",
+        "bytes": 771421,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-13.transparency-meta-com.html",
+        "sha256": "e9fec62bbf1c6201f51d43ff837cbc079df21a442669495ce614ee2593c99e20",
+        "bytes": 742406,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-14.transparency-meta-com.html",
+        "sha256": "39636e0ddaeff9e0f8c5c0f75432d3870b269894bb5462902c843f0207125027",
+        "bytes": 651289,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-15.transparency-meta-com.html",
+        "sha256": "4e45ee2c210062406698e1ce981b918cea63470c1af4023245ee1669726cc197",
+        "bytes": 622333,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-16.transparency-meta-com.html",
+        "sha256": "74dce403418262d14215a57259d3c4295c5daad09534560b78c150836e7879d4",
+        "bytes": 715701,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-17.transparency-meta-com.html",
+        "sha256": "88c10eeb4718bbf5212b17438ea12a4d1f06b74c4a32e44e518e505a2e4cf4fc",
+        "bytes": 641225,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-18.transparency-meta-com.html",
+        "sha256": "06af70757ca74874a680b77b8aab9a4cd3789c719bf106f687bca9d19807e631",
+        "bytes": 1056501,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-19.transparency-meta-com.html",
+        "sha256": "395474522f2c156755e3782833a9a4f98b0ca0178018c9eeec5acc19b0d3846c",
+        "bytes": 1168426,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-20.transparency-meta-com.html",
+        "sha256": "7ca42b8755fd2ec6526946a99d2edc641eb2c6e550e10e2b8637cfc419e706af",
+        "bytes": 2390719,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-21.transparency-meta-com.html",
+        "sha256": "b742c2227b9fb78168a4692e0173ad01e6c7f232137b6a980bb5cb3e9cd36b17",
+        "bytes": 1146492,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-22.transparency-meta-com.html",
+        "sha256": "1db9c8405f7d17118d49e7022143c6607536f5680335fc23eafc3a2505a7b3c1",
+        "bytes": 974197,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-23.transparency-meta-com.html",
+        "sha256": "62f8a4daad2683ebbc13aeb86276c1cf9d0602f530580075932b1df06f9e201d",
+        "bytes": 717340,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-24.transparency-meta-com.html",
+        "sha256": "d6a28d38c08b6f58f22233285c4ca881de34cddf66dc414d3e1cc2ad6f49b201",
+        "bytes": 1008304,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-25.transparency-meta-com.html",
+        "sha256": "f7b9400581ae93ca42ee4e1fd4d3ffc9189941fa91632b6d8f728bacb6a12db8",
+        "bytes": 616195,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-26.transparency-meta-com.html",
+        "sha256": "64d8b7c8e5279d61c05983efbc2c755552eba9dedf6cd22e83e0fc4630d7c136",
+        "bytes": 1482253,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      },
+      {
+        "source_file": "all_rules/platforms/global/meta/sources/platform-meta-community-standards-27.transparency-meta-com.html",
+        "sha256": "0e6c62a90e03a31df388266446e3bdef2bc1957aac47a29e4bc2c82d63163898",
+        "bytes": 1636058,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
       }
     ]
   }

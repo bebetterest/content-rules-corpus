@@ -8,15 +8,26 @@
     "source_urls": [
       "https://le.utah.gov/xcode/Title13/Chapter71/C13-71_2024100120240501.pdf"
     ],
-    "source_files": [],
-    "retrieved_date": "2026-05-23",
+    "source_files": [
+      "all_rules/united-states/states/utah/sources/us-state-utah-minor-protection-social-media-act.le-utah-gov.pdf"
+    ],
+    "retrieved_date": "2026-05-24",
     "language": "en",
-    "extraction_status": "stub",
-    "extraction_note": "https://le.utah.gov/xcode/Title13/Chapter71/C13-71_2024100120240501.pdf: attempt 1: fetch failed: fetch failed; curl failed: curl: (60) SSL certificate problem: unable to get local issuer certificate More details here: https://curl.se/docs/sslcerts.html",
-    "paragraph_count": 0,
-    "body_sha256": null,
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 35,
+    "body_sha256": "a45c8c0e27a3cd373ef64fb963f1bb5b3814b4bd32b1f4a02df45820142ea27c",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
-    "source_sha256": []
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/states/utah/sources/us-state-utah-minor-protection-social-media-act.le-utah-gov.pdf",
+        "sha256": "b044dec62841037405a0208dd524bf593bd34115e73ac5179b13f4d03f72a3c3",
+        "bytes": 16118,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
   }
 ]

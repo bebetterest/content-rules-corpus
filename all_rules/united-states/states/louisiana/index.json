@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/united-states/states/louisiana",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "Louisiana Social Media Platform Minors Provisions",
+      "file": "louisiana-social-media-platform-minors-provisions.md",
+      "path": "all_rules/united-states/states/louisiana/louisiana-social-media-platform-minors-provisions.md",
+      "collection": "united-states",
+      "jurisdiction": "Louisiana state law",
+      "scope_note": "Applies only within the scope of Louisiana law; not nationwide federal law. Current enforceability may be affected by litigation or injunctions and must be checked before legal use.",
+      "source_authority": "Louisiana State Legislature",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official Louisiana Legislature law page. Current enforceability and litigation status should be verified before legal use.",
+      "source_urls": [
+        "https://legis.la.gov/legis/LawPrint.aspx?d=1337818"
+      ]
+    }
+  ],
+  "children": []
+}

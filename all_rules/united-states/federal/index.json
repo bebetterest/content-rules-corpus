@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/united-states/federal",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 14,
+  "descendant_rule_count": 14,
+  "rules": [
+    {
+      "title": "16 CFR Part 312 - Children's Online Privacy Protection Rule",
+      "file": "16-cfr-part-312-coppa-rule.md",
+      "path": "all_rules/united-states/federal/16-cfr-part-312-coppa-rule.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal regulation",
+      "scope_note": "Federal Trade Commission regulation under COPPA; nationwide federal regulation subject to effective dates and amendments.",
+      "source_authority": "Electronic Code of Federal Regulations",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "xml",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official eCFR XML API source. Title 16's latest available eCFR issue date checked during this pass was 2026-05-21; verify the current eCFR issue date before legal use.",
+      "source_urls": [
+        "https://www.ecfr.gov/api/versioner/v1/full/2026-05-21/title-16.xml?part=312"
+      ]
+    },
+    {
+      "title": "17 U.S.C. § 512",
+      "file": "17-usc-512.md",
+      "path": "all_rules/united-states/federal/17-usc-512.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal copyright safe-harbor and notice-and-takedown provision; nationwide federal law, subject to current amendments and court interpretation.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title17-section512&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 1591",
+      "file": "18-usc-1591.md",
+      "path": "all_rules/united-states/federal/18-usc-1591.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal sex trafficking of children or by force, fraud, or coercion provision; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1591&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2251",
+      "file": "18-usc-2251.md",
+      "path": "all_rules/united-states/federal/18-usc-2251.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal child sexual exploitation offense provision; nationwide federal criminal law, subject to current amendments and court interpretation.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2251&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2252",
+      "file": "18-usc-2252.md",
+      "path": "all_rules/united-states/federal/18-usc-2252.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal offense provision for certain activities relating to material involving sexual exploitation of minors; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2252&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2252A",
+      "file": "18-usc-2252a.md",
+      "path": "all_rules/united-states/federal/18-usc-2252a.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal offense provision for certain activities relating to material constituting or containing child pornography; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2252A&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2256",
+      "file": "18-usc-2256.md",
+      "path": "all_rules/united-states/federal/18-usc-2256.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal definitions used in child sexual exploitation and child pornography provisions; nationwide federal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2256&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2260",
+      "file": "18-usc-2260.md",
+      "path": "all_rules/united-states/federal/18-usc-2260.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal offense provision for production of sexually explicit depictions of a minor for importation into the United States; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2260&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2261A",
+      "file": "18-usc-2261a.md",
+      "path": "all_rules/united-states/federal/18-usc-2261a.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal stalking provision, including use of interactive computer services or electronic communications in interstate or foreign commerce; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2261A&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2339A",
+      "file": "18-usc-2339a.md",
+      "path": "all_rules/united-states/federal/18-usc-2339a.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal material support to terrorism provision; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2339A&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2339B",
+      "file": "18-usc-2339b.md",
+      "path": "all_rules/united-states/federal/18-usc-2339b.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal material support or resources to designated foreign terrorist organizations provision; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2339B&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 875",
+      "file": "18-usc-875.md",
+      "path": "all_rules/united-states/federal/18-usc-875.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal interstate communications threats provision; nationwide federal criminal law.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section875&edition=prelim"
+      ]
+    },
+    {
+      "title": "47 U.S.C. § 230",
+      "file": "47-usc-230.md",
+      "path": "all_rules/united-states/federal/47-usc-230.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal statutory provision concerning protection for private blocking and screening of offensive material; nationwide federal law, subject to current amendments and court interpretation.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title47-section230&edition=prelim"
+      ]
+    },
+    {
+      "title": "TAKE IT DOWN Act - Public Law 119-12",
+      "file": "take-it-down-act-public-law-119-12.md",
+      "path": "all_rules/united-states/federal/take-it-down-act-public-law-119-12.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal public law concerning nonconsensual intimate visual depictions and platform notice-and-removal obligations; nationwide federal law subject to codification and enforcement dates.",
+      "source_authority": "U.S. Government Publishing Office / GovInfo",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official GovInfo public law source. Verify codified text and effective enforcement dates before legal use.",
+      "source_urls": [
+        "https://www.govinfo.gov/content/pkg/PLAW-119publ12/html/PLAW-119publ12.htm"
+      ]
+    }
+  ],
+  "children": []
+}

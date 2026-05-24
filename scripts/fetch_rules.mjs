@@ -171,6 +171,19 @@ function downloadOptionsFor(entry, url) {
   if (entry.omit_user_agent) {
     options.omitUserAgent = true;
   }
+  if (entry.insecure_tls) {
+    options.insecureTls = true;
+  }
+  if (entry.fetch_method === "rendered-html") {
+    options.rendered = true;
+    options.renderWaitMs = entry.render_wait_ms || 6000;
+    options.renderAfterClickWaitMs = entry.render_after_click_wait_ms || 250;
+    options.renderClickSelectors = Array.isArray(entry.render_click_selectors)
+      ? entry.render_click_selectors
+      : entry.render_click_selector
+        ? [entry.render_click_selector]
+        : [];
+  }
   if (entry.extractor === "xiaohongshu-contract-json" && url.includes("/oacontract/")) {
     return {
       ...options,
@@ -230,6 +243,9 @@ async function curlSource(url, timeoutMs, options = {}) {
     "-H",
     "Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
   ];
+  if (options.insecureTls) {
+    args.push("-k");
+  }
   if (!options.omitUserAgent) {
     args.push("-A", USER_AGENT);
   }
@@ -261,6 +277,37 @@ async function curlSource(url, timeoutMs, options = {}) {
   };
 }
 
+async function renderSource(url, timeoutMs, options = {}) {
+  const args = [
+    path.join(ROOT, "scripts", "render_url.py"),
+    url,
+    "--timeout-ms",
+    String(timeoutMs),
+    "--wait-ms",
+    String(options.renderWaitMs || 6000),
+  ];
+  if (options.renderAfterClickWaitMs) {
+    args.push("--after-click-wait-ms", String(options.renderAfterClickWaitMs));
+  }
+  for (const selector of options.renderClickSelectors || []) {
+    args.push("--click-selector", selector);
+  }
+
+  const { stdout } = await execFile(
+    process.env.PYTHON || "python",
+    args,
+    {
+      encoding: "buffer",
+      maxBuffer: MAX_DOWNLOAD_BYTES,
+    }
+  );
+  return {
+    buffer: stdout,
+    contentType: "text/html; charset=utf-8",
+    downloader: "playwright",
+  };
+}
+
 function cleanError(message) {
   return cleanText(String(message)).split("\n").slice(0, 2).join(" ");
 }
@@ -272,6 +319,9 @@ function sleep(ms) {
 }
 
 async function downloadOnce(url, timeoutMs, options = {}) {
+  if (options.rendered) {
+    return await renderSource(url, timeoutMs, options);
+  }
   try {
     return await fetchSource(url, timeoutMs, options);
   } catch (fetchError) {
@@ -357,6 +407,10 @@ function cleanText(text) {
 function decodeBuffer(buffer) {
   if (buffer.length >= 2 && buffer[0] === 0x1f && buffer[1] === 0x8b) {
     return gunzipSync(buffer).toString("utf8");
+  }
+  const head = buffer.subarray(0, 4096).toString("latin1");
+  if (/charset=["']?(windows-1252|iso-8859-1)/i.test(head)) {
+    return new TextDecoder("windows-1252").decode(buffer);
   }
   return buffer.toString("utf8");
 }
@@ -550,6 +604,43 @@ function extractXiaohongshuContract(entry, downloads) {
   return extractJsonHtmlData(entry, downloads, "Xiaohongshu contract");
 }
 
+function extractXHelp(entry, downloads) {
+  const parts = [];
+  const extractionNotes = [];
+
+  for (const item of downloads) {
+    const html = decodeBuffer(item.buffer);
+    const lines = stripHtmlToLines(html).filter((line) => line !== "-");
+    if (lines.some((line) => /Cloudflare|security verification|Just a moment/i.test(line))) {
+      extractionNotes.push(`${item.url}: rendered page was a challenge page, not policy text`);
+      continue;
+    }
+
+    let start = -1;
+    const purposeIndex = lines.findIndex((line) => line.includes("X's purpose is to serve the public conversation"));
+    if (purposeIndex !== -1) {
+      start = Math.max(0, purposeIndex - 1);
+    }
+    const dateIndex = lines.findIndex((line) => /^February 2025$/.test(line));
+    if (start === -1 && dateIndex > 0) {
+      start = dateIndex - 1;
+    }
+    if (start === -1) {
+      extractionNotes.push(`${item.url}: X Help article body start was not found`);
+      continue;
+    }
+
+    let articleLines = lines.slice(start);
+    const end = articleLines.findIndex((line) => line === "Share this article");
+    if (end !== -1) {
+      articleLines = articleLines.slice(0, end);
+    }
+    parts.push(articleLines.join("\n\n"));
+  }
+
+  return validateExtractedBody(entry, parts.join("\n\n---\n\n"), extractionNotes);
+}
+
 async function extractBody(entry, downloads) {
   if (entry.fetch_method === "stub" || entry.extractor === "stub") {
     return {
@@ -566,6 +657,9 @@ async function extractBody(entry, downloads) {
   }
   if (entry.extractor === "xiaohongshu-contract-json") {
     return extractXiaohongshuContract(entry, downloads);
+  }
+  if (entry.extractor === "x-help-html") {
+    return extractXHelp(entry, downloads);
   }
   if (entry.extractor === "html-data-json") {
     return extractJsonHtmlData(entry, downloads, "HTML data");

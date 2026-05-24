@@ -6,13 +6,13 @@
     "jurisdiction": "Texas state law",
     "output_file": "all_rules/united-states/states/texas/texas-business-commerce-code-chapter-509.md",
     "source_urls": [
-      "https://capitol.texas.gov/tlodocs/88R/billtext/html/HB00018F.htm"
+      "https://statutes.capitol.texas.gov/Docs/BC/pdf/BC.509.pdf"
     ],
     "source_files": [],
-    "retrieved_date": "2026-05-23",
+    "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "stub",
-    "extraction_note": "https://capitol.texas.gov/tlodocs/88R/billtext/html/HB00018F.htm: attempt 1: fetch failed: HTTP 503; curl failed: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to capitol.texas.gov:443",
+    "extraction_note": "https://statutes.capitol.texas.gov/Docs/BC/pdf/BC.509.pdf: attempt 1: fetch failed: fetch failed; curl failed: curl: (22) The requested URL returned error: 503",
     "paragraph_count": 0,
     "body_sha256": null,
     "attempted_text_sha256": null,

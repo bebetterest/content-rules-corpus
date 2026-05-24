@@ -6,17 +6,28 @@
     "jurisdiction": "Global / platform policy",
     "output_file": "all_rules/platforms/global/roblox/roblox-community-standards.md",
     "source_urls": [
-      "https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Standards"
+      "https://about.roblox.com/community-standards"
     ],
-    "source_files": [],
+    "source_files": [
+      "all_rules/platforms/global/roblox/sources/platform-roblox-community-standards.about-roblox-com.html"
+    ],
     "retrieved_date": "2026-05-24",
     "language": "en",
-    "extraction_status": "stub",
-    "extraction_note": "https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Standards: attempt 1: fetch failed: HTTP 403; curl failed: curl: (56) The requested URL returned error: 403",
-    "paragraph_count": 0,
-    "body_sha256": null,
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 235,
+    "body_sha256": "3a15d4c60b591379cbeefdce1e04731902a34a7a4c2442265d3e7352fe7a2595",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
-    "source_sha256": []
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/global/roblox/sources/platform-roblox-community-standards.about-roblox-com.html",
+        "sha256": "41f3687f9c35658b4f0c51bbd45de997f4fdb61cee83b34132ef9dca0ce27ac6",
+        "bytes": 445983,
+        "downloader": "playwright",
+        "fallback_from": null,
+        "content_type": "text/html; charset=utf-8"
+      }
+    ]
   }
 ]

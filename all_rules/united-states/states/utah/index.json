@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/united-states/states/utah",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "Utah Minor Protection in Social Media Act",
+      "file": "utah-minor-protection-in-social-media-act.md",
+      "path": "all_rules/united-states/states/utah/utah-minor-protection-in-social-media-act.md",
+      "collection": "united-states",
+      "jurisdiction": "Utah state law",
+      "scope_note": "Applies only within the scope of Utah law; not nationwide federal law. The Utah Commerce Department notes related social-media law enforcement may be stayed, so current enforceability must be checked before legal use.",
+      "source_authority": "Utah Legislature",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "pdf",
+      "extractor": "pdf-text",
+      "extraction_status": "extracted",
+      "status_note": "Official Utah Code PDF source. Current stay/enforcement status should be verified before legal use.",
+      "source_urls": [
+        "https://le.utah.gov/xcode/Title13/Chapter71/C13-71_2024100120240501.pdf"
+      ]
+    }
+  ],
+  "children": []
+}

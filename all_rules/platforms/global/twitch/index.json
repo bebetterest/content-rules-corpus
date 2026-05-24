@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/global/twitch",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "Twitch Community Guidelines",
+      "file": "twitch-community-guidelines.md",
+      "path": "all_rules/platforms/global/twitch/twitch-community-guidelines.md",
+      "collection": "platforms",
+      "jurisdiction": "Global / platform policy",
+      "scope_note": "Twitch community guidelines; not a government legal code.",
+      "source_authority": "Twitch Safety Center",
+      "retrieval_date": "2026-05-23",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official Twitch Safety Center page.",
+      "source_urls": [
+        "https://safety.twitch.tv/articles/en_US/Knowledge/Community-Guidelines"
+      ]
+    }
+  ],
+  "children": []
+}

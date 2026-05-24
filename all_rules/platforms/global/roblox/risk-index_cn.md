@@ -16,4 +16,4 @@
 
 ## 官方来源
 
-- Roblox Community Standards: https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Standards
+- Roblox Community Standards: https://about.roblox.com/community-standards

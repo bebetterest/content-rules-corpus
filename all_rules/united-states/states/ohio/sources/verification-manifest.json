@@ -6,24 +6,24 @@
     "jurisdiction": "Ohio state law",
     "output_file": "all_rules/united-states/states/ohio/ohio-social-media-parental-notification-act.md",
     "source_urls": [
-      "https://www.ohioattorneygeneral.gov/Media/News-Releases/December-2023/Parental-Notification-by-Social-Media-Operators-Ac"
+      "https://codes.ohio.gov/ohio-revised-code/section-1349.09"
     ],
     "source_files": [
-      "all_rules/united-states/states/ohio/sources/us-state-ohio-social-media-parental-notification-act.ohioattorneygeneral-gov.html"
+      "all_rules/united-states/states/ohio/sources/us-state-ohio-social-media-parental-notification-act.codes-ohio-gov.html"
     ],
-    "retrieved_date": "2026-05-23",
+    "retrieved_date": "2026-05-24",
     "language": "en",
-    "extraction_status": "stub",
-    "extraction_note": "Source is intentionally tracked as a stub; no full-text extraction was attempted.",
-    "paragraph_count": 0,
-    "body_sha256": null,
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 69,
+    "body_sha256": "c02437cf2bfd2789b821b897552ddee19574d06ba36927961b404e2a7d13509f",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
       {
-        "source_file": "all_rules/united-states/states/ohio/sources/us-state-ohio-social-media-parental-notification-act.ohioattorneygeneral-gov.html",
-        "sha256": "7a22e5877534016a5069ec5242aba3201152bcb46138fdb89dd3e47e9d7c92af",
-        "bytes": 30756,
+        "source_file": "all_rules/united-states/states/ohio/sources/us-state-ohio-social-media-parental-notification-act.codes-ohio-gov.html",
+        "sha256": "5b5e5a797c54d55adfff9f344d506d8ec8af5118177f93e472886bfe56a4378d",
+        "bytes": 24002,
         "downloader": "curl",
         "fallback_from": "fetch failed",
         "content_type": null

@@ -12,8 +12,13 @@
 
 - `source-registry.json` 记录来源 ID、标题、司法辖区、适用范围说明、来源机构、来源链接、抓取方式、输出文件、语言、状态说明，以及适用的风险类别。
 - `scripts/fetch_rules.mjs` 读取 registry，生成 Markdown、原始来源文件和 `sources/verification-manifest.json`。
+- `fetch_method: "rendered-html"` 条目使用 Python Playwright 保存浏览器渲染后的官方 HTML，再进行抽取。
 - 无法确认完整官方全文抽取的文件必须保留为 source stub。
 
 每个收集文件应在原文之前标注来源元数据。
+
+## 目录索引
+
+`all_rules/` 下每个非 `sources/` 目录都有一个由 `scripts/generate_rule_indexes.mjs` 生成的 `index.json` 文件。这些索引会列出该目录直属的规则 Markdown 文件，并链接到子目录索引，便于内部导航。
 
 English version: [README.md](/Users/hobeter/Desktop/code/rules/all_rules/README.md)

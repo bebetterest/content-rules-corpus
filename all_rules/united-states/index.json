@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/united-states",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 0,
+  "descendant_rule_count": 26,
+  "rules": [],
+  "children": [
+    {
+      "name": "federal",
+      "path": "all_rules/united-states/federal",
+      "index": "all_rules/united-states/federal/index.json",
+      "rule_count": 14,
+      "descendant_rule_count": 14
+    },
+    {
+      "name": "states",
+      "path": "all_rules/united-states/states",
+      "index": "all_rules/united-states/states/index.json",
+      "rule_count": 0,
+      "descendant_rule_count": 12
+    }
+  ]
+}

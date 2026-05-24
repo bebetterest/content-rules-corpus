@@ -15,4 +15,4 @@ This index is a navigation aid for collected official rule sources. It does not 
 
 ## Official Sources
 
-- The X Rules: https://help.x.com/en/rules-and-policies/x-rules, https://help.x.com/en/rules-and-policies/illegal-regulated-behaviors, https://help.x.com/en/rules-and-policies/violent-speech, https://help.x.com/en/rules-and-policies/hateful-conduct-policy
+- The X Rules: https://help.x.com/rules-and-policies/twitter-rules

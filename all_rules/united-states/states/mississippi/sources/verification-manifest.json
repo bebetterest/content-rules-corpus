@@ -8,15 +8,26 @@
     "source_urls": [
       "https://billstatus.ls.state.ms.us/documents/2024/html/HB/1100-1199/HB1126SG.htm"
     ],
-    "source_files": [],
-    "retrieved_date": "2026-05-23",
+    "source_files": [
+      "all_rules/united-states/states/mississippi/sources/us-state-mississippi-walker-montgomery-act.billstatus-ls-state-ms-us.html"
+    ],
+    "retrieved_date": "2026-05-24",
     "language": "en",
-    "extraction_status": "stub",
-    "extraction_note": "https://billstatus.ls.state.ms.us/documents/2024/html/HB/1100-1199/HB1126SG.htm: attempt 1: fetch failed: fetch failed; curl failed: curl: (60) SSL certificate problem: unable to get local issuer certificate More details here: https://curl.se/docs/sslcerts.html",
-    "paragraph_count": 0,
-    "body_sha256": null,
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 333,
+    "body_sha256": "78e9a3ac18dbe0274755b7f95e16a56eb646f972efed2040177f8becf58bb5e0",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
-    "source_sha256": []
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/states/mississippi/sources/us-state-mississippi-walker-montgomery-act.billstatus-ls-state-ms-us.html",
+        "sha256": "e7db1be0cc38e92fd61c4899d52ed24222320ff8f3151640b960bd9b71c8a341",
+        "bytes": 31424,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
   }
 ]

@@ -20,7 +20,10 @@
 - `node scripts/fetch_china_rules.mjs`：刷新中国法规起始集合。
 - `node scripts/fetch_rules.mjs --collection platforms`：根据 `all_rules/source-registry.json` 刷新平台规则来源。
 - `node scripts/fetch_rules.mjs --collection united-states`：根据 `all_rules/source-registry.json` 刷新美国联邦与州来源。
-- `node scripts/verify_rules.mjs`：校验来源链接、正文哈希、legacy 中国正文哈希，以及州法适用范围说明。
+- `node scripts/generate_rule_indexes.mjs`：刷新 `all_rules/` 下各目录用于内部导航的 `index.json`。
+- `node scripts/verify_rules.mjs`：校验来源链接、原始来源文件哈希、正文哈希、legacy 中国正文哈希、州法适用范围说明，以及目录索引。
+
+部分平台条目使用 `fetch_method: "rendered-html"`，需要安装 Python Playwright 及 Chromium 浏览器。这些条目仍会先保存渲染后的官方 HTML artifact，再进行 Markdown 抽取。
 
 ## 收集原则
 

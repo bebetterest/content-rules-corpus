@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/united-states/states/mississippi",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "Mississippi Walker Montgomery Protecting Children Online Act",
+      "file": "mississippi-walker-montgomery-protecting-children-online-act.md",
+      "path": "all_rules/united-states/states/mississippi/mississippi-walker-montgomery-protecting-children-online-act.md",
+      "collection": "united-states",
+      "jurisdiction": "Mississippi state law",
+      "scope_note": "Applies only within the scope of Mississippi law; not nationwide federal law. Current enforceability has been subject to litigation and must be checked before legal use.",
+      "source_authority": "Mississippi Legislature",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official Mississippi bill text source. Check codified text and current litigation status before legal use.",
+      "source_urls": [
+        "https://billstatus.ls.state.ms.us/documents/2024/html/HB/1100-1199/HB1126SG.htm"
+      ]
+    }
+  ],
+  "children": []
+}

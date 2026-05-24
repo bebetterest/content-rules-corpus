@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/china",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 0,
+  "descendant_rule_count": 10,
+  "rules": [],
+  "children": [
+    {
+      "name": "baidu-tieba",
+      "path": "all_rules/platforms/china/baidu-tieba",
+      "index": "all_rules/platforms/china/baidu-tieba/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "bilibili",
+      "path": "all_rules/platforms/china/bilibili",
+      "index": "all_rules/platforms/china/bilibili/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "douban",
+      "path": "all_rules/platforms/china/douban",
+      "index": "all_rules/platforms/china/douban/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "douyin",
+      "path": "all_rules/platforms/china/douyin",
+      "index": "all_rules/platforms/china/douyin/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "kuaishou",
+      "path": "all_rules/platforms/china/kuaishou",
+      "index": "all_rules/platforms/china/kuaishou/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "qq",
+      "path": "all_rules/platforms/china/qq",
+      "index": "all_rules/platforms/china/qq/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "wechat",
+      "path": "all_rules/platforms/china/wechat",
+      "index": "all_rules/platforms/china/wechat/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "weibo",
+      "path": "all_rules/platforms/china/weibo",
+      "index": "all_rules/platforms/china/weibo/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "xiaohongshu",
+      "path": "all_rules/platforms/china/xiaohongshu",
+      "index": "all_rules/platforms/china/xiaohongshu/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "zhihu",
+      "path": "all_rules/platforms/china/zhihu",
+      "index": "all_rules/platforms/china/zhihu/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    }
+  ]
+}

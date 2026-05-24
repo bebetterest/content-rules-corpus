@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/united-states/states",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 0,
+  "descendant_rule_count": 12,
+  "rules": [],
+  "children": [
+    {
+      "name": "arkansas",
+      "path": "all_rules/united-states/states/arkansas",
+      "index": "all_rules/united-states/states/arkansas/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "california",
+      "path": "all_rules/united-states/states/california",
+      "index": "all_rules/united-states/states/california/index.json",
+      "rule_count": 3,
+      "descendant_rule_count": 3
+    },
+    {
+      "name": "florida",
+      "path": "all_rules/united-states/states/florida",
+      "index": "all_rules/united-states/states/florida/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "louisiana",
+      "path": "all_rules/united-states/states/louisiana",
+      "index": "all_rules/united-states/states/louisiana/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "mississippi",
+      "path": "all_rules/united-states/states/mississippi",
+      "index": "all_rules/united-states/states/mississippi/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "new-york",
+      "path": "all_rules/united-states/states/new-york",
+      "index": "all_rules/united-states/states/new-york/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "ohio",
+      "path": "all_rules/united-states/states/ohio",
+      "index": "all_rules/united-states/states/ohio/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "tennessee",
+      "path": "all_rules/united-states/states/tennessee",
+      "index": "all_rules/united-states/states/tennessee/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "texas",
+      "path": "all_rules/united-states/states/texas",
+      "index": "all_rules/united-states/states/texas/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "utah",
+      "path": "all_rules/united-states/states/utah",
+      "index": "all_rules/united-states/states/utah/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    }
+  ]
+}
