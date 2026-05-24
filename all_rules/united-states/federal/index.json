@@ -2,8 +2,8 @@
   "schema_version": 1,
   "directory": "all_rules/united-states/federal",
   "generated_by": "scripts/generate_rule_indexes.mjs",
-  "rule_count": 93,
-  "descendant_rule_count": 93,
+  "rule_count": 103,
+  "descendant_rule_count": 103,
   "rules": [
     {
       "title": "15 U.S.C. § 45",
@@ -852,6 +852,42 @@
       ]
     },
     {
+      "title": "18 U.S.C. § 1512",
+      "file": "18-usc-1512.md",
+      "path": "all_rules/united-states/federal/18-usc-1512.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal witness, victim, and informant tampering provision; nationwide federal criminal law relevant to threats, harassment, intimidation, and obstruction policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1512&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 1513",
+      "file": "18-usc-1513.md",
+      "path": "all_rules/united-states/federal/18-usc-1513.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal witness, victim, and informant retaliation provision; nationwide federal criminal law relevant to threats, harassment, intimidation, and retaliation policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1513&edition=prelim"
+      ]
+    },
+    {
       "title": "18 U.S.C. § 1591",
       "file": "18-usc-1591.md",
       "path": "all_rules/united-states/federal/18-usc-1591.md",
@@ -1248,6 +1284,42 @@
       ]
     },
     {
+      "title": "18 U.S.C. § 241",
+      "file": "18-usc-241.md",
+      "path": "all_rules/united-states/federal/18-usc-241.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal civil-rights conspiracy provision; nationwide federal criminal law relevant to coordinated intimidation, threats, and rights-interference policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section241&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 242",
+      "file": "18-usc-242.md",
+      "path": "all_rules/united-states/federal/18-usc-242.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal deprivation-of-rights provision under color of law; nationwide federal criminal law relevant to civil-rights abuse and rights-interference policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section242&edition=prelim"
+      ]
+    },
+    {
       "title": "18 U.S.C. § 2421A",
       "file": "18-usc-2421a.md",
       "path": "all_rules/united-states/federal/18-usc-2421a.md",
@@ -1284,6 +1356,24 @@
       ]
     },
     {
+      "title": "18 U.S.C. § 245",
+      "file": "18-usc-245.md",
+      "path": "all_rules/united-states/federal/18-usc-245.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision protecting specified federally protected activities against force, threat, intimidation, or interference; nationwide federal criminal law relevant to hate, harassment, and civic-integrity policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section245&edition=prelim"
+      ]
+    },
+    {
       "title": "18 U.S.C. § 247",
       "file": "18-usc-247.md",
       "path": "all_rules/united-states/federal/18-usc-247.md",
@@ -1299,6 +1389,24 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "source_urls": [
         "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section247&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 248",
+      "file": "18-usc-248.md",
+      "path": "all_rules/united-states/federal/18-usc-248.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal Freedom of Access to Clinic Entrances provision; nationwide federal criminal law relevant to threats, obstruction, intimidation, and targeted harassment policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section248&edition=prelim"
       ]
     },
     {
@@ -1371,6 +1479,24 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "source_urls": [
         "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2702&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 594",
+      "file": "18-usc-594.md",
+      "path": "all_rules/united-states/federal/18-usc-594.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal voter-intimidation provision; nationwide federal criminal law relevant to civic-integrity, threats, harassment, and intimidation policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section594&edition=prelim"
       ]
     },
     {
@@ -1608,6 +1734,24 @@
       ]
     },
     {
+      "title": "42 U.S.C. § 3631",
+      "file": "42-usc-3631.md",
+      "path": "all_rules/united-states/federal/42-usc-3631.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal fair-housing intimidation and interference provision; nationwide federal criminal law relevant to protected-class harassment, threats, and intimidation policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title42-section3631&edition=prelim"
+      ]
+    },
+    {
       "title": "47 U.S.C. § 223",
       "file": "47-usc-223.md",
       "path": "all_rules/united-states/federal/47-usc-223.md",
@@ -1659,6 +1803,42 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "source_urls": [
         "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title47-section231&edition=prelim"
+      ]
+    },
+    {
+      "title": "52 U.S.C. § 10101",
+      "file": "52-usc-10101.md",
+      "path": "all_rules/united-states/federal/52-usc-10101.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal voting-rights provision; nationwide federal law relevant to civic-integrity, voter-intimidation, and election-related rights-interference policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title52-section10101&edition=prelim"
+      ]
+    },
+    {
+      "title": "52 U.S.C. § 10307",
+      "file": "52-usc-10307.md",
+      "path": "all_rules/united-states/federal/52-usc-10307.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal Voting Rights Act prohibited-acts provision; nationwide federal law relevant to civic-integrity, voter intimidation, threats, and coercion policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title52-section10307&edition=prelim"
       ]
     },
     {

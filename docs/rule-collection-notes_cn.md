@@ -175,3 +175,14 @@
 - 12 个新增 section 均从官方 U.S. Code 页面下载，保留原始 HTML artifact，抽取为 Markdown，并通过正文哈希校验。
 
 本轮后的校验状态：registry 中 129 条记录均已进入索引；128 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 联邦 civil-rights、intimidation 与 civic integrity 补缺
+
+联邦抽取更新：
+
+- 新增 18 U.S.C. §§ 241、242、245、248 官方 U.S. Code 来源，覆盖 conspiracy against rights、deprivation of rights under color of law、federally protected activities、freedom of access to clinic entrances。
+- 新增 18 U.S.C. §§ 594、1512、1513 官方 U.S. Code 来源，覆盖 voter intimidation、tampering with a witness/victim/informant、retaliation against a witness/victim/informant。
+- 新增 42 U.S.C. § 3631 以及 52 U.S.C. §§ 10101、10307 官方 U.S. Code 来源，覆盖 fair-housing intimidation/interference、voting rights、Voting Rights Act prohibited acts。
+- 这些条目进一步补齐 hate/harassment、rights-interference、civic-integrity、intimidation、retaliation 缺口。
+
+本轮后的校验状态：registry 中 139 条记录均已进入索引；138 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。

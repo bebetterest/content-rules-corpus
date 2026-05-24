@@ -175,3 +175,14 @@ Federal extraction updates:
 - All 12 new sections were downloaded from official U.S. Code pages, retained as raw HTML artifacts, extracted to Markdown, and verified with body hashes.
 
 Verification status after this pass: 129 registry entries are indexed; 128 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Federal Civil-Rights, Intimidation, and Civic Integrity Gap Fill
+
+Federal extraction updates:
+
+- Added official U.S. Code sources for 18 U.S.C. §§ 241, 242, 245, and 248, covering conspiracy against rights, deprivation of rights under color of law, federally protected activities, and freedom of access to clinic entrances.
+- Added official U.S. Code sources for 18 U.S.C. §§ 594, 1512, and 1513, covering voter intimidation, tampering with a witness/victim/informant, and retaliation against a witness/victim/informant.
+- Added official U.S. Code sources for 42 U.S.C. § 3631 and 52 U.S.C. §§ 10101 and 10307, covering fair-housing intimidation/interference, voting rights, and Voting Rights Act prohibited acts.
+- These entries fill additional hate/harassment, rights-interference, civic-integrity, intimidation, and retaliation gaps.
+
+Verification status after this pass: 139 registry entries are indexed; 138 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
