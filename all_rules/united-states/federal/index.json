@@ -2,8 +2,8 @@
   "schema_version": 1,
   "directory": "all_rules/united-states/federal",
   "generated_by": "scripts/generate_rule_indexes.mjs",
-  "rule_count": 54,
-  "descendant_rule_count": 54,
+  "rule_count": 68,
+  "descendant_rule_count": 68,
   "rules": [
     {
       "title": "15 U.S.C. § 6501",
@@ -129,6 +129,24 @@
       "status_note": "Official eCFR XML API source. Title 16's latest available eCFR issue date checked during this pass was 2026-05-21; verify the current eCFR issue date before legal use.",
       "source_urls": [
         "https://www.ecfr.gov/api/versioner/v1/full/2026-05-21/title-16.xml?part=312"
+      ]
+    },
+    {
+      "title": "17 U.S.C. § 506",
+      "file": "17-usc-506.md",
+      "path": "all_rules/united-states/federal/17-usc-506.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal criminal copyright offenses provision; nationwide federal law relevant to intellectual-property and piracy policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title17-section506&edition=prelim"
       ]
     },
     {
@@ -402,6 +420,60 @@
       ]
     },
     {
+      "title": "18 U.S.C. § 1952",
+      "file": "18-usc-1952.md",
+      "path": "all_rules/united-states/federal/18-usc-1952.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal Travel Act provision concerning interstate or foreign travel or facilities in aid of racketeering enterprises; nationwide federal criminal law relevant to illegal-activity facilitation policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1952&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 1956",
+      "file": "18-usc-1956.md",
+      "path": "all_rules/united-states/federal/18-usc-1956.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal money-laundering provision; nationwide federal criminal law relevant to fraud, scams, and illicit transaction policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1956&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 1960",
+      "file": "18-usc-1960.md",
+      "path": "all_rules/united-states/federal/18-usc-1960.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal unlicensed money-transmitting business provision; nationwide federal criminal law relevant to illicit finance and transaction policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1960&edition=prelim"
+      ]
+    },
+    {
       "title": "18 U.S.C. § 2101",
       "file": "18-usc-2101.md",
       "path": "all_rules/united-states/federal/18-usc-2101.md",
@@ -636,6 +708,60 @@
       ]
     },
     {
+      "title": "18 U.S.C. § 2318",
+      "file": "18-usc-2318.md",
+      "path": "all_rules/united-states/federal/18-usc-2318.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal counterfeit-label, illicit-label, and counterfeit documentation or packaging provision; nationwide federal criminal law relevant to intellectual-property and marketplace policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2318&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2319",
+      "file": "18-usc-2319.md",
+      "path": "all_rules/united-states/federal/18-usc-2319.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal criminal copyright infringement penalty provision; nationwide federal criminal law relevant to intellectual-property and piracy policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2319&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2320",
+      "file": "18-usc-2320.md",
+      "path": "all_rules/united-states/federal/18-usc-2320.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal trafficking in counterfeit goods or services provision; nationwide federal criminal law relevant to intellectual-property and marketplace policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2320&edition=prelim"
+      ]
+    },
+    {
       "title": "18 U.S.C. § 2339A",
       "file": "18-usc-2339a.md",
       "path": "all_rules/united-states/federal/18-usc-2339a.md",
@@ -744,6 +870,96 @@
       ]
     },
     {
+      "title": "18 U.S.C. § 2511",
+      "file": "18-usc-2511.md",
+      "path": "all_rules/united-states/federal/18-usc-2511.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision prohibiting interception and disclosure of wire, oral, or electronic communications; nationwide federal law relevant to privacy, hacking, and personal-data abuse policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2511&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2701",
+      "file": "18-usc-2701.md",
+      "path": "all_rules/united-states/federal/18-usc-2701.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal stored-communications unauthorized-access provision; nationwide federal law relevant to hacking, credential abuse, and privacy policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2701&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 2702",
+      "file": "18-usc-2702.md",
+      "path": "all_rules/united-states/federal/18-usc-2702.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal stored-communications voluntary disclosure provision for electronic communication and remote computing service providers; nationwide federal law relevant to privacy and provider-safety workflows.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2702&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 842",
+      "file": "18-usc-842.md",
+      "path": "all_rules/united-states/federal/18-usc-842.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal explosives unlawful-acts provision; nationwide federal criminal law relevant to dangerous-goods and weapons content or transaction policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section842&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 844",
+      "file": "18-usc-844.md",
+      "path": "all_rules/united-states/federal/18-usc-844.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal explosives penalties and offenses provision; nationwide federal criminal law relevant to dangerous-goods and violence policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section844&edition=prelim"
+      ]
+    },
+    {
       "title": "18 U.S.C. § 871",
       "file": "18-usc-871.md",
       "path": "all_rules/united-states/federal/18-usc-871.md",
@@ -849,6 +1065,42 @@
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "source_urls": [
         "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section922&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 930",
+      "file": "18-usc-930.md",
+      "path": "all_rules/united-states/federal/18-usc-930.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal provision concerning possession of firearms and dangerous weapons in Federal facilities; nationwide federal criminal law relevant to weapons policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section930&edition=prelim"
+      ]
+    },
+    {
+      "title": "18 U.S.C. § 931",
+      "file": "18-usc-931.md",
+      "path": "all_rules/united-states/federal/18-usc-931.md",
+      "collection": "united-states",
+      "jurisdiction": "United States federal law",
+      "scope_note": "Federal body-armor restriction for violent felons; nationwide federal criminal law relevant to weapons and regulated-goods policies.",
+      "source_authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
+      "source_urls": [
+        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section931&edition=prelim"
       ]
     },
     {

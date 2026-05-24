@@ -141,3 +141,15 @@ Federal extraction updates:
 - All 12 new sources were downloaded from official U.S. Code pages, retained as raw HTML artifacts, extracted to Markdown, and verified with body hashes.
 
 Verification status after this pass: 90 registry entries are indexed; 89 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Federal Weapons, Explosives, Illicit Finance, IP, and Privacy Gap Fill
+
+Federal extraction updates:
+
+- Added official U.S. Code sources for 18 U.S.C. §§ 842, 844, 930, and 931, covering explosives unlawful acts and penalties, firearms or dangerous weapons in Federal facilities, and body-armor restrictions.
+- Added official U.S. Code sources for 18 U.S.C. §§ 1952, 1956, and 1960, covering racketeering-facilitation travel/facilities, money laundering, and unlicensed money-transmitting businesses.
+- Added official U.S. Code sources for 17 U.S.C. § 506 and 18 U.S.C. §§ 2318, 2319, and 2320, covering criminal copyright offenses, criminal copyright infringement penalties, counterfeit labels/documentation, and counterfeit goods or services.
+- Added official U.S. Code sources for 18 U.S.C. §§ 2511, 2701, and 2702, covering interception/disclosure of communications, unlawful access to stored communications, and provider voluntary disclosure rules.
+- 18 U.S.C. § 931 initially generated a source stub because the registry phrase used a nonmatching paraphrase; the phrase was corrected to the official wording (`crime of violence`) and the entry now extracts successfully.
+
+Verification status after this pass: 104 registry entries are indexed; 103 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).

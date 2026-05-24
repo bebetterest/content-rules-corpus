@@ -141,3 +141,15 @@
 - 12 个新增来源均从官方 U.S. Code 页面下载，保留原始 HTML artifact，抽取为 Markdown，并通过正文哈希校验。
 
 本轮后的校验状态：registry 中 90 条记录均已进入索引；89 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 联邦 weapons、explosives、illicit finance、IP 与 privacy 补缺
+
+联邦抽取更新：
+
+- 新增 18 U.S.C. §§ 842、844、930、931 官方 U.S. Code 来源，覆盖 explosives unlawful acts and penalties、联邦设施中的 firearms or dangerous weapons、body-armor restrictions。
+- 新增 18 U.S.C. §§ 1952、1956、1960 官方 U.S. Code 来源，覆盖 racketeering-facilitation travel/facilities、money laundering、unlicensed money-transmitting businesses。
+- 新增 17 U.S.C. § 506 以及 18 U.S.C. §§ 2318、2319、2320 官方 U.S. Code 来源，覆盖 criminal copyright offenses、criminal copyright infringement penalties、counterfeit labels/documentation、counterfeit goods or services。
+- 新增 18 U.S.C. §§ 2511、2701、2702 官方 U.S. Code 来源，覆盖 interception/disclosure of communications、unlawful access to stored communications、provider voluntary disclosure rules。
+- 18 U.S.C. § 931 首次生成 source stub，因为 registry 短语使用了不匹配官方正文的概括词；已改为官方用语 `crime of violence`，该条目现在可成功抽取。
+
+本轮后的校验状态：registry 中 104 条记录均已进入索引；103 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
