@@ -8,7 +8,7 @@
 - Source Authority: Douyin
 - Source URL:
 - https://www.douyin.com/draft/douyin_agreement/infringement_guide.html
-- Retrieval Date: 2026-05-23
+- Retrieval Date: 2026-05-24
 - Language: zh-CN
 - Fetch Method: html
 - Extractor: generic-html
@@ -16,7 +16,7 @@
 - Status Note: Public official full community convention source was not confirmed; this is an official Douyin reporting guide and should not be treated as the full Douyin community rules.
 - Source SHA-256:
 - all_rules/platforms/china/douyin/sources/platform-douyin-infringement-guide.douyin-com.html: 6905990c050dd2e29da8f41f376fbde6647288a0be1bdd784ac3324010d8b896
-- Body SHA-256: ecb7f6e0eba65038a425be3b723a84375b749dae17af92d963c2773b6b4cfdae
+- Body SHA-256: a8cea7bf5b8ed533f54b7a1253901be8ea3c78d63239d9e4d72d6e72813bf491
 
 ## Source Text
 
@@ -28,15 +28,15 @@
 
 1.本指引介绍抖音社区常见的侵权类型、侵权举报与申诉流程、处罚标准等，当你在抖音上发现侵权行为或收到侵权通知时，可参考本指引进行侵权举报或申诉。 为避免疑义，本指引中「侵权投诉」/「侵权举报」均指权利人依据《民法典》等相关法律法规向平台发起的侵权通知。
 
-- 如你发现 抖音广告内容涉嫌侵权 ，请通过广告投诉平台： http://phoniex.toutiao.com/ 发起侵权通知，同时上传具体材料（权利人身份证明、涉嫌侵权内容及权利证明等）。
+- 如你发现 抖音广告内容涉嫌侵权 ，请通过广告投诉平台： [http://phoniex.toutiao.com/](https://security.feishu.cn/link/safety?target=http://phoniex.toutiao.com/&scene=ccm&logParams={%22location%22:%22docs_sdk_comment%22}&lang=zh-CN) 发起侵权通知，同时上传具体材料（权利人身份证明、涉嫌侵权内容及权利证明等）。
 
-- 如你发现 抖音小程序涉嫌侵权 ，请通过点击 抖音开放平台 ，选择页面右下角「侵权投诉」模块，并参考页面指引进行投诉。
+- 如你发现 抖音小程序涉嫌侵权 ，请通过点击 [抖音开放平台](https://developer.open-douyin.com/) ，选择页面右下角「侵权投诉」模块，并参考页面指引进行投诉。
 
-- 如你发现 商品橱窗或购物车商品涉嫌侵权 ，请参考 知识产权侵权通知受理规范 ，通过 抖音电商知识产权保护平台 （ http://ippro.bytedance.com ，请复制网址后在浏览器中打开）发起侵权通知。
+- 如你发现 商品橱窗或购物车商品涉嫌侵权 ，请参考 [知识产权侵权通知受理规范](https://school.jinritemai.com/doudian/web/article/101651) ，通过 [抖音电商知识产权保护平台](http://ippro.bytedance.com/) （ [http://ippro.bytedance.com](http://ippro.bytedance.com/) ，请复制网址后在浏览器中打开）发起侵权通知。
 
-- 如你发现 生活服务/团购商品、小房子商品或生活服务商家涉嫌侵权 ，请参考 抖音生活服务侵权通知受理流程 ，通过shfw-jubao@bytedance.com发起侵权通知。
+- 如你发现 生活服务/团购商品、小房子商品或生活服务商家涉嫌侵权 ，请参考 [抖音生活服务侵权通知受理流程](https://lifexue.com/rule/detail/120591?enter_method=search&source=) ，通过shfw-jubao@bytedance.com发起侵权通知。
 
-- 如你发现 在抖音上架的游戏涉嫌侵权 ，请参考 侵权投诉规范 - 抖音游戏厂商合作平台学习中心 ，通过 douyin_game_platform@bytedance.com 发起侵权通知。
+- 如你发现 在抖音上架的游戏涉嫌侵权 ，请参考 [侵权投诉规范 - 抖音游戏厂商合作平台学习中心](https://game.open.douyin.com/support/content/132732?graphId=537&pageId=308&spaceId=182&timestamp=1715394801408) ，通过 douyin_game_platform@bytedance.com 发起侵权通知。
 
 - 如你发现 汽水音乐平台上的音乐侵犯了你享有的著作权合法权益 ，你可以发送邮件至 music.copyright@bytedance.com 发起侵权通知，并提供你享有相关权利的证据。
 
@@ -80,7 +80,7 @@
 
 1.1.2 抖音官网内提交侵权举报
 
-如你认为他人用户资料、他人发布的视频/图文涉嫌侵害你的合法权益，你可以点击【 批量侵权举报 】，获取涉嫌侵权的抖音账号主页链接、抖音视频/图文链接，并按照页面指引完成侵权举报。
+如你认为他人用户资料、他人发布的视频/图文涉嫌侵害你的合法权益，你可以点击【 [批量侵权举报](https://www.douyin.com/qinquan/report?enter_from=pc_agreement) 】，获取涉嫌侵权的抖音账号主页链接、抖音视频/图文链接，并按照页面指引完成侵权举报。
 
 1.1.3 邮件方式提交侵权举报
 
@@ -186,7 +186,7 @@ d.若权利人的专利为实用新型专利或外观设计专利，还需提供
 
 - 平台收到侵权通知后，将按照相关法律法规的规定对侵权举报材料及被举报内容进行必要审查，对符合相关法律法规及本指引要求的被举报内容或被举报账号采取必要措施，并将侵权通知转送至被举报方。
 
-- 若被举报方不认可侵权通知，可以向平台提交不存在侵权行为的声明，要求平台终止必要措施。不存在侵权行为的声明应当包括不存在侵权行为的初步证据及被举报方的真实身份信息。平台有权依法将被举报方提供的相关材料转送给举报方，并告知举报方可以向有关部门投诉或者向人民法院提起诉讼。附 抖音平台侵权投诉不侵权声明 。
+- 若被举报方不认可侵权通知，可以向平台提交不存在侵权行为的声明，要求平台终止必要措施。不存在侵权行为的声明应当包括不存在侵权行为的初步证据及被举报方的真实身份信息。平台有权依法将被举报方提供的相关材料转送给举报方，并告知举报方可以向有关部门投诉或者向人民法院提起诉讼。附 [抖音平台侵权投诉不侵权声明](https://lf3-static.bytednsdoc.com/obj/eden-cn/lm_lmhz_upfbvk/ljhwZthlaukjlkulzlp/draft/%E6%8A%96%E9%9F%B3%E5%B9%B3%E5%8F%B0%E4%BE%B5%E6%9D%83%E6%8A%95%E8%AF%89%E4%B8%8D%E4%BE%B5%E6%9D%83%E5%A3%B0%E6%98%8E.docx) 。
 
 2.2 处理结果告知
 
@@ -198,7 +198,7 @@ d.若权利人的专利为实用新型专利或外观设计专利，还需提供
 
 1.1 举报方在抖音App「首页」-左上角「三」-「通知消息」-「系统通知」中的「侵权投诉」相关站内信中点击「撤销投诉」，可撤销在App内发起的侵权举报。
 
-1.2 举报方通过「历史记录」-「查看明细」可撤销在抖音官网【 批量侵权举报 】发起的侵权举报。
+1.2 举报方通过「历史记录」-「查看明细」可撤销在抖音官网【 [批量侵权举报](https://www.douyin.com/qinquan/report?enter_from=pc_agreement) 】发起的侵权举报。
 
 1.3 举报方使用发起侵权举报的邮箱发邮件至qinquan@bytedance.com，并提供以下材料，可撤销通过邮件发起的侵权举报：
 
@@ -212,7 +212,7 @@ d.若权利人的专利为实用新型专利或外观设计专利，还需提供
 
 四、侵权类型介绍及创作注意事项
 
-详细的侵权类型介绍及创作注意事项可见 侵权类型、规则及案例解析 。
+详细的侵权类型介绍及创作注意事项可见 [侵权类型、规则及案例解析](https://sf3-cdn-tos.douyinstatic.com/obj/ies-hotsoon-draft/douyin_agreement/f23f7cc5-4d09-4ebd-b1aa-218162d5d75a.html) 。
 
 五、注意事项
 

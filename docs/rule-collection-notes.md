@@ -70,8 +70,21 @@ Extraction updates:
 - Roblox Community Standards now uses the official `about.roblox.com` page, expands the official accordion sections, and extracts the detailed policy body.
 - Meta Community Standards now collects the 27 official Transparency Center Community Standards category pages discovered from Meta's official policy index, removes repeated site navigation, and stores rendered source artifacts.
 - TikTok Community Guidelines now collects the official 2025 H2 rendered guideline pages, trims page footer/navigation content, and stores rendered source artifacts.
-- X now extracts the official rendered `The X Rules` article body from `help.x.com`. Other linked X detailed policy pages, including illegal-regulated-behaviors and hateful-conduct-policy, were not confirmed because official browser-rendered requests returned Cloudflare challenge pages.
+- X now extracts the official rendered `The X Rules` article body from `help.x.com`. A later linked-source pass retained official artifacts for accessible linked detailed X policy pages; some linked pages still returned challenge pages or render errors, and those failures are recorded in the X verification manifest.
 - Utah, Mississippi, and Ohio state entries were converted from stubs to extracted official-source text. Utah and Mississippi require insecure-TLS curl fallback for their official source sites; Mississippi also requires Windows-1252 decoding.
 - Texas was changed to the preferred codified Texas Constitution and Statutes Chapter 509 PDF source. On 2026-05-24, the official Texas statutes and legislature sites returned HTTP 503 maintenance responses with `Retry-After: Tue, 26 May 2026 12:00:00 GMT`, so Texas remains a source stub.
 
 Verification status after this pass: 49 registry entries are indexed; 48 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
+
+## 2026-05-24 Additional Gap Fill Pass
+
+Extraction updates:
+
+- Added the official Douyin user service agreement as a separate Douyin source. Section 4 of that agreement contains information-content publishing rules, including prohibited unlawful content, harmful content, dangerous content, AI/deep-synthesis labeling obligations, spam, infringement, and minor-safety provisions.
+- Expanded YouTube from four official Help pages to 22 official YouTube Help Community Guidelines and detailed policy pages linked from the official Community Guidelines index, including spam/scams, impersonation, external links, fake engagement, nudity and sexual content, child safety, self-harm, harmful or dangerous content, violent or graphic content, violent criminal organizations, hate speech, harassment, regulated goods, firearms, and misinformation pages.
+- Added a Google Help article-body extractor so YouTube Markdown is generated from the official `<article>` body instead of full-page navigation chrome.
+- Updated the general HTML extraction path to preserve official inline links. Regenerated the Bilibili community convention so previously plain `点击打开链接` references now point back to the official linked sources carried in the downloaded Bilibili bundle.
+- Added `prefer_curl` support for sources where Node `fetch` fails but official HTML is available through curl; YouTube now uses that path for reproducible retrieval of the 22 official Help pages.
+- Rechecked Texas official statutes, bill text, and bill lookup paths, including the dynamic statutes query URL. They still returned HTTP 503 maintenance responses with `Retry-After: Tue, 26 May 2026 12:00:00 GMT`, so Texas remains the only source stub.
+
+Verification status after this pass: 50 registry entries are indexed; 49 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).

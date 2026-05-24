@@ -70,8 +70,21 @@
 - Roblox Community Standards 改用官方 `about.roblox.com` 页面，展开官方折叠区域，并抽取详细政策正文。
 - Meta Community Standards 收集从 Meta 官方政策索引发现的 27 个 Transparency Center Community Standards 分类页，去除重复站点导航，并保存渲染 artifact。
 - TikTok Community Guidelines 收集官方 2025 H2 渲染版规则页面，修剪页脚和导航内容，并保存渲染 artifact。
-- X 现在从 `help.x.com` 抽取官方渲染后的 `The X Rules` 文章正文。其他 X 详细政策子页，包括 illegal-regulated-behaviors 和 hateful-conduct-policy，本轮未确认，因为官方浏览器渲染请求返回 Cloudflare challenge 页面。
+- X 现在从 `help.x.com` 抽取官方渲染后的 `The X Rules` 文章正文。后续 linked-source 轮次已为可访问的 X 详细政策子页保留官方 artifact；部分 linked 页面仍返回 challenge 页面或渲染错误，具体失败记录在 X verification manifest 中。
 - Utah、Mississippi、Ohio 州条目已从 stub 转为官方来源正文抽取。Utah 和 Mississippi 的官方来源站点需要 insecure-TLS curl fallback；Mississippi 还需要 Windows-1252 解码。
 - Texas 改为首选的 Texas Constitution and Statutes Chapter 509 官方 codified PDF 来源。2026-05-24，Texas statutes 和 legislature 官方站点返回 HTTP 503 维护响应，并带有 `Retry-After: Tue, 26 May 2026 12:00:00 GMT`，因此 Texas 仍保留 source stub。
 
 本轮后的校验状态：registry 中 49 条记录均已进入索引；48 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-24 追加补缺轮次
+
+抽取更新：
+
+- 新增抖音官方用户服务协议作为独立 Douyin 来源。该协议第 4 节包含信息内容发布规范，包括违法违规内容、不良内容、高危险性内容、AI/深度合成标识义务、垃圾信息、侵权和未成年人安全相关规定。
+- 将 YouTube 从 4 个官方 Help 页面扩展到 22 个官方 YouTube Help Community Guidelines 及详细政策页面；这些页面来自官方 Community Guidelines 索引链接，覆盖 spam/scams、impersonation、external links、fake engagement、nudity and sexual content、child safety、self-harm、harmful or dangerous content、violent or graphic content、violent criminal organizations、hate speech、harassment、regulated goods、firearms 和 misinformation 等类别。
+- 新增 Google Help article 主体抽取器，使 YouTube Markdown 从官方 `<article>` 正文生成，而不是从包含全站导航的整页 HTML 生成。
+- 更新通用 HTML 抽取路径以保留官方内联链接。已重新生成 Bilibili 社区公约，使此前只显示为 `点击打开链接` 的引用现在指向下载到的 Bilibili bundle 中携带的官方链接来源。
+- 新增 `prefer_curl` 支持，用于 Node `fetch` 失败但 curl 可获取官方 HTML 的来源；YouTube 现在通过该路径稳定获取 22 个官方 Help 页面。
+- 重新检查 Texas 官方 statutes、bill text、bill lookup 以及动态 statutes query URL。它们仍返回 HTTP 503 维护响应，并带有 `Retry-After: Tue, 26 May 2026 12:00:00 GMT`，因此 Texas 仍是唯一 source stub。
+
+本轮后的校验状态：registry 中 50 条记录均已进入索引；49 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。

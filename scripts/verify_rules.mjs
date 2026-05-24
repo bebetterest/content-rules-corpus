@@ -122,6 +122,37 @@ async function verifySourceArtifacts(entry, failures) {
   }
 }
 
+function collectReferencedSourceFiles(entry, referencedSourceFiles) {
+  if (entry.source_file) {
+    referencedSourceFiles.add(entry.source_file);
+  }
+  for (const sourceFile of entry.source_files || []) {
+    referencedSourceFiles.add(sourceFile);
+  }
+  if (Array.isArray(entry.source_sha256)) {
+    for (const source of entry.source_sha256) {
+      if (source?.source_file) {
+        referencedSourceFiles.add(source.source_file);
+      }
+    }
+  }
+}
+
+async function verifyNoOrphanSourceArtifacts(referencedSourceFiles, failures) {
+  const allFiles = await rgFiles("*");
+  const sourceArtifacts = allFiles.filter(
+    (file) => file.startsWith("all_rules/") &&
+      file.includes("/sources/") &&
+      !file.endsWith("/verification-manifest.json")
+  );
+
+  for (const sourceArtifact of sourceArtifacts) {
+    if (!referencedSourceFiles.has(sourceArtifact)) {
+      failures.push(`unreferenced source artifact: ${sourceArtifact}`);
+    }
+  }
+}
+
 async function listRuleDirectories(directoryPath) {
   const entries = await readdir(directoryPath, { withFileTypes: true });
   const directories = [directoryPath];
@@ -297,11 +328,13 @@ async function main() {
   let checked = 0;
   let extracted = 0;
   let stubs = 0;
+  const referencedSourceFiles = new Set();
 
   for (const manifestFile of manifestFiles) {
     const entries = JSON.parse(await readFile(path.join(ROOT, manifestFile), "utf8"));
     for (const entry of entries) {
       checked += 1;
+      collectReferencedSourceFiles(entry, referencedSourceFiles);
       await verifySourceArtifacts(entry, failures);
 
       const outputPath = path.join(ROOT, entry.output_file);
@@ -316,6 +349,23 @@ async function main() {
       for (const sourceUrl of entry.source_urls || [entry.source_url].filter(Boolean)) {
         if (!markdown.includes(sourceUrl)) {
           failures.push(`${entry.id}: output missing source URL ${sourceUrl}`);
+        }
+      }
+
+      for (const linkedSourceUrl of entry.linked_source_urls || []) {
+        if (!markdown.includes(linkedSourceUrl)) {
+          failures.push(`${entry.id}: output missing linked source URL ${linkedSourceUrl}`);
+        }
+      }
+
+      const sourceFiles = new Set(entry.source_files || []);
+      for (const linkedSourceFile of entry.linked_source_files || []) {
+        if (!sourceFiles.has(linkedSourceFile)) {
+          failures.push(`${entry.id}: linked source file missing from source_files ${linkedSourceFile}`);
+        }
+        const localTarget = path.relative(path.dirname(outputPath), path.join(ROOT, linkedSourceFile)).split(path.sep).join("/");
+        if (!markdown.includes(localTarget)) {
+          failures.push(`${entry.id}: output missing local linked source reference ${localTarget}`);
         }
       }
 
@@ -350,6 +400,7 @@ async function main() {
     }
   }
 
+  await verifyNoOrphanSourceArtifacts(referencedSourceFiles, failures);
   const indexStats = await verifyRuleIndexes(failures);
 
   if (failures.length > 0) {

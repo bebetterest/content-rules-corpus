@@ -6,56 +6,239 @@
     "jurisdiction": "Global / platform policy",
     "output_file": "all_rules/platforms/global/youtube/youtube-community-guidelines.md",
     "source_urls": [
-      "https://support.google.com/youtube/answer/9288567?hl=en",
+      "https://support.google.com/youtube/answer/9288567",
+      "https://support.google.com/youtube/answer/2801973?hl=en",
+      "https://support.google.com/youtube/answer/2801947?hl=en",
+      "https://support.google.com/youtube/answer/9054257?hl=en",
+      "https://support.google.com/youtube/answer/3399767?hl=en",
+      "https://support.google.com/youtube/answer/9713446?hl=en",
+      "https://support.google.com/youtube/answer/2801981?hl=en",
+      "https://support.google.com/youtube/answer/2802002?hl=en",
+      "https://support.google.com/youtube/answer/9229980?hl=en",
+      "https://support.google.com/youtube/answer/2802245?hl=en",
+      "https://support.google.com/youtube/answer/10072685?hl=en",
       "https://support.google.com/youtube/answer/2801964?hl=en",
+      "https://support.google.com/youtube/answer/2802008?hl=en",
+      "https://support.google.com/youtube/answer/9229472?hl=en",
+      "https://support.google.com/youtube/answer/2801939?hl=en",
+      "https://support.google.com/youtube/answer/2802268?hl=en",
       "https://support.google.com/youtube/answer/9229611?hl=en",
-      "https://support.google.com/youtube/answer/2801999?hl=en"
+      "https://support.google.com/youtube/answer/7667605?hl=en",
+      "https://support.google.com/youtube/answer/2801999?hl=en",
+      "https://support.google.com/youtube/answer/10834785?hl=en",
+      "https://support.google.com/youtube/answer/10835034?hl=en",
+      "https://support.google.com/youtube/answer/13813322?hl=en"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-01.support-google-com.html",
       "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-02.support-google-com.html",
       "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-03.support-google-com.html",
-      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-04.support-google-com.html"
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-04.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-05.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-06.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-07.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-08.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-09.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-10.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-11.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-12.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-13.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-14.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-15.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-16.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-17.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-18.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-19.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-20.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-21.support-google-com.html",
+      "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-22.support-google-com.html"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 707,
-    "body_sha256": "eec777f07f57994349fa1be90ca324bcdf6c0fc4f0b6951a56595f66d5410b84",
+    "paragraph_count": 1350,
+    "body_sha256": "c695a59f49f8532701592f925e1d97fb74d0517a953e88b4524e485b658625f9",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-01.support-google-com.html",
-        "sha256": "7413ae3dd45847c0c33d92fcd09af92159b79ba0b8d8b97d1a7622d43b29e07d",
-        "bytes": 1366761,
+        "sha256": "54a7afc8fc3b65c798e01ed58a5378e54c95b7e4399f8b7aa15b8429bcf746ea",
+        "bytes": 1366728,
         "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-02.support-google-com.html",
-        "sha256": "ad68e449664a2b045ff057bf92f2b6fb8b836fb8bcfe1a192fbf78c8b7a907d9",
-        "bytes": 1378179,
+        "sha256": "a6a39bd4fb3e7d9f6e427bf76d63e5f37e652999c875b60d16949ca700ddbbf8",
+        "bytes": 1372401,
         "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-03.support-google-com.html",
-        "sha256": "51acae32bc229a2b4c6ea868f6726842e157f501465bda9f4b0a44390df46f05",
-        "bytes": 1370592,
+        "sha256": "63e45e675b0df53f9801dde61284fd021fdff5e3c2dc8c1e4bc5bc39af1521bf",
+        "bytes": 1362427,
         "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-04.support-google-com.html",
-        "sha256": "5b4a5fd7815c5de4a1354fa6768d7b21aca604055bb50aab21a13cf7a4344421",
-        "bytes": 1376530,
+        "sha256": "7a3cbc96c5ccb80a9553fb86b4a4b11fe8e4f154943c0ea61a34a735366acdb1",
+        "bytes": 1363967,
         "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-05.support-google-com.html",
+        "sha256": "eccc191a1e84d5eed170d8b7d494d648ab467fcd041083d1a06d8ba8c4028c5c",
+        "bytes": 1368573,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-06.support-google-com.html",
+        "sha256": "b82a67461afc693950a0e32aaaba6f0feceaaef66fc53f44c1ff1f8bbf736d53",
+        "bytes": 1362838,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-07.support-google-com.html",
+        "sha256": "4a9629325edd5d939f926c5ce476573cecc3f4317b6521bf1160a7c57a2d3fb7",
+        "bytes": 1359230,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-08.support-google-com.html",
+        "sha256": "0d4c2ec8bfe4294d51735d20b5d510e87dd16878e8bcd4c3ed7e3a1c2c8f8c11",
+        "bytes": 1371940,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-09.support-google-com.html",
+        "sha256": "94e1220bb6365bedaefcec5da323d4f6bf603bbc448bb61574bbd2c6d4057ec3",
+        "bytes": 1365767,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-10.support-google-com.html",
+        "sha256": "b31ec7cca6b46f821fe7a21f9743128c089857d581b7113691ffb591d886502b",
+        "bytes": 1380797,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-11.support-google-com.html",
+        "sha256": "53747ecdf774e5955ce148e2a6a28ad455446f0c4c9c877b390949905515b1e0",
+        "bytes": 1366606,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-12.support-google-com.html",
+        "sha256": "f46cf3acd8fab995cc955317ac6055e2802c59292425a7811e23f5641eeeb416",
+        "bytes": 1378181,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-13.support-google-com.html",
+        "sha256": "123a03ce16b6b3bf666b837b8d6089810787f5269868cf2ce6235657b0e039fb",
+        "bytes": 1375059,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-14.support-google-com.html",
+        "sha256": "754b94b7408725609680a6eb74c66b2737775798947236f777193c2b3e834313",
+        "bytes": 1366082,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-15.support-google-com.html",
+        "sha256": "1efefa24235c727976c4e709bebf643c820576589bf353a2086621e2f8a0ab03",
+        "bytes": 1371794,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-16.support-google-com.html",
+        "sha256": "6340ed8340bda24f02c456d0017eafec3082ad657987b16c3ebd2791940c7b3b",
+        "bytes": 1379103,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-17.support-google-com.html",
+        "sha256": "cb33ab847d488661a5834ae786deeee5222f41ec1dff0be745e4ba2500eb29bf",
+        "bytes": 1370227,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-18.support-google-com.html",
+        "sha256": "1a05f33185b9f8cf06f42981f5241ca9f570a7bdb51b56480fac0b718fa58889",
+        "bytes": 1363637,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-19.support-google-com.html",
+        "sha256": "543359ec6a752fa4bbfbcf4a126e46dfd9496a22c0a597c46984dfa65f8938b2",
+        "bytes": 1376166,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-20.support-google-com.html",
+        "sha256": "1ceb12032a7d648ee74602a7c825dee5351cc1cbb9ff598a99b55e829e5822a8",
+        "bytes": 1365735,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-21.support-google-com.html",
+        "sha256": "dcca68972f6f064b6ce6d35b4051f463802a131049b3bbb295c6e887849dac2e",
+        "bytes": 1370177,
+        "downloader": "curl",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-22.support-google-com.html",
+        "sha256": "82e5f458ea89bdd1090220640b35d5488de53dcebd2c2bd1fa94caef73740f97",
+        "bytes": 1375068,
+        "downloader": "curl",
+        "fallback_from": null,
         "content_type": null
       }
     ]

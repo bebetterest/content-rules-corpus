@@ -9,16 +9,19 @@
       "https://member.bilibili.com/studio/convention/?navhide=1",
       "https://s1.hdslb.com/bfs/static/creator-monorepo/convention/static/js/index.b2b1ac9c.js"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-01.member-bilibili-com.html",
       "all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-02.s1-hdslb-com.html"
     ],
+    "linked_source_files": [],
     "retrieved_date": "2026-05-24",
     "language": "zh-CN",
     "extraction_status": "extracted",
     "extraction_note": null,
     "paragraph_count": 560,
-    "body_sha256": "3ec9a8d7133f624f349da22f841b28a19dc27ffe221f94d7da3daf19d5fdef4d",
+    "body_sha256": "f537edc1e788790556cab123e3ccfef44b0a97e96ed0958c6e7ed101b4ee956a",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [

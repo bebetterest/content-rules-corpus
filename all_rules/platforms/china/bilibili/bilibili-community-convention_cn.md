@@ -16,7 +16,7 @@
 - Source SHA-256:
 - all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-01.member-bilibili-com.html: 11b89d18fac7c28c3e0efea3e55a9683616f9771ec63df3e789d9aaa7ee30e02
 - all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-02.s1-hdslb-com.html: 3a3421dd531b130e1865a4c671c131b87cdd4dc4d939b4d4589371b82d9e2d6b
-- Body SHA-256: 3ec9a8d7133f624f349da22f841b28a19dc27ffe221f94d7da3daf19d5fdef4d
+- Body SHA-256: f537edc1e788790556cab123e3ccfef44b0a97e96ed0958c6e7ed101b4ee956a
 
 ## Source Text
 
@@ -52,11 +52,11 @@
 
 7、用户之间友好的交流环境是健康良好社区氛围的重要基础，bilibili对于平台中出现的互动发言（评论、弹幕等）违规问题，bilibili将考虑以更严格的态度进行管理，维护站内友善和谐的沟通氛围。
 
-8、对于bilibili直播规范细节，详情可参阅 点击打开链接
+8、对于bilibili直播规范细节，详情可参阅 [点击打开链接](https://link.bilibili.com/p/eden/news#/newsdetail?id=135)
 
-9、对于bilibili账号处罚细节，详情可参阅 点击打开链接
+9、对于bilibili账号处罚细节，详情可参阅 [点击打开链接](https://www.bilibili.com/blackboard/blackroomrule_v17.html)
 
-10、为加强“自媒体”管理，健全管理制度机制，bilibili将逐步引导粉丝量 50 万以上“自媒体”账号进行前台实名展示。如不同意实名，bilibili将酌情对相关账号及其发布内容采取限制内容传播、限制营利权限等处置，详情可见 点击打开链接
+10、为加强“自媒体”管理，健全管理制度机制，bilibili将逐步引导粉丝量 50 万以上“自媒体”账号进行前台实名展示。如不同意实名，bilibili将酌情对相关账号及其发布内容采取限制内容传播、限制营利权限等处置，详情可见 [点击打开链接](https://www.bilibili.com/opus/858609081124913204)
 
 ## 违规分类
 
@@ -254,7 +254,7 @@
 
 ③搬运著作权人禁止转载的内容或搬运站内长期活跃的创作者内容。
 
-关于著作权常见问题，详情可见: 点击打开链接
+关于著作权常见问题，详情可见: [点击打开链接](https://www.bilibili.com/blackboard/help.html#/?qid=90776f35efa3492f9eaa4a7db2d6033a&pid=722fe76ea7d641588b2a01164eaa1701)
 
 （2）禁止未经权利人同意发布其身份、照片、姓名、生活细节等个人信息，或以其它方式侵害他人个人隐私；
 
@@ -328,17 +328,17 @@
 
 具体可参考
 
-《中华人民共和国野生动物保护法》
+[《中华人民共和国野生动物保护法》](https://flk.npc.gov.cn/detail2.html?ZmY4MDgwODE2ZjEzNWY0NjAxNmYxY2NlYTE0YjExNDM%3D)
 
-《中华人民共和国野生植物保护条例》 以及
+[《中华人民共和国野生植物保护条例》](https://flk.npc.gov.cn/detail2.html?ZmY4MDgwODE2ZjNlOTc4NDAxNmY0MjMyMjUzNDAzMjM%3D) 以及
 
-《国家重点保护野生动物名录》 和
+[《国家重点保护野生动物名录》](https://www.forestry.gov.cn/c/www/gkgfxwj/546057.jhtml) 和
 
-《国家重点保护野生植物名录》
+[《国家重点保护野生植物名录》](https://www.gov.cn/zhengce/zhengceku/2021-09/09/content_5636409.htm)
 
 ③非法引进、放生、交易外来物种，或对非法引进放生外来物种行为持支持态度的内容。具体可参考我国
 
-《外来入侵物种管理办法》
+[《外来入侵物种管理办法》](https://www.gov.cn/zhengce/zhengceku/2022-06/17/content_5696171.htm)
 
 （16）其他不适宜展示或使用的素材内容（如影视、歌曲、人物、游戏等）。
 
@@ -736,7 +736,7 @@ bilibili根据相关法规对新闻信息进行管理。针对新闻信息的日
 
 bilibili鼓励具备专业资质的创作者以信息真实性、准确性、可追溯性为前提，以尊重客观规律、实事求是的方式进行相关专业领域内容创作，避免因内容失实、误导造成他人生命健康损害、财产损失。
 
-依照相关法规要求，通过bilibili平台发布涉及财经、医疗、司法、教育等专业领域内容的，应向bilibili申请专业资质认证并依照相关要求提交资质证明。bilibili也将对相关专业领域内容进行严格管理。 职业资质认证已升级！最新规则出炉 ~
+依照相关法规要求，通过bilibili平台发布涉及财经、医疗、司法、教育等专业领域内容的，应向bilibili申请专业资质认证并依照相关要求提交资质证明。bilibili也将对相关专业领域内容进行严格管理。 [职业资质认证已升级！最新规则出炉 ~](https://www.bilibili.com/read/cv16567771?spm_id_from=333.999.0.0)
 
 对于违反规范的情形，bilibili将采取不仅限于删除下线、限制内容传播、添加平台提醒标识的处置，管理范围包括但不限于：
 
@@ -878,7 +878,7 @@ bilibili认为以下内容属于违规行为，包括但不限于：
 
 若您需要使用抽奖功能，可使用官方动态抽奖工具，详情可参考
 
-全站使用说明 - 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ - bilibili
+[全站使用说明 - 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ - bilibili](https://www.bilibili.com/blackboard/help.html#/?qid=e55a848237ea43a4900eda655d76c03b&pid=15cd151d07964bcca90086ddbfb5ccb8)
 
 ### 低质及不良观感
 
@@ -1018,7 +1018,7 @@ bilibili将对威胁到网络技术服务稳定和网络信息安全的行为予
 
 如直播活动涉及上述违规内容的，也将对其采取不仅限于扣除SAN值、警告提醒、取消直播推荐资格、切断直播流、限制开播、封禁直播间的处置。
 
-如果需要发布含有商业推广的内容，请参考下方链接内的“ 内容合作（商单）相关 ”信息。
+如果需要发布含有商业推广的内容，请参考下方链接内的“ [内容合作（商单）相关](https://www.bilibili.com/blackboard/help.html#/?qid=341) ”信息。
 
 ## 投稿规范
 
@@ -1058,7 +1058,7 @@ bilibili会根据明确可识别的创作标识信息、内容的独创性、创
 
 3、关于防撞：在视频音画内容基本一致或相似度过高，但通过添加“防撞”用途的无关分P来规避撞车判定的，仍会被判定为撞车或重复投稿。
 
-如对撞车判定存在疑义（如原作者被判定撞车），可参照“申诉管理”中“稿件撞车”部分进行申诉，详情链接如下： 点击打开链接
+如对撞车判定存在疑义（如原作者被判定撞车），可参照“申诉管理”中“稿件撞车”部分进行申诉，详情链接如下： [点击打开链接](https://www.bilibili.com/blackboard/help.html#/?qid=9a6a3254395240378c153710a14f364a&pid=ab41e1b88c454d3f9914c5af12fc77b2)
 
 ### 标签（TAG）违规问题
 
@@ -1092,41 +1092,41 @@ bilibili会根据明确可识别的创作标识信息、内容的独创性、创
 
 本公约依据
 
-《中华人民共和国民法典》
+[《中华人民共和国民法典》](https://www.court.gov.cn/zixun/xiangqing/233181.html)
 
-《中华人民共和国个人信息保护法》
+[《中华人民共和国个人信息保护法》](http://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm)
 
-《中华人民共和国数据安全法》
+[《中华人民共和国数据安全法》](http://www.npc.gov.cn/npc/c30834/202106/7c9af12f51334a73b56d7938f99a788a.shtml)
 
-《中华人民共和国未成年人保护法》
+[《中华人民共和国未成年人保护法》](https://flk.npc.gov.cn/detail?id=ff8081818f197cf001905e567af635a0&fileId=&type=&title=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E6%9C%AA%E6%88%90%E5%B9%B4%E4%BA%BA%E4%BF%9D%E6%8A%A4%E6%B3%95)
 
-《中华人民共和国网络安全法》
+[《中华人民共和国网络安全法》](https://www.cac.gov.cn/2025-12/29/c_1768735112911946.htm)
 
-《中华人民共和国著作权法》
+[《中华人民共和国著作权法》](http://www.gov.cn/guoqing/2021-10/29/content_5647633.htm)
 
-《计算机软件保护条例》
+[《计算机软件保护条例》](http://www.gov.cn/zhengce/2020-12/26/content_5574414.htm)
 
-《儿童个人信息网络保护规定》
+[《儿童个人信息网络保护规定》](http://www.cac.gov.cn/2019-08/23/c_1124913903.htm)
 
-《互联网新闻信息服务管理规定》
+[《互联网新闻信息服务管理规定》](http://www.cac.gov.cn/2017-05/02/c_1120902760.htm)
 
-《互联网宗教信息服务管理办法》
+[《互联网宗教信息服务管理办法》](http://www.gov.cn/gongbao/content/2022/content_5678093.htm)
 
-《网络信息内容生态治理规定》
+[《网络信息内容生态治理规定》](http://www.cac.gov.cn/2019-12/20/c_1578375159509309.htm)
 
-《互联网用户公众账号信息服务管理规定》
+[《互联网用户公众账号信息服务管理规定》](http://www.cac.gov.cn/2021-01/22/c_1612887880656609.htm)
 
-《互联网用户账号信息管理规定》
+[《互联网用户账号信息管理规定》](http://www.cac.gov.cn/2022-06/26/c_1657868775042841.htm)
 
-《互联网跟帖评论服务管理规定》
+[《互联网跟帖评论服务管理规定》](http://www.cac.gov.cn/2022-11/16/c_1670253725725039.htm)
 
-《网络音视频信息服务管理规定》
+[《网络音视频信息服务管理规定》](http://www.cac.gov.cn/2019-11/29/c_1576561820967678.htm)
 
-《易制爆危险化学品治安管理办法》
+[《易制爆危险化学品治安管理办法》](https://app.mps.gov.cn/gdnps/zc/content.jsp?id=8279982)
 
-《网络暴力信息治理规定》
+[《网络暴力信息治理规定》](https://www.cac.gov.cn/2024-06/14/c_1720043894161555.htm)
 
-《互联网军事信息传播管理办法》
+[《互联网军事信息传播管理办法》](http://www.mod.gov.cn/gfbw/qwfb/16368422.html)
 
 等法律法规，制定如下执行细则规范。
 

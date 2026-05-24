@@ -8,15 +8,18 @@
     "source_urls": [
       "https://www.douyin.com/draft/douyin_agreement/infringement_guide.html"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/platforms/china/douyin/sources/platform-douyin-infringement-guide.douyin-com.html"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "zh-CN",
     "extraction_status": "extracted",
     "extraction_note": null,
     "paragraph_count": 101,
-    "body_sha256": "ecb7f6e0eba65038a425be3b723a84375b749dae17af92d963c2773b6b4cfdae",
+    "body_sha256": "a8cea7bf5b8ed533f54b7a1253901be8ea3c78d63239d9e4d72d6e72813bf491",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -24,6 +27,40 @@
         "source_file": "all_rules/platforms/china/douyin/sources/platform-douyin-infringement-guide.douyin-com.html",
         "sha256": "6905990c050dd2e29da8f41f376fbde6647288a0be1bdd784ac3324010d8b896",
         "bytes": 20726,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "platform-douyin-user-service-agreement",
+    "title": "“抖音”用户服务协议",
+    "collection": "platforms",
+    "jurisdiction": "China / platform policy",
+    "output_file": "all_rules/platforms/china/douyin/douyin-user-service-agreement_cn.md",
+    "source_urls": [
+      "https://www.douyin.com/agreements/?id=6773906068725565448"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/platforms/china/douyin/sources/platform-douyin-user-service-agreement.douyin-com.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "zh-CN",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 165,
+    "body_sha256": "184ce80ec5b8e56cb39bf56d1b71f928b18807da8644b800673ae999d1ce9d7c",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/china/douyin/sources/platform-douyin-user-service-agreement.douyin-com.html",
+        "sha256": "12e8d0a130a2dae1d6f52c9bc18c4ea572ae1366c21b083936310b780b9cf2c7",
+        "bytes": 53326,
         "downloader": "curl",
         "fallback_from": "fetch failed",
         "content_type": null
