@@ -1,6 +1,6 @@
 # All Rules
 
-This directory stores collected rule texts. Subdirectories should be organized by jurisdiction, standards body, platform, or another stable source boundary.
+This directory stores the collected rule texts for `content-rules-corpus`. Subdirectories should be organized by jurisdiction, standards body, platform, or another stable source boundary.
 
 ## Current Directories
 

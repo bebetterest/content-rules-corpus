@@ -255,9 +255,17 @@ Verification status after this pass: `node scripts/verify_rules.mjs` verified 14
 
 Documentation updates:
 
-- Reworked the root `README.md` as an open-source project entry point for a content-safety rule corpus.
+- Reworked the root `README.md` as an open-source project entry point for `content-rules-corpus`.
 - Added a minimalist hand-drawn README header image at `docs/assets/readme-header.png`.
 - Clarified the project purpose: collecting and exploring laws, regulations, standards, and platform policies related to content safety and adjacent trust-and-safety topics.
 - Added project goals, current corpus scope, repository layout, environment requirements, common commands, collection workflow, source-handling policy, data-quality checks, contribution expectations, legal/use disclaimer, and current license status.
 - Synchronized `README_cn.md` with the English README.
 - Reflected the current corpus status after the Texas extraction update: `node scripts/verify_rules.mjs` verifies 144 entries, with 144 extracted files and 0 source stubs.
+
+## 2026-05-25 Repository Naming Pass
+
+Documentation updates:
+
+- Standardized the public repository name as `content-rules-corpus`.
+- Updated the root README title, opening description, README image alt text, and `all_rules/` directory README files to use the new name.
+- Synchronized the Chinese companion documentation.

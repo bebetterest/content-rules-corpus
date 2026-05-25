@@ -1,8 +1,8 @@
-# Rules
+# content-rules-corpus
 
-![Hand-drawn content safety rules corpus header](docs/assets/readme-header.png)
+![Hand-drawn content-rules-corpus header](docs/assets/readme-header.png)
 
-Rules is a source-first corpus for collecting, preserving, and comparing content-safety-related rules from laws, regulations, standards, and platform policies.
+content-rules-corpus is a source-first corpus for collecting, preserving, and comparing content-safety-related rules from laws, regulations, standards, and platform policies.
 
 The project is intended for research and exploration across different rule systems: how governments, regulators, standards bodies, and online platforms define prohibited content, safety duties, enforcement processes, user protections, and related compliance concepts.
 

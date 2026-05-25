@@ -1,8 +1,8 @@
-# Rules
+# content-rules-corpus
 
-![Hand-drawn content safety rules corpus header](docs/assets/readme-header.png)
+![Hand-drawn content-rules-corpus header](docs/assets/readme-header.png)
 
-Rules 是一个来源优先的语料库，用于收集、保存和比较与内容安全相关的法律、法规、标准和平台政策。
+content-rules-corpus 是一个来源优先的语料库，用于收集、保存和比较与内容安全相关的法律、法规、标准和平台政策。
 
 本项目面向研究和探索：不同规则体系中，政府、监管机构、标准组织和线上平台如何定义违规内容、安全义务、执行流程、用户保护，以及相关合规概念。
 

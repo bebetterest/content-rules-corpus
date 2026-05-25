@@ -255,9 +255,17 @@
 
 文档更新：
 
-- 将根目录 `README.md` 重写为内容安全规则语料库的开源项目入口文档。
+- 将根目录 `README.md` 重写为 `content-rules-corpus` 的开源项目入口文档。
 - 在 `docs/assets/readme-header.png` 添加简约手绘 README 头图。
 - 明确项目目的：收集并探索与内容安全及相邻信任与安全议题相关的法律、法规、标准和平台政策。
 - 增加项目目标、当前语料范围、仓库结构、环境要求、常用命令、收集流程、来源文本处理政策、数据质量校验、贡献要求、法律与使用声明，以及当前 license 状态。
 - 同步更新 `README_cn.md`。
 - 反映 Texas 抽取更新后的当前语料状态：`node scripts/verify_rules.mjs` 验证 144 条记录，其中 144 个文件已抽取正文，0 个 source stub。
+
+## 2026-05-25 仓库命名同步
+
+文档更新：
+
+- 将公开仓库名称统一为 `content-rules-corpus`。
+- 更新根目录 README 标题、开头说明、README 图片 alt 文本，以及 `all_rules/` 目录 README 文件中的项目名称。
+- 同步更新中文配套文档。
