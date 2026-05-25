@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/chinese",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 0,
+  "descendant_rule_count": 11,
+  "rules": [],
+  "children": [
+    {
+      "name": "baidu-tieba",
+      "path": "all_rules/platforms/chinese/baidu-tieba",
+      "index": "all_rules/platforms/chinese/baidu-tieba/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "bilibili",
+      "path": "all_rules/platforms/chinese/bilibili",
+      "index": "all_rules/platforms/chinese/bilibili/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "douban",
+      "path": "all_rules/platforms/chinese/douban",
+      "index": "all_rules/platforms/chinese/douban/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "douyin",
+      "path": "all_rules/platforms/chinese/douyin",
+      "index": "all_rules/platforms/chinese/douyin/index.json",
+      "rule_count": 2,
+      "descendant_rule_count": 2
+    },
+    {
+      "name": "kuaishou",
+      "path": "all_rules/platforms/chinese/kuaishou",
+      "index": "all_rules/platforms/chinese/kuaishou/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "qq",
+      "path": "all_rules/platforms/chinese/qq",
+      "index": "all_rules/platforms/chinese/qq/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "wechat",
+      "path": "all_rules/platforms/chinese/wechat",
+      "index": "all_rules/platforms/chinese/wechat/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "weibo",
+      "path": "all_rules/platforms/chinese/weibo",
+      "index": "all_rules/platforms/chinese/weibo/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "xiaohongshu",
+      "path": "all_rules/platforms/chinese/xiaohongshu",
+      "index": "all_rules/platforms/chinese/xiaohongshu/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "zhihu",
+      "path": "all_rules/platforms/chinese/zhihu",
+      "index": "all_rules/platforms/chinese/zhihu/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    }
+  ]
+}

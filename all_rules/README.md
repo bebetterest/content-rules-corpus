@@ -5,12 +5,12 @@ This directory stores the collected rule texts for `content-rules-corpus`. Subdi
 ## Current Directories
 
 - `china/`: laws, administrative regulations, departmental rules, and related official rule texts from China.
-- `platforms/`: official platform content policies and community rules, grouped by platform and region.
+- `platforms/`: official platform content policies and community rules, grouped by language group and platform.
 - `united-states/`: U.S. federal and state content-safety-related legal and regulatory sources.
 
 ## Source Registry
 
-- `source-registry.json` records source IDs, titles, jurisdictions, scope notes, authority labels, source URLs, reference URLs, fetch methods, output files, languages, status notes, and risk categories where applicable.
+- `source-registry.json` records source IDs, titles, jurisdictions, scope notes, authority labels, source URLs, reference URLs, fetch methods, output files, languages, language groups for platform entries, status notes, and risk categories where applicable.
 - `scripts/fetch_rules.mjs` reads the registry and writes Markdown outputs, raw source artifacts, and `sources/verification-manifest.json` files.
 - Entries with `fetch_method: "rendered-html"` use Python Playwright to save browser-rendered official HTML before extraction.
 - Files that cannot be verified as complete official full-text extractions remain source stubs.

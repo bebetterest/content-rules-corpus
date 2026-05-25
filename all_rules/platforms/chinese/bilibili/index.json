@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/chinese/bilibili",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "bilibili社区公约",
+      "file": "bilibili-community-convention_cn.md",
+      "path": "all_rules/platforms/chinese/bilibili/bilibili-community-convention_cn.md",
+      "collection": "platforms",
+      "jurisdiction": "China / platform policy",
+      "scope_note": "Platform community convention for Bilibili creators and community activity; not a government legal code.",
+      "source_authority": "Bilibili",
+      "retrieval_date": "2026-05-24",
+      "language": "zh-CN",
+      "language_group": "chinese",
+      "fetch_method": "html+js-bundle",
+      "extractor": "bilibili-convention-js",
+      "extraction_status": "extracted",
+      "status_note": "Official Bilibili creator-center source plus official static JS bundle containing the convention data used by that page.",
+      "source_urls": [
+        "https://member.bilibili.com/studio/convention/?navhide=1",
+        "https://s1.hdslb.com/bfs/static/creator-monorepo/convention/static/js/index.b2b1ac9c.js"
+      ]
+    }
+  ],
+  "children": []
+}

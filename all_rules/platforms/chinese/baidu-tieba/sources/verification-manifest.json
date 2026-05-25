@@ -1,0 +1,48 @@
+[
+  {
+    "id": "platform-baidu-tieba-agreement",
+    "title": "贴吧协议",
+    "collection": "platforms",
+    "jurisdiction": "China / platform policy",
+    "output_file": "all_rules/platforms/chinese/baidu-tieba/baidu-tieba-agreement_cn.md",
+    "source_urls": [
+      "http://tieba.baidu.com/tb/eula.html",
+      "https://tieba.baidu.com/mo/q/getConfigData?prev=0&amis_key=7d5fedadf1307c45e8f230e2c28ec2b615"
+    ],
+    "reference_urls": [],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/platforms/chinese/baidu-tieba/sources/platform-baidu-tieba-agreement-01.tieba-baidu-com.html",
+      "all_rules/platforms/chinese/baidu-tieba/sources/platform-baidu-tieba-agreement-02.tieba-baidu-com.json"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "zh-CN",
+    "language_group": "chinese",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 150,
+    "body_sha256": "f972e45b12a424e8f2a9fa8bf3d15586755732a805fb1c5ac25cbb112b902b22",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/chinese/baidu-tieba/sources/platform-baidu-tieba-agreement-01.tieba-baidu-com.html",
+        "sha256": "e33f02ae32c5ced136ab1c3184604b34ffc0a536970bac997ee7a80dde94f807",
+        "bytes": 2554,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/baidu-tieba/sources/platform-baidu-tieba-agreement-02.tieba-baidu-com.json",
+        "sha256": "1c393b77f5ca0f9569e5c4bfc07dd7f505b9cb43ff6d7723311fdea09b9d8b26",
+        "bytes": 55884,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      }
+    ]
+  }
+]

@@ -7,16 +7,16 @@
   "rules": [],
   "children": [
     {
-      "name": "china",
-      "path": "all_rules/platforms/china",
-      "index": "all_rules/platforms/china/index.json",
+      "name": "chinese",
+      "path": "all_rules/platforms/chinese",
+      "index": "all_rules/platforms/chinese/index.json",
       "rule_count": 0,
       "descendant_rule_count": 11
     },
     {
-      "name": "global",
-      "path": "all_rules/platforms/global",
-      "index": "all_rules/platforms/global/index.json",
+      "name": "english",
+      "path": "all_rules/platforms/english",
+      "index": "all_rules/platforms/english/index.json",
       "rule_count": 0,
       "descendant_rule_count": 16
     }

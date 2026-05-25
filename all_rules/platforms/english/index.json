@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/english",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 0,
+  "descendant_rule_count": 16,
+  "rules": [],
+  "children": [
+    {
+      "name": "bluesky",
+      "path": "all_rules/platforms/english/bluesky",
+      "index": "all_rules/platforms/english/bluesky/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "discord",
+      "path": "all_rules/platforms/english/discord",
+      "index": "all_rules/platforms/english/discord/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "github",
+      "path": "all_rules/platforms/english/github",
+      "index": "all_rules/platforms/english/github/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "gitlab",
+      "path": "all_rules/platforms/english/gitlab",
+      "index": "all_rules/platforms/english/gitlab/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "linkedin",
+      "path": "all_rules/platforms/english/linkedin",
+      "index": "all_rules/platforms/english/linkedin/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "meta",
+      "path": "all_rules/platforms/english/meta",
+      "index": "all_rules/platforms/english/meta/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "pinterest",
+      "path": "all_rules/platforms/english/pinterest",
+      "index": "all_rules/platforms/english/pinterest/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "reddit",
+      "path": "all_rules/platforms/english/reddit",
+      "index": "all_rules/platforms/english/reddit/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "roblox",
+      "path": "all_rules/platforms/english/roblox",
+      "index": "all_rules/platforms/english/roblox/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "snapchat",
+      "path": "all_rules/platforms/english/snapchat",
+      "index": "all_rules/platforms/english/snapchat/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "steam",
+      "path": "all_rules/platforms/english/steam",
+      "index": "all_rules/platforms/english/steam/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "tiktok",
+      "path": "all_rules/platforms/english/tiktok",
+      "index": "all_rules/platforms/english/tiktok/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "tumblr",
+      "path": "all_rules/platforms/english/tumblr",
+      "index": "all_rules/platforms/english/tumblr/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "twitch",
+      "path": "all_rules/platforms/english/twitch",
+      "index": "all_rules/platforms/english/twitch/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "x",
+      "path": "all_rules/platforms/english/x",
+      "index": "all_rules/platforms/english/x/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    },
+    {
+      "name": "youtube",
+      "path": "all_rules/platforms/english/youtube",
+      "index": "all_rules/platforms/english/youtube/index.json",
+      "rule_count": 1,
+      "descendant_rule_count": 1
+    }
+  ]
+}

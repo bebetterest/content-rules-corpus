@@ -1,0 +1,38 @@
+[
+  {
+    "id": "platform-twitch-community-guidelines",
+    "title": "Twitch Community Guidelines",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/english/twitch/twitch-community-guidelines.md",
+    "source_urls": [
+      "https://safety.twitch.tv/articles/en_US/Knowledge/Community-Guidelines"
+    ],
+    "reference_urls": [],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/platforms/english/twitch/sources/platform-twitch-community-guidelines.safety-twitch-tv.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "language_group": "english",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 616,
+    "body_sha256": "8b0452ef72fba2f5259eaa236c5946d6ba2ca3505ac78afcbfffaa9a47afa858",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/english/twitch/sources/platform-twitch-community-guidelines.safety-twitch-tv.html",
+        "sha256": "b2cfe78ddfe81d275823a9279210926170c26f72c90b3317d2eec0e064f7c840",
+        "bytes": 117633,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      }
+    ]
+  }
+]

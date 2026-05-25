@@ -1,0 +1,247 @@
+[
+  {
+    "id": "platform-github-acceptable-use-policies",
+    "title": "GitHub Acceptable Use Policies",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/english/github/github-acceptable-use-policies.md",
+    "source_urls": [
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-active-malware-or-exploits",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-bullying-and-harassment",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-disrupting-the-experience-of-other-users",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-doxxing-and-invasion-of-privacy",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-hate-speech-and-discrimination",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-impersonation",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-misinformation-and-disinformation",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-sexually-obscene-content",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-threats-of-violence-and-gratuitously-violent-content",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-terrorism-and-violent-extremism",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-child-sexual-exploitation-or-abuse",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-non-consensual-intimate-imagery",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-synthetic-media-and-ai-tools"
+    ],
+    "reference_urls": [],
+    "linked_source_urls": [
+      "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+      "https://docs.github.com/en/site-policy/github-terms/github-corporate-terms-of-service",
+      "https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement",
+      "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+      "https://docs.github.com/en/site-policy/github-terms/github-community-guidelines",
+      "https://docs.github.com/en/site-policy/acceptable-use-policies/github-appeal-and-reinstatement",
+      "https://docs.github.com/en/site-policy/content-removal-policies/github-private-information-removal-policy"
+    ],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-01.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-02.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-03.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-04.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-05.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-06.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-07.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-08.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-09.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-10.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-11.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-12.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-13.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-14.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-01-github-terms-github-terms-of-service.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-02-github-terms-github-corporate-terms-of-service.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-03-privacy-policies-github-privacy-statement.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-04-github-terms-github-terms-for-additional-products-and-features.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-05-github-terms-github-community-guidelines.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-06-acceptable-use-policies-github-appeal-and-reinstatement.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-07-content-removal-policies-github-private-information-removal-policy.docs-github-com.html"
+    ],
+    "linked_source_files": [
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-01-github-terms-github-terms-of-service.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-02-github-terms-github-corporate-terms-of-service.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-03-privacy-policies-github-privacy-statement.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-04-github-terms-github-terms-for-additional-products-and-features.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-05-github-terms-github-community-guidelines.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-06-acceptable-use-policies-github-appeal-and-reinstatement.docs-github-com.html",
+      "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-07-content-removal-policies-github-private-information-removal-policy.docs-github-com.html"
+    ],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "language_group": "english",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 995,
+    "body_sha256": "a9f263faaebe2c4cc7edc18a39cd76dc847ca569098fdf0a82e2bf2dfdfd41d8",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-01.docs-github-com.html",
+        "sha256": "6f48cb6af16d0dee531deae778f442868bc7e99924d1b04bf77930555ceb310b",
+        "bytes": 140190,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-02.docs-github-com.html",
+        "sha256": "51031a010f235412a87633b837de9a49d2257a73b790af1e507066b88f8803ed",
+        "bytes": 105856,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-03.docs-github-com.html",
+        "sha256": "590de98f010f89ce266634ac02e3c1beca8eb31ee67bf602e8832bfc18c9842d",
+        "bytes": 102398,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-04.docs-github-com.html",
+        "sha256": "733a6b4081f77b7a7808fa2797499bb02ac2c97437bd7067c5872ade234fac6d",
+        "bytes": 103076,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-05.docs-github-com.html",
+        "sha256": "244c3164b6dbd0ef15c8c7e9e6405f0cb81344d42bf39126d9a5bc945f5f1469",
+        "bytes": 103299,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-06.docs-github-com.html",
+        "sha256": "bdb04930646184d5ec16de990d4c5aec693d272746b6b10886f2a9121b7d903c",
+        "bytes": 102717,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-07.docs-github-com.html",
+        "sha256": "d91d97f3b8bc4d5703983d1b081567fa7d0ba50357a61b8404cc5e8767e62f87",
+        "bytes": 101732,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-08.docs-github-com.html",
+        "sha256": "9430132517d8ab513be0b86b55af6e3cfb45bc2e89c52ad53cdb5a58317ed4f4",
+        "bytes": 103094,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-09.docs-github-com.html",
+        "sha256": "1dc8b00be62f2320181980cd7a5173435417de3a9e2db0573a4cca0ff191c179",
+        "bytes": 101977,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-10.docs-github-com.html",
+        "sha256": "8d0a3dba92cb3131a1783c528a61a10b088228a16555b1e09e72198e3fee4703",
+        "bytes": 102915,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-11.docs-github-com.html",
+        "sha256": "65e25f2a0caaef3b802604ca45af82a8ce4c980c61e089b122dbd688d20cb1c9",
+        "bytes": 104455,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-12.docs-github-com.html",
+        "sha256": "099bf539096fd7c5a5bdc29819d3c63d9acc2ea0f29fc723a6f792a069b99c0e",
+        "bytes": 102700,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-13.docs-github-com.html",
+        "sha256": "fc0c53efbe1f350c22d1ac25826e6d299d3c7561f8dcc4e462cd623bd8157b22",
+        "bytes": 102200,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-14.docs-github-com.html",
+        "sha256": "1de508e198f06967da51c494ed8ca40552649453072c613e2fb38a21e0b79192",
+        "bytes": 102665,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-01-github-terms-github-terms-of-service.docs-github-com.html",
+        "sha256": "7c4bbe456a5031e7e9bc268ca33b5b0e02936d519e2045075eea7fe2727fe7d1",
+        "bytes": 252832,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-02-github-terms-github-corporate-terms-of-service.docs-github-com.html",
+        "sha256": "5a6f49cd8de3cd3a2e283237c8d3ba867a5abacebe4b11f701d91c175e55290e",
+        "bytes": 242601,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-03-privacy-policies-github-privacy-statement.docs-github-com.html",
+        "sha256": "22c1a61281ce9f5ae11f7ca702213bf254d702a228bd09a3c9487f269013e97b",
+        "bytes": 221404,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-04-github-terms-github-terms-for-additional-products-and-features.docs-github-com.html",
+        "sha256": "ced5fba140df279d57c53c706f6c59467145992539091ac8ff069199c6a81a1f",
+        "bytes": 155565,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-05-github-terms-github-community-guidelines.docs-github-com.html",
+        "sha256": "7f9a2ae14fa9ead2b232c43d0c7bbf6fc23831ff886ef38473846261aa9138c5",
+        "bytes": 128683,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-06-acceptable-use-policies-github-appeal-and-reinstatement.docs-github-com.html",
+        "sha256": "3000c97a5de8ba8d6aaa2d10a2531ce12eb6607bc149d798b3ec9d0b757d8aac",
+        "bytes": 114977,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/github/sources/platform-github-acceptable-use-policies-linked-07-content-removal-policies-github-private-information-removal-policy.docs-github-com.html",
+        "sha256": "7a50cfe2601e2cf74ae33e1a7f4579f6e2146f63b5897eb5b0382ed0f1a91aef",
+        "bytes": 135351,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      }
+    ]
+  }
+]

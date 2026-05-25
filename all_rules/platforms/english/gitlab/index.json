@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/english/gitlab",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "GitLab Acceptable Use Policy",
+      "file": "gitlab-acceptable-use-policy.md",
+      "path": "all_rules/platforms/english/gitlab/gitlab-acceptable-use-policy.md",
+      "collection": "platforms",
+      "jurisdiction": "Global / platform policy",
+      "scope_note": "GitLab acceptable-use policy for GitLab services and user content/activity; not a government legal code.",
+      "source_authority": "GitLab Handbook",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "language_group": "english",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official GitLab Handbook acceptable-use policy page.",
+      "source_urls": [
+        "https://handbook.gitlab.com/handbook/legal/acceptable-use-policy/"
+      ]
+    }
+  ],
+  "children": []
+}

@@ -4,9 +4,10 @@ This directory collects official platform content policies, community rules, saf
 
 ## Layout
 
-- `china/`: China platform rules and policy sources.
-- `global/`: global platform rules and policy sources.
+- `chinese/`: Chinese-language platform rules and policy sources.
+- `english/`: English-language platform rules and policy sources.
 - Each platform directory contains generated Markdown, raw source artifacts under `sources/`, a `verification-manifest.json`, and risk-category indexes where registry categories are available.
+- Registry entries use `language_group` for the language directory and `platform_group` in the `<language_group>/<platform>` form for risk-index generation.
 
 ## Handling Rules
 

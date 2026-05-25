@@ -1,0 +1,38 @@
+[
+  {
+    "id": "platform-reddit-rules",
+    "title": "Reddit Rules",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/english/reddit/reddit-rules.md",
+    "source_urls": [
+      "https://redditinc.com/policies/reddit-rules"
+    ],
+    "reference_urls": [],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/platforms/english/reddit/sources/platform-reddit-rules.redditinc-com.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "language_group": "english",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 69,
+    "body_sha256": "5280a242927f47e2d511810fa031a2cc12ef9c8d7c580c8036a58c7544d30dbe",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/english/reddit/sources/platform-reddit-rules.redditinc-com.html",
+        "sha256": "c8a776770397c485cfd0f14c1ef5747ef302a688737eb632c338d68f016265b4",
+        "bytes": 499075,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      }
+    ]
+  }
+]

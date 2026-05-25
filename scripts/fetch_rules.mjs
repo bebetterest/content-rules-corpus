@@ -1448,6 +1448,7 @@ async function extractBody(entry, downloads, linkMap = new Map()) {
 function markdownFor(entry, extraction, downloads, linkedDownloads = []) {
   const sourceUrls = sourceUrlsFor(entry);
   const sourceList = sourceUrls.map((url) => `- ${url}`).join("\n");
+  const languageGroupLine = entry.language_group ? `- Language Group: ${entry.language_group}\n` : "";
   const referenceUrls = referenceUrlsFor(entry);
   const referenceList = referenceUrls.length > 0
     ? `- Reference URL:\n${referenceUrls.map((url) => `- ${url}`).join("\n")}\n`
@@ -1486,7 +1487,7 @@ ${sourceList}
 ${referenceList}
 ${linkedSourceList}- Retrieval Date: ${RETRIEVED_DATE}
 - Language: ${entry.language}
-- Fetch Method: ${entry.fetch_method}
+${languageGroupLine}- Fetch Method: ${entry.fetch_method}
 - Extractor: ${entry.extractor || "generic-html"}
 - Extraction Status: ${extraction.status}
 - Status Note: ${entry.status_note || "None"}
@@ -1802,6 +1803,7 @@ async function processEntry(entry) {
     linked_source_files: linkedDownloads.map((item) => repoRelative(item.sourcePath)),
     retrieved_date: RETRIEVED_DATE,
     language: entry.language,
+    language_group: entry.language_group,
     extraction_status: extraction.status,
     extraction_note: extraction.note,
     paragraph_count: extraction.text ? extraction.text.split(/\n{2,}/).filter(Boolean).length : 0,

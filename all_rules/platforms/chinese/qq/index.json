@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/chinese/qq",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "QQ软件许可及服务协议",
+      "file": "qq-software-license-service-agreement_cn.md",
+      "path": "all_rules/platforms/chinese/qq/qq-software-license-service-agreement_cn.md",
+      "collection": "platforms",
+      "jurisdiction": "China / platform policy",
+      "scope_note": "Tencent QQ software license and service agreement; not a government legal code.",
+      "source_authority": "Tencent User Rules Center",
+      "retrieval_date": "2026-05-24",
+      "language": "zh-CN",
+      "language_group": "chinese",
+      "fetch_method": "html+json-api",
+      "extractor": "tencent-rule-json",
+      "extraction_status": "extracted",
+      "status_note": "Official Tencent rule-center page plus the official rule-center JSON API response for the same rule link.",
+      "source_urls": [
+        "https://rule.tencent.com/rule/46a15f24-e42c-4cb6-a308-2347139b1201",
+        "https://rule.tencent.com/rule_out_api/domestic/web/info?link=46a15f24-e42c-4cb6-a308-2347139b1201"
+      ]
+    }
+  ],
+  "children": []
+}

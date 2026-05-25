@@ -19,7 +19,7 @@ Collection decisions:
 
 Expanded collection scope:
 
-- `all_rules/platforms/`: China and global platform content or community rules.
+- `all_rules/platforms/`: Chinese-language and English-language platform content or community rules.
 - `all_rules/united-states/federal/`: U.S. federal content-safety-related statutes, regulations, and public laws.
 - `all_rules/united-states/states/`: selected state-level content-safety-related sources.
 
@@ -187,7 +187,7 @@ Federal extraction updates:
 
 Verification status after this pass: 139 registry entries are indexed; 138 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
 
-## 2026-05-24 Global Platform GitHub and Steam Gap Fill
+## 2026-05-24 English-Language Platform GitHub and Steam Gap Fill
 
 Platform extraction updates:
 
@@ -198,7 +198,7 @@ Platform extraction updates:
 
 Verification status after this pass: 141 registry entries are indexed; 140 entries have extracted source text and 1 entry remains a source stub (`us-state-texas-scope-act`).
 
-## 2026-05-24 Global Platform GitLab, Bluesky, and Tumblr Gap Fill
+## 2026-05-24 English-Language Platform GitLab, Bluesky, and Tumblr Gap Fill
 
 Platform extraction updates:
 
@@ -269,3 +269,12 @@ Documentation updates:
 - Standardized the public repository name as `content-rules-corpus`.
 - Updated the root README title, opening description, README image alt text, and `all_rules/` directory README files to use the new name.
 - Synchronized the Chinese companion documentation.
+
+## 2026-05-25 Platform Language Group Rename
+
+Structure update:
+
+- Renamed platform grouping directories from `china/` and `global/` to `chinese/` and `english/`.
+- Kept legal jurisdiction and platform scope metadata separate from language grouping by adding `language_group` to platform registry entries and generated Markdown metadata.
+- Updated `platform_group` values to the `<language_group>/<platform>` form so risk indexes continue to be generated per platform directory.
+- Left `all_rules/china/` unchanged because it stores China-specific legal and regulatory source texts, not platform language groups.

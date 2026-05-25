@@ -19,7 +19,7 @@ The project is intended for research and exploration across different rule syste
 As of 2026-05-25, the repository contains 144 indexed rule files:
 
 - `all_rules/china/`: 2 Chinese regulatory texts.
-- `all_rules/platforms/`: 27 platform policy files, grouped by platform and region.
+- `all_rules/platforms/`: 27 platform policy files, grouped by language group and platform.
 - `all_rules/united-states/`: 115 U.S. federal and state content-safety-related legal sources.
 
 The corpus is not complete. It should be treated as a growing research dataset, not as a definitive legal database.

@@ -1,0 +1,210 @@
+[
+  {
+    "id": "platform-douyin-infringement-guide",
+    "title": "“抖音”侵权举报指引",
+    "collection": "platforms",
+    "jurisdiction": "China / platform policy",
+    "output_file": "all_rules/platforms/chinese/douyin/douyin-infringement-guide_cn.md",
+    "source_urls": [
+      "https://www.douyin.com/draft/douyin_agreement/infringement_guide.html"
+    ],
+    "reference_urls": [],
+    "linked_source_urls": [
+      "https://school.jinritemai.com/doudian/web/article/101651",
+      "https://lifexue.com/rule/detail/120591?enter_method=search&source=",
+      "https://game.open.douyin.com/support/content/132732?graphId=537&pageId=308&spaceId=182&timestamp=1715394801408",
+      "https://www.douyin.com/qinquan/report?enter_from=pc_agreement",
+      "https://sf3-cdn-tos.douyinstatic.com/obj/ies-hotsoon-draft/douyin_agreement/f23f7cc5-4d09-4ebd-b1aa-218162d5d75a.html"
+    ],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide.douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-01-article-101651.school-jinritemai-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-02-detail-120591.lifexue-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-03-content-132732.game-open-douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-04-qinquan-report.douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-05-douyin-agreement-f23f7cc5-4d09-4ebd-b1aa-218162d5d75a.sf3-cdn-tos-douyinstatic-com.html"
+    ],
+    "linked_source_files": [
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-01-article-101651.school-jinritemai-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-02-detail-120591.lifexue-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-03-content-132732.game-open-douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-04-qinquan-report.douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-05-douyin-agreement-f23f7cc5-4d09-4ebd-b1aa-218162d5d75a.sf3-cdn-tos-douyinstatic-com.html"
+    ],
+    "retrieved_date": "2026-05-24",
+    "language": "zh-CN",
+    "language_group": "chinese",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 170,
+    "body_sha256": "4ecf9be0a079ae486808b1688028df1764d52288f84b1bece16c47e619241f74",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide.douyin-com.html",
+        "sha256": "6905990c050dd2e29da8f41f376fbde6647288a0be1bdd784ac3324010d8b896",
+        "bytes": 20726,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-01-article-101651.school-jinritemai-com.html",
+        "sha256": "9d5aaf7ccec0325eb0960d21b589ba8a7dfee8079a711c84894f1f768cfd7bc3",
+        "bytes": 409476,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-02-detail-120591.lifexue-com.html",
+        "sha256": "9df85dc85492e2bd1493ce8310c41c2b75732546fb5b06998857903f1ec7ece2",
+        "bytes": 160819,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-03-content-132732.game-open-douyin-com.html",
+        "sha256": "c2d781b146d0ffa2311c86d8fea8293bf08adbb196ee5f6ecc53b369330c0df7",
+        "bytes": 24785,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-04-qinquan-report.douyin-com.html",
+        "sha256": "e740faa262f1c3f0dcf459dfad99f9a56068f3d3d39a211cbabc834082c49280",
+        "bytes": 631068,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-infringement-guide-linked-05-douyin-agreement-f23f7cc5-4d09-4ebd-b1aa-218162d5d75a.sf3-cdn-tos-douyinstatic-com.html",
+        "sha256": "b940352092826f59fb01f0011e7d153565702f55c6db0900c71f82033dd3d7cd",
+        "bytes": 13706,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      }
+    ]
+  },
+  {
+    "id": "platform-douyin-user-service-agreement",
+    "title": "“抖音”用户服务协议",
+    "collection": "platforms",
+    "jurisdiction": "China / platform policy",
+    "output_file": "all_rules/platforms/chinese/douyin/douyin-user-service-agreement_cn.md",
+    "source_urls": [
+      "https://www.douyin.com/agreements/?id=6773906068725565448"
+    ],
+    "reference_urls": [],
+    "linked_source_urls": [
+      "https://lf26-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/douyin_agreement/b482fa28-25db-4b0a-8840-2a4a1882cd35.html?hide_nav_bar=1&enter_from=user_agreement",
+      "https://aweme.snssdk.com/ucenter_web/app/aweme/delete-account-notice?_theme=light&hide_nav_bar=1&title=%E6%8A%96%E9%9F%B3%E6%B3%A8%E9%94%80%E9%A1%BB%E7%9F%A5&hide_status_bar=0&disable_auto_expose=1&font_scale=1.0",
+      "https://trust.douyin.com/article/69831756697378034?enter_from=channel_page&channel=safety",
+      "https://www.douyin.com/rule/policy?activeId=self_decipline&enter_from=pc_douyin_user_service_agreement",
+      "https://www.douyin.com/rule/main",
+      "https://www.douyin.com/draft/douyin_agreement/douyin_agreement_privacy.html",
+      "https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/douyin_agreement/70c3d13a-73cf-403a-8ecf-a16f70887c21.html?hide_nav_bar=1"
+    ],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement.douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-01-douyin-agreement-b482fa28-25db-4b0a-8840-2a4a1882cd35.lf26-cdn-tos-draftstatic-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-02-aweme-delete-account-notice.aweme-snssdk-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-03-article-69831756697378034.trust-douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-04-rule-policy.douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-05-rule-main.douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-06-douyin-agreement-douyin-agreement-privacy.douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-07-douyin-agreement-70c3d13a-73cf-403a-8ecf-a16f70887c21.lf3-cdn-tos-draftstatic-com.html"
+    ],
+    "linked_source_files": [
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-01-douyin-agreement-b482fa28-25db-4b0a-8840-2a4a1882cd35.lf26-cdn-tos-draftstatic-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-02-aweme-delete-account-notice.aweme-snssdk-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-03-article-69831756697378034.trust-douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-04-rule-policy.douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-05-rule-main.douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-06-douyin-agreement-douyin-agreement-privacy.douyin-com.html",
+      "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-07-douyin-agreement-70c3d13a-73cf-403a-8ecf-a16f70887c21.lf3-cdn-tos-draftstatic-com.html"
+    ],
+    "retrieved_date": "2026-05-24",
+    "language": "zh-CN",
+    "language_group": "chinese",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 1045,
+    "body_sha256": "e7327c6b966ba5d8b6c8b2d9acff8d8cdd6140d060bb10aafd0da55fbf4a1a6a",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement.douyin-com.html",
+        "sha256": "12e8d0a130a2dae1d6f52c9bc18c4ea572ae1366c21b083936310b780b9cf2c7",
+        "bytes": 53326,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-01-douyin-agreement-b482fa28-25db-4b0a-8840-2a4a1882cd35.lf26-cdn-tos-draftstatic-com.html",
+        "sha256": "9213f2bdfed9b1a75fac0c1622338b9a487e9d88ab97fdb0dde3ac83256585d6",
+        "bytes": 61043,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-02-aweme-delete-account-notice.aweme-snssdk-com.html",
+        "sha256": "e41dfb0c2cc25ef040bea0257730a5aa82482a8b40d17aae1b45f0b3be588908",
+        "bytes": 16467,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-03-article-69831756697378034.trust-douyin-com.html",
+        "sha256": "164f07e2e0748388d0097e3c1059b5ba6d50c283195a5640136d49ee5afcb3e2",
+        "bytes": 42993,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-04-rule-policy.douyin-com.html",
+        "sha256": "fcae5a70779443e33ecfac65d22b96f798a85d4257b174afa2a38f78db991e84",
+        "bytes": 1545685,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-05-rule-main.douyin-com.html",
+        "sha256": "d2358c8ac1be1d4ea92f183a40bdfcb964efef91fe1b8252df359b5e6f601be8",
+        "bytes": 1849912,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-06-douyin-agreement-douyin-agreement-privacy.douyin-com.html",
+        "sha256": "308f543144cb6745a762faa119af5deeafa013acacec0a99b41c9c37c1376fb8",
+        "bytes": 91074,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/chinese/douyin/sources/platform-douyin-user-service-agreement-linked-07-douyin-agreement-70c3d13a-73cf-403a-8ecf-a16f70887c21.lf3-cdn-tos-draftstatic-com.html",
+        "sha256": "f69d97eb821fd2b35b4f732370647e4fcb467ca6dfe2449fe92ea1fe0a00700d",
+        "bytes": 15390,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      }
+    ]
+  }
+]

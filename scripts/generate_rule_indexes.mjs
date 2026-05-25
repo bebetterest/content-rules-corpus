@@ -20,6 +20,7 @@ const METADATA_KEYS = {
   "Reference URL": "reference_urls",
   "Retrieval Date": "retrieval_date",
   Language: "language",
+  "Language Group": "language_group",
   "Fetch Method": "fetch_method",
   Extractor: "extractor",
   "Extraction Status": "extraction_status",
@@ -32,6 +33,7 @@ const METADATA_KEYS = {
   现行文本来源: "source_authority",
   来源链接: "source_urls",
   抓取日期: "retrieval_date",
+  语言组: "language_group",
   生成方式: "generation_method",
   说明: "status_note",
 };

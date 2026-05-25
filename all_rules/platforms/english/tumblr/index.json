@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/english/tumblr",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "Tumblr User Guidelines",
+      "file": "tumblr-user-guidelines.md",
+      "path": "all_rules/platforms/english/tumblr/tumblr-user-guidelines.md",
+      "collection": "platforms",
+      "jurisdiction": "Global / platform policy",
+      "scope_note": "Tumblr user guidelines for content and behavior on Tumblr; not a government legal code.",
+      "source_authority": "Tumblr",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "language_group": "english",
+      "fetch_method": "html",
+      "extractor": "generic-html",
+      "extraction_status": "extracted",
+      "status_note": "Official Tumblr policy page. The page currently states Last Modified: 2026-01-09.",
+      "source_urls": [
+        "https://www.tumblr.com/policy/en/user-guidelines"
+      ]
+    }
+  ],
+  "children": []
+}

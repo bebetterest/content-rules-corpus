@@ -42,13 +42,26 @@
       "source_authority": "Weibo",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/china/weibo/weibo-community-convention_cn.md",
+      "output_file": "all_rules/platforms/chinese/weibo/weibo-community-convention_cn.md",
       "language": "zh-CN",
+      "language_group": "chinese",
       "status_note": "Official Weibo source page. Verify current app/web rule center if using for compliance decisions.",
-      "required_phrases": ["微博社区公约", "第六十五条"],
+      "required_phrases": [
+        "微博社区公约",
+        "第六十五条"
+      ],
       "min_body_chars": 3000,
-      "risk_categories": ["illegal_activity", "child_safety", "violence_threats", "hate_harassment", "privacy_doxxing", "misinformation", "platform_integrity", "regulated_goods"],
-      "platform_group": "china/weibo",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "violence_threats",
+        "hate_harassment",
+        "privacy_doxxing",
+        "misinformation",
+        "platform_integrity",
+        "regulated_goods"
+      ],
+      "platform_group": "chinese/weibo",
       "platform_name": "Weibo"
     },
     {
@@ -61,13 +74,26 @@
       "source_authority": "Kuaishou",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/china/kuaishou/kuaishou-community-management-standard_cn.md",
+      "output_file": "all_rules/platforms/chinese/kuaishou/kuaishou-community-management-standard_cn.md",
       "language": "zh-CN",
+      "language_group": "chinese",
       "status_note": "Official Kuaishou community rules page.",
-      "required_phrases": ["快手社区管理规范", "违法违规内容"],
+      "required_phrases": [
+        "快手社区管理规范",
+        "违法违规内容"
+      ],
       "min_body_chars": 3000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "misinformation"],
-      "platform_group": "china/kuaishou",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "misinformation"
+      ],
+      "platform_group": "chinese/kuaishou",
       "platform_name": "Kuaishou"
     },
     {
@@ -83,13 +109,26 @@
       "source_authority": "Bilibili",
       "fetch_method": "html+js-bundle",
       "extractor": "bilibili-convention-js",
-      "output_file": "all_rules/platforms/china/bilibili/bilibili-community-convention_cn.md",
+      "output_file": "all_rules/platforms/chinese/bilibili/bilibili-community-convention_cn.md",
       "language": "zh-CN",
+      "language_group": "chinese",
       "status_note": "Official Bilibili creator-center source plus official static JS bundle containing the convention data used by that page.",
-      "required_phrases": ["社区公约", "违法违禁"],
+      "required_phrases": [
+        "社区公约",
+        "违法违禁"
+      ],
       "min_body_chars": 2000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "privacy_doxxing", "intellectual_property"],
-      "platform_group": "china/bilibili",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "privacy_doxxing",
+        "intellectual_property"
+      ],
+      "platform_group": "chinese/bilibili",
       "platform_name": "Bilibili",
       "linked_fetch_method": "rendered-html",
       "linked_render_wait_ms": 7000,
@@ -117,13 +156,25 @@
       "source_authority": "Zhihu",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/china/zhihu/zhihu-terms_cn.md",
+      "output_file": "all_rules/platforms/chinese/zhihu/zhihu-terms_cn.md",
       "language": "zh-CN",
+      "language_group": "chinese",
       "status_note": "Official Zhihu terms page. The public community-norm source was not separately confirmed in this pass.",
-      "required_phrases": ["知乎协议", "知乎社区规范"],
+      "required_phrases": [
+        "知乎协议",
+        "知乎社区规范"
+      ],
       "min_body_chars": 3000,
-      "risk_categories": ["illegal_activity", "child_safety", "hate_harassment", "privacy_doxxing", "misinformation", "intellectual_property", "platform_integrity"],
-      "platform_group": "china/zhihu",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "hate_harassment",
+        "privacy_doxxing",
+        "misinformation",
+        "intellectual_property",
+        "platform_integrity"
+      ],
+      "platform_group": "chinese/zhihu",
       "platform_name": "Zhihu"
     },
     {
@@ -136,13 +187,25 @@
       "source_authority": "Douban",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/china/douban/douban-community-guidelines_cn.md",
+      "output_file": "all_rules/platforms/chinese/douban/douban-community-guidelines_cn.md",
       "language": "zh-CN",
+      "language_group": "chinese",
       "status_note": "Official Douban community guideline page.",
-      "required_phrases": ["社区指导原则", "违反中国"],
+      "required_phrases": [
+        "社区指导原则",
+        "违反中国"
+      ],
       "min_body_chars": 1500,
-      "risk_categories": ["illegal_activity", "sexual_content", "violence_threats", "hate_harassment", "privacy_doxxing", "fraud_scams", "misinformation"],
-      "platform_group": "china/douban",
+      "risk_categories": [
+        "illegal_activity",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "privacy_doxxing",
+        "fraud_scams",
+        "misinformation"
+      ],
+      "platform_group": "chinese/douban",
       "platform_name": "Douban"
     },
     {
@@ -155,13 +218,27 @@
       "source_authority": "Weixin / Tencent",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/china/wechat/wechat-personal-account-usage-standard_cn.md",
+      "output_file": "all_rules/platforms/chinese/wechat/wechat-personal-account-usage-standard_cn.md",
       "language": "zh-CN",
+      "language_group": "chinese",
       "status_note": "Official Weixin source page.",
-      "required_phrases": ["微信个人账号使用规范", "内容规范"],
+      "required_phrases": [
+        "微信个人账号使用规范",
+        "内容规范"
+      ],
       "min_body_chars": 3000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "platform_integrity"],
-      "platform_group": "china/wechat",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "privacy_doxxing",
+        "platform_integrity"
+      ],
+      "platform_group": "chinese/wechat",
       "platform_name": "WeChat"
     },
     {
@@ -174,13 +251,22 @@
       "source_authority": "Douyin",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/china/douyin/douyin-infringement-guide_cn.md",
+      "output_file": "all_rules/platforms/chinese/douyin/douyin-infringement-guide_cn.md",
       "language": "zh-CN",
+      "language_group": "chinese",
       "status_note": "Public official full community convention source was not confirmed; this is an official Douyin reporting guide and should not be treated as the full Douyin community rules.",
-      "required_phrases": ["抖音", "举报"],
+      "required_phrases": [
+        "抖音",
+        "举报"
+      ],
       "min_body_chars": 1000,
-      "risk_categories": ["illegal_activity", "intellectual_property", "privacy_doxxing", "platform_integrity"],
-      "platform_group": "china/douyin",
+      "risk_categories": [
+        "illegal_activity",
+        "intellectual_property",
+        "privacy_doxxing",
+        "platform_integrity"
+      ],
+      "platform_group": "chinese/douyin",
       "platform_name": "Douyin",
       "linked_fetch_method": "rendered-html",
       "linked_render_wait_ms": 7000,
@@ -206,13 +292,30 @@
       "source_authority": "Douyin",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/china/douyin/douyin-user-service-agreement_cn.md",
+      "output_file": "all_rules/platforms/chinese/douyin/douyin-user-service-agreement_cn.md",
       "language": "zh-CN",
+      "language_group": "chinese",
       "status_note": "Official Douyin user service agreement page. A separately titled full community convention source was still not confirmed in this pass.",
-      "required_phrases": ["“抖音”用户服务协议", "信息内容发布规范", "违法违规内容"],
+      "required_phrases": [
+        "“抖音”用户服务协议",
+        "信息内容发布规范",
+        "违法违规内容"
+      ],
       "min_body_chars": 8000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "misinformation", "privacy_doxxing", "platform_integrity", "intellectual_property"],
-      "platform_group": "china/douyin",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "misinformation",
+        "privacy_doxxing",
+        "platform_integrity",
+        "intellectual_property"
+      ],
+      "platform_group": "chinese/douyin",
       "platform_name": "Douyin",
       "linked_fetch_method": "rendered-html",
       "linked_render_wait_ms": 7000,
@@ -244,13 +347,28 @@
       "source_authority": "Xiaohongshu agreement service",
       "fetch_method": "html+json-post",
       "extractor": "xiaohongshu-contract-json",
-      "output_file": "all_rules/platforms/china/xiaohongshu/xiaohongshu-community-guideline_cn.md",
+      "output_file": "all_rules/platforms/chinese/xiaohongshu/xiaohongshu-community-guideline_cn.md",
       "language": "zh-CN",
+      "language_group": "chinese",
       "status_note": "Official Xiaohongshu agreement page plus its official contract-content API response.",
-      "required_phrases": ["小红书社区规范", "法律法规", "违法"],
+      "required_phrases": [
+        "小红书社区规范",
+        "法律法规",
+        "违法"
+      ],
       "min_body_chars": 2000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "misinformation", "platform_integrity"],
-      "platform_group": "china/xiaohongshu",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "misinformation",
+        "platform_integrity"
+      ],
+      "platform_group": "chinese/xiaohongshu",
       "platform_name": "Xiaohongshu"
     },
     {
@@ -266,13 +384,23 @@
       "source_authority": "Baidu Tieba",
       "fetch_method": "html+json-api",
       "extractor": "html-data-json",
-      "output_file": "all_rules/platforms/china/baidu-tieba/baidu-tieba-agreement_cn.md",
+      "output_file": "all_rules/platforms/chinese/baidu-tieba/baidu-tieba-agreement_cn.md",
       "language": "zh-CN",
+      "language_group": "chinese",
       "status_note": "Official Tieba agreement page. A fuller official community convention source was not confirmed in this pass.",
-      "required_phrases": ["贴吧协议", "总则"],
+      "required_phrases": [
+        "贴吧协议",
+        "总则"
+      ],
       "min_body_chars": 3000,
-      "risk_categories": ["illegal_activity", "hate_harassment", "privacy_doxxing", "platform_integrity", "intellectual_property"],
-      "platform_group": "china/baidu-tieba",
+      "risk_categories": [
+        "illegal_activity",
+        "hate_harassment",
+        "privacy_doxxing",
+        "platform_integrity",
+        "intellectual_property"
+      ],
+      "platform_group": "chinese/baidu-tieba",
       "platform_name": "Baidu Tieba"
     },
     {
@@ -288,13 +416,24 @@
       "source_authority": "Tencent User Rules Center",
       "fetch_method": "html+json-api",
       "extractor": "tencent-rule-json",
-      "output_file": "all_rules/platforms/china/qq/qq-software-license-service-agreement_cn.md",
+      "output_file": "all_rules/platforms/chinese/qq/qq-software-license-service-agreement_cn.md",
       "language": "zh-CN",
+      "language_group": "chinese",
       "status_note": "Official Tencent rule-center page plus the official rule-center JSON API response for the same rule link.",
-      "required_phrases": ["QQ软件许可及服务协议", "违法"],
+      "required_phrases": [
+        "QQ软件许可及服务协议",
+        "违法"
+      ],
       "min_body_chars": 3000,
-      "risk_categories": ["illegal_activity", "child_safety", "fraud_scams", "privacy_doxxing", "platform_integrity", "intellectual_property"],
-      "platform_group": "china/qq",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "fraud_scams",
+        "privacy_doxxing",
+        "platform_integrity",
+        "intellectual_property"
+      ],
+      "platform_group": "chinese/qq",
       "platform_name": "QQ"
     },
     {
@@ -335,16 +474,31 @@
       "source_authority": "Meta Transparency Center",
       "fetch_method": "rendered-html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/global/meta/meta-community-standards.md",
+      "output_file": "all_rules/platforms/english/meta/meta-community-standards.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official Meta Transparency Center Community Standards category pages. These pages require browser rendering for complete body extraction.",
       "timeout_ms": 12000,
       "retry_count": 1,
       "omit_user_agent": true,
-      "required_phrases": ["Policy Rationale", "Do not post", "Child Sexual Exploitation"],
+      "required_phrases": [
+        "Policy Rationale",
+        "Do not post",
+        "Child Sexual Exploitation"
+      ],
       "min_body_chars": 100000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "misinformation", "privacy_doxxing"],
-      "platform_group": "global/meta",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "misinformation",
+        "privacy_doxxing"
+      ],
+      "platform_group": "english/meta",
       "platform_name": "Meta",
       "render_wait_ms": 6000,
       "boundary_start": "Policy Rationale",
@@ -386,13 +540,29 @@
       "source_authority": "YouTube Help / Google",
       "fetch_method": "html",
       "extractor": "google-help-article",
-      "output_file": "all_rules/platforms/global/youtube/youtube-community-guidelines.md",
+      "output_file": "all_rules/platforms/english/youtube/youtube-community-guidelines.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official YouTube Help Community Guidelines page plus major detailed policy pages linked from that official policy index.",
-      "required_phrases": ["YouTube", "Community Guidelines", "Hate speech", "Child safety"],
+      "required_phrases": [
+        "YouTube",
+        "Community Guidelines",
+        "Hate speech",
+        "Child safety"
+      ],
       "min_body_chars": 50000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "misinformation", "self_harm"],
-      "platform_group": "global/youtube",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "misinformation",
+        "self_harm"
+      ],
+      "platform_group": "english/youtube",
       "platform_name": "YouTube",
       "prefer_curl": true,
       "prefer_cached_primary_sources_first": true,
@@ -435,13 +605,29 @@
       "source_authority": "TikTok",
       "fetch_method": "rendered-html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/global/tiktok/tiktok-community-guidelines.md",
+      "output_file": "all_rules/platforms/english/tiktok/tiktok-community-guidelines.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official TikTok Community Guidelines pages. These pages require browser rendering for complete body extraction.",
-      "required_phrases": ["Community Guidelines", "TikTok", "Released"],
+      "required_phrases": [
+        "Community Guidelines",
+        "TikTok",
+        "Released"
+      ],
       "min_body_chars": 20000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "misinformation", "self_harm", "platform_integrity"],
-      "platform_group": "global/tiktok",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "misinformation",
+        "self_harm",
+        "platform_integrity"
+      ],
+      "platform_group": "english/tiktok",
       "platform_name": "TikTok",
       "prefer_cached_primary_sources_first": true,
       "linked_fetch_method": "rendered-html",
@@ -519,8 +705,9 @@
       "source_authority": "X Help Center",
       "fetch_method": "rendered-html",
       "extractor": "x-help-html",
-      "output_file": "all_rules/platforms/global/x/x-rules.md",
+      "output_file": "all_rules/platforms/english/x/x-rules.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official X Help Center pages confirmed through Playwright-rendered official source artifacts. Linked detailed X policy pages are downloaded from official help.x.com sources when browser rendering confirms the page body; challenge pages are rejected and recorded as linked-source failures.",
       "retry_count": 1,
       "linked_retry_count": 2,
@@ -541,10 +728,22 @@
       "max_linked_sources": 60,
       "linked_source_discovery_depth": 2,
       "require_linked_sources": false,
-      "required_phrases": ["The X Rules", "Illegal or Certain Regulated Goods or Services"],
+      "required_phrases": [
+        "The X Rules",
+        "Illegal or Certain Regulated Goods or Services"
+      ],
       "min_body_chars": 4000,
-      "risk_categories": ["illegal_activity", "child_safety", "violence_threats", "hate_harassment", "regulated_goods", "privacy_doxxing", "fraud_scams", "platform_integrity"],
-      "platform_group": "global/x",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "privacy_doxxing",
+        "fraud_scams",
+        "platform_integrity"
+      ],
+      "platform_group": "english/x",
       "platform_name": "X"
     },
     {
@@ -557,13 +756,27 @@
       "source_authority": "Reddit, Inc.",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/global/reddit/reddit-rules.md",
+      "output_file": "all_rules/platforms/english/reddit/reddit-rules.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official Reddit policy page.",
-      "required_phrases": ["Reddit Rules", "Rule 1"],
+      "required_phrases": [
+        "Reddit Rules",
+        "Rule 1"
+      ],
       "min_body_chars": 2000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "platform_integrity"],
-      "platform_group": "global/reddit",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "privacy_doxxing",
+        "platform_integrity"
+      ],
+      "platform_group": "english/reddit",
       "platform_name": "Reddit"
     },
     {
@@ -576,13 +789,27 @@
       "source_authority": "Discord",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/global/discord/discord-community-guidelines.md",
+      "output_file": "all_rules/platforms/english/discord/discord-community-guidelines.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official Discord community guidelines page.",
-      "required_phrases": ["Discord Community Guidelines", "Follow Applicable Laws"],
+      "required_phrases": [
+        "Discord Community Guidelines",
+        "Follow Applicable Laws"
+      ],
       "min_body_chars": 5000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "platform_integrity"],
-      "platform_group": "global/discord",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "privacy_doxxing",
+        "platform_integrity"
+      ],
+      "platform_group": "english/discord",
       "platform_name": "Discord",
       "prefer_cached_primary_sources_first": true,
       "linked_fetch_method": "rendered-html",
@@ -631,13 +858,27 @@
       "source_authority": "Twitch Safety Center",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/global/twitch/twitch-community-guidelines.md",
+      "output_file": "all_rules/platforms/english/twitch/twitch-community-guidelines.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official Twitch Safety Center page.",
-      "required_phrases": ["Community Guidelines", "Illegal Activity"],
+      "required_phrases": [
+        "Community Guidelines",
+        "Illegal Activity"
+      ],
       "min_body_chars": 5000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "self_harm", "privacy_doxxing", "intellectual_property"],
-      "platform_group": "global/twitch",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "self_harm",
+        "privacy_doxxing",
+        "intellectual_property"
+      ],
+      "platform_group": "english/twitch",
       "platform_name": "Twitch"
     },
     {
@@ -650,13 +891,27 @@
       "source_authority": "Snap Inc.",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/global/snapchat/snapchat-community-guidelines.md",
+      "output_file": "all_rules/platforms/english/snapchat/snapchat-community-guidelines.md",
       "language": "en-GB",
+      "language_group": "english",
       "status_note": "Official Snap values and transparency policy page.",
-      "required_phrases": ["Community Guidelines", "Snapchat"],
+      "required_phrases": [
+        "Community Guidelines",
+        "Snapchat"
+      ],
       "min_body_chars": 5000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "misinformation"],
-      "platform_group": "global/snapchat",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "privacy_doxxing",
+        "misinformation"
+      ],
+      "platform_group": "english/snapchat",
       "platform_name": "Snapchat"
     },
     {
@@ -669,13 +924,26 @@
       "source_authority": "LinkedIn",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/global/linkedin/linkedin-professional-community-policies.md",
+      "output_file": "all_rules/platforms/english/linkedin/linkedin-professional-community-policies.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official LinkedIn legal policy page.",
-      "required_phrases": ["Professional Community Policies", "Be safe"],
+      "required_phrases": [
+        "Professional Community Policies",
+        "Be safe"
+      ],
       "min_body_chars": 3000,
-      "risk_categories": ["illegal_activity", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "intellectual_property", "platform_integrity"],
-      "platform_group": "global/linkedin",
+      "risk_categories": [
+        "illegal_activity",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "privacy_doxxing",
+        "intellectual_property",
+        "platform_integrity"
+      ],
+      "platform_group": "english/linkedin",
       "platform_name": "LinkedIn"
     },
     {
@@ -688,13 +956,28 @@
       "source_authority": "Pinterest Policy",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/global/pinterest/pinterest-community-guidelines.md",
+      "output_file": "all_rules/platforms/english/pinterest/pinterest-community-guidelines.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official Pinterest policy page.",
-      "required_phrases": ["Community guidelines", "Pinterest"],
+      "required_phrases": [
+        "Community guidelines",
+        "Pinterest"
+      ],
       "min_body_chars": 3000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "misinformation", "self_harm"],
-      "platform_group": "global/pinterest",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "privacy_doxxing",
+        "misinformation",
+        "self_harm"
+      ],
+      "platform_group": "english/pinterest",
       "platform_name": "Pinterest"
     },
     {
@@ -707,17 +990,32 @@
       "source_authority": "Roblox",
       "fetch_method": "rendered-html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/global/roblox/roblox-community-standards.md",
+      "output_file": "all_rules/platforms/english/roblox/roblox-community-standards.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official Roblox Community Standards page from about.roblox.com. The page must be browser-rendered and its accordion sections expanded to collect the detailed policy text.",
       "retry_count": 0,
       "render_wait_ms": 6000,
       "render_click_selector": "[role=\"tab\"][aria-controls^=\"accordion-content\"]",
       "render_after_click_wait_ms": 250,
-      "required_phrases": ["Community Standards", "Roblox prohibits the exploitation of minors", "Illegal and Regulated Goods and Activities"],
+      "required_phrases": [
+        "Community Standards",
+        "Roblox prohibits the exploitation of minors",
+        "Illegal and Regulated Goods and Activities"
+      ],
       "min_body_chars": 20000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "self_harm"],
-      "platform_group": "global/roblox",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "privacy_doxxing",
+        "self_harm"
+      ],
+      "platform_group": "english/roblox",
       "platform_name": "Roblox",
       "boundary_start": "At Roblox, our mission",
       "boundary_end": "More resources"
@@ -747,13 +1045,31 @@
       "source_authority": "GitHub Docs",
       "fetch_method": "html",
       "extractor": "github-docs-article",
-      "output_file": "all_rules/platforms/global/github/github-acceptable-use-policies.md",
+      "output_file": "all_rules/platforms/english/github/github-acceptable-use-policies.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official GitHub Docs acceptable-use page plus detailed official acceptable-use policy pages linked from the same policy collection.",
-      "required_phrases": ["GitHub Acceptable Use Policies", "User Safety", "Active Malware or Exploits", "Child Sexual Exploitation or Abuse"],
+      "required_phrases": [
+        "GitHub Acceptable Use Policies",
+        "User Safety",
+        "Active Malware or Exploits",
+        "Child Sexual Exploitation or Abuse"
+      ],
       "min_body_chars": 20000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "misinformation", "platform_integrity", "intellectual_property"],
-      "platform_group": "global/github",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "privacy_doxxing",
+        "misinformation",
+        "platform_integrity",
+        "intellectual_property"
+      ],
+      "platform_group": "english/github",
       "platform_name": "GitHub",
       "prefer_cached_primary_sources_first": true,
       "prefer_cached_linked_sources_first": true,
@@ -778,13 +1094,30 @@
       "source_authority": "Steam Support / Valve",
       "fetch_method": "html",
       "extractor": "steam-faqstore-json",
-      "output_file": "all_rules/platforms/global/steam/steam-rules-guidelines.md",
+      "output_file": "all_rules/platforms/english/steam/steam-rules-guidelines.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official Steam Support FAQ page. The rule body is stored in the official page FAQ data payload and extracted from that downloaded artifact.",
-      "required_phrases": ["Rules and Guidelines For Steam", "Encouraging or facilitating real-world violence", "Exploitation of minors", "Doxing or posting personal information"],
+      "required_phrases": [
+        "Rules and Guidelines For Steam",
+        "Encouraging or facilitating real-world violence",
+        "Exploitation of minors",
+        "Doxing or posting personal information"
+      ],
       "min_body_chars": 8000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "platform_integrity", "intellectual_property"],
-      "platform_group": "global/steam",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "privacy_doxxing",
+        "platform_integrity",
+        "intellectual_property"
+      ],
+      "platform_group": "english/steam",
       "platform_name": "Steam",
       "prefer_cached_primary_sources_first": true,
       "prefer_cached_linked_sources_first": true,
@@ -804,13 +1137,28 @@
       "source_authority": "GitLab Handbook",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/global/gitlab/gitlab-acceptable-use-policy.md",
+      "output_file": "all_rules/platforms/english/gitlab/gitlab-acceptable-use-policy.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official GitLab Handbook acceptable-use policy page.",
-      "required_phrases": ["This policy helps us identify unacceptable use", "illegal or malicious activity", "transmit spam", "Political campaigning"],
+      "required_phrases": [
+        "This policy helps us identify unacceptable use",
+        "illegal or malicious activity",
+        "transmit spam",
+        "Political campaigning"
+      ],
       "min_body_chars": 5000,
-      "risk_categories": ["illegal_activity", "sexual_content", "violence_threats", "hate_harassment", "fraud_scams", "privacy_doxxing", "platform_integrity", "regulated_goods"],
-      "platform_group": "global/gitlab",
+      "risk_categories": [
+        "illegal_activity",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "fraud_scams",
+        "privacy_doxxing",
+        "platform_integrity",
+        "regulated_goods"
+      ],
+      "platform_group": "english/gitlab",
       "platform_name": "GitLab",
       "boundary_start": "This policy helps us identify unacceptable use",
       "boundary_end": "Last modified"
@@ -825,15 +1173,34 @@
       "source_authority": "Bluesky Social, PBC",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/global/bluesky/bluesky-community-guidelines.md",
+      "output_file": "all_rules/platforms/english/bluesky/bluesky-community-guidelines.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official Bluesky support community-guidelines page. The static HTML contains the policy body.",
       "prefer_curl": true,
       "retry_count": 1,
-      "required_phrases": ["Bluesky Community Guidelines", "Child Safety", "Regulated Goods", "Protected Expression"],
+      "required_phrases": [
+        "Bluesky Community Guidelines",
+        "Child Safety",
+        "Regulated Goods",
+        "Protected Expression"
+      ],
       "min_body_chars": 12000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "misinformation", "privacy_doxxing", "self_harm", "platform_integrity", "intellectual_property"],
-      "platform_group": "global/bluesky",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "misinformation",
+        "privacy_doxxing",
+        "self_harm",
+        "platform_integrity",
+        "intellectual_property"
+      ],
+      "platform_group": "english/bluesky",
       "platform_name": "Bluesky",
       "prefer_cached_primary_sources_first": true,
       "prefer_cached_linked_sources_first": true,
@@ -856,15 +1223,32 @@
       "source_authority": "Tumblr",
       "fetch_method": "html",
       "extractor": "generic-html",
-      "output_file": "all_rules/platforms/global/tumblr/tumblr-user-guidelines.md",
+      "output_file": "all_rules/platforms/english/tumblr/tumblr-user-guidelines.md",
       "language": "en",
+      "language_group": "english",
       "status_note": "Official Tumblr policy page. The page currently states Last Modified: 2026-01-09.",
       "prefer_curl": true,
       "retry_count": 1,
-      "required_phrases": ["User Guidelines", "Terrorism", "Hate Speech", "Repeat violations"],
+      "required_phrases": [
+        "User Guidelines",
+        "Terrorism",
+        "Hate Speech",
+        "Repeat violations"
+      ],
       "min_body_chars": 6000,
-      "risk_categories": ["illegal_activity", "child_safety", "sexual_content", "violence_threats", "hate_harassment", "regulated_goods", "fraud_scams", "privacy_doxxing", "platform_integrity", "intellectual_property"],
-      "platform_group": "global/tumblr",
+      "risk_categories": [
+        "illegal_activity",
+        "child_safety",
+        "sexual_content",
+        "violence_threats",
+        "hate_harassment",
+        "regulated_goods",
+        "fraud_scams",
+        "privacy_doxxing",
+        "platform_integrity",
+        "intellectual_property"
+      ],
+      "platform_group": "english/tumblr",
       "platform_name": "Tumblr",
       "prefer_cached_primary_sources_first": true,
       "prefer_cached_linked_sources_first": true,
@@ -889,7 +1273,10 @@
       "output_file": "all_rules/united-states/federal/47-usc-230.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["47 USC 230", "Protection for private blocking"],
+      "required_phrases": [
+        "47 USC 230",
+        "Protection for private blocking"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -905,7 +1292,10 @@
       "output_file": "all_rules/united-states/federal/47-usc-223.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["47 USC 223", "Obscene or harassing"],
+      "required_phrases": [
+        "47 USC 223",
+        "Obscene or harassing"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -921,7 +1311,11 @@
       "output_file": "all_rules/united-states/federal/47-usc-231.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["47 USC 231", "Restriction of access by minors", "World Wide Web"],
+      "required_phrases": [
+        "47 USC 231",
+        "Restriction of access by minors",
+        "World Wide Web"
+      ],
       "min_body_chars": 4000
     },
     {
@@ -937,7 +1331,10 @@
       "output_file": "all_rules/united-states/federal/17-usc-512.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["17 USC 512", "Limitations on liability"],
+      "required_phrases": [
+        "17 USC 512",
+        "Limitations on liability"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -953,7 +1350,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-119.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 119", "Protection of individuals", "restricted personal information"],
+      "required_phrases": [
+        "18 USC 119",
+        "Protection of individuals",
+        "restricted personal information"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -969,7 +1370,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-241.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 241", "Conspiracy against rights"],
+      "required_phrases": [
+        "18 USC 241",
+        "Conspiracy against rights"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -985,7 +1389,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-242.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 242", "Deprivation of rights", "color of law"],
+      "required_phrases": [
+        "18 USC 242",
+        "Deprivation of rights",
+        "color of law"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1001,7 +1409,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-245.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 245", "Federally protected activities", "intimidate"],
+      "required_phrases": [
+        "18 USC 245",
+        "Federally protected activities",
+        "intimidate"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1017,7 +1429,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-247.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 247", "Damage to religious property", "free exercise of religious beliefs"],
+      "required_phrases": [
+        "18 USC 247",
+        "Damage to religious property",
+        "free exercise of religious beliefs"
+      ],
       "min_body_chars": 2500
     },
     {
@@ -1033,7 +1449,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-249.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 249", "Hate crime acts"],
+      "required_phrases": [
+        "18 USC 249",
+        "Hate crime acts"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1049,7 +1468,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-248.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 248", "Freedom of access", "force or threat of force"],
+      "required_phrases": [
+        "18 USC 248",
+        "Freedom of access",
+        "force or threat of force"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1065,7 +1488,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-2251.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2251", "Sexual exploitation of children"],
+      "required_phrases": [
+        "18 USC 2251",
+        "Sexual exploitation of children"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1081,7 +1507,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-2251a.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2251A", "Selling or buying of children"],
+      "required_phrases": [
+        "18 USC 2251A",
+        "Selling or buying of children"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1097,7 +1526,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-2252.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2252", "sexual exploitation of minors"],
+      "required_phrases": [
+        "18 USC 2252",
+        "sexual exploitation of minors"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1113,7 +1545,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-2252a.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2252A", "child pornography"],
+      "required_phrases": [
+        "18 USC 2252A",
+        "child pornography"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1129,7 +1564,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-2252b.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2252B", "Misleading domain names", "Internet"],
+      "required_phrases": [
+        "18 USC 2252B",
+        "Misleading domain names",
+        "Internet"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1145,7 +1584,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-2256.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2256", "Definitions"],
+      "required_phrases": [
+        "18 USC 2256",
+        "Definitions"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1161,7 +1603,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-2258a.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2258A", "Reporting requirements", "electronic communication service provider"],
+      "required_phrases": [
+        "18 USC 2258A",
+        "Reporting requirements",
+        "electronic communication service provider"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -1177,7 +1623,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-2258b.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2258B", "Limited liability", "reporting"],
+      "required_phrases": [
+        "18 USC 2258B",
+        "Limited liability",
+        "reporting"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1193,7 +1643,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-2258c.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2258C", "Use to combat child pornography", "reporting"],
+      "required_phrases": [
+        "18 USC 2258C",
+        "Use to combat child pornography",
+        "reporting"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1209,7 +1663,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-2258d.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2258D", "Limited liability for NCMEC", "visual depiction provided under section 2258A"],
+      "required_phrases": [
+        "18 USC 2258D",
+        "Limited liability for NCMEC",
+        "visual depiction provided under section 2258A"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1225,7 +1683,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-2260.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2260", "Production of sexually explicit depictions"],
+      "required_phrases": [
+        "18 USC 2260",
+        "Production of sexually explicit depictions"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1241,7 +1702,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-2261a.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2261A", "Stalking"],
+      "required_phrases": [
+        "18 USC 2261A",
+        "Stalking"
+      ],
       "min_body_chars": 1500
     },
     {
@@ -1257,7 +1721,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-875.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 875", "Interstate communications"],
+      "required_phrases": [
+        "18 USC 875",
+        "Interstate communications"
+      ],
       "min_body_chars": 1500
     },
     {
@@ -1273,7 +1740,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-871.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 871", "Threats against President"],
+      "required_phrases": [
+        "18 USC 871",
+        "Threats against President"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1289,7 +1759,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-876.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 876", "Mailing threatening communications"],
+      "required_phrases": [
+        "18 USC 876",
+        "Mailing threatening communications"
+      ],
       "min_body_chars": 1500
     },
     {
@@ -1305,7 +1778,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-877.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 877", "Mailing threatening communications from foreign country"],
+      "required_phrases": [
+        "18 USC 877",
+        "Mailing threatening communications from foreign country"
+      ],
       "min_body_chars": 800
     },
     {
@@ -1321,7 +1797,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-879.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 879", "Threats against former Presidents"],
+      "required_phrases": [
+        "18 USC 879",
+        "Threats against former Presidents"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1337,7 +1816,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-594.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 594", "Intimidation of voters"],
+      "required_phrases": [
+        "18 USC 594",
+        "Intimidation of voters"
+      ],
       "min_body_chars": 500
     },
     {
@@ -1353,7 +1835,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-842.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 842", "Unlawful acts", "explosive materials"],
+      "required_phrases": [
+        "18 USC 842",
+        "Unlawful acts",
+        "explosive materials"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -1369,7 +1855,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-844.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 844", "Penalties", "explosive"],
+      "required_phrases": [
+        "18 USC 844",
+        "Penalties",
+        "explosive"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -1385,7 +1875,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-922.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 922", "Unlawful acts"],
+      "required_phrases": [
+        "18 USC 922",
+        "Unlawful acts"
+      ],
       "min_body_chars": 10000
     },
     {
@@ -1401,7 +1894,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-930.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 930", "Possession of firearms", "dangerous weapons"],
+      "required_phrases": [
+        "18 USC 930",
+        "Possession of firearms",
+        "dangerous weapons"
+      ],
       "min_body_chars": 1500
     },
     {
@@ -1417,7 +1914,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-931.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 931", "body armor", "crime of violence"],
+      "required_phrases": [
+        "18 USC 931",
+        "body armor",
+        "crime of violence"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1433,7 +1934,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-1028.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1028", "identification documents", "authentication features"],
+      "required_phrases": [
+        "18 USC 1028",
+        "identification documents",
+        "authentication features"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -1449,7 +1954,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-1028a.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1028A", "Aggravated identity theft"],
+      "required_phrases": [
+        "18 USC 1028A",
+        "Aggravated identity theft"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -1465,7 +1973,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-1029.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1029", "access devices"],
+      "required_phrases": [
+        "18 USC 1029",
+        "access devices"
+      ],
       "min_body_chars": 4000
     },
     {
@@ -1481,7 +1992,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-1030.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1030", "Fraud and related activity", "computers"],
+      "required_phrases": [
+        "18 USC 1030",
+        "Fraud and related activity",
+        "computers"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -1497,7 +2012,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-1037.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1037", "electronic mail"],
+      "required_phrases": [
+        "18 USC 1037",
+        "electronic mail"
+      ],
       "min_body_chars": 2500
     },
     {
@@ -1513,7 +2031,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-1038.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1038", "False information and hoaxes"],
+      "required_phrases": [
+        "18 USC 1038",
+        "False information and hoaxes"
+      ],
       "min_body_chars": 2500
     },
     {
@@ -1529,7 +2050,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-1341.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1341", "Frauds and swindles"],
+      "required_phrases": [
+        "18 USC 1341",
+        "Frauds and swindles"
+      ],
       "min_body_chars": 1500
     },
     {
@@ -1545,7 +2069,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-1343.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1343", "Fraud by wire"],
+      "required_phrases": [
+        "18 USC 1343",
+        "Fraud by wire"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1561,7 +2088,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-1344.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1344", "Bank fraud"],
+      "required_phrases": [
+        "18 USC 1344",
+        "Bank fraud"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1577,7 +2107,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-1349.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1349", "Attempt and conspiracy"],
+      "required_phrases": [
+        "18 USC 1349",
+        "Attempt and conspiracy"
+      ],
       "min_body_chars": 500
     },
     {
@@ -1593,7 +2126,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-1466a.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1466A", "Obscene visual representations", "sexual abuse of children"],
+      "required_phrases": [
+        "18 USC 1466A",
+        "Obscene visual representations",
+        "sexual abuse of children"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -1609,7 +2146,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-1470.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1470", "Transfer of obscene material to minors"],
+      "required_phrases": [
+        "18 USC 1470",
+        "Transfer of obscene material to minors"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1625,7 +2165,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-1512.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1512", "Tampering with a witness", "victim"],
+      "required_phrases": [
+        "18 USC 1512",
+        "Tampering with a witness",
+        "victim"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -1641,7 +2185,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-1513.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1513", "Retaliating against a witness", "victim"],
+      "required_phrases": [
+        "18 USC 1513",
+        "Retaliating against a witness",
+        "victim"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1657,7 +2205,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-1591.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1591", "Sex trafficking of children"],
+      "required_phrases": [
+        "18 USC 1591",
+        "Sex trafficking of children"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1673,7 +2224,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-1952.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1952", "racketeering enterprises", "unlawful activity"],
+      "required_phrases": [
+        "18 USC 1952",
+        "racketeering enterprises",
+        "unlawful activity"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -1689,7 +2244,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-1956.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1956", "Laundering of monetary instruments"],
+      "required_phrases": [
+        "18 USC 1956",
+        "Laundering of monetary instruments"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -1705,7 +2263,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-1960.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 1960", "money transmitting business"],
+      "required_phrases": [
+        "18 USC 1960",
+        "money transmitting business"
+      ],
       "min_body_chars": 2500
     },
     {
@@ -1721,7 +2282,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-2101.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2101", "Riots"],
+      "required_phrases": [
+        "18 USC 2101",
+        "Riots"
+      ],
       "min_body_chars": 2500
     },
     {
@@ -1737,7 +2301,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-2339a.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2339A", "Providing material support"],
+      "required_phrases": [
+        "18 USC 2339A",
+        "Providing material support"
+      ],
       "min_body_chars": 2500
     },
     {
@@ -1753,7 +2320,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-2339b.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2339B", "designated foreign terrorist organizations"],
+      "required_phrases": [
+        "18 USC 2339B",
+        "designated foreign terrorist organizations"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1769,7 +2339,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-2421a.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2421A", "Promotion or facilitation", "reckless disregard"],
+      "required_phrases": [
+        "18 USC 2421A",
+        "Promotion or facilitation",
+        "reckless disregard"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -1785,7 +2359,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-2422.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2422", "Coercion and enticement", "minor"],
+      "required_phrases": [
+        "18 USC 2422",
+        "Coercion and enticement",
+        "minor"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1801,7 +2379,10 @@
       "output_file": "all_rules/united-states/federal/17-usc-506.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["17 USC 506", "Criminal offenses"],
+      "required_phrases": [
+        "17 USC 506",
+        "Criminal offenses"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -1817,7 +2398,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-2318.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2318", "counterfeit labels", "counterfeit documentation"],
+      "required_phrases": [
+        "18 USC 2318",
+        "counterfeit labels",
+        "counterfeit documentation"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1833,7 +2418,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-2319.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2319", "Criminal infringement", "copyright"],
+      "required_phrases": [
+        "18 USC 2319",
+        "Criminal infringement",
+        "copyright"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -1849,7 +2438,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-2320.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2320", "counterfeit goods or services"],
+      "required_phrases": [
+        "18 USC 2320",
+        "counterfeit goods or services"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1865,7 +2457,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-2511.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2511", "Interception and disclosure", "electronic communications"],
+      "required_phrases": [
+        "18 USC 2511",
+        "Interception and disclosure",
+        "electronic communications"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -1881,7 +2477,10 @@
       "output_file": "all_rules/united-states/federal/18-usc-2701.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2701", "Unlawful access to stored communications"],
+      "required_phrases": [
+        "18 USC 2701",
+        "Unlawful access to stored communications"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -1897,7 +2496,11 @@
       "output_file": "all_rules/united-states/federal/18-usc-2702.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["18 USC 2702", "Voluntary disclosure", "electronic communication service"],
+      "required_phrases": [
+        "18 USC 2702",
+        "Voluntary disclosure",
+        "electronic communication service"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1913,7 +2516,11 @@
       "output_file": "all_rules/united-states/federal/21-usc-841.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["21 USC 841", "Prohibited acts A", "controlled substance"],
+      "required_phrases": [
+        "21 USC 841",
+        "Prohibited acts A",
+        "controlled substance"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -1929,7 +2536,11 @@
       "output_file": "all_rules/united-states/federal/21-usc-843.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["21 USC 843", "Prohibited acts C", "communication facility"],
+      "required_phrases": [
+        "21 USC 843",
+        "Prohibited acts C",
+        "communication facility"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -1945,7 +2556,10 @@
       "output_file": "all_rules/united-states/federal/21-usc-863.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["21 USC 863", "Drug paraphernalia"],
+      "required_phrases": [
+        "21 USC 863",
+        "Drug paraphernalia"
+      ],
       "min_body_chars": 2500
     },
     {
@@ -1961,7 +2575,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-6501.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6501", "Definitions", "operator"],
+      "required_phrases": [
+        "15 USC 6501",
+        "Definitions",
+        "operator"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -1977,7 +2595,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-6502.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6502", "Regulation of unfair", "deceptive acts"],
+      "required_phrases": [
+        "15 USC 6502",
+        "Regulation of unfair",
+        "deceptive acts"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -1993,7 +2615,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-6503.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6503", "Safe harbors"],
+      "required_phrases": [
+        "15 USC 6503",
+        "Safe harbors"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -2009,7 +2634,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-6504.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6504", "Actions by States"],
+      "required_phrases": [
+        "15 USC 6504",
+        "Actions by States"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -2025,7 +2653,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-6505.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6505", "Administration and applicability"],
+      "required_phrases": [
+        "15 USC 6505",
+        "Administration and applicability"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -2041,7 +2672,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-6506.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6506", "Review"],
+      "required_phrases": [
+        "15 USC 6506",
+        "Review"
+      ],
       "min_body_chars": 500
     },
     {
@@ -2057,7 +2691,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-7701.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7701", "Congressional findings and policy", "commercial electronic mail"],
+      "required_phrases": [
+        "15 USC 7701",
+        "Congressional findings and policy",
+        "commercial electronic mail"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -2073,7 +2711,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-7702.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7702", "Definitions", "electronic mail"],
+      "required_phrases": [
+        "15 USC 7702",
+        "Definitions",
+        "electronic mail"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -2089,7 +2731,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-7703.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7703", "predatory and abusive commercial e-mail"],
+      "required_phrases": [
+        "15 USC 7703",
+        "predatory and abusive commercial e-mail"
+      ],
       "min_body_chars": 2500
     },
     {
@@ -2105,7 +2750,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-7704.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7704", "Other protections", "commercial electronic mail"],
+      "required_phrases": [
+        "15 USC 7704",
+        "Other protections",
+        "commercial electronic mail"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -2121,7 +2770,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-7705.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7705", "false or misleading transmission information"],
+      "required_phrases": [
+        "15 USC 7705",
+        "false or misleading transmission information"
+      ],
       "min_body_chars": 2000
     },
     {
@@ -2137,7 +2789,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-7706.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7706", "Enforcement generally", "Internet access service"],
+      "required_phrases": [
+        "15 USC 7706",
+        "Enforcement generally",
+        "Internet access service"
+      ],
       "min_body_chars": 4000
     },
     {
@@ -2153,7 +2809,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-7707.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7707", "Effect on other laws"],
+      "required_phrases": [
+        "15 USC 7707",
+        "Effect on other laws"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -2169,7 +2828,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-7708.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7708", "Do-Not-E-Mail registry"],
+      "required_phrases": [
+        "15 USC 7708",
+        "Do-Not-E-Mail registry"
+      ],
       "min_body_chars": 800
     },
     {
@@ -2185,7 +2847,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-7709.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7709", "Study of effects", "commercial electronic mail"],
+      "required_phrases": [
+        "15 USC 7709",
+        "Study of effects",
+        "commercial electronic mail"
+      ],
       "min_body_chars": 800
     },
     {
@@ -2201,7 +2867,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-7710.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7710", "Improving enforcement", "labeling"],
+      "required_phrases": [
+        "15 USC 7710",
+        "Improving enforcement",
+        "labeling"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -2217,7 +2887,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-7711.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7711", "Regulations"],
+      "required_phrases": [
+        "15 USC 7711",
+        "Regulations"
+      ],
       "min_body_chars": 500
     },
     {
@@ -2233,7 +2906,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-7712.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7712", "Application to wireless"],
+      "required_phrases": [
+        "15 USC 7712",
+        "Application to wireless"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -2249,7 +2925,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-7713.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 7713", "Separability"],
+      "required_phrases": [
+        "15 USC 7713",
+        "Separability"
+      ],
       "min_body_chars": 500
     },
     {
@@ -2265,7 +2944,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-45.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 45", "Unfair methods of competition", "unfair or deceptive acts"],
+      "required_phrases": [
+        "15 USC 45",
+        "Unfair methods of competition",
+        "unfair or deceptive acts"
+      ],
       "min_body_chars": 8000
     },
     {
@@ -2281,7 +2964,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-52.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 52", "Dissemination of false advertisements"],
+      "required_phrases": [
+        "15 USC 52",
+        "Dissemination of false advertisements"
+      ],
       "min_body_chars": 1500
     },
     {
@@ -2297,7 +2983,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-53.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 53", "False advertisements", "injunctions"],
+      "required_phrases": [
+        "15 USC 53",
+        "False advertisements",
+        "injunctions"
+      ],
       "min_body_chars": 2500
     },
     {
@@ -2313,7 +3003,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-57a.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 57a", "Unfair or deceptive acts", "rulemaking proceedings"],
+      "required_phrases": [
+        "15 USC 57a",
+        "Unfair or deceptive acts",
+        "rulemaking proceedings"
+      ],
       "min_body_chars": 6000
     },
     {
@@ -2329,7 +3023,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-57b.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 57b", "Civil actions", "unfair or deceptive acts"],
+      "required_phrases": [
+        "15 USC 57b",
+        "Civil actions",
+        "unfair or deceptive acts"
+      ],
       "min_body_chars": 2500
     },
     {
@@ -2345,7 +3043,11 @@
       "output_file": "all_rules/united-states/federal/15-usc-6821.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6821", "Privacy protection", "customer information"],
+      "required_phrases": [
+        "15 USC 6821",
+        "Privacy protection",
+        "customer information"
+      ],
       "min_body_chars": 1000
     },
     {
@@ -2361,7 +3063,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-6822.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6822", "Administrative enforcement"],
+      "required_phrases": [
+        "15 USC 6822",
+        "Administrative enforcement"
+      ],
       "min_body_chars": 500
     },
     {
@@ -2377,7 +3082,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-6823.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6823", "Criminal penalty"],
+      "required_phrases": [
+        "15 USC 6823",
+        "Criminal penalty"
+      ],
       "min_body_chars": 500
     },
     {
@@ -2393,7 +3101,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-6824.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6824", "Relation to State laws"],
+      "required_phrases": [
+        "15 USC 6824",
+        "Relation to State laws"
+      ],
       "min_body_chars": 500
     },
     {
@@ -2409,7 +3120,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-6825.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6825", "Agency guidance"],
+      "required_phrases": [
+        "15 USC 6825",
+        "Agency guidance"
+      ],
       "min_body_chars": 500
     },
     {
@@ -2425,7 +3139,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-6826.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6826", "Reports"],
+      "required_phrases": [
+        "15 USC 6826",
+        "Reports"
+      ],
       "min_body_chars": 500
     },
     {
@@ -2441,7 +3158,10 @@
       "output_file": "all_rules/united-states/federal/15-usc-6827.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["15 USC 6827", "Definitions"],
+      "required_phrases": [
+        "15 USC 6827",
+        "Definitions"
+      ],
       "min_body_chars": 500
     },
     {
@@ -2457,7 +3177,11 @@
       "output_file": "all_rules/united-states/federal/42-usc-3631.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["42 USC 3631", "Violations", "intimidate"],
+      "required_phrases": [
+        "42 USC 3631",
+        "Violations",
+        "intimidate"
+      ],
       "min_body_chars": 1500
     },
     {
@@ -2473,7 +3197,10 @@
       "output_file": "all_rules/united-states/federal/52-usc-10101.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["52 USC 10101", "Voting rights"],
+      "required_phrases": [
+        "52 USC 10101",
+        "Voting rights"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -2489,7 +3216,11 @@
       "output_file": "all_rules/united-states/federal/52-usc-10307.md",
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
-      "required_phrases": ["52 USC 10307", "Prohibited acts", "intimidate"],
+      "required_phrases": [
+        "52 USC 10307",
+        "Prohibited acts",
+        "intimidate"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -2505,7 +3236,10 @@
       "output_file": "all_rules/united-states/federal/16-cfr-part-312-coppa-rule.md",
       "language": "en",
       "status_note": "Official eCFR XML API source. Title 16's latest available eCFR issue date checked during this pass was 2026-05-21; verify the current eCFR issue date before legal use.",
-      "required_phrases": ["PART 312", "CHILDREN'S ONLINE PRIVACY PROTECTION RULE"],
+      "required_phrases": [
+        "PART 312",
+        "CHILDREN'S ONLINE PRIVACY PROTECTION RULE"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -2521,7 +3255,10 @@
       "output_file": "all_rules/united-states/federal/take-it-down-act-public-law-119-12.md",
       "language": "en",
       "status_note": "Official GovInfo public law source. Verify codified text and effective enforcement dates before legal use.",
-      "required_phrases": ["Public Law 119", "TAKE IT DOWN"],
+      "required_phrases": [
+        "Public Law 119",
+        "TAKE IT DOWN"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -2537,7 +3274,10 @@
       "output_file": "all_rules/united-states/states/california/california-age-appropriate-design-code-act.md",
       "language": "en",
       "status_note": "Official California code source. Enforceability and litigation status should be verified before legal use.",
-      "required_phrases": ["California Age-Appropriate Design Code Act", "1798.99.28"],
+      "required_phrases": [
+        "California Age-Appropriate Design Code Act",
+        "1798.99.28"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -2553,7 +3293,10 @@
       "output_file": "all_rules/united-states/states/california/california-social-media-terms-of-service-reports.md",
       "language": "en",
       "status_note": "Official California code source. Enforceability and litigation status should be verified before legal use.",
-      "required_phrases": ["social media", "22675"],
+      "required_phrases": [
+        "social media",
+        "22675"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -2569,7 +3312,10 @@
       "output_file": "all_rules/united-states/states/california/california-protecting-our-kids-from-social-media-addiction-act.md",
       "language": "en",
       "status_note": "Official California code source. Operative dates and litigation status should be verified before legal use.",
-      "required_phrases": ["Protecting Our Kids from Social Media Addiction Act", "addictive feed"],
+      "required_phrases": [
+        "Protecting Our Kids from Social Media Addiction Act",
+        "addictive feed"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -2592,7 +3338,11 @@
       "language": "en",
       "status_note": "Official Texas Constitution and Statutes live codified source and Texas Legislative Reference Library sources returned maintenance HTTP 503 responses on 2026-05-25 with Retry-After Tue, 26 May 2026 12:00:00 GMT. This file is generated from the 2025-09-01 Internet Archive snapshot of the official BC.509.v2.htm page. The archived source itself notes that Sections 509.001 and 509.002 were amended by the 89th Legislature pending publication of current statutes; verify the live official source when maintenance ends before legal use.",
       "retry_count": 0,
-      "required_phrases": ["USE OF DIGITAL SERVICES BY MINORS", "DIGITAL SERVICE PROVIDER DUTY TO PREVENT HARM TO KNOWN MINORS", "PRIVATE CAUSE OF ACTION"],
+      "required_phrases": [
+        "USE OF DIGITAL SERVICES BY MINORS",
+        "DIGITAL SERVICE PROVIDER DUTY TO PREVENT HARM TO KNOWN MINORS",
+        "PRIVATE CAUSE OF ACTION"
+      ],
       "min_body_chars": 10000
     },
     {
@@ -2612,7 +3362,10 @@
       "output_file": "all_rules/united-states/states/florida/florida-online-protections-for-minors.md",
       "language": "en",
       "status_note": "Official Florida statutes source. Enforceability and litigation status should be verified before legal use.",
-      "required_phrases": ["Social media use for minors", "Age verification"],
+      "required_phrases": [
+        "Social media use for minors",
+        "Age verification"
+      ],
       "min_body_chars": 2500
     },
     {
@@ -2631,7 +3384,10 @@
       "output_file": "all_rules/united-states/states/new-york/new-york-safe-for-kids-act.md",
       "language": "en",
       "status_note": "Official New York State Senate Open Legislation bill PDF source for S7694A. Verify current codified law, operative dates, and regulations before legal use.",
-      "required_phrases": ["SAFE FOR KIDS ACT", "addictive feed"],
+      "required_phrases": [
+        "SAFE FOR KIDS ACT",
+        "addictive feed"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -2649,7 +3405,10 @@
       "status_note": "Official Utah Code PDF source. Current stay/enforcement status should be verified before legal use.",
       "retry_count": 0,
       "insecure_tls": true,
-      "required_phrases": ["Utah Minor Protection in Social Media Act", "Social media company"],
+      "required_phrases": [
+        "Utah Minor Protection in Social Media Act",
+        "Social media company"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -2665,7 +3424,10 @@
       "output_file": "all_rules/united-states/states/arkansas/arkansas-social-media-safety-act-689-2023.md",
       "language": "en",
       "status_note": "Official Arkansas act PDF source. Current injunction/litigation status should be verified before legal use.",
-      "required_phrases": ["SOCIAL MEDIA SAFETY ACT", "AGE VERIFICATION"],
+      "required_phrases": [
+        "SOCIAL MEDIA SAFETY ACT",
+        "AGE VERIFICATION"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -2681,7 +3443,10 @@
       "output_file": "all_rules/united-states/states/louisiana/louisiana-social-media-platform-minors-provisions.md",
       "language": "en",
       "status_note": "Official Louisiana Legislature law page. Current enforceability and litigation status should be verified before legal use.",
-      "required_phrases": ["social media platform", "minor"],
+      "required_phrases": [
+        "social media platform",
+        "minor"
+      ],
       "min_body_chars": 2500
     },
     {
@@ -2700,7 +3465,11 @@
       "retry_count": 2,
       "timeout_ms": 30000,
       "insecure_tls": true,
-      "required_phrases": ["WALKER MONTGOMERY PROTECTING", "CHILDREN ONLINE ACT", "MINOR"],
+      "required_phrases": [
+        "WALKER MONTGOMERY PROTECTING",
+        "CHILDREN ONLINE ACT",
+        "MINOR"
+      ],
       "min_body_chars": 5000
     },
     {
@@ -2716,7 +3485,10 @@
       "output_file": "all_rules/united-states/states/tennessee/tennessee-protecting-children-from-social-media-act.md",
       "language": "en",
       "status_note": "Official Tennessee bill PDF source. Check codified text and current litigation status before legal use.",
-      "required_phrases": ["47-18-5701", "Minor"],
+      "required_phrases": [
+        "47-18-5701",
+        "Minor"
+      ],
       "min_body_chars": 3000
     },
     {
@@ -2734,7 +3506,10 @@
       "status_note": "Official Ohio Laws codified source for Ohio Revised Code section 1349.09. Current litigation and enforceability status should be verified before legal use.",
       "boundary_start": "Section 1349.09 | Parental notification by social media operators",
       "boundary_end": "View October 3, 2023 Version",
-      "required_phrases": ["Parental notification by social media operators", "Operator"],
+      "required_phrases": [
+        "Parental notification by social media operators",
+        "Operator"
+      ],
       "min_body_chars": 1500
     }
   ]

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/english/youtube",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "YouTube Community Guidelines",
+      "file": "youtube-community-guidelines.md",
+      "path": "all_rules/platforms/english/youtube/youtube-community-guidelines.md",
+      "collection": "platforms",
+      "jurisdiction": "Global / platform policy",
+      "scope_note": "YouTube platform community guidelines and selected detailed safety policies; not a government legal code.",
+      "source_authority": "YouTube Help / Google",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "language_group": "english",
+      "fetch_method": "html",
+      "extractor": "google-help-article",
+      "extraction_status": "extracted",
+      "status_note": "Official YouTube Help Community Guidelines page plus major detailed policy pages linked from that official policy index.",
+      "source_urls": [
+        "https://support.google.com/youtube/answer/9288567",
+        "https://support.google.com/youtube/answer/2801973?hl=en",
+        "https://support.google.com/youtube/answer/2801947?hl=en",
+        "https://support.google.com/youtube/answer/9054257?hl=en",
+        "https://support.google.com/youtube/answer/3399767?hl=en",
+        "https://support.google.com/youtube/answer/9713446?hl=en",
+        "https://support.google.com/youtube/answer/2801981?hl=en",
+        "https://support.google.com/youtube/answer/2802002?hl=en",
+        "https://support.google.com/youtube/answer/9229980?hl=en",
+        "https://support.google.com/youtube/answer/2802245?hl=en",
+        "https://support.google.com/youtube/answer/10072685?hl=en",
+        "https://support.google.com/youtube/answer/2801964?hl=en",
+        "https://support.google.com/youtube/answer/2802008?hl=en",
+        "https://support.google.com/youtube/answer/9229472?hl=en",
+        "https://support.google.com/youtube/answer/2801939?hl=en",
+        "https://support.google.com/youtube/answer/2802268?hl=en",
+        "https://support.google.com/youtube/answer/9229611?hl=en",
+        "https://support.google.com/youtube/answer/7667605?hl=en",
+        "https://support.google.com/youtube/answer/2801999?hl=en",
+        "https://support.google.com/youtube/answer/10834785?hl=en",
+        "https://support.google.com/youtube/answer/10835034?hl=en",
+        "https://support.google.com/youtube/answer/13813322?hl=en"
+      ]
+    }
+  ],
+  "children": []
+}

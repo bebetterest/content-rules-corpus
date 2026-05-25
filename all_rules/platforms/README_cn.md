@@ -4,9 +4,10 @@
 
 ## 目录结构
 
-- `china/`：中国平台规则和政策来源。
-- `global/`：全球平台规则和政策来源。
+- `chinese/`：中文平台规则和政策来源。
+- `english/`：英文平台规则和政策来源。
 - 每个平台目录包含生成的 Markdown、`sources/` 下的原始来源文件、`verification-manifest.json`，以及 registry 中存在风险类别时生成的风险类别索引。
+- Registry 条目使用 `language_group` 表示语言目录，并使用 `<language_group>/<platform>` 形式的 `platform_group` 生成风险索引。
 
 ## 处理规则
 

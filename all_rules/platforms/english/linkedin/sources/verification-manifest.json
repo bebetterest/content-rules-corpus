@@ -1,0 +1,38 @@
+[
+  {
+    "id": "platform-linkedin-professional-community-policies",
+    "title": "LinkedIn Professional Community Policies",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/english/linkedin/linkedin-professional-community-policies.md",
+    "source_urls": [
+      "https://www.linkedin.com/legal/professional-community-policies"
+    ],
+    "reference_urls": [],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/platforms/english/linkedin/sources/platform-linkedin-professional-community-policies.linkedin-com.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "language_group": "english",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 48,
+    "body_sha256": "5e057623d89e2a69375d6e46e360f2957e5f25047c76fa881ac2f32c1d3813c1",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/english/linkedin/sources/platform-linkedin-professional-community-policies.linkedin-com.html",
+        "sha256": "5ad2401100e82fa837059f2e64b687f4de2d95f079f028b8981263cd622c0d58",
+        "bytes": 64753,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      }
+    ]
+  }
+]

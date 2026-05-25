@@ -19,7 +19,7 @@
 
 扩展收集范围：
 
-- `all_rules/platforms/`：中国及全球平台内容规则或社区规则。
+- `all_rules/platforms/`：中文及英文平台内容规则或社区规则。
 - `all_rules/united-states/federal/`：美国联邦层面的内容安全相关法律、法规和公共法律。
 - `all_rules/united-states/states/`：选定州层面的内容安全相关来源。
 
@@ -187,7 +187,7 @@
 
 本轮后的校验状态：registry 中 139 条记录均已进入索引；138 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
 
-## 2026-05-24 全球平台 GitHub 与 Steam 补缺
+## 2026-05-24 英文平台 GitHub 与 Steam 补缺
 
 平台抽取更新：
 
@@ -198,7 +198,7 @@
 
 本轮后的校验状态：registry 中 141 条记录均已进入索引；140 条已抽取来源正文，1 条仍为 source stub（`us-state-texas-scope-act`）。
 
-## 2026-05-24 全球平台 GitLab、Bluesky 与 Tumblr 补缺
+## 2026-05-24 英文平台 GitLab、Bluesky 与 Tumblr 补缺
 
 平台抽取更新：
 
@@ -269,3 +269,12 @@
 - 将公开仓库名称统一为 `content-rules-corpus`。
 - 更新根目录 README 标题、开头说明、README 图片 alt 文本，以及 `all_rules/` 目录 README 文件中的项目名称。
 - 同步更新中文配套文档。
+
+## 2026-05-25 平台语言组重命名
+
+结构更新：
+
+- 将平台分组目录从 `china/` 和 `global/` 重命名为 `chinese/` 和 `english/`。
+- 通过在平台 registry 条目和生成的 Markdown 元数据中加入 `language_group`，将法律司法辖区、平台适用范围与语言分组分开。
+- 将 `platform_group` 更新为 `<language_group>/<platform>` 形式，使风险索引继续按平台目录生成。
+- 保持 `all_rules/china/` 不变，因为它存放的是中国法律法规来源文本，而不是平台语言分组。

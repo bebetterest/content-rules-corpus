@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "directory": "all_rules/platforms/english/x",
+  "generated_by": "scripts/generate_rule_indexes.mjs",
+  "rule_count": 1,
+  "descendant_rule_count": 1,
+  "rules": [
+    {
+      "title": "The X Rules",
+      "file": "x-rules.md",
+      "path": "all_rules/platforms/english/x/x-rules.md",
+      "collection": "platforms",
+      "jurisdiction": "Global / platform policy",
+      "scope_note": "X platform rules and selected safety policies; not a government legal code.",
+      "source_authority": "X Help Center",
+      "retrieval_date": "2026-05-24",
+      "language": "en",
+      "language_group": "english",
+      "fetch_method": "rendered-html",
+      "extractor": "x-help-html",
+      "extraction_status": "extracted",
+      "status_note": "Official X Help Center pages confirmed through Playwright-rendered official source artifacts. Linked detailed X policy pages are downloaded from official help.x.com sources when browser rendering confirms the page body; challenge pages are rejected and recorded as linked-source failures.",
+      "source_urls": [
+        "https://help.x.com/rules-and-policies/twitter-rules"
+      ]
+    }
+  ],
+  "children": []
+}

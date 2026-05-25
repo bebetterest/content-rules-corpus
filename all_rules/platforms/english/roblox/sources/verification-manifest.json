@@ -1,0 +1,38 @@
+[
+  {
+    "id": "platform-roblox-community-standards",
+    "title": "Roblox Community Standards",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/english/roblox/roblox-community-standards.md",
+    "source_urls": [
+      "https://about.roblox.com/community-standards"
+    ],
+    "reference_urls": [],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/platforms/english/roblox/sources/platform-roblox-community-standards.about-roblox-com.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "language_group": "english",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 219,
+    "body_sha256": "3e79a3b407eecfce8878484c06fce70c940acc32346edc424aa8c1660b77c256",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/english/roblox/sources/platform-roblox-community-standards.about-roblox-com.html",
+        "sha256": "41f3687f9c35658b4f0c51bbd45de997f4fdb61cee83b34132ef9dca0ce27ac6",
+        "bytes": 445983,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "id": "platform-discord-community-guidelines",
+    "title": "Discord Community Guidelines",
+    "collection": "platforms",
+    "jurisdiction": "Global / platform policy",
+    "output_file": "all_rules/platforms/english/discord/discord-community-guidelines.md",
+    "source_urls": [
+      "https://discord.com/guidelines"
+    ],
+    "reference_urls": [],
+    "linked_source_urls": [
+      "https://discord.com/terms",
+      "https://discord.com/developers/docs/policies-and-agreements/developer-terms-of-service",
+      "https://discord.com/developers/docs/policies-and-agreements/developer-policy",
+      "https://support.discord.com/hc/en-us/articles/10575066024983",
+      "https://discord.com/safety/off-platform-behaviors-policy-explainer",
+      "https://discord.com/safety/360044103651-reporting-abusive-behavior-to-discord",
+      "https://discord.com/safety/bullying-harassment-threats-policy-explainer",
+      "https://discord.com/safety/doxxing-policy-explainer",
+      "https://discord.com/safety/hateful-conduct-policy-explainer",
+      "https://discord.com/safety/violent-extremism-policy-explainer",
+      "https://discord.com/safety/violence-graphic-content-policy-explainer",
+      "https://discord.com/safety/child-safety-policy-explainer",
+      "https://discord.com/safety/safer-place-for-teens",
+      "https://discord.com/safety/sexual-content-policy-explainer",
+      "https://discord.com/safety/non-consensual-intimate-media-policy-explainer",
+      "https://discord.com/safety/suicide-self-harm-policy-explainer",
+      "https://discord.com/safety/platform-manipulation-policy-explainer",
+      "https://discord.com/safety/misinformation-policy-explainer",
+      "https://discord.com/safety/identity-authenticity-policy-explainer",
+      "https://discord.com/safety/deceptive-practices-policy-explainer",
+      "https://discord.com/safety/discord-support-abuse-policy-explainer",
+      "https://discord.com/safety/copyright-trademark-policy-explainer",
+      "https://support.discord.com/hc/en-us/articles/4410339349655-Discord-s-Copyright-IP-Policy",
+      "https://discord.com/safety/dangerous-regulated-goods-policy-explainer",
+      "https://discord.com/safety/gambling-policy-explainer",
+      "https://discord.com/safety/human-trafficking-policy-explainer",
+      "https://discord.com/safety/sexual-solicitation-policy-explainer"
+    ],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-01-terms.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-02-policies-and-agreements-developer-terms-of-service.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-03-policies-and-agreements-developer-policy.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-04-articles-10575066024983.support-discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-05-safety-off-platform-behaviors-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-06-safety-360044103651-reporting-abusive-behavior-to-discord.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-07-safety-bullying-harassment-threats-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-08-safety-doxxing-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-09-safety-hateful-conduct-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-10-safety-violent-extremism-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-11-safety-violence-graphic-content-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-12-safety-child-safety-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-13-safety-safer-place-for-teens.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-14-safety-sexual-content-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-15-safety-non-consensual-intimate-media-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-16-safety-suicide-self-harm-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-17-safety-platform-manipulation-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-18-safety-misinformation-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-19-safety-identity-authenticity-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-20-safety-deceptive-practices-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-21-safety-discord-support-abuse-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-22-safety-copyright-trademark-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-23-articles-4410339349655-discord-s-copyright-ip-policy.support-discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-24-safety-dangerous-regulated-goods-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-25-safety-gambling-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-26-safety-human-trafficking-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-27-safety-sexual-solicitation-policy-explainer.discord-com.html"
+    ],
+    "linked_source_files": [
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-01-terms.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-02-policies-and-agreements-developer-terms-of-service.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-03-policies-and-agreements-developer-policy.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-04-articles-10575066024983.support-discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-05-safety-off-platform-behaviors-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-06-safety-360044103651-reporting-abusive-behavior-to-discord.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-07-safety-bullying-harassment-threats-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-08-safety-doxxing-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-09-safety-hateful-conduct-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-10-safety-violent-extremism-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-11-safety-violence-graphic-content-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-12-safety-child-safety-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-13-safety-safer-place-for-teens.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-14-safety-sexual-content-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-15-safety-non-consensual-intimate-media-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-16-safety-suicide-self-harm-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-17-safety-platform-manipulation-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-18-safety-misinformation-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-19-safety-identity-authenticity-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-20-safety-deceptive-practices-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-21-safety-discord-support-abuse-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-22-safety-copyright-trademark-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-23-articles-4410339349655-discord-s-copyright-ip-policy.support-discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-24-safety-dangerous-regulated-goods-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-25-safety-gambling-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-26-safety-human-trafficking-policy-explainer.discord-com.html",
+      "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-27-safety-sexual-solicitation-policy-explainer.discord-com.html"
+    ],
+    "retrieved_date": "2026-05-24",
+    "language": "en",
+    "language_group": "english",
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 1158,
+    "body_sha256": "4fed33f4ef1f1dcddd75a6b7fc41d98dbd2fbdc1de64a108b19dc4fd204f190f",
+    "attempted_text_sha256": null,
+    "attempted_text_length": null,
+    "source_sha256": [
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines.discord-com.html",
+        "sha256": "36f836adc2bc11342799213b4148121dba233cfc2beb9b84305f2219c781cb65",
+        "bytes": 82190,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-01-terms.discord-com.html",
+        "sha256": "75b7d1d79afc0608735f10a37718c4aeb5e10faade56908d9fef1fb6c5575ef5",
+        "bytes": 128818,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-02-policies-and-agreements-developer-terms-of-service.discord-com.html",
+        "sha256": "f28709418f95b49e3dfb8c1b2778b25b6f7ea6b3f3b01ce1c0fc975b05d4b431",
+        "bytes": 190709,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-03-policies-and-agreements-developer-policy.discord-com.html",
+        "sha256": "faaa00c0b5a86d8561afc0e31611a63c9aaa4bd85370359ab068c071bb89aaa6",
+        "bytes": 124605,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-04-articles-10575066024983.support-discord-com.html",
+        "sha256": "b9696256f0163de4f316f2a30a7b61a48e820e5358b5504712a71a6fd7f08b9e",
+        "bytes": 118547,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-05-safety-off-platform-behaviors-policy-explainer.discord-com.html",
+        "sha256": "f855bb4f732a2efc444623480b731f9db7558928fb2852ff0b49f065aad491bd",
+        "bytes": 89620,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-06-safety-360044103651-reporting-abusive-behavior-to-discord.discord-com.html",
+        "sha256": "0099030cd72a1c0151b578f3986864a95f802ea33a3e714887c0a2dc72db9fe2",
+        "bytes": 95012,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-07-safety-bullying-harassment-threats-policy-explainer.discord-com.html",
+        "sha256": "0fabfabae94e8ce1cae04bac8f79fad858cea0850b234d9c744fc6498de18c4e",
+        "bytes": 90552,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-08-safety-doxxing-policy-explainer.discord-com.html",
+        "sha256": "fd79b45a44212a61a99450b4828eb7917d3777b9ab2ab1ce7cb1b3b305b238ce",
+        "bytes": 88523,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-09-safety-hateful-conduct-policy-explainer.discord-com.html",
+        "sha256": "69c5c5f0b725acc0740d83354b17fb45421362a999316d694a636276ef75c53f",
+        "bytes": 90865,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-10-safety-violent-extremism-policy-explainer.discord-com.html",
+        "sha256": "049ffcd97e444e118250209e3e87c9b3ccdbee625645725986efd44bbe03a293",
+        "bytes": 90043,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-11-safety-violence-graphic-content-policy-explainer.discord-com.html",
+        "sha256": "15481836907bdb2274d248a020ba26f2c24e8c8c5b383c3f94692b92c82bae45",
+        "bytes": 89372,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-12-safety-child-safety-policy-explainer.discord-com.html",
+        "sha256": "f7fc5d12e9f82e8d2f117f93106af1a142107044ad24dce35fec00e112548707",
+        "bytes": 96999,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-13-safety-safer-place-for-teens.discord-com.html",
+        "sha256": "75c8192309b45f74f3cf043db8314ff157d3e571ee7a178b887a094ec637276f",
+        "bytes": 97079,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-14-safety-sexual-content-policy-explainer.discord-com.html",
+        "sha256": "d1f4632e3a8f27ba68ea2129a0826f7b1e169ee0a4d796cfb735761d0b481474",
+        "bytes": 91700,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-15-safety-non-consensual-intimate-media-policy-explainer.discord-com.html",
+        "sha256": "e65bddd2c522490e97f0afba48b331430a9beb67337331966bc341ae794d195a",
+        "bytes": 93515,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-16-safety-suicide-self-harm-policy-explainer.discord-com.html",
+        "sha256": "0b69598ffcea925743310753a01100b56aaeecf0361cb087baa7906686518f0e",
+        "bytes": 90987,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-17-safety-platform-manipulation-policy-explainer.discord-com.html",
+        "sha256": "59aa2b0cd52fc954a1122c0e5235effd8cf29fe6c38d18ca5b5a839138487f04",
+        "bytes": 90424,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-18-safety-misinformation-policy-explainer.discord-com.html",
+        "sha256": "b68336e7927685f3deb1ad39c69927aa84bc82d23de16354c01c2354e0fd47f9",
+        "bytes": 133764,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-19-safety-identity-authenticity-policy-explainer.discord-com.html",
+        "sha256": "fb51b59f799509187d99dd161f17d3628144423f94bfd049fd1f34bdc9e2a666",
+        "bytes": 90796,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-20-safety-deceptive-practices-policy-explainer.discord-com.html",
+        "sha256": "feec04257891ced06d6a103c796f4fc78af47360d52d233e0a966c25f53e74bb",
+        "bytes": 92850,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-21-safety-discord-support-abuse-policy-explainer.discord-com.html",
+        "sha256": "a32432b2711110d773b744e26849504a83a890d223ad0cd9233f778a56af3825",
+        "bytes": 88278,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-22-safety-copyright-trademark-policy-explainer.discord-com.html",
+        "sha256": "713528cca3790d19445407a2e8dbeea4801646fcd364d9e6419bbf915fb964bb",
+        "bytes": 131112,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-23-articles-4410339349655-discord-s-copyright-ip-policy.support-discord-com.html",
+        "sha256": "2a6525e95d3e216fb4cb1e7f2b77db515d42daeb8c609ec83e9769a2714c270b",
+        "bytes": 97022,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-24-safety-dangerous-regulated-goods-policy-explainer.discord-com.html",
+        "sha256": "6a77dadc798fba765e883e06d2e3d485605f83808bbab2c8bd8bab59812a99f0",
+        "bytes": 88821,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-25-safety-gambling-policy-explainer.discord-com.html",
+        "sha256": "cb499f0ce3638a141ae7fff22600471c37b7d8644912c4c1f9ca6bf547d7b87f",
+        "bytes": 88088,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-26-safety-human-trafficking-policy-explainer.discord-com.html",
+        "sha256": "6ec18f0c22f87191e2a2c79ed0019da8db14a9b92b5328b0274b18aed9fd6f2f",
+        "bytes": 130992,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      },
+      {
+        "source_file": "all_rules/platforms/english/discord/sources/platform-discord-community-guidelines-linked-27-safety-sexual-solicitation-policy-explainer.discord-com.html",
+        "sha256": "2fddda746b2cd1525f986a16e00d88effbd4fb4ae39c6a33118be33f296eb13b",
+        "bytes": 130975,
+        "downloader": "cached",
+        "fallback_from": null,
+        "content_type": null
+      }
+    ]
+  }
+]
