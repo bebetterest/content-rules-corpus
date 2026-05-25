@@ -8,15 +8,18 @@
     "source_urls": [
       "https://www.zhihu.com/term/zhihu-terms"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/platforms/china/zhihu/sources/platform-zhihu-terms.zhihu-com.html"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "zh-CN",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 123,
-    "body_sha256": "018c4ce2ef80619910545ce92d91f2ac8c6d832852f8f5304b3c8c6db9cf0cf6",
+    "paragraph_count": 110,
+    "body_sha256": "ea96e885d91708adcfaa470b2792a38168c577bcec4f8ff411dc95b1f4518aea",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -24,9 +27,9 @@
         "source_file": "all_rules/platforms/china/zhihu/sources/platform-zhihu-terms.zhihu-com.html",
         "sha256": "003f5cc29c2fe7e1f85f2a8266136be207ba351dcb877f036dca2c7f41f8e992",
         "bytes": 71981,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       }
     ]
   }

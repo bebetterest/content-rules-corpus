@@ -8,15 +8,18 @@
     "source_urls": [
       "https://codes.ohio.gov/ohio-revised-code/section-1349.09"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/united-states/states/ohio/sources/us-state-ohio-social-media-parental-notification-act.codes-ohio-gov.html"
     ],
+    "linked_source_files": [],
     "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 69,
-    "body_sha256": "c02437cf2bfd2789b821b897552ddee19574d06ba36927961b404e2a7d13509f",
+    "paragraph_count": 65,
+    "body_sha256": "1f9e2c511157e5a13f396e807ba8a795fb52041077480d409d0fcd6dfd0d0647",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -24,8 +27,8 @@
         "source_file": "all_rules/united-states/states/ohio/sources/us-state-ohio-social-media-parental-notification-act.codes-ohio-gov.html",
         "sha256": "5b5e5a797c54d55adfff9f344d506d8ec8af5118177f93e472886bfe56a4378d",
         "bytes": 24002,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "downloader": "cached",
+        "fallback_from": null,
         "content_type": null
       }
     ]

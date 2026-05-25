@@ -188,57 +188,57 @@
         "source_file": "all_rules/platforms/global/github/sources/platform-github-acceptable-use-policies-linked-01-github-terms-github-terms-of-service.docs-github-com.html",
         "sha256": "7c4bbe456a5031e7e9bc268ca33b5b0e02936d519e2045075eea7fe2727fe7d1",
         "bytes": 252832,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/github/sources/platform-github-acceptable-use-policies-linked-02-github-terms-github-corporate-terms-of-service.docs-github-com.html",
         "sha256": "5a6f49cd8de3cd3a2e283237c8d3ba867a5abacebe4b11f701d91c175e55290e",
         "bytes": 242601,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/github/sources/platform-github-acceptable-use-policies-linked-03-privacy-policies-github-privacy-statement.docs-github-com.html",
         "sha256": "22c1a61281ce9f5ae11f7ca702213bf254d702a228bd09a3c9487f269013e97b",
         "bytes": 221404,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/github/sources/platform-github-acceptable-use-policies-linked-04-github-terms-github-terms-for-additional-products-and-features.docs-github-com.html",
         "sha256": "ced5fba140df279d57c53c706f6c59467145992539091ac8ff069199c6a81a1f",
         "bytes": 155565,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/github/sources/platform-github-acceptable-use-policies-linked-05-github-terms-github-community-guidelines.docs-github-com.html",
         "sha256": "7f9a2ae14fa9ead2b232c43d0c7bbf6fc23831ff886ef38473846261aa9138c5",
         "bytes": 128683,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/github/sources/platform-github-acceptable-use-policies-linked-06-acceptable-use-policies-github-appeal-and-reinstatement.docs-github-com.html",
         "sha256": "3000c97a5de8ba8d6aaa2d10a2531ce12eb6607bc149d798b3ec9d0b757d8aac",
         "bytes": 114977,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/github/sources/platform-github-acceptable-use-policies-linked-07-content-removal-policies-github-private-information-removal-policy.docs-github-com.html",
         "sha256": "7a50cfe2601e2cf74ae33e1a7f4579f6e2146f63b5897eb5b0382ed0f1a91aef",
         "bytes": 135351,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       }
     ]
   }

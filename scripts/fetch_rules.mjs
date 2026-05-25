@@ -10,6 +10,8 @@ const execFile = promisify(execFileCallback);
 const ROOT = new URL("..", import.meta.url).pathname;
 const REGISTRY_PATH = path.join(ROOT, "all_rules", "source-registry.json");
 let RETRIEVED_DATE = process.env.RULES_RETRIEVED_DATE || null;
+const PREFER_CACHED_SOURCES = process.env.RULES_PREFER_CACHED === "1";
+const CACHE_ONLY = process.env.RULES_CACHE_ONLY === "1";
 
 function todayInShanghai() {
   return new Intl.DateTimeFormat("en-CA", {
@@ -388,7 +390,9 @@ function extFor(entry, url, contentType = "") {
   if (entry.source_extension) {
     return entry.source_extension.replace(/^\./, "");
   }
-  const urlPath = new URL(url).pathname.toLowerCase();
+  const parsed = new URL(url);
+  const urlPath = parsed.pathname.toLowerCase();
+  const urlPathAndSearch = `${parsed.pathname}${parsed.search}`.toLowerCase();
   if (
     urlPath.endsWith(".json") ||
     contentType.includes("json") ||
@@ -397,7 +401,13 @@ function extFor(entry, url, contentType = "") {
   ) {
     return "json";
   }
-  if (urlPath.endsWith(".pdf") || contentType.includes("pdf")) {
+  if (
+    entry.fetch_method === "pdf" ||
+    entry.extractor === "pdf-text" ||
+    urlPath.endsWith(".pdf") ||
+    urlPathAndSearch.includes(".pdf") ||
+    contentType.includes("pdf")
+  ) {
     return "pdf";
   }
   if (urlPath.endsWith(".txt") || contentType.includes("text/plain")) {
@@ -739,6 +749,26 @@ function htmlToText(html) {
   return cleanText(html.replace(/<[^>]+>/g, " "));
 }
 
+function htmlElementAt(html, startIndex, tagName) {
+  const openClosePattern = new RegExp(`<\\/?${tagName}\\b[^>]*>`, "gi");
+  openClosePattern.lastIndex = startIndex;
+  let depth = 0;
+  let match;
+
+  while ((match = openClosePattern.exec(html))) {
+    if (match[0].startsWith("</")) {
+      depth -= 1;
+      if (depth === 0) {
+        return html.slice(startIndex, openClosePattern.lastIndex);
+      }
+    } else if (!match[0].endsWith("/>")) {
+      depth += 1;
+    }
+  }
+
+  return null;
+}
+
 function htmlElementById(html, id) {
   const startPattern = new RegExp(`<([a-z0-9]+)\\b(?=[^>]*\\bid=(["'])${id}\\2)[^>]*>`, "i");
   const startMatch = startPattern.exec(html);
@@ -747,23 +777,200 @@ function htmlElementById(html, id) {
   }
 
   const tagName = startMatch[1].toLowerCase();
-  const openClosePattern = new RegExp(`<\\/?${tagName}\\b[^>]*>`, "gi");
-  openClosePattern.lastIndex = startMatch.index;
-  let depth = 0;
-  let match;
+  return htmlElementAt(html, startMatch.index, tagName);
+}
 
-  while ((match = openClosePattern.exec(html))) {
-    if (match[0].startsWith("</")) {
-      depth -= 1;
-      if (depth === 0) {
-        return html.slice(startMatch.index, openClosePattern.lastIndex);
-      }
-    } else if (!match[0].endsWith("/>")) {
-      depth += 1;
+function htmlElementByTag(html, tagName) {
+  const startPattern = new RegExp(`<${tagName}\\b[^>]*>`, "i");
+  const startMatch = startPattern.exec(html);
+  if (!startMatch) {
+    return null;
+  }
+  return htmlElementAt(html, startMatch.index, tagName.toLowerCase());
+}
+
+function htmlElementByClassPattern(html, classPattern) {
+  const startPattern = /<([a-z0-9]+)\b[^>]*\bclass=(["'])([^"']*)\2[^>]*>/gi;
+  let startMatch;
+  while ((startMatch = startPattern.exec(html))) {
+    if (!classPattern.test(startMatch[3])) {
+      continue;
+    }
+    return htmlElementAt(html, startMatch.index, startMatch[1].toLowerCase());
+  }
+  return null;
+}
+
+function removeHtmlElementsByTag(html, tagNames) {
+  let output = html;
+  for (const tagName of tagNames) {
+    output = output.replace(new RegExp(`<${tagName}\\b[\\s\\S]*?<\\/${tagName}>`, "gi"), "\n");
+  }
+  return output;
+}
+
+function removeKnownHiddenHtml(html) {
+  return html
+    .replace(/<([a-z0-9]+)\b(?=[^>]*\bclass=(["'])[^"']*(?:archived-link|sr-only|visually-hidden|w-condition-invisible|w-dyn-bind-empty)[^"']*\2)[^>]*>[\s\S]*?<\/\1>/gi, "\n")
+    .replace(/<([a-z0-9]+)\b(?=[^>]*\bhidden(?:\s|=|>))[^>]*>[\s\S]*?<\/\1>/gi, "\n")
+    .replace(/<input\b[^>]*>/gi, "\n");
+}
+
+function truncateHtmlBeforeText(html, needles) {
+  let cutIndex = -1;
+  const lowerHtml = html.toLocaleLowerCase();
+  for (const needle of needles) {
+    const index = lowerHtml.indexOf(needle.toLocaleLowerCase());
+    if (index !== -1 && (cutIndex === -1 || index < cutIndex)) {
+      cutIndex = index;
     }
   }
+  return cutIndex === -1 ? html : html.slice(0, cutIndex);
+}
 
-  return null;
+function cleanupScopedHtml(html) {
+  return removeKnownHiddenHtml(
+    removeHtmlElementsByTag(html, ["header", "footer", "nav", "aside"])
+  );
+}
+
+function truncateArticleChromeLines(lines, item) {
+  const host = item ? sourceHostname(item.url) : "";
+  const chromeStartPatterns = [
+    /^(Related articles|Recently viewed articles|Share this article)$/i,
+    /^Powered by$/i,
+  ];
+  if (host === "transparency.meta.com") {
+    chromeStartPatterns.push(
+      /^Data$/,
+      /^\[Enforcement\]\(https:\/\/transparency\.meta\.com\/enforcement\/\)$/
+    );
+  }
+  if (host === "discord.com") {
+    chromeStartPatterns.push(/^Tags$/);
+  }
+  if (host === "support.tiktok.com") {
+    chromeStartPatterns.push(
+      /^Helpful links$/,
+      /^TikTok monetization and advertising policies$/
+    );
+  }
+  if (host === "douyin.com" || host.endsWith(".douyin.com") || host === "lifexue.com" || host === "game.open.douyin.com") {
+    chromeStartPatterns.push(
+      /^抖音生活服务-学习中心$/,
+      /^抖音游戏厂商合作平台$/,
+      /^扫码登录$/,
+      /^2026 © 抖音$/
+    );
+  }
+  if (host === "weixin.qq.com") {
+    chromeStartPatterns.push(
+      /^关于腾讯 \| 微信安全 \|/,
+      /^Copyright &copy; 1998-2026 Tencent All Rights Reserved\.$/
+    );
+  }
+  if (host === "leginfo.legislature.ca.gov") {
+    chromeStartPatterns.push(/^[A-Z]{2,4} .+ - [A-Z]{2,4}$/);
+  }
+  if (host === "codes.ohio.gov") {
+    chromeStartPatterns.push(/^Last updated /);
+  }
+  const articleEnd = lines.findIndex((line) => {
+    const trimmed = line.trim();
+    return chromeStartPatterns.some((pattern) => pattern.test(trimmed));
+  });
+  const bodyLines = articleEnd === -1 ? lines : lines.slice(0, articleEnd);
+  return bodyLines.filter((line) =>
+    !/^(Skip to main content|Was this helpful\?|Was it helpful\?)$/i.test(line.trim()) &&
+    !/^\[Log in\]\(https:\/\/www\.tumblr\.com\/login\) \[Sign up\]\(https:\/\/www\.tumblr\.com\/register\)$/i.test(line.trim()) &&
+    !(host === "support.google.com" && /^Subscribe to the \[YouTube (?:Creators|Viewers) channel\]/i.test(line.trim())) &&
+    !(host === "tumblr.com" && line.trim() === "Tumblr") &&
+    !(host === "discord.com" && /^\[[^\]]+\]\(https:\/\/discord\.com\/[^)]*\) >$/.test(line.trim())) &&
+    !(host === "support.tiktok.com" && line.trim() === "TikTok Support")
+  );
+}
+
+function isLowValueExtractedLines(item, lines) {
+  const host = sourceHostname(item.url);
+  const pathName = new URL(item.url).pathname.toLocaleLowerCase();
+  const trimmed = lines.map((line) => line.trim()).filter(Boolean);
+  if (host === "tiktok.com" && pathName.startsWith("/legal/report/")) {
+    return true;
+  }
+  if (host.endsWith("tiktok.com") && !pathName.includes("/community-guidelines") && trimmed.length <= 2) {
+    return true;
+  }
+  if (host === "support.tiktok.com" && trimmed.length === 0) {
+    return true;
+  }
+  return false;
+}
+
+function sourceHostname(url) {
+  return new URL(url).hostname.toLocaleLowerCase().replace(/^www\./, "");
+}
+
+function extractRedditRulesHtml(html) {
+  const contentStart = html.indexOf("Reddit is a vast network of communities");
+  if (contentStart === -1) {
+    return null;
+  }
+  const titleStart = Math.max(html.lastIndexOf("<h1", contentStart), html.lastIndexOf("<h2", contentStart));
+  const footerStart = html.indexOf("<footer", contentStart);
+  const start = titleStart === -1 ? contentStart : titleStart;
+  const end = footerStart === -1 ? html.length : footerStart;
+  return html.slice(start, end);
+}
+
+function scopedHtmlForItem(item, html) {
+  const host = sourceHostname(item.url);
+  let scoped = null;
+
+  if (host === "uscode.house.gov") {
+    scoped = htmlElementById(html, "docViewer");
+    if (scoped) {
+      scoped = removeHtmlElementsByTag(scoped, ["script", "style"]);
+      scoped = scoped.replace(/<div\b(?=[^>]*\bclass=(["'])[^"']*\bjumpTo\b[^"']*\1)[\s\S]*?<\/div>/gi, "\n");
+    }
+  } else if (host === "leginfo.legislature.ca.gov") {
+    scoped = htmlElementById(html, "display_code_many_law_sections");
+  } else if (host === "leg.state.fl.us") {
+    scoped = htmlElementById(html, "statutes");
+  } else if (host === "redditinc.com") {
+    scoped = extractRedditRulesHtml(html) || htmlElementById(html, "main-content");
+  } else if (host === "support.discord.com") {
+    scoped = htmlElementById(html, "main-content") || htmlElementByTag(html, "article");
+    if (scoped) {
+      scoped = truncateHtmlBeforeText(scoped, ["Related articles", "Recently viewed articles"]);
+    }
+  } else if (host === "discord.com") {
+    scoped = htmlElementById(html, "main") || htmlElementByTag(html, "main");
+  } else if (host === "trust.douyin.com") {
+    scoped = htmlElementByClassPattern(html, /\barticle-wrapper\b/i);
+    if (!scoped || /semi-skeleton/i.test(scoped)) {
+      return "";
+    }
+  } else if (host === "kuaishou.com") {
+    scoped = htmlElementByClassPattern(html, /\bnorm-content\b/i);
+  } else if (host === "zhihu.com") {
+    scoped = htmlElementByClassPattern(html, /\bztext\b/i) || htmlElementByTag(html, "main");
+  } else if (host === "douban.com") {
+    const contentHtml = htmlElementById(html, "content") || html;
+    const headingMatch = contentHtml.match(/<h1\b[^>]*>[\s\S]*?<\/h1>/i);
+    const articleHtml = htmlElementByClassPattern(contentHtml, /\barticle\b/i);
+    scoped = [headingMatch?.[0], articleHtml].filter(Boolean).join("\n");
+  } else if (
+    host === "linkedin.com" ||
+    host === "policy.pinterest.com" ||
+    host === "values.snap.com" ||
+    host === "tiktok.com" ||
+    host === "support.tiktok.com" ||
+    host === "douyin.com"
+  ) {
+    scoped = htmlElementByTag(html, "main") || htmlElementByTag(html, "article");
+  }
+
+  return cleanupScopedHtml(scoped || html);
 }
 
 function cleanText(text) {
@@ -821,12 +1028,42 @@ function applyLineFilters(lines, entry) {
   return filtered;
 }
 
-async function extractPdfText(sourcePath) {
+function cleanPdfText(text, item = null) {
+  const host = item ? sourceHostname(item.url) : "";
+  const cleanedLines = text.split(/\r?\n/).filter((line) => {
+    const trimmed = line.trim();
+    if (!trimmed) {
+      return true;
+    }
+    if (/^\*?[A-Z]{2,}\d+\*?\s+\d{2}-\d{2}-\d{4}\s+\d{2}:\d{2}:\d{2}\s+[A-Z]+\d+$/.test(trimmed)) {
+      return false;
+    }
+    if (/^\d+\s+\d{2}-\d{2}-\d{4}\s+\d{2}:\d{2}:\d{2}\s+[A-Z]+\d+$/.test(trimmed)) {
+      return false;
+    }
+    if (/^As Engrossed: .* SB\d+$/i.test(trimmed)) {
+      return false;
+    }
+    if (/^Page \d+$/.test(trimmed)) {
+      return false;
+    }
+    if (host.includes("le.utah.gov") && trimmed === "Utah Code") {
+      return false;
+    }
+    if (/^HB\d+$/i.test(trimmed) || /^\d{6}$/.test(trimmed) || /^-\d+-$/.test(trimmed) || /^-\d+-\s+\d+$/.test(trimmed)) {
+      return false;
+    }
+    return true;
+  });
+  return cleanText(cleanedLines.join("\n"));
+}
+
+async function extractPdfText(sourcePath, item = null) {
   const { stdout } = await execFile("pdftotext", ["-layout", sourcePath, "-"], {
     encoding: "utf8",
     maxBuffer: MAX_DOWNLOAD_BYTES,
   });
-  return cleanText(stdout);
+  return cleanPdfText(stdout, item);
 }
 
 function validateExtractedBody(entry, bodyText, extractionNotes = []) {
@@ -992,7 +1229,7 @@ function extractXHelp(entry, downloads, linkMap = new Map()) {
   for (const item of downloads) {
     const html = decodeBuffer(item.buffer);
     const mainMatch = html.match(/<main\b[^>]*id=(["'])twtr-main\1[^>]*>([\s\S]*?)<\/main>/i);
-    const articleHtml = mainMatch ? mainMatch[2] : html;
+    const articleHtml = cleanupScopedHtml(mainMatch ? mainMatch[2] : html);
     const lines = stripHtmlToLines(articleHtml, { baseUrl: item.url, linkMap }).filter((line) => line !== "-");
     if (lines.some((line) => /Cloudflare|security verification|Just a moment/i.test(line))) {
       extractionNotes.push(`${item.url}: rendered page was a challenge page, not policy text`);
@@ -1037,7 +1274,10 @@ function extractGoogleHelpArticle(entry, downloads, linkMap = new Map()) {
       extractionNotes.push(`${item.url}: Google Help article element was not found`);
       continue;
     }
-    const lines = applyLineFilters(stripHtmlToLines(articleMatch[1], { baseUrl: item.url, linkMap }), entry);
+    const lines = truncateArticleChromeLines(
+      applyLineFilters(stripHtmlToLines(articleMatch[1], { baseUrl: item.url, linkMap }), entry),
+      item
+    );
     if (lines.length > 0) {
       parts.push(lines.join("\n\n"));
     }
@@ -1168,9 +1408,9 @@ async function extractBody(entry, downloads, linkMap = new Map()) {
 
   for (const item of downloads) {
     let text = "";
-    if (item.extension === "pdf") {
+    if (entry.extractor === "pdf-text" || item.extension === "pdf") {
       try {
-        text = await extractPdfText(item.sourcePath);
+        text = await extractPdfText(item.sourcePath, item);
       } catch (error) {
         extractionNotes.push(`${item.url}: PDF extraction failed: ${error.message}`);
       }
@@ -1180,7 +1420,14 @@ async function extractBody(entry, downloads, linkMap = new Map()) {
       text = cleanText(decodeBuffer(item.buffer));
     } else {
       const html = decodeBuffer(item.buffer);
-      const lines = applyLineFilters(stripHtmlToLines(html, { baseUrl: item.url, linkMap }), entry);
+      const scopedHtml = scopedHtmlForItem(item, html);
+      const lines = truncateArticleChromeLines(
+        applyLineFilters(stripHtmlToLines(scopedHtml, { baseUrl: item.url, linkMap }), entry),
+        item
+      );
+      if (isLowValueExtractedLines(item, lines)) {
+        continue;
+      }
       text = lines.join("\n\n");
     }
 
@@ -1275,42 +1522,74 @@ function sourceDownloadRecord(url, sourcePath, extension, downloaded) {
   };
 }
 
+function detectExtensionFromBuffer(buffer, fallbackExtension) {
+  if (buffer.subarray(0, 5).toString("latin1") === "%PDF-") {
+    return "pdf";
+  }
+  return fallbackExtension;
+}
+
+function sourcePathCandidates(entry, index, url, sourceDir, linked = false) {
+  const expectedExtension = extFor(entry, url, "");
+  const slugFor = linked ? slugForLinkedSource : slugForSource;
+  const candidates = [
+    {
+      path: path.join(sourceDir, slugFor(entry, index, url, expectedExtension)),
+      extension: expectedExtension,
+    },
+  ];
+  for (const fallbackExtension of ["html", "pdf", "txt", "xml", "json"]) {
+    const fallbackPath = path.join(sourceDir, slugFor(entry, index, url, fallbackExtension));
+    if (!candidates.some((candidate) => candidate.path === fallbackPath)) {
+      candidates.push({
+        path: fallbackPath,
+        extension: fallbackExtension,
+      });
+    }
+  }
+  return candidates;
+}
+
 async function cachedLinkedSourceRecord(entry, index, url, sourceDir) {
-  const extension = extFor(entry, url, "");
-  const sourcePath = path.join(sourceDir, slugForLinkedSource(entry, index, url, extension));
-  let buffer;
-  try {
-    buffer = await readFile(sourcePath);
-  } catch {
-    return null;
+  for (const candidate of sourcePathCandidates(entry, index, url, sourceDir, true)) {
+    let buffer;
+    try {
+      buffer = await readFile(candidate.path);
+    } catch {
+      continue;
+    }
+    const extension = detectExtensionFromBuffer(buffer, candidate.extension);
+    if (["html", "xml"].includes(extension) && looksLikeChallengePage(buffer)) {
+      return null;
+    }
+    return sourceDownloadRecord(url, candidate.path, extension, {
+      buffer,
+      contentType: "",
+      downloader: "cached",
+    });
   }
-  if (["html", "xml"].includes(extension) && looksLikeChallengePage(buffer)) {
-    return null;
-  }
-  return sourceDownloadRecord(url, sourcePath, extension, {
-    buffer,
-    contentType: "",
-    downloader: "cached",
-  });
+  return null;
 }
 
 async function cachedPrimarySourceRecord(entry, index, url, sourceDir) {
-  const extension = extFor(entry, url, "");
-  const sourcePath = path.join(sourceDir, slugForSource(entry, index, url, extension));
-  let buffer;
-  try {
-    buffer = await readFile(sourcePath);
-  } catch {
-    return null;
+  for (const candidate of sourcePathCandidates(entry, index, url, sourceDir, false)) {
+    let buffer;
+    try {
+      buffer = await readFile(candidate.path);
+    } catch {
+      continue;
+    }
+    const extension = detectExtensionFromBuffer(buffer, candidate.extension);
+    if (["html", "xml"].includes(extension) && looksLikeChallengePage(buffer)) {
+      return null;
+    }
+    return sourceDownloadRecord(url, candidate.path, extension, {
+      buffer,
+      contentType: "",
+      downloader: "cached",
+    });
   }
-  if (["html", "xml"].includes(extension) && looksLikeChallengePage(buffer)) {
-    return null;
-  }
-  return sourceDownloadRecord(url, sourcePath, extension, {
-    buffer,
-    contentType: "",
-    downloader: "cached",
-  });
+  return null;
 }
 
 async function processEntry(entry) {
@@ -1321,12 +1600,19 @@ async function processEntry(entry) {
 
   const downloads = [];
   for (const [index, url] of sourceUrlsFor(entry).entries()) {
-    if (entry.prefer_cached_primary_sources_first) {
+    if (PREFER_CACHED_SOURCES || entry.prefer_cached_primary_sources_first) {
       const cached = await cachedPrimarySourceRecord(entry, index, url, sourceDir);
       if (cached) {
         downloads.push(cached);
         continue;
       }
+    }
+    if (CACHE_ONLY) {
+      downloads.push({
+        url,
+        error: "cached primary source unavailable and RULES_CACHE_ONLY=1",
+      });
+      continue;
     }
 
     let downloaded;
@@ -1380,7 +1666,7 @@ async function processEntry(entry) {
     }
     const { url, depth } = linkedSourceQueue[queueIndex];
     const sourceIndex = linkedDownloads.length + linkedErrors.length;
-    if (entry.prefer_cached_linked_sources_first) {
+    if (PREFER_CACHED_SOURCES || entry.prefer_cached_linked_sources_first) {
       const cached = await cachedLinkedSourceRecord(entry, sourceIndex, url, sourceDir);
       if (cached) {
         linkedDownloads.push(cached);
@@ -1389,6 +1675,13 @@ async function processEntry(entry) {
         }
         continue;
       }
+    }
+    if (CACHE_ONLY) {
+      linkedErrors.push({
+        url,
+        error: "cached linked source unavailable and RULES_CACHE_ONLY=1",
+      });
+      continue;
     }
 
     let downloaded;

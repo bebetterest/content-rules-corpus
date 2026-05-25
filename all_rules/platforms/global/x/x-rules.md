@@ -83,7 +83,7 @@
 - all_rules/platforms/global/x/sources/platform-x-rules-linked-32-rules-and-policies-x-trademark-policy.help-x-com.html: 76d9ca91abde8be0cdff4de0a5fa4a9b9fced5adca8ce7a7be9abacc5780b915
 - all_rules/platforms/global/x/sources/platform-x-rules-linked-33-rules-and-policies-fair-use-policy.help-x-com.html: 4f9de8710c440380931f3a5ac9787dabf4b3563bd481d95802c66266b7e5316f
 - all_rules/platforms/global/x/sources/platform-x-rules-linked-34-rules-and-policies-parody-account-policy.help-x-com.html: 3e664f00761ee4aa0b99ddb3c0f3d2dc15f6ee67b5089cb4fcc333fe7626f2cf
-- Body SHA-256: 027c49d116ca9baba31ff58f5f58dfa94da9db1f5313cef79e48c7bec15084b7
+- Body SHA-256: be1450bcc7d797b80255dae0e0b4cb4598601ea4702dafbc0aec103897e0624c
 
 ## Source Text
 
@@ -2293,14 +2293,6 @@ Learn more about [our range of enforcement options](sources/platform-x-rules-lin
 
 - [Intellectual property](https://help.x.com/en/rules-and-policies#intellectual-property)
 
-- Copyright policy
-
-Copyright policy
-
-- [Help Center](https://help.x.com/en)
-
-- [Intellectual property](https://help.x.com/en/rules-and-policies#intellectual-property)
-
 Copyright policy
 
 What types of copyright complaints does X respond to?
@@ -2469,14 +2461,6 @@ Availability of coverage: Everyday people play a crucial role in providing first
 
 - [Platform Use Guidelines](https://help.x.com/en/rules-and-policies#platform-use-guidelines)
 
-- Our range of enforcement options
-
-Our range of enforcement options
-
-- [Help Center](https://help.x.com/en)
-
-- [Platform Use Guidelines](https://help.x.com/en/rules-and-policies#platform-use-guidelines)
-
 Our range of enforcement options
 
 When we take enforcement actions, we may do so either on a specific piece of content (e.g., an individual post or Direct Message), on an account, or employ a combination of these options. In some instances, this is because the behavior violates the [X Rules](sources/platform-x-rules.help-x-com.html) . Other times, it may be in response to a valid legal request from an authorized entity in a given country. Below are some of the enforcement actions that we may take.
@@ -2605,14 +2589,6 @@ Note: Given the acute harm that media involving child sexual exploitation, non-c
 
 - [Account Settings](https://help.x.com/en/rules-and-policies#account-settings)
 
-- Your media settings
-
-Your media settings
-
-- [Help Center](https://help.x.com/en)
-
-- [Account Settings](https://help.x.com/en/rules-and-policies#account-settings)
-
 Your media settings
 
 All X accounts have media settings to help X understand the type of media you are posting. By appropriately marking your media settings, X can identify potentially sensitive content that other users may not wish to see, such as violence or nudity. If you intend to regularly post such content, we ask that you please adjust your media settings.
@@ -2726,14 +2702,6 @@ If you are suspended for having graphic violence or adult content in your profil
 In response to repeated mislabeling of sensitive content, X may change your account setting to Mark media you post as containing material that may be sensitive and your account will receive a label.
 
 ---
-
-- [Help Center](https://help.x.com/en)
-
-- [Platform Use Guidelines](https://help.x.com/en/rules-and-policies#platform-use-guidelines)
-
-- Notices on X and what they mean
-
-Notices on X and what they mean
 
 - [Help Center](https://help.x.com/en)
 
@@ -3309,14 +3277,6 @@ Receipt of correspondence by any of these means is for convenience only and does
 
 - [Abuse](https://help.x.com/en/safety-and-security#abuse)
 
-- What to do about self-harm and suicide concerns on X
-
-What to do about self-harm and suicide concerns on X
-
-- [Help Center](https://help.x.com/en)
-
-- [Abuse](https://help.x.com/en/safety-and-security#abuse)
-
 What to do about self-harm and suicide concerns on X
 
 If you or someone you know is struggling or in crisis, you’re not alone. Use the contact info below to get help.
@@ -3354,14 +3314,6 @@ If you are thinking about engaging in self-harm or suicidal behavior, or are exp
 Depression has a wide variety of symptoms and affects millions of people every year. Common symptoms include sadness, loss of interest in activities, changes in appetite and sleep patterns, loss of energy, difficulty thinking, and possibly thoughts of suicide. You might exhibit these types of behaviors, or they might be subtler. Either way, don’t ignore them.
 
 ---
-
-- [Help Center](https://help.x.com/en)
-
-- [Platform Use Guidelines](https://help.x.com/en/rules-and-policies#platform-use-guidelines)
-
-- Notices on X and what they mean
-
-Notices on X and what they mean
 
 - [Help Center](https://help.x.com/en)
 
@@ -3645,77 +3597,7 @@ X passwords
 
 You may not store X passwords, or request that people provide their X password, account credentials, or developer application information (including consumer key) to you directly. We suggest the use of [Sign-in with X](https://developer.twitter.com/fundamentals/authentication/guides/log-in-with-x) as the authentication tool to link your service and people on X.
 
-⌘
-
-I
-
-On this page
-
-- X + Developers
-
-- Using this policy
-
-- Platform usage guidelines
-
-- Spam, bots, and automation
-
-- X performance benchmarking
-
-- Public display of Posts
-
-- Content redistribution
-
-- Pay to engage
-
-- Service authenticity
-
-- X name, logo, and likeness
-
-- Advertising on X
-
-- X Login
-
-- X Cards
-
-- Set yourself up for success
-
-- Privacy and control are essential
-
-- Consent & permissions
-
-- Content compliance
-
-- Off-X matching
-
-- Your privacy policy
-
-- Using geo-data
-
-- X passwords
-
-[X
-
-home page](https://developer.twitter.com/)
-
-[x](https://x.com/xdevelopers) [github](https://github.com/xdevplatform)
-
-Resources
-
-[Status](https://developer.twitter.com/status)
-
-Legal
-
-[Terms of Service](https://x.com/en/tos) [Privacy Policy](https://x.com/en/privacy) [Cookies](https://help.x.com/en/rules-and-policies/x-cookies) [Developer Terms](https://docs.x.com/developer-terms)
-
-[x](https://x.com/xdevelopers) [github](https://github.com/xdevplatform)
-
 ---
-
-- [Help Center](https://help.x.com/en)
-
-- Profile labels
-
-Profile labels
 
 - [Help Center](https://help.x.com/en)
 
@@ -3800,14 +3682,6 @@ Additional resources
 Learn more about [our range of enforcement options](sources/platform-x-rules-linked-19-rules-and-policies-enforcement-options.help-x-com.html) and our approach to [policy development and enforcement](sources/platform-x-rules-linked-18-rules-and-policies-enforcement-philosophy.help-x-com.html) .
 
 ---
-
-- [Help Center](https://help.x.com/en)
-
-- [Platform Use Guidelines](https://help.x.com/en/rules-and-policies#platform-use-guidelines)
-
-- Fair use policy
-
-Fair use policy
 
 - [Help Center](https://help.x.com/en)
 

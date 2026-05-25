@@ -19,7 +19,7 @@
 - all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines.tumblr-com.html: 55f725f08a9a1cd07d99f5c91b942c9aed126943870decba5037ad3d66ed1ba0
 - all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines-linked-01-policy-contest-guidelines.tumblr-com.html: 7c48a5e820e4b3215b0a201e337c2b9f99386b548727f8df3a6609bc8f1570df
 - all_rules/platforms/global/tumblr/sources/platform-tumblr-user-guidelines-linked-02-policy-terms-of-service.tumblr-com.html: 81bb99cd1794cb1aaa195bdda7849d152c1ce6522aa0a6f4536f91ad3db0399d
-- Body SHA-256: a5244e00226a9e3b5e346d52225f4b61baab7bf162fb9f616a4bbe517946b7eb
+- Body SHA-256: 421c2a5edc1c707219e2c39bd1b262d5aa542c308962e2260b7e15de2c954873
 
 ## Source Text
 
@@ -160,10 +160,6 @@ If you have questions or feedback, don't hesitate to [let us know](https://www.t
 Thanks for reading all of this, by the way. Welcome to Tumblr.
 
 ---
-
-Tumblr
-
-[Log in](https://www.tumblr.com/login) [Sign up](https://www.tumblr.com/register)
 
 Promotion Guidelines Last Modified: 2022-08-19
 

@@ -8,15 +8,18 @@
     "source_urls": [
       "https://values.snap.com/privacy/transparency/community-guidelines?lang=en-GB"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/platforms/global/snapchat/sources/platform-snapchat-community-guidelines.values-snap-com.html"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "en-GB",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 161,
-    "body_sha256": "f37fb10c2fd443bf35015fd031ff1c62cfa64ca704fccb5b5a4e7c6e2d249bab",
+    "paragraph_count": 64,
+    "body_sha256": "4736381d16aefdf94eb9ad1ff216c825b55078488d1643a41270ed9f52c22d88",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -24,9 +27,9 @@
         "source_file": "all_rules/platforms/global/snapchat/sources/platform-snapchat-community-guidelines.values-snap-com.html",
         "sha256": "697131958bd4cb1b1be69d502f4f40a8fbacb802abfc663a136cb0b03a57d897",
         "bytes": 998816,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       }
     ]
   }

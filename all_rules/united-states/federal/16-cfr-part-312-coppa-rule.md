@@ -8,7 +8,7 @@
 - Source Authority: Electronic Code of Federal Regulations
 - Source URL:
 - https://www.ecfr.gov/api/versioner/v1/full/2026-05-21/title-16.xml?part=312
-- Retrieval Date: 2026-05-23
+- Retrieval Date: 2026-05-24
 - Language: en
 - Fetch Method: xml
 - Extractor: generic-html

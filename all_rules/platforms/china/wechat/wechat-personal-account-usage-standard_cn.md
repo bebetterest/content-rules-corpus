@@ -14,7 +14,7 @@
 - Status Note: Official Weixin source page.
 - Source SHA-256:
 - all_rules/platforms/china/wechat/sources/platform-wechat-personal-account-usage-standard.weixin-qq-com.html: 13faf42fe46c202310a0eda0d813308f32645e25d84ad515b1318741c42d4c96
-- Body SHA-256: 11a0ef287179edf3c00682620fa812ea789eb652e439d7766eda7f605f9c452d
+- Body SHA-256: 5db786f1318cf5d48e18b9a76bb410ece9cea70c26957ae83ea01e480c530549
 
 ## Source Text
 
@@ -36,7 +36,7 @@
 
 中简 中繁(香港) 中繁(臺灣) EN
 
-简体中文 | 繁體中文（香港） | 繁體中文（臺灣） | English
+[简体中文](sources/platform-wechat-personal-account-usage-standard.weixin-qq-com.html) | [繁體中文（香港）](sources/platform-wechat-personal-account-usage-standard.weixin-qq-com.html) | [繁體中文（臺灣）](sources/platform-wechat-personal-account-usage-standard.weixin-qq-com.html) | [English](sources/platform-wechat-personal-account-usage-standard.weixin-qq-com.html)
 
 微信个人账号使用规范
 
@@ -140,7 +140,7 @@
 
 二、内容规范
 
-微信用户需要遵守 《腾讯微信软件许可及服务协议》 及相关法律法规的规定，如发送违反相关规定的内容或为他人实施违规行为提供帮助，或组织、诱导他人发布违规内容，一经发现，腾讯将根据违规程度对微信账号采取相应的处理措施，并有权拒绝向违规账号主体提供服务。
+微信用户需要遵守 [《腾讯微信软件许可及服务协议》](https://weixin.qq.com/agreement?lang=zh_CN) 及相关法律法规的规定，如发送违反相关规定的内容或为他人实施违规行为提供帮助，或组织、诱导他人发布违规内容，一经发现，腾讯将根据违规程度对微信账号采取相应的处理措施，并有权拒绝向违规账号主体提供服务。
 
 处理措施包括但不限于：限制内容的展示形式（包括但不限于折叠内容、将内容处理为仅发布者自己可见等）、删除违规内容、限制与该主体相关账号功能（如发布朋友圈功能、使用群聊相关功能）、处置微信群、封禁与该主体相关账号等。
 
@@ -588,7 +588,7 @@
 
 2.2 如因侵犯他人商标权、著作权、专利权而被处理的，如对处理结果有异议，你可以通过以下方式进行申诉：
 
-电脑访问weixin110.qq.com->投诉维权->微信号侵权行为-> 《微信个人用户侵权投诉反通知指引》
+电脑访问weixin110.qq.com->投诉维权->微信号侵权行为-> [《微信个人用户侵权投诉反通知指引》](https://weixin110.qq.com/security/readtemplate?t=person_report/personal_infringement_turn)
 
 七、遵守当地法律监管
 
@@ -614,18 +614,12 @@
 
 《腾讯服务协议》
 
-《腾讯微信软件许可及服务协议》
+[《腾讯微信软件许可及服务协议》](sources/platform-wechat-personal-account-usage-standard.weixin-qq-com.html)
 
-《微信公众平台服务协议》
+[《微信公众平台服务协议》](https://mp.weixin.qq.com/cgi-bin/readtemplate?t=home/agreement_tmpl&type=info&lang=zh_CN)
 
-《微信公众平台运营规范》
+[《微信公众平台运营规范》](https://mp.weixin.qq.com/cgi-bin/readtemplate?t=business/faq_operation_tmpl&type=info&lang=zh_CN&token=)
 
-《微信外部链接内容管理规范》
+[《微信外部链接内容管理规范》](sources/platform-wechat-personal-account-usage-standard.weixin-qq-com.html)
 
 腾讯公司
-
-关于腾讯 | 微信安全 | 服务条款 | 使用规范 | 客服中心 | 隐私保护指引
-
-备案号：粤B2-20090059
-
-Copyright &copy; 1998-2026 Tencent All Rights Reserved.

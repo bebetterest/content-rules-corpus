@@ -1,6 +1,6 @@
 # TikTok Community Guidelines
 
-> Opening Note: Official TikTok Community Guidelines pages. These pages require browser rendering for complete body extraction. Extraction note: https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to "https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans", waiting until "domcontentloaded"; https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service", waiting until "domcontentloaded"; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video", waiting until "domcontentloaded"; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment", waiting until "domcontentloaded"; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message", waiting until "domcontentloaded"
+> Opening Note: Official TikTok Community Guidelines pages. These pages require browser rendering for complete body extraction. Extraction note: https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans: linked source download failed: cached linked source unavailable and RULES_CACHE_ONLY=1; https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service: linked source download failed: cached linked source unavailable and RULES_CACHE_ONLY=1; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video: linked source download failed: cached linked source unavailable and RULES_CACHE_ONLY=1; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment: linked source download failed: cached linked source unavailable and RULES_CACHE_ONLY=1; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message: linked source download failed: cached linked source unavailable and RULES_CACHE_ONLY=1
 
 - Collection: platforms
 - Jurisdiction: Global / platform policy
@@ -103,7 +103,7 @@
 - all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-30-safety-privacy-and-security-on-tiktok.tiktok-com.html: a640349b389f60172c49e59c75f9aa7400bffcd3a5d3da2cc156508babc3201c
 - all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-31-en-recommendation-system.tiktok-com.html: 7b0d922ed2253a2bea2c3a57b97ee37403625025e8e4354325f84466018afad9
 - all_rules/platforms/global/tiktok/sources/platform-tiktok-community-guidelines-linked-33-safety-live-safety-guide.tiktok-com.html: be6d4007bbe8d7ab8a654e1a62dcb3e6fb18cc91bbfd27dd03c29bb5beeefb43
-- Body SHA-256: c23e70105e9bb21cbaeb014c5959d0e3eb8939cafa9633fed4f02dc037b6c72d
+- Body SHA-256: bb992512686f83f657b4cca9c2e569be33d013a49c3bb82dfb90b616e62190b9
 
 ## Source Text
 
@@ -799,23 +799,7 @@ If your account was banned, or your content was removed, made ineligible for the
 
 ---
 
-Safety & privacy controls on TikTok | Tools & Guides
-
----
-
-TikTok Support
-
----
-
-TikTok Support
-
----
-
 TikTok for Younger Users - Newsroom | TikTok
-
-[About](https://www.tiktok.com/about?lang=en) [Newsroom](https://newsroom.tiktok.com/?lang=en) [Careers](https://lifeattiktok.com/) [Contact](https://www.tiktok.com/contact?lang=en)
-
-[Watch TikTok](https://www.tiktok.com/?lang=en)
 
 December 13, 2019 • [Safety](https://newsroom.tiktok.com/?tag=safety&lang=en)
 
@@ -830,72 +814,6 @@ We accommodate users under the age of 13 in a limited app experience - "TikTok f
 Within TikTok for Younger Users, users are provided a viewing experience that does not permit sharing of personal information and puts extensive limitations on content and user interaction. In this ecosystem, users cannot do things like share their videos, comment on others' videos, message with users, or maintain a profile or followers. However, they are able to experience what TikTok is at its core – showcasing creativity – as they enjoy curated content and experiment with TikTok’s unique, fanciful, and expressive features.
 
 In addition to the TikTok for Younger Users experience, TikTok has been given a 12+ rating in the Apple App and Google Play stores. Both iOS and Android provide parental controls that allow parents to block or limit specific apps, features, movies, music, and more at the device level. If you are a parent, this allows you to use controls built-in to the device, to simply block apps that have the 12+ rating from your child’s phone. Please see the [Apple App Store](https://support.apple.com/en-us/HT201304) or [Google Play Store](https://support.google.com/googleplay/answer/1075738?hl=en) instructions for more on parental controls (or “restrictions”) and how to enable them.TikTok is committed to the safety of all users regardless of age and there are several resources and educational materials that can help users get the most out of their app experience. For more information, please visit the [TikTok Safety Center](https://www.tiktok.com/safety/resources?lang=en) or check out the [TikTok Tips blog series](https://newsroom.tiktok.com/en-us/tag/safety) .
-
-- Language
-
-- English (US)
-
-- Company
-
-- [About](https://www.tiktok.com/about?lang=en)
-
-- [Newsroom](https://newsroom.tiktok.com/?lang=en)
-
-- [Store](https://shop.tiktok.com/)
-
-- [Contact](https://www.tiktok.com/contact?lang=en)
-
-- [Careers](https://lifeattiktok.com/)
-
-- [ByteDance](https://www.bytedance.com/en)
-
-- Programs
-
-- [TikTok For Good](https://www.tiktok.com/for-good?lang=en)
-
-- [TikTok For Developers](https://developers.tiktok.com/)
-
-- [Effect House](https://effecthouse.tiktok.com/?lang=en)
-
-- [Advertise](https://ads.tiktok.com/business/en)
-
-- [Browse](https://www.tiktok.com/browse?lang=en)
-
-- [Embed](https://www.tiktok.com/embed?lang=en)
-
-- [Rewards](https://www.tiktok.com/tiktok-rewards?lang=en)
-
-- [Scaled LIVE Rewards](https://www.tiktok.com/about?lang=en)
-
-- Resources
-
-- [Help Center](https://support.tiktok.com/en)
-
-- [Safety Center](https://www.tiktok.com/safety?lang=en)
-
-- [Privacy Center](https://www.tiktok.com/privacy?lang=en)
-
-- [Creator Academy](https://www.tiktok.com/creator-academy?lang=en)
-
-- [Community Guidelines](https://www.tiktok.com/community-guidelines?lang=en)
-
-- [Transparency](https://www.tiktok.com/transparency?lang=en)
-
-- [Accessibility](https://www.tiktok.com/accessibility?lang=en)
-
-- Social
-
-- [TikTok](https://www.tiktok.com/?lang=en)
-
-- [LinkedIn](https://www.linkedin.com/company/tiktok)
-
-- [Youtube](https://www.youtube.com/tiktok)
-
-- [Instagram](https://www.instagram.com/tiktok)
-
-[Terms of Service](https://www.tiktok.com/legal/page/row/terms-of-service/en) [Privacy](https://www.tiktok.com/legal/page/us/privacy-policy/en) [Intellectual Property Policy](sources/platform-tiktok-community-guidelines-linked-23-copyright-policy-en.tiktok-com.html) [Law Enforcement](https://www.tiktok.com/legal/page/global/law-enforcement/en)
-
-© 2025 TikTok
 
 ---
 
@@ -1003,147 +921,9 @@ Questions, comments and requests regarding this Privacy Policy should be address
 
 ---
 
-TikTok Support
-
----
-
-TikTok Support
-
----
-
-Legal
-
-[Watch now](https://www.tiktok.com/trending/?lang=en)
-
-Privacy portal
-
-TikTok values your privacy and safety, and we believe in data transparency.
-
-Help us understand your concerns better
-
-Select the option that best fits your situation.
-
-I am being bullied or harassed on TikTok
-
-Someone is pretending to be me on TikTok
-
-I would like to report inappropriate content or behavior
-
-Including but not limited to nudity, drug use, and other material that break our Community Guidelines
-
-Someone violated my intellectual property rights
-
-For example, someone posted your content protected by copyright or trademark on TikTok without your permission
-
-I have an account-related issue
-
-Including but not limited to losing account access, ban appeals, underage users on the platform, or inappropriate usage of your personal information
-
-I would like to report a privacy concern or exercise my data rights
-
-Global privacy web form
-
-This option is recommended if the other options don’t address your concern.
-
-Continue
-
-Helpful links
-
-Check out the links below if you need help with something that isn’t in this form.
-
-Privacy & safety
-
-[Privacy Policy](https://www.tiktok.com/legal/privacy-policy?lang=en) [Report inappropriate content](https://support.tiktok.com/en/safety-hc/report-a-problem) [Get help with a hacked account](https://www.tiktok.com/safety/resources/hacked-account?lang=en&appLaunch=web?lang=en) [Manage personal data choices](https://support.tiktok.com/en/account-and-privacy/personalized-ads-and-data/personalization-and-data)
-
-My account & settings
-
-[Download your data](https://support.tiktok.com/en/account-and-privacy/personalized-ads-and-data/requesting-your-data) [Change your password](https://support.tiktok.com/en/log-in-troubleshoot/log-in/reset-password) [Delete your account](https://support.tiktok.com/en/account-and-privacy/deleting-an-account/deleting-an-account)
-
-Intellectual property infringement
-
-[Intellectual property policy](https://www.tiktok.com/legal/copyright-policy?lang=en) [Report copyright infringement](https://www.tiktok.com/legal/report/Copyright?lang=en) [Report trademark infringement](https://www.tiktok.com/legal/report/Trademark?lang=en)
-
-Other
-
-[Learn about Family Pairing](https://www.tiktok.com/safety/resources/for-parents?lang=en&appLaunch=web?lang=en) [Report a problem](https://support.tiktok.com/en/safety-hc/report-a-problem?lang=en)
-
----
-
-Combating child sexual exploitation and abuse | Policies & engagement
-
----
-
-Teen Safety Center | Tools & Guides
-
----
-
-Guardian's Guide | Tools & Guides
-
----
-
-Countering hate speech & behavior | Community Support
-
----
-
-Bullying prevention | Community Support
-
----
-
-Sexual abuse | Community Support
-
----
-
-Suicide & self-harm | Community Support
-
----
-
-Disordered eating | Community Support
-
----
-
-Online challenges | Community Support
-
----
-
-Animal welfare | Community Support
-
----
-
-Combating harmful misinformation | Policies & engagement
-
-- Tools & Guides
-
-- Community Support
-
-- Transparency
-
-- Policies & Engagement
-
 Combating harmful misinformation
 
 Our commitments
-
-- Keeping people safe
-
-- Our approach to content moderation
-
-- Youth safety and well-being
-
-- Combating hate
-
-- Combating violent extremism content online
-
-- Engaging our Advisory Councils
-
-- Combating child sexual exploitation and abuse
-
-- Maintaining platform integrity
-
-- Building responsibly
-
-- Upholding human rights
-
-- Supporting independent research
 
 TikTok is where over a billion people create and share content on topics that matter to them. We work hard to maintain a safe, authentic space where people can discover content that is original and engage with people who are authentic. This post explains how we encourage authentic expression on TikTok by protecting our community from harmful misinformation, partnering with experts (including our Global Fact-checking Program ) to respond to evolving misinformation trends, and empowering our community with authoritative information.
 
@@ -1228,62 +1008,6 @@ Our [Synthetic and Manipulated Media](https://www.tiktok.com/community-guideline
 Evolving detection to keep pace with AI
 
 As AI-generated content and technology evolves, we continue to evolve our methods of detection. This includes launching and iterating new detection methods for AI-generated content as well as assessing options for partnerships to determine the origin of content. We also continue to partner closely with experts. In February 2023, TikTok was a launch partner to the [Partnership on AI’s Framework for Responsible Practices for Synthetic Media](https://syntheticmedia.partnershiponai.org/) , a new code of industry best practices that promotes transparency and responsible innovation around AI-generated content.
-
-Company
-
-- [About TikTok](https://www.tiktok.com/about?lang=en)
-
-- [Newsroom](https://newsroom.tiktok.com/?lang={lang})
-
-- [Contact](https://www.tiktok.com/contact)
-
-- [Careers](https://careers.tiktok.com/?lang={lang})
-
-- [ByteDance](https://www.bytedance.com/?lang={lang})
-
-Programs
-
-- [TikTok for Good](https://www.tiktok.com/for-good?lang={lang})
-
-- [TikTok for Developers](https://developers.tiktok.com/?lang={lang})
-
-- [Effect House](https://effecthouse.tiktok.com/?lang={lang})
-
-- [Advertise on TikTok](https://www.tiktok.com/business?lang={lang})
-
-- [TikTok Embeds](https://www.tiktok.com/embed?lang={lang})
-
-Resources
-
-- [Help Center](https://www.tiktok.com/support?entrance=horizontal_footer)
-
-- [Safety Center](https://www.tiktok.com/safety/en)
-
-- [Privacy Center](https://www.tiktok.com/privacy/overview?lang={lang})
-
-- [Creator Academy](https://www.tiktok.com/creator-academy?lang={lang})
-
-- [Community Guidelines](https://www.tiktok.com/safety/en/community-guidelines)
-
-- [Transparency](https://www.tiktok.com/safety/en/transparency)
-
-- [Accessibility](https://www.tiktok.com/accessibility?lang={lang})
-
-Legal
-
-- [Terms of Service](https://www.tiktok.com/legal/terms-of-service?lang={lang})
-
-- [Privacy Policy](https://www.tiktok.com/legal/privacy-policy?lang={lang})
-
-- [Intellectual Property Policy](https://www.tiktok.com/legal/copyright-policy?lang={lang})
-
-- [TikTok Law Enforcement Guidelines](https://www.tiktok.com/legal/law-enforcement?lang={lang})
-
-© 2025 TikTok
-
----
-
-TikTok Support
 
 ---
 
@@ -1603,41 +1327,9 @@ Please note that, TikTok is not in a position to adjudicate disputes between thi
 
 ---
 
-Countering deceptive behavior | Policies & engagement
-
-- Tools & Guides
-
-- Community Support
-
-- Transparency
-
-- Policies & Engagement
-
 Countering deceptive behavior
 
 Our commitments
-
-- Keeping people safe
-
-- Our approach to content moderation
-
-- Youth safety and well-being
-
-- Combating hate
-
-- Combating violent extremism content online
-
-- Engaging our Advisory Councils
-
-- Combating child sexual exploitation and abuse
-
-- Maintaining platform integrity
-
-- Building responsibly
-
-- Upholding human rights
-
-- Supporting independent research
 
 TikTok is built on the joy of authentic experiences, and we strictly prohibit attempts to undermine our platform's integrity, mislead people, or manipulate our systems. There's a wide range of inauthentic activities that deceptive actors try to carry out across online platforms, which we prohibit and proactively work to prevent. In this post, we shine a light on how we define, remove, and stay ahead of these deceptive behaviors and the actors behind them, including:
 
@@ -1709,69 +1401,7 @@ In addition to our proactive detection measures, we enable people to easily repo
 
 - View more about our [media literacy features and tips](https://www.tiktok.com/safety/en/harmful-misinformation-guide) to help people think critically about content online.
 
-Company
-
-- [About TikTok](https://www.tiktok.com/about?lang=en)
-
-- [Newsroom](https://newsroom.tiktok.com/?lang={lang})
-
-- [Contact](https://www.tiktok.com/contact)
-
-- [Careers](https://careers.tiktok.com/?lang={lang})
-
-- [ByteDance](https://www.bytedance.com/?lang={lang})
-
-Programs
-
-- [TikTok for Good](https://www.tiktok.com/for-good?lang={lang})
-
-- [TikTok for Developers](https://developers.tiktok.com/?lang={lang})
-
-- [Effect House](https://effecthouse.tiktok.com/?lang={lang})
-
-- [Advertise on TikTok](https://www.tiktok.com/business?lang={lang})
-
-- [TikTok Embeds](https://www.tiktok.com/embed?lang={lang})
-
-Resources
-
-- [Help Center](https://www.tiktok.com/support?entrance=horizontal_footer)
-
-- [Safety Center](https://www.tiktok.com/safety/en)
-
-- [Privacy Center](https://www.tiktok.com/privacy/overview?lang={lang})
-
-- [Creator Academy](https://www.tiktok.com/creator-academy?lang={lang})
-
-- [Community Guidelines](https://www.tiktok.com/safety/en/community-guidelines)
-
-- [Transparency](https://www.tiktok.com/safety/en/transparency)
-
-- [Accessibility](https://www.tiktok.com/accessibility?lang={lang})
-
-Legal
-
-- [Terms of Service](https://www.tiktok.com/legal/terms-of-service?lang={lang})
-
-- [Privacy Policy](https://www.tiktok.com/legal/privacy-policy?lang={lang})
-
-- [Intellectual Property Policy](https://www.tiktok.com/legal/copyright-policy?lang={lang})
-
-- [TikTok Law Enforcement Guidelines](https://www.tiktok.com/legal/law-enforcement?lang={lang})
-
-© 2025 TikTok
-
 ---
-
-Substance use | Community Support
-
-- Tools & Guides
-
-- Community Support
-
-- Transparency
-
-- Policies & Engagement
 
 Substance use
 
@@ -1838,142 +1468,6 @@ The content provided on this page is for informational purposes and educational 
 This Safety Center page was developed with expert consultation from [The Public Good Projects](https://www.publicgoodprojects.org/) . Special thanks to [Song for Charlie](https://songforcharlie.org/) , [We Are With You](https://www.wearewithyou.org.uk/) , [Talk to Frank](https://www.talktofrank.com/) , [Truth Initiative](https://truthinitiative.org/) for helping shape this resource.
 
 ---
-
-Gambling | Community Support
-
----
-
-[TikTok](https://support.tiktok.com/?lang=en)
-
-[Home](https://support.tiktok.com/en)
-
-- [Getting started](https://support.tiktok.com/en/getting-started)
-
-- [Using TikTok](https://support.tiktok.com/en/using-tiktok)
-
-- [Account and privacy settings](https://support.tiktok.com/en/account-and-privacy)
-
-- [Safety](https://support.tiktok.com/en/safety-hc)
-
-- [Log in and troubleshooting](https://support.tiktok.com/en/log-in-troubleshoot)
-
-- [TikTok LIVE, Gifts, and wallet](https://support.tiktok.com/en/live-gifts-wallet)
-
-- [Monetize on TikTok](https://support.tiktok.com/en/business-and-creator)
-
-- [Become an advertiser on TikTok](https://support.tiktok.com/en/business-and-creator/tiktok-for-business)
-
-- [TikTok monetization and advertising policies](https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts)
-
-- [Promoting a brand, product, or service](https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service)
-
-- [Commercial use of music on TikTok](https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/commercial-use-of-music-on-tiktok)
-
-- [TikTok Advertising Policies](https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/tiktok-advertising-policies)
-
-- [Tax information for creators](https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/tax-information-for-creators)
-
-- [TikTok One](https://support.tiktok.com/en/business-and-creator/tiktok-one)
-
-- [Video Gifts on TikTok](https://support.tiktok.com/en/business-and-creator/video-gifts-on-tiktok)
-
-- [Video Gifts on TikTok](https://support.tiktok.com/en/business-and-creator/video-gifts-on-tiktok/video-gifts-on-tiktok)
-
-- [Diamonds](https://support.tiktok.com/en/business-and-creator/video-gifts-on-tiktok/diamonds)
-
-TikTok monetization and advertising policies
-
-[Promoting a brand, product, or service](https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service) [Commercial use of music on TikTok](https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/commercial-use-of-music-on-tiktok) [TikTok Advertising Policies](https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/tiktok-advertising-policies) [Tax information for creators](https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/tax-information-for-creators)
-
-Helpful links
-
-[Creating an account](https://support.tiktok.com/en/getting-started/creating-an-account/creating-an-account)
-
-[Setting up your profile](https://support.tiktok.com/en/getting-started/setting-up-your-profile)
-
-TikTok
-
-Company
-
-[About TikTok](https://www.tiktok.com/about)
-
-[Newsroom](https://newsroom.tiktok.com/)
-
-[Contact](https://www.tiktok.com/about/contact)
-
-[Careers](https://careers.tiktok.com/)
-
-Programs
-
-[TikTok for Good](https://support.tiktok.com/forgood?lang=en)
-
-[TikTok for Developers](https://developers.tiktok.com/?refer=tiktok_web)
-
-[Effect House](https://effecthouse.tiktok.com/?utm_source=tiktok_web_article)
-
-[Advertise on TikTok](https://www.tiktok.com/business/&attr_source=tt_official_site&attr_medium=tt_official_site_guidance)
-
-[TikTok Rewards](https://www.tiktok.com/tiktok-rewards)
-
-[TikTok Browse](https://www.tiktok.com/browse)
-
-[TikTok Embeds](https://www.tiktok.com/embed)
-
-Resources
-
-[Help Center](https://support.tiktok.com/en)
-
-[Safety Center](https://www.tiktok.com/safety?lang=en)
-
-[Creator Academy](https://www.tiktok.com/creators/creator-portal/)
-
-[Community Guidelines](https://www.tiktok.com/community-guidelines?lang=en)
-
-[Transparency](https://www.tiktok.com/transparency?lang=en)
-
-[Accessibility](https://www.tiktok.com/accessibility)
-
-Legal
-
-[Terms of Use](https://www.tiktok.com/legal/terms-of-service?lang=en)
-
-[Privacy Policy](https://www.tiktok.com/legal/privacy-policy-row?lang=en)
-
-[Copyright Policy](https://www.tiktok.com/legal/copyright-policy?lang=en)
-
-[Law Enforcement](https://www.tiktok.com/legal/law-enforcement?lang=en)
-
-[TikTok Cookies Policy](https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=en)
-
-English
-
-Bahasa Indonesia Deutsch English Español Français Italiano Português Tiếng Việt Türkçe Русский हिन्दी 한국어 日本語 繁體中文 العربية ภาษาไทย עִבְרִית Nederlands Čeština Ελληνικά Polski Română Svenska Gaeilge Íslenska Magyar қазақ тілі Uzbek български език Hrvatski jezik Dansk Eesti keel Suomi Latviešu valoda Lietuvių kalba Norsk bokmål Slovenčina Slovenski jezik
-
-©
-
-2026
-
-TikTok
-
----
-
-Frauds & scams | Community Support
-
----
-
-Privacy & Security | Policies & engagement
-
----
-
-Privacy and security on TikTok | Tools & Guides
-
-- Tools & Guides
-
-- Community Support
-
-- Transparency
-
-- Policies & Engagement
 
 Privacy and security on TikTok
 
@@ -2053,41 +1547,9 @@ If you find videos or receive messages on TikTok that you think might be spam or
 
 ---
 
-Introduction to the TikTok recommendation system | Policies & engagement
-
-- Tools & Guides
-
-- Community Support
-
-- Transparency
-
-- Policies & Engagement
-
 Introduction to the TikTok recommendation system
 
 Our commitments
-
-- Keeping people safe
-
-- Our approach to content moderation
-
-- Youth safety and well-being
-
-- Combating hate
-
-- Combating violent extremism content online
-
-- Engaging our Advisory Councils
-
-- Combating child sexual exploitation and abuse
-
-- Maintaining platform integrity
-
-- Building responsibly
-
-- Upholding human rights
-
-- Supporting independent research
 
 Your For You feed
 
@@ -2217,69 +1679,7 @@ In addition to signals you create by interacting with content, we also take into
 
 - The hashtags associated with the video.
 
-Company
-
-- [About TikTok](https://www.tiktok.com/about?lang=en)
-
-- [Newsroom](https://newsroom.tiktok.com/?lang={lang})
-
-- [Contact](https://www.tiktok.com/contact)
-
-- [Careers](https://careers.tiktok.com/?lang={lang})
-
-- [ByteDance](https://www.bytedance.com/?lang={lang})
-
-Programs
-
-- [TikTok for Good](https://www.tiktok.com/for-good?lang={lang})
-
-- [TikTok for Developers](https://developers.tiktok.com/?lang={lang})
-
-- [Effect House](https://effecthouse.tiktok.com/?lang={lang})
-
-- [Advertise on TikTok](https://www.tiktok.com/business?lang={lang})
-
-- [TikTok Embeds](https://www.tiktok.com/embed?lang={lang})
-
-Resources
-
-- [Help Center](https://www.tiktok.com/support?entrance=horizontal_footer)
-
-- [Safety Center](https://www.tiktok.com/safety/en)
-
-- [Privacy Center](https://www.tiktok.com/privacy/overview?lang={lang})
-
-- [Creator Academy](https://www.tiktok.com/creator-academy?lang={lang})
-
-- [Community Guidelines](https://www.tiktok.com/safety/en/community-guidelines)
-
-- [Transparency](https://www.tiktok.com/safety/en/transparency)
-
-- [Accessibility](https://www.tiktok.com/accessibility?lang={lang})
-
-Legal
-
-- [Terms of Service](https://www.tiktok.com/legal/terms-of-service?lang={lang})
-
-- [Privacy Policy](https://www.tiktok.com/legal/privacy-policy?lang={lang})
-
-- [Intellectual Property Policy](https://www.tiktok.com/legal/copyright-policy?lang={lang})
-
-- [TikTok Law Enforcement Guidelines](https://www.tiktok.com/legal/law-enforcement?lang={lang})
-
-© 2025 TikTok
-
 ---
-
-LIVE Safety Guide | Tools & Guides
-
-- Tools & Guides
-
-- Community Support
-
-- Transparency
-
-- Policies & Engagement
 
 LIVE Safety Guide
 

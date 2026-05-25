@@ -21,7 +21,7 @@
 - all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines-linked-01-support-tos.bsky-social.html: 0cabc502b35d7c0fdfd61e12ac8427eabe2d1984e03cf19e50d5e4f73b0684c6
 - all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines-linked-02-support-privacy-policy.bsky-social.html: cbb0457107e5d040a50eed903814a5ceccbe98cbf73a612b9716654c849c23bd
 - all_rules/platforms/global/bluesky/sources/platform-bluesky-community-guidelines-linked-03-support-copyright.bsky-social.html: 2e8fc0b4ffb16682d167c2f9a48409fb8366d427dc19d5db4eae8c3bf352a4f8
-- Body SHA-256: af44b8fa4078ff060594e71c346b8697008d67dc8fa4357c69cd89f2df35c5a9
+- Body SHA-256: 9047d66c1e36a03e2b560aedf8862ae9523c6e4f3018f3ac07e593a4e0494624
 
 ## Source Text
 
@@ -270,26 +270,6 @@ Bluesky is a
 ---
 
 Terms of Service - Bluesky
-
-[Company](https://bsky.social/about/faq) [Blog](https://bsky.social/about/blog) [AT Protocol](https://atproto.com/) [App](https://bsky.app/)
-
-- [Company](https://bsky.social/about/faq)
-
-- [Blog](https://bsky.social/about/blog)
-
-- [AT Protocol](https://atproto.com/)
-
-- [App](https://bsky.app/)
-
--
-
--
-
-- [Support](https://bsky.social/about/support)
-
-Terms of Service
-
-Terms of Service
 
 Last Updated: 14 August, 2025
 
@@ -720,26 +700,6 @@ Bluesky is a
 ---
 
 Privacy Policy - Bluesky
-
-[Company](https://bsky.social/about/faq) [Blog](https://bsky.social/about/blog) [AT Protocol](https://atproto.com/) [App](https://bsky.app/)
-
-- [Company](https://bsky.social/about/faq)
-
-- [Blog](https://bsky.social/about/blog)
-
-- [AT Protocol](https://atproto.com/)
-
-- [App](https://bsky.app/)
-
--
-
--
-
-- [Support](https://bsky.social/about/support)
-
-Privacy Policy
-
-Privacy Policy
 
 Last Updated: August 14, 2025
 
@@ -1212,26 +1172,6 @@ Bluesky is a
 ---
 
 Copyright Policy and Intellectual Property Policy - Bluesky
-
-[Company](https://bsky.social/about/faq) [Blog](https://bsky.social/about/blog) [AT Protocol](https://atproto.com/) [App](https://bsky.app/)
-
-- [Company](https://bsky.social/about/faq)
-
-- [Blog](https://bsky.social/about/blog)
-
-- [AT Protocol](https://atproto.com/)
-
-- [App](https://bsky.app/)
-
--
-
--
-
-- [Support](https://bsky.social/about/support)
-
-Copyright Policy and Intellectual Property Policy
-
-Copyright Policy and Intellectual Property Policy
 
 Last Updated: 29 January, 2026
 

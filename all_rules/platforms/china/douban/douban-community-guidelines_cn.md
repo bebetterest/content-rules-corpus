@@ -6,7 +6,7 @@
 - Source Authority: Douban
 - Source URL:
 - https://www.douban.com/about/guideline
-- Retrieval Date: 2026-05-23
+- Retrieval Date: 2026-05-24
 - Language: zh-CN
 - Fetch Method: html
 - Extractor: generic-html
@@ -14,89 +14,9 @@
 - Status Note: Official Douban community guideline page.
 - Source SHA-256:
 - all_rules/platforms/china/douban/sources/platform-douban-community-guidelines.douban-com.html: f03668180a566f31b0a337fb3ed16b2a638e387d091efa8aec112cde88d0f31f
-- Body SHA-256: af9990ffe786592af4042c9ebedab2e48bae1b3212520bf95ccf63d372fd2167
+- Body SHA-256: 7df5d34f4a98d59f535445788227d8909f0b24eb40a52738581cc1f1bfa5f23e
 
 ## Source Text
-
-社区指导原则
-
-登录/注册
-
-下载豆瓣客户端
-
-豆瓣 6.0 全新发布
-
-×
-
-豆瓣
-
-扫码直接下载
-
-iPhone
-
-·
-
-Android
-
--
-
-豆瓣
-
--
-
-读书
-
--
-
-电影
-
--
-
-音乐
-
--
-
-播客
-
--
-
-同城
-
--
-
-小组
-
--
-
-阅读
-
--
-
-FM
-
--
-
-时间
-
--
-
-豆品
-
-豆瓣社区
-
-搜索：
-
-搜索你感兴趣的内容和人...
-
-- 首页
-
--
-
-浏览发现
-
--
-
-话题广场
 
 社区指导原则
 
@@ -254,7 +174,7 @@ FM
 
 使用豆瓣你需要了解的:
 
-1.你的行为和发布的内容应该符合豆瓣的 《使用协议》 《社区指导原则》 等约定；
+1.你的行为和发布的内容应该符合豆瓣的 [《使用协议》](https://www.douban.com/about/agreement) [《社区指导原则》](https://www.douban.com/about?policy=guideline) 等约定；
 
 2.豆瓣的管理员有权利删除/拒绝发布违反以上协议或原则的内容，并会依据其行为对账号做出适当的处罚，可能包括1天、7天、15天等直至永久禁言、或永久封禁；对于不同场景下的账号使用行为，将视违规情节严重程度，给予相应处罚。对严重滥用产品功能、破坏产品生态及社区氛围等行为，将从重处罚；账号被永久封禁后的180天内，可以在Web端登录该账号并自行复制备份个人数据，另有规定的除外。
 
@@ -268,7 +188,7 @@ FM
 
 1. 小组的管理权归组长所有，小组成员不接受可以退出后另立小组；
 
-2. 小组组长及管理员应履行职责，及时移出豆瓣不欢迎、不允许的内容，有效管理组员，确保小组内容符合豆瓣的 《使用协议》 《社区指导原则》 等约定；
+2. 小组组长及管理员应履行职责，及时移出豆瓣不欢迎、不允许的内容，有效管理组员，确保小组内容符合豆瓣的 [《使用协议》](https://www.douban.com/about/agreement) [《社区指导原则》](https://www.douban.com/about?policy=guideline) 等约定；
 
 3. 小组内部之间的争执由小组成员和小组管理员协商解决；
 
@@ -387,25 +307,3 @@ FM
 你应对你的行为负责，避免对未成年人身心健康产生不良影响。
 
 豆瓣坚决打击违反上述规定的行为，对有上述行为的账号会做相应的删帖、停用账号等不同程度的处罚。
-
-> 自由注册
-
-> 社区指导原则
-
-> 豆瓣个人信息保护政策
-
-> 法律声明
-
-&copy; 2005－2026 douban.com, all rights reserved 北京豆网科技有限公司
-
-关于豆瓣
-
-· 在豆瓣工作
-
-· 联系我们
-
-· 法律声明
-
-· 帮助中心
-
-· 移动应用

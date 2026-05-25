@@ -8,7 +8,7 @@
 - Source Authority: U.S. Government Publishing Office / GovInfo
 - Source URL:
 - https://www.govinfo.gov/content/pkg/PLAW-119publ12/html/PLAW-119publ12.htm
-- Retrieval Date: 2026-05-23
+- Retrieval Date: 2026-05-24
 - Language: en
 - Fetch Method: html
 - Extractor: generic-html

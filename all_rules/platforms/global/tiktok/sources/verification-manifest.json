@@ -56,23 +56,23 @@
     "linked_source_errors": [
       {
         "url": "https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans",
-        "error": "attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans\", waiting until \"domcontentloaded\""
+        "error": "cached linked source unavailable and RULES_CACHE_ONLY=1"
       },
       {
         "url": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service",
-        "error": "attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service\", waiting until \"domcontentloaded\""
+        "error": "cached linked source unavailable and RULES_CACHE_ONLY=1"
       },
       {
         "url": "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video",
-        "error": "attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video\", waiting until \"domcontentloaded\""
+        "error": "cached linked source unavailable and RULES_CACHE_ONLY=1"
       },
       {
         "url": "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment",
-        "error": "attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment\", waiting until \"domcontentloaded\""
+        "error": "cached linked source unavailable and RULES_CACHE_ONLY=1"
       },
       {
         "url": "https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message",
-        "error": "attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message\", waiting until \"domcontentloaded\""
+        "error": "cached linked source unavailable and RULES_CACHE_ONLY=1"
       }
     ],
     "source_files": [
@@ -158,9 +158,9 @@
     "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
-    "extraction_note": "https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans\", waiting until \"domcontentloaded\"; https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service\", waiting until \"domcontentloaded\"; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video\", waiting until \"domcontentloaded\"; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment\", waiting until \"domcontentloaded\"; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message: linked source download failed: attempt 1: Command failed: python /Users/hobeter/Desktop/code/rules/scripts/render_url.py https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message --timeout-ms 30000 --wait-ms 10000 --after-click-wait-ms 250 Call log: - navigating to \"https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message\", waiting until \"domcontentloaded\"",
-    "paragraph_count": 1136,
-    "body_sha256": "c23e70105e9bb21cbaeb014c5959d0e3eb8939cafa9633fed4f02dc037b6c72d",
+    "extraction_note": "https://support.tiktok.com/en/safety-hc/account-and-user-safety/content-violations-and-bans: linked source download failed: cached linked source unavailable and RULES_CACHE_ONLY=1; https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service: linked source download failed: cached linked source unavailable and RULES_CACHE_ONLY=1; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-live-video: linked source download failed: cached linked source unavailable and RULES_CACHE_ONLY=1; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-comment: linked source download failed: cached linked source unavailable and RULES_CACHE_ONLY=1; https://support.tiktok.com/en/safety-hc/report-a-problem/report-a-direct-message: linked source download failed: cached linked source unavailable and RULES_CACHE_ONLY=1",
+    "paragraph_count": 836,
+    "body_sha256": "bb992512686f83f657b4cca9c2e569be33d013a49c3bb82dfb90b616e62190b9",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [

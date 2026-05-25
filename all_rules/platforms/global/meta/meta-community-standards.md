@@ -66,7 +66,7 @@
 - all_rules/platforms/global/meta/sources/platform-meta-community-standards-25.transparency-meta-com.html: f7b9400581ae93ca42ee4e1fd4d3ffc9189941fa91632b6d8f728bacb6a12db8
 - all_rules/platforms/global/meta/sources/platform-meta-community-standards-26.transparency-meta-com.html: 64d8b7c8e5279d61c05983efbc2c755552eba9dedf6cd22e83e0fc4630d7c136
 - all_rules/platforms/global/meta/sources/platform-meta-community-standards-27.transparency-meta-com.html: 0e6c62a90e03a31df388266446e3bdef2bc1957aac47a29e4bc2c82d63163898
-- Body SHA-256: d0ecc2323bbb829f935591bdd7d53de9e4d754201a503a861b3dcd6d33dea4a0
+- Body SHA-256: 3fbbcb8caccd80580608daa7eaa809f5ac3ef25c3337ff90a9b728aa7b07f366
 
 ## Source Text
 
@@ -76,93 +76,55 @@ In order to maintain a safe environment and empower free expression, we restrict
 
 Because account removal is a serious action, whenever possible, we aim to give our community opportunities to learn our rules and follow our Community Standards. For example, a notification is issued each time we remove content, and in most cases we also provide people with information about the nature of the violation and any restrictions that are applied. Our enforcement actions are designed to be proportional to the severity of the violation, the history of violations on the account, and the risk or harm posed to the community. Continued violations, despite repeated warnings and restrictions, or violations that pose severe safety risks will lead to an account being disabled.
 
-Learn more about how Meta enforces its policies and restricts accounts in the Transparency Center .
+Learn more about how Meta enforces its policies and restricts accounts in the [Transparency Center](https://transparency.fb.com/en-gb/enforcement/taking-action/restricting-accounts/) .
 
 We may restrict or disable accounts, other entities (Pages, groups, events) or business assets (Business Managers, ad accounts) that:
 
--
+- Violate our Community Standards involving egregious harms, including those we refer to law enforcement due to the risk of imminent harm to individual or public safety
 
-Violate our Community Standards involving egregious harms, including those we refer to law enforcement due to the risk of imminent harm to individual or public safety
+- Violate our Community Standards involving any harms that warrant referral to law enforcement due to the risk of imminent harm to individual of public safety
 
--
+- Violate our Advertising Standards involving deceptive or dangerous business harms
 
-Violate our Community Standards involving any harms that warrant referral to law enforcement due to the risk of imminent harm to individual of public safety
+- Persistently violate our Community Standards by posting violating content and/or managing violating entities or business assets
 
--
+- Persistently violate our Advertising Standards
 
-Violate our Advertising Standards involving deceptive or dangerous business harms
-
--
-
-Persistently violate our Community Standards by posting violating content and/or managing violating entities or business assets
-
--
-
-Persistently violate our Advertising Standards
-
--
-
-Demonstrate activity or behavior indicative of a clear violating purpose
+- Demonstrate activity or behavior indicative of a clear violating purpose
 
 We may restrict or disable accounts, other entities (Pages, groups, events) or business assets (Business Managers, ad accounts) that are:
 
--
+- Owned by the same person or entity as an account that has been disabled
 
-Owned by the same person or entity as an account that has been disabled
+- Created or repurposed to evade a previous account or entity removal, including those assessed to have common ownership and content as previously removed accounts or entities
 
--
+- Created to contact a user that has blocked an account
 
-Created or repurposed to evade a previous account or entity removal, including those assessed to have common ownership and content as previously removed accounts or entities
-
--
-
-Created to contact a user that has blocked an account
-
--
-
-Otherwise used to evade our enforcement actions or review processes
+- Otherwise used to evade our enforcement actions or review processes
 
 We may restrict or disable accounts, other entities (Pages, groups, events) or business assets (Business Managers, ad accounts) that demonstrate:
 
--
+- Close linkage with a network of accounts or other entities that violate or evade our policies
 
-Close linkage with a network of accounts or other entities that violate or evade our policies
+- Coordination within a network of accounts or other entities that persistently or egregiously violate our policies
 
--
-
-Coordination within a network of accounts or other entities that persistently or egregiously violate our policies
-
--
-
-Activity or behavior indicative of a clear violating purpose through a network of accounts
+- Activity or behavior indicative of a clear violating purpose through a network of accounts
 
 We will work to restrict or disable accounts or other entities (Pages, groups, events), or business assets (Business Managers, ad accounts) that engage in off-platform activity that can lead to harm on our platform, including those:
 
--
+- Owned by a convicted sex offender, convicted of offences related to the sexual abuse of children or adults
 
-Owned by a convicted sex offender, convicted of offences related to the sexual abuse of children or adults
+- Owned by a Designated Entity or run on their behalf
 
--
-
-Owned by a Designated Entity or run on their behalf
-
--
-
-Prohibited from receiving our products, services or software under applicable laws
+- Prohibited from receiving our products, services or software under applicable laws
 
 In the following scenarios, we may request additional information about an account to ascertain ownership and/or permissible activity:
 
--
+- Compromised accounts
 
-Compromised accounts
+- Creating or using an account or other entity through automated means, such as scripting (unless the scripting activity occurs through authorized routes and does not otherwise violate our policies)
 
--
-
-Creating or using an account or other entity through automated means, such as scripting (unless the scripting activity occurs through authorized routes and does not otherwise violate our policies)
-
--
-
-Empty accounts with prolonged dormancy
+- Empty accounts with prolonged dormancy
 
 User experiences
 
@@ -186,55 +148,9 @@ USER EXPERIENCE
 
 Warning screens
 
-Data
-
-View the latest Community Standards Enforcement Report
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with account integrity
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Additional Protection of Minors | Transparency Center
-
-Skip to main content
-
-Transparency Center
-
-Enforcement
-
-Security
-
-Features
-
-Governance
-
-Research tools
-
-Reports
-
-English (US)
-
-Home
-
-Community Standards
-
-Additional Protection Minors
 
 Additional Protection of Minors
 
@@ -254,17 +170,11 @@ Nov 20, 2020
 
 We comply with:
 
--
+- Requests for removal of an underage account.
 
-Requests for removal of an underage account.
+- Government requests for removal of non-sexual child abuse imagery.
 
--
-
-Government requests for removal of non-sexual child abuse imagery.
-
--
-
-Legal guardian requests for removal of attacks on unintentionally famous minors.
+- Legal guardian requests for removal of attacks on unintentionally famous minors.
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
@@ -292,24 +202,6 @@ USER EXPERIENCE
 
 Warning screens
 
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with additional protection of minors
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
@@ -320,241 +212,131 @@ We understand that nudity can be shared for a variety of reasons, including as a
 
 Under this policy, we remove real photographs and videos of nudity and sexual activity, AI- or computer-generated images of nudity and sexual activity, and digital imagery, regardless of whether it looks “photorealistic” (as in, it looks like a real person). As noted above, we also make careful allowances for real world art and certain medical, educational, and awareness-raising content, and these are detailed in the policy.
 
-Content relating to child nudity is addressed in our Community Standard on Child Sexual Exploitation, Abuse and Nudity .
+Content relating to child nudity is addressed in our Community Standard on [Child Sexual Exploitation, Abuse and Nudity](sources/platform-meta-community-standards-06.transparency-meta-com.html) .
 
 We do not allow the following content for all users:
 
 Adult Nudity
 
--
+- Photorealistic/digital imagery of adult nudity, if it depicts:
 
-Photorealistic/digital imagery of adult nudity, if it depicts:
+- Visible genitalia (including when obscured by pubic hair or digital overlays)
 
--
+- Visible anuses and/or close-ups of visible buttocks
 
-Visible genitalia (including when obscured by pubic hair or digital overlays)
+- Visible female nipples, except in a breastfeeding, or act of protest context
 
--
+- Photorealistic/ digital videos that focus on crotch, female breasts, or buttocks recorded without the awareness of the person(s) depicted in them
 
-Visible anuses and/or close-ups of visible buttocks
-
--
-
-Visible female nipples, except in a breastfeeding, or act of protest context
-
--
-
-Photorealistic/ digital videos that focus on crotch, female breasts, or buttocks recorded without the awareness of the person(s) depicted in them
-
--
-
-Note that with some restrictions, we may allow depictions of adult nudity in additional special contexts, such as medical or health contexts. This is covered in greater detail in the sections below.
+- Note that with some restrictions, we may allow depictions of adult nudity in additional special contexts, such as medical or health contexts. This is covered in greater detail in the sections below.
 
 Adult Sexual Activity
 
--
+- Photorealistic/ digital imagery of adult sexual activity, including:
 
-Photorealistic/ digital imagery of adult sexual activity, including:
+- Explicit sexual activity or stimulation:
 
--
+- Explicit sexual intercourse or oral sex, as indicated by a person’s mouth or genitals entering or in contact with another person's genitals or anus, or genitals placed upon or inserted into a sex toy, when at least one person's genitals or anus is visible
 
-Explicit sexual activity or stimulation:
+- Explicit stimulation of a person’s genitals or anus, as indicated by stimulation, or the insertion of sex toys into the person’s genitals or anus, when the contact with the genitals or anus is directly visible
 
--
+- Implicit sexual activity or stimulation:
 
-Explicit sexual intercourse or oral sex, as indicated by a person’s mouth or genitals entering or in contact with another person's genitals or anus, or genitals placed upon or inserted into a sex toy, when at least one person's genitals or anus is visible
+- Implicit sexual intercourse or oral sex, as indicated by a person’s mouth or genitals entering or in contact with another person's genitals or anus, when the genitals or anus and/or the entry or contact is not directly visible
 
--
+- Implicit stimulation of a person’s genitals or anus, as indicated by stimulation, or the placement of sex toys above or insertion of sex toys into the person’s genitals or anus, or genitals placed upon or inserted into a sex toy, when the genitals or anus, stimulation, placement, and/or insertion is not directly visible
 
-Explicit stimulation of a person’s genitals or anus, as indicated by stimulation, or the insertion of sex toys into the person’s genitals or anus, when the contact with the genitals or anus is directly visible
+- Impending sexual activity, as indicated by positions which suggest contact is about to be initiated between a person's hand, mouth or genitals with another person's genitals or anus.
 
--
+- Other sexual activity or stimulation:
 
-Implicit sexual activity or stimulation:
+- Erections
 
--
+- Presence of by-products of sexual activity
 
-Implicit sexual intercourse or oral sex, as indicated by a person’s mouth or genitals entering or in contact with another person's genitals or anus, when the genitals or anus and/or the entry or contact is not directly visible
+- Sex toys placed upon or inserted into mouth
 
--
+- Stimulation of visible human nipples
 
-Implicit stimulation of a person’s genitals or anus, as indicated by stimulation, or the placement of sex toys above or insertion of sex toys into the person’s genitals or anus, or genitals placed upon or inserted into a sex toy, when the genitals or anus, stimulation, placement, and/or insertion is not directly visible
+- Squeezing female breasts, defined as a grabbing motion with curved fingers that shows both marks and clear shape change of the breasts. We allow squeezing in breastfeeding contexts.
 
--
+- Photorealistic/ digital imagery or real world art depicting fetish that involves the following:
 
-Impending sexual activity, as indicated by positions which suggest contact is about to be initiated between a person's hand, mouth or genitals with another person's genitals or anus.
+- Acts that are likely to lead to the death of a person or animal
 
--
+- Dismemberment
 
-Other sexual activity or stimulation:
+- Cannibalism
 
--
+- Feces, urine, spit, snot, menstruation or vomit
 
-Erections
+- Bestiality
 
--
+- Incest
 
-Presence of by-products of sexual activity
+- BDSM (bondage and discipline, domination and submission, sadism and masochism), only when sexual indicators are also present
 
--
+- Photorealistic imagery of explicit sexual activity or stimulation in a medical or health context
 
-Sex toys placed upon or inserted into mouth
+- Extended audio of sexual activity
 
--
-
-Stimulation of visible human nipples
-
--
-
-Squeezing female breasts, defined as a grabbing motion with curved fingers that shows both marks and clear shape change of the breasts. We allow squeezing in breastfeeding contexts.
-
--
-
-Photorealistic/ digital imagery or real world art depicting fetish that involves the following:
-
--
-
-Acts that are likely to lead to the death of a person or animal
-
--
-
-Dismemberment
-
--
-
-Cannibalism
-
--
-
-Feces, urine, spit, snot, menstruation or vomit
-
--
-
-Bestiality
-
--
-
-Incest
-
--
-
-BDSM (bondage and discipline, domination and submission, sadism and masochism), only when sexual indicators are also present
-
--
-
-Photorealistic imagery of explicit sexual activity or stimulation in a medical or health context
-
--
-
-Extended audio of sexual activity
-
--
-
-Note that with some restrictions, we may allow depictions of sexual activity in special contexts, such as medical or health contexts. This is covered in greater detail in the sections below.
+- Note that with some restrictions, we may allow depictions of sexual activity in special contexts, such as medical or health contexts. This is covered in greater detail in the sections below.
 
 For the following content, we limit the ability to view the content to users, ages 18 and older and include a label so that people are aware the content may be sensitive:
 
--
+- Digital imagery and real world art of explicit sexual activity or stimulation in a medical or health context
 
-Digital imagery and real world art of explicit sexual activity or stimulation in a medical or health context
+- Photorealistic/ digital imagery and real world art of implicit or other sexual activity or stimulation in a medical or health context
 
--
+- Photorealistic/digital imagery and real-world art of visible genitalia, visible anuses, close-ups of visible buttocks or visible female nipples in the context of gender confirmation surgery
 
-Photorealistic/ digital imagery and real world art of implicit or other sexual activity or stimulation in a medical or health context
+- Real world art of visible genitalia (including genitalia covered by digital overlay or obscurement and genitalia obscured by pubic hair only), visible anuses, close-ups of visible buttocks or visible female nipples, where the nudity is the focus of the image and not in a medical or health context
 
--
-
-Photorealistic/digital imagery and real-world art of visible genitalia, visible anuses, close-ups of visible buttocks or visible female nipples in the context of gender confirmation surgery
-
--
-
-Real world art of visible genitalia (including genitalia covered by digital overlay or obscurement and genitalia obscured by pubic hair only), visible anuses, close-ups of visible buttocks or visible female nipples, where the nudity is the focus of the image and not in a medical or health context
-
--
-
-Photorealistic/ digital imagery of visible genitalia (including genitalia covered by digital overlay or obscurement and genitalia obscured by pubic hair), close-ups of visible buttocks, visible anuses or visible female nipples, when shared in the context of famine, genocide, war crimes, or crimes against humanity
+- Photorealistic/ digital imagery of visible genitalia (including genitalia covered by digital overlay or obscurement and genitalia obscured by pubic hair), close-ups of visible buttocks, visible anuses or visible female nipples, when shared in the context of famine, genocide, war crimes, or crimes against humanity
 
 For the following content, we limit the ability to view the content to adults, ages 18 and older:
 
--
+- Photorealistic/digital imagery depicting near nudity such as nudity covered only by digital overlay or an opaque object and certain instances of nudity obscured by see-through clothing
 
-Photorealistic/digital imagery depicting near nudity such as nudity covered only by digital overlay or an opaque object and certain instances of nudity obscured by see-through clothing
+- Photorealistic/digital imagery of persons where crotch, buttock or female breast(s) are the focus of the image
 
--
+- Photorealistic/ digital imagery and real world art of explicit, implicit or other sexual activity or stimulation when only body shapes or contours are visible
 
-Photorealistic/digital imagery of persons where crotch, buttock or female breast(s) are the focus of the image
+- Real-world art, where
 
--
+- Imagery depicts implicit, explicit, or other sexual activity or stimulation except when posted in a medical or health context
 
-Photorealistic/ digital imagery and real world art of explicit, implicit or other sexual activity or stimulation when only body shapes or contours are visible
+- Imagery depicts bestiality, provided it is shared neutrally or in condemnation and the people or animals depicted are not real.
 
--
+- Recognized fictional photorealistic imagery depicting implicit or other sexual activity or stimulation
 
-Real-world art, where
+- Photorealistic/digital imagery and real world art depicting:
 
--
+- Sex-related activity such as kissing with visible tongue and sexual or erotic dancing
 
-Imagery depicts implicit, explicit, or other sexual activity or stimulation except when posted in a medical or health context
+- Persons simulating sexual activity
 
--
+- Gestures that signify genitalia, masturbation, oral sex, or sexual intercourse
 
-Imagery depicts bestiality, provided it is shared neutrally or in condemnation and the people or animals depicted are not real.
+- Logos, screenshots or video clips of known pornographic websites
 
--
-
-Recognized fictional photorealistic imagery depicting implicit or other sexual activity or stimulation
-
--
-
-Photorealistic/digital imagery and real world art depicting:
-
--
-
-Sex-related activity such as kissing with visible tongue and sexual or erotic dancing
-
--
-
-Persons simulating sexual activity
-
--
-
-Gestures that signify genitalia, masturbation, oral sex, or sexual intercourse
-
--
-
-Logos, screenshots or video clips of known pornographic websites
-
--
-
-Content that contains audio of sexual activity
+- Content that contains audio of sexual activity
 
 For the following content, we include a label so that people are aware the content may be sensitive:
 
--
+- Photorealistic/ digital imagery and real world art depicting:
 
-Photorealistic/ digital imagery and real world art depicting:
+- Visible genitalia (including genitalia covered by digital overlay or obscurement and genitalia obscured by pubic hair), close-ups of visible buttocks, or visible anuses, when shared in a medical or health context. This can include, for example:
 
--
+- Birth-giving and after-birth giving moments
 
-Visible genitalia (including genitalia covered by digital overlay or obscurement and genitalia obscured by pubic hair), close-ups of visible buttocks, or visible anuses, when shared in a medical or health context. This can include, for example:
+- Self-examination for cancer or other disease
 
--
-
-Birth-giving and after-birth giving moments
-
--
-
-Self-examination for cancer or other disease
-
--
-
-Visible female nipples, when shared in a medical or health context (including mastectomy or cancer survivor tattoos)
+- Visible female nipples, when shared in a medical or health context (including mastectomy or cancer survivor tattoos)
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
--
-
-In certain cases, we will allow content for ages 18 and older with a label that may otherwise violate the Community Standards when it is determined that the content is satirical. Content will only be allowed if the violating elements of the content are being satirised or attributed to something or someone else in order to mock or criticize them.
+- In certain cases, we will allow content for ages 18 and older with a label that may otherwise violate the Community Standards when it is determined that the content is satirical. Content will only be allowed if the violating elements of the content are being satirised or attributed to something or someone else in order to mock or criticize them.
 
 User experiences
 
@@ -577,28 +359,6 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Data
-
-View the latest Community Standards Enforcement Report
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with adult nudity and sexual activity
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
 
 ---
 
@@ -606,73 +366,43 @@ Policy Rationale
 
 Authenticity is the cornerstone of our community. We believe that authenticity helps create a community where people are accountable to each other, and to Meta, in meaningful ways. We want to allow for the many ways that identity is expressed across our global community, while preventing impersonation and identity misrepresentation. To maintain a safe and open environment where people can trust one another and build community, we do not allow for the creation of accounts or profiles that are created or used to deceive others.
 
-On Facebook, we require people to create one account using the name they go by in everyday life that represents their authentic identity. We created Additional Profiles to help people express different parts of their identity, such as their interests or businesses.
+On Facebook, we require people to create one account using the name they go by in everyday life that represents their authentic identity. We created [Additional Profiles](https://www.facebook.com/help/967154637433480) to help people express different parts of their identity, such as their interests or businesses.
 
 We do not allow the use of our services and will restrict or disable Facebook, Instagram, and Threads accounts or other Facebook entities (such as Pages, groups) that:
 
--
+- Belong to underage children
 
-Belong to underage children
+- Impersonate another person or entity by:
 
--
+- Using their image(s), name, or likeness with the aim to deceive others
 
-Impersonate another person or entity by:
+- Speaking in the voice of another person or entity for whom the user is not authorized to do so (e.g. by creating a Page or Profile)
 
--
-
-Using their image(s), name, or likeness with the aim to deceive others
-
--
-
-Speaking in the voice of another person or entity for whom the user is not authorized to do so (e.g. by creating a Page or Profile)
-
--
-
-Engage in identity misrepresentation to mislead or deceive others, evade enforcement, or violate our Community Standards.
+- Engage in identity misrepresentation to mislead or deceive others, evade enforcement, or violate our Community Standards.
 
 We consider a number of factors when assessing misleading identity misrepresentation, such as:
 
--
+- Repeated or significant changes to identity details, such as name or age
 
-Repeated or significant changes to identity details, such as name or age
+- Misleading profile information, such as bio details and profile location
 
--
+- Using stock imagery
 
-Misleading profile information, such as bio details and profile location
-
--
-
-Using stock imagery
-
--
-
-Use a name containing violations of our Community Standards.
+- Use a name containing violations of our Community Standards.
 
 On Facebook, we will seek further information before taking actions ranging from temporarily restricting to permanently disabling profiles or accounts if you:
 
--
+- Provide a false date of birth
 
-Provide a false date of birth
+- Use a name that is not the authentic name you go by in everyday life
 
--
+- Create a single account that represents or is used by more than one person
 
-Use a name that is not the authentic name you go by in everyday life
+- Create or maintain multiple Facebook accounts
 
--
+- Create an account that represents a non-human entity, such as a business, pet, or fictional character
 
-Create a single account that represents or is used by more than one person
-
--
-
-Create or maintain multiple Facebook accounts
-
--
-
-Create an account that represents a non-human entity, such as a business, pet, or fictional character
-
--
-
-Maintain empty profiles with prolonged dormancy
+- Maintain empty profiles with prolonged dormancy
 
 User experiences
 
@@ -695,24 +425,6 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with authentic identity representation
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
 
 ---
 
@@ -726,347 +438,191 @@ For private individuals, our protection goes further: We remove content that's m
 
 Context and intent matter, and we allow people to post and share if it is clear that something was shared in order to condemn or draw attention to bullying and harassment. In certain instances, we require self-reporting because it helps us understand that the person targeted feels bullied or harassed. In addition to reporting such behavior and content, we encourage people to use
 
-tools available on our platforms to help protect against it.
+[tools available on our platforms](https://www.facebook.com/safety/tools) to help protect against it.
 
 We also have a
 
-Bullying Prevention Hub , which is a resource for teens, parents, and educators seeking support for issues related to bullying and other conflicts. It offers step-by-step guidance, including information on how to start important conversations about bullying. Learn more about what we are doing to protect people from bullying and harassment
+[Bullying Prevention Hub](https://www.facebook.com/safety/bullying) , which is a resource for teens, parents, and educators seeking support for issues related to bullying and other conflicts. It offers step-by-step guidance, including information on how to start important conversations about bullying. Learn more about what we are doing to protect people from bullying and harassment
 
-here .
+[here](https://about.fb.com/news/2018/10/protecting-people-from-bullying/) .
 
 Note: This policy does not apply to individuals who are part of designated organizations under the
 
-Dangerous Organizations and Individuals policy or individuals who died prior to 1900.
+[Dangerous Organizations and Individuals policy](https://transparency.fb.com/policies/community-standards/dangerous-individuals-organizations/) or individuals who died prior to 1900.
 
 Tier 1: Universal protections for everyone:
 
--
+- Everyone is protected from:
 
-Everyone is protected from:
+- Unwanted contact that is:
 
--
+- Repeated, OR
 
-Unwanted contact that is:
+- Sexually harassing, OR
 
--
+- Is directed at a large number of individuals with no prior solicitation.
 
-Repeated, OR
+- Calls for self-injury or suicide of a specific person, or group of individuals.
 
--
+- Attacks based on their experience of sexual assault, sexual exploitation, sexual harassment, or domestic abuse.
 
-Sexually harassing, OR
+- Statements of intent to engage in a sexual activity or advocating to engage in a sexual activity.
 
--
+- Severe sexualized commentary.
 
-Is directed at a large number of individuals with no prior solicitation.
+- Derogatory sexualized photoshop or drawings
 
--
+- Attacks through derogatory terms related to sexual activity (for example: whore, slut).
 
-Calls for self-injury or suicide of a specific person, or group of individuals.
+- Claims that a violent tragedy did not occur.
 
--
+- Claims that individuals are lying about being a victim of a violent tragedy or terrorist attack, including claims that they are:
 
-Attacks based on their experience of sexual assault, sexual exploitation, sexual harassment, or domestic abuse.
+- Acting or pretending to be a victim of a specific event, or
 
--
+- Paid or employed to mislead people about their role in the event.
 
-Statements of intent to engage in a sexual activity or advocating to engage in a sexual activity.
+- Threats to release an individual's private phone number, residential address, email address or medical records (as defined in the
 
--
+[Privacy Violations policy](https://transparency.fb.com/policies/community-standards/privacy-violations-image-privacy-rights/) ).
 
-Severe sexualized commentary.
+- Calls for, or statements of intent to engage in, bullying and/or harassment.
 
--
+- Content that degrades or expresses disgust toward individuals who are depicted in the process of, or right after, menstruating, urinating, vomiting, or defecating
 
-Derogatory sexualized photoshop or drawings
+- Everyone is protected from the following, but for adult public figures, they must be purposefully exposed to:
 
--
+- Calls for death and statements in favor of contracting or developing a medical condition.
 
-Attacks through derogatory terms related to sexual activity (for example: whore, slut).
+- Celebration or mocking of death or medical condition.
 
--
+- Claims about sexually transmitted infections.
 
-Claims that a violent tragedy did not occur.
-
--
-
-Claims that individuals are lying about being a victim of a violent tragedy or terrorist attack, including claims that they are:
-
--
-
-Acting or pretending to be a victim of a specific event, or
-
--
-
-Paid or employed to mislead people about their role in the event.
-
--
-
-Threats to release an individual's private phone number, residential address, email address or medical records (as defined in the
-
-Privacy Violations policy ).
-
--
-
-Calls for, or statements of intent to engage in, bullying and/or harassment.
-
--
-
-Content that degrades or expresses disgust toward individuals who are depicted in the process of, or right after, menstruating, urinating, vomiting, or defecating
-
--
-
-Everyone is protected from the following, but for adult public figures, they must be purposefully exposed to:
-
--
-
-Calls for death and statements in favor of contracting or developing a medical condition.
-
--
-
-Celebration or mocking of death or medical condition.
-
--
-
-Claims about sexually transmitted infections.
-
--
-
-Statements of inferiority about physical appearance.
+- Statements of inferiority about physical appearance.
 
 Tier 2: Additional protections for all Minors, Private Adults and Limited Scope Public Figures (for example, individuals whose primary fame is limited to their activism, journalism, or those who become famous through involuntary means):
 
--
+- In addition to the universal protections for everyone, all minors (private individuals and public figures), private adults and limited scope public figures are protected from:
 
-In addition to the universal protections for everyone, all minors (private individuals and public figures), private adults and limited scope public figures are protected from:
+- Claims about sexual activity, except in the context of criminal allegations against adults (non-consensual sexual touching).
 
--
+- Content sexualizing another adult (sexualization of minors is covered in the
 
-Claims about sexual activity, except in the context of criminal allegations against adults (non-consensual sexual touching).
+[Child Sexual Exploitation, Abuse and Nudity policy](https://transparency.fb.com/policies/community-standards/child-sexual-exploitation-abuse-nudity/) ).
 
--
+- All minors (private individuals and public figures), private adults and limited scope public figures) are protected from the following, but for minor public figures, they must be purposefully exposed to:
 
-Content sexualizing another adult (sexualization of minors is covered in the
+- Dehumanizing comparisons (in written or visual form) to or about:
 
-Child Sexual Exploitation, Abuse and Nudity policy ).
+- Animals and insects, including subhuman creatures, that are culturally perceived as inferior.
 
--
+- Bacteria, viruses, microbes, and diseases.
 
-All minors (private individuals and public figures), private adults and limited scope public figures) are protected from the following, but for minor public figures, they must be purposefully exposed to:
+- Inanimate objects, including trash, filth, feces.
 
--
+- Content manipulated to highlight, circle, or otherwise negatively draw attention to specific physical characteristics (nose, ear, and so on).
 
-Dehumanizing comparisons (in written or visual form) to or about:
+- Content that ranks them based on physical appearance or character traits.
 
--
-
-Animals and insects, including subhuman creatures, that are culturally perceived as inferior.
-
--
-
-Bacteria, viruses, microbes, and diseases.
-
--
-
-Inanimate objects, including trash, filth, feces.
-
--
-
-Content manipulated to highlight, circle, or otherwise negatively draw attention to specific physical characteristics (nose, ear, and so on).
-
--
-
-Content that ranks them based on physical appearance or character traits.
-
--
-
-Content that degrades individuals who are depicted being physically bullied (except in fight-sport contexts).
+- Content that degrades individuals who are depicted being physically bullied (except in fight-sport contexts).
 
 Tier 3: Additional protections for Private Minors, Private Adults, and Minor Involuntary Public Figures:
 
--
+- In addition to all the protections listed above, all private minors, private adults (who must self-report), and minor involuntary public figures are protected from:
 
-In addition to all the protections listed above, all private minors, private adults (who must self-report), and minor involuntary public figures are protected from:
+- Targeted cursing.
 
--
+- Claims about romantic involvement, sexual orientation or gender identity.
 
-Targeted cursing.
+- Calls for action, statements of intent, aspirational or conditional statements, or statements advocating or supporting exclusion.
 
--
+- Negative character or ability claims, except in the context of criminal allegations and business reviews against adults.
 
-Claims about romantic involvement, sexual orientation or gender identity.
+- Expressions of contempt, disgust, or content rejecting the existence of an individual, except in the context of criminal allegations against adults.
 
--
+- When self-reported, private minors, private adults, and minor involuntary public figures are protected from the following:
 
-Calls for action, statements of intent, aspirational or conditional statements, or statements advocating or supporting exclusion.
+- First-person voice bullying.
 
--
+- Unwanted manipulated imagery.
 
-Negative character or ability claims, except in the context of criminal allegations and business reviews against adults.
+- Comparison to other public, fictional or private individuals on the basis of physical appearance.
 
--
+- Claims about religious identity or blasphemy
 
-Expressions of contempt, disgust, or content rejecting the existence of an individual, except in the context of criminal allegations against adults.
+- Comparisons to animals or insects that are not culturally perceived as intellectually or physically inferior (“tiger," “lion").
 
--
+- Neutral or positive physical descriptions.
 
-When self-reported, private minors, private adults, and minor involuntary public figures are protected from the following:
+- Non-negative character or ability claims.
 
--
-
-First-person voice bullying.
-
--
-
-Unwanted manipulated imagery.
-
--
-
-Comparison to other public, fictional or private individuals on the basis of physical appearance.
-
--
-
-Claims about religious identity or blasphemy
-
--
-
-Comparisons to animals or insects that are not culturally perceived as intellectually or physically inferior (“tiger," “lion").
-
--
-
-Neutral or positive physical descriptions.
-
--
-
-Non-negative character or ability claims.
-
--
-
-Attacks through derogatory terms related to a lack of sexual activity.
+- Attacks through derogatory terms related to a lack of sexual activity.
 
 Tier 4: Additional protections for Private Minors only:
 
--
+- Minors get the most protection under our policy. In addition to all the protections listed above, private minors are also protected from:
 
-Minors get the most protection under our policy. In addition to all the protections listed above, private minors are also protected from:
+- Allegations about criminal or illegal behavior.
 
--
+- Videos of physical bullying against minors, shared in any context.
 
-Allegations about criminal or illegal behavior.
-
--
-
-Videos of physical bullying against minors, shared in any context.
-
--
-
-Derogatory terms related to female gendered cursing.
+- Derogatory terms related to female gendered cursing.
 
 Bullying and harassment through pages, groups, events and messages
 
--
-
-The protections of Tiers 1 through 4 are also enforced on pages, groups, events and messages.
+- The protections of Tiers 1 through 4 are also enforced on pages, groups, events and messages.
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
 Do not:
 
--
+- Post content that targets private individuals through unwanted Pages, Groups and Events. We remove this content when it is reported by the target or an authorized representative of the target.
 
-Post content that targets private individuals through unwanted Pages, Groups and Events. We remove this content when it is reported by the target or an authorized representative of the target.
+- Post content described above that would otherwise require the target to report the content or where the content an indicates that the poster is directly targeting the target (for example: the target is tagged in the post or comment). We will remove this content if we have confirmation from the target or an authorized representative of the target (alive or deceased) that the content is unwanted.
 
--
+- Post content calling for or stating an intent to engage in behavior that would qualify as bullying and harassment under our policies. We will remove this content when we have confirmation from the target or an authorized representative of the target that the content is unwanted.
 
-Post content described above that would otherwise require the target to report the content or where the content an indicates that the poster is directly targeting the target (for example: the target is tagged in the post or comment). We will remove this content if we have confirmation from the target or an authorized representative of the target (alive or deceased) that the content is unwanted.
+- Post content sexualizing a public figure. We will remove this content when we have confirmation from the target or an authorized representative of the target that the content is unwanted.
 
--
+- Initiate contact that is sexually harassing the recipient. We will remove any content shared in an unwanted context when we have a confirmation from the recipient, or an authorized representative of the recipient that contact is unwanted.
 
-Post content calling for or stating an intent to engage in behavior that would qualify as bullying and harassment under our policies. We will remove this content when we have confirmation from the target or an authorized representative of the target that the content is unwanted.
+- Remove directed mass harassment, when:
 
--
+- Targeting, via any surface, ‘individuals at heightened risk of offline harm’, defined as:
 
-Post content sexualizing a public figure. We will remove this content when we have confirmation from the target or an authorized representative of the target that the content is unwanted.
+- Human rights defenders
 
--
+- Minors
 
-Initiate contact that is sexually harassing the recipient. We will remove any content shared in an unwanted context when we have a confirmation from the recipient, or an authorized representative of the recipient that contact is unwanted.
+- Victims of violent events/tragedies
 
--
+- Opposition figures in at-risk countries during election periods
 
-Remove directed mass harassment, when:
+- Election officials
 
--
+- Government dissidents who have been targeted based on their dissident status
 
-Targeting, via any surface, ‘individuals at heightened risk of offline harm’, defined as:
+- Ethnic and religious minorities in conflict zones
 
--
+- Member of a designated and recognizable at-risk group
 
-Human rights defenders
+- Targeting any individual via personal surfaces, such as inbox or profiles, with:
 
--
+- Content that violates the bullying and harassment policies for private individuals or,
 
-Minors
+- Objectionable content that is based on a protected characteristic
 
--
+- Disable accounts engaged in mass harassment as part of either
 
-Victims of violent events/tragedies
+- State or state-affiliated networks targeting any individual via any surface.
 
--
+- Adversarial networks targeting any individual via any surface with:
 
-Opposition figures in at-risk countries during election periods
+- Content that violates the bullying and harassment policies for private individuals or,
 
--
+- Content that targets them based on a protected characteristic, or,
 
-Election officials
-
--
-
-Government dissidents who have been targeted based on their dissident status
-
--
-
-Ethnic and religious minorities in conflict zones
-
--
-
-Member of a designated and recognizable at-risk group
-
--
-
-Targeting any individual via personal surfaces, such as inbox or profiles, with:
-
--
-
-Content that violates the bullying and harassment policies for private individuals or,
-
--
-
-Objectionable content that is based on a protected characteristic
-
--
-
-Disable accounts engaged in mass harassment as part of either
-
--
-
-State or state-affiliated networks targeting any individual via any surface.
-
--
-
-Adversarial networks targeting any individual via any surface with:
-
--
-
-Content that violates the bullying and harassment policies for private individuals or,
-
--
-
-Content that targets them based on a protected characteristic, or,
-
--
-
-Content or behavior otherwise deemed to be objectionable in local context
+- Content or behavior otherwise deemed to be objectionable in local context
 
 User experiences
 
@@ -1090,28 +646,6 @@ USER EXPERIENCE
 
 Warning screens
 
-Data
-
-View the latest Community Standards Enforcement Report
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with bullying and harassment
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
@@ -1120,9 +654,9 @@ We do not allow content or activity that sexually exploits or endangers children
 
 We also work with external experts, including the
 
-Meta Safety Advisory Board , to discuss and improve our policies and enforcement around online safety issues, especially with regard to children. Learn more about the
+[Meta Safety Advisory Board](https://www.facebook.com/help/222332597793306?ref=ccs) , to discuss and improve our policies and enforcement around online safety issues, especially with regard to children. Learn more about the
 
-technology we’re using to fight against child exploitation .
+[technology we’re using to fight against child exploitation](https://newsroom.fb.com/news/2018/10/fighting-child-exploitation/) .
 
 Do not post:
 
@@ -1130,187 +664,105 @@ Child sexual exploitation
 
 Content, activity, or interactions that threaten, depict, praise, support, provide instructions for, make statements of intent, admit participation in, or share links of the sexual exploitation of children (including real minors, toddlers, or babies, or non-real depictions with a human likeness, such as in art, AI-generated content, fictional characters, dolls, etc). This includes but is not limited to:
 
--
+- Sexual intercourse
 
-Sexual intercourse
+- Explicit sexual intercourse or oral sex, defined as mouth or genitals entering or in contact with another person's genitals or anus, when at least one person's genitals or anus is visible.
 
--
+- Implied sexual intercourse or oral sex, including when contact is imminent or not directly visible.
 
-Explicit sexual intercourse or oral sex, defined as mouth or genitals entering or in contact with another person's genitals or anus, when at least one person's genitals or anus is visible.
+- Stimulation of genitals or anus, including when activity is imminent or not directly visible.
 
--
+- Any of the above involving an animal.
 
-Implied sexual intercourse or oral sex, including when contact is imminent or not directly visible.
+- Children with sexual elements, including but not limited to:
 
--
+- Restraints
 
-Stimulation of genitals or anus, including when activity is imminent or not directly visible.
+- Signs of arousal
 
--
+- Focus on genitals or anus
 
-Any of the above involving an animal.
+- Presence of aroused adult
 
--
+- Presence of sex toys or use of any object for sexual stimulation, gratification, or sexual abuse
 
-Children with sexual elements, including but not limited to:
+- Sexualized costume
 
--
+- Stripping
 
-Restraints
+- Staged environment (for example, on a bed) or professionally shot (quality/focus/angles)
 
--
+- Open-mouth kissing
 
-Signs of arousal
+- Stimulation of human nipples or squeezing of female breast (EXCEPT in the context of breastfeeding)
 
--
+- Presence of by-products of sexual activity
 
-Focus on genitals or anus
+- Content involving children in a sexual fetish context
 
--
+- Content that supports, promotes, advocates or encourages participation in pedophilia unless it is discussed neutrally in a health context
 
-Presence of aroused adult
-
--
-
-Presence of sex toys or use of any object for sexual stimulation, gratification, or sexual abuse
-
--
-
-Sexualized costume
-
--
-
-Stripping
-
--
-
-Staged environment (for example, on a bed) or professionally shot (quality/focus/angles)
-
--
-
-Open-mouth kissing
-
--
-
-Stimulation of human nipples or squeezing of female breast (EXCEPT in the context of breastfeeding)
-
--
-
-Presence of by-products of sexual activity
-
--
-
-Content involving children in a sexual fetish context
-
--
-
-Content that supports, promotes, advocates or encourages participation in pedophilia unless it is discussed neutrally in a health context
-
--
-
-Content that identifies or mocks alleged victims of child sexual exploitation by name or image
+- Content that identifies or mocks alleged victims of child sexual exploitation by name or image
 
 Solicitation
 
 Content that solicits sexual content or activity depicting or involving children, defined as:
 
--
+- Child Sexual Abuse Material (CSAM)
 
-Child Sexual Abuse Material (CSAM)
+- Nude imagery of real or non-real children
 
--
-
-Nude imagery of real or non-real children
-
--
-
-Sexualized imagery of real or non-real children
+- Sexualized imagery of real or non-real children
 
 Inappropriate interactions with children
 
 Content that constitutes or facilitates inappropriate interactions with children, such as:
 
--
+- Soliciting, arranging or planning sexual encounters with children
 
-Soliciting, arranging or planning sexual encounters with children
+- Enticing children to engage in sexual activity through sexualized conversations or offering, displaying, obtaining or requesting sexual material to or from children, through purposeful exposure or in private messages
 
--
+- Engaging in implicitly sexual conversations in private messages with children
 
-Enticing children to engage in sexual activity through sexualized conversations or offering, displaying, obtaining or requesting sexual material to or from children, through purposeful exposure or in private messages
-
--
-
-Engaging in implicitly sexual conversations in private messages with children
-
--
-
-Obtaining or requesting sexual material from children in private messages
+- Obtaining or requesting sexual material from children in private messages
 
 Exploitative intimate imagery and sextortion
 
 Content that attempts to exploit real children by:
 
--
+- Coercing money, favors or intimate imagery with threats to expose real or non-real intimate imagery or information
 
-Coercing money, favors or intimate imagery with threats to expose real or non-real intimate imagery or information
-
--
-
-Sharing, threatening, or stating an intent to share private sexual conversations or real or non-real intimate imagery
+- Sharing, threatening, or stating an intent to share private sexual conversations or real or non-real intimate imagery
 
 Sexualization of children
 
--
+- Content (including photos, videos, real-world art, digital content, and verbal depictions) that sexualizes real or non-real children
 
-Content (including photos, videos, real-world art, digital content, and verbal depictions) that sexualizes real or non-real children
-
--
-
-Groups, Pages, and profiles dedicated to sexualizing real or non-real children
+- Groups, Pages, and profiles dedicated to sexualizing real or non-real children
 
 Child nudity
 
 Content that depicts real or non-real child nudity where nudity is defined as:
 
--
+- Close-ups of real or non-real children’s genitalia
 
-Close-ups of real or non-real children’s genitalia
+- Real or non-real nude toddlers, showing:
 
--
+- Visible genitalia, even when covered or obscured by transparent clothing
 
-Real or non-real nude toddlers, showing:
+- Visible anus and/or fully nude close-up of buttocks
 
--
+- Real or non-real nude minors, showing:
 
-Visible genitalia, even when covered or obscured by transparent clothing
+- Visible genitalia (including genitalia obscured only by pubic hair or transparent clothing)
 
--
+- Visible anus and/or fully nude close-up of buttocks
 
-Visible anus and/or fully nude close-up of buttocks
+- Uncovered female nipples
 
--
+- No clothes from neck to knee - even if no genitalia or female nipples are showing
 
-Real or non-real nude minors, showing:
-
--
-
-Visible genitalia (including genitalia obscured only by pubic hair or transparent clothing)
-
--
-
-Visible anus and/or fully nude close-up of buttocks
-
--
-
-Uncovered female nipples
-
--
-
-No clothes from neck to knee - even if no genitalia or female nipples are showing
-
--
-
-Unless the non-real imagery is for health purposes or is a non-sexual depiction of child nudity in real-word art
+- Unless the non-real imagery is for health purposes or is a non-sexual depiction of child nudity in real-word art
 
 Non-sexual child abuse
 
@@ -1320,33 +772,23 @@ Content that praises, supports, promotes, advocates for, provides instructions f
 
 In addition to removing accounts that violate our Child Sexual Exploitation, Abuse and Nudity (CSEAN) policies, our reviewers and automated systems consider a broad spectrum of signals to help prevent potentially unwanted or unsafe interactions.
 
--
-
-We may disable accounts or restrict access to products and features (e.g. the ability to follow certain accounts) for adults based on their interactions with other accounts, searches for or interactions with violating content (e.g. liking or saving), or membership in communities (e.g. Groups) we have removed for violating our policies.
+- We may disable accounts or restrict access to products and features (e.g. the ability to follow certain accounts) for adults based on their interactions with other accounts, searches for or interactions with violating content (e.g. liking or saving), or membership in communities (e.g. Groups) we have removed for violating our policies.
 
 For the following content, we include a warning screen so that people are aware the content may be disturbing and limit the ability to view the content to adults ages eighteen and older:
 
--
+- Videos or photos that depict police officers or military personnel committing non-sexual child abuse
 
-Videos or photos that depict police officers or military personnel committing non-sexual child abuse
-
--
-
-Videos or photos of non-sexual child abuse, when law enforcement, child protection agencies, or trusted safety partners request that we leave the content on the platform for the express purpose of bringing a child back to safety
+- Videos or photos of non-sexual child abuse, when law enforcement, child protection agencies, or trusted safety partners request that we leave the content on the platform for the express purpose of bringing a child back to safety
 
 For the following content, we include a sensitivity screen so that people are aware the content may be upsetting to some:
 
--
-
-Videos or photos of violent immersion of a child in water in the context of religious rituals
+- Videos or photos of violent immersion of a child in water in the context of religious rituals
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
 For the following content, we include a warning label so that people are aware that the content may be sensitive:
 
--
-
-Imagery posted by a news agency that depicts child nudity in the context of famine, genocide, war crimes, or crimes against humanity, unless accompanied by a violating caption or shared in a violating context, in which case the content is removed
+- Imagery posted by a news agency that depicts child nudity in the context of famine, genocide, war crimes, or crimes against humanity, unless accompanied by a violating caption or shared in a violating context, in which case the content is removed
 
 We may remove imagery depicting the aftermath of non-sexual child abuse when reported by news media partners, NGOs, or other trusted safety partners.
 
@@ -1376,28 +818,6 @@ USER EXPERIENCE
 
 Warning screens
 
-Data
-
-View the latest Community Standards Enforcement Report
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with child sexual exploitation, abuse and nudity
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
@@ -1408,231 +828,125 @@ We Remove:
 
 Harm against people
 
--
+- Outing: exposing the identity or locations affiliated with anyone who is alleged to:
 
-Outing: exposing the identity or locations affiliated with anyone who is alleged to:
+- Be a member of an outing-risk group; and/or
 
--
+- Share familial and/or romantic relationships with a member(s) of an outing-risk group; and/or
 
-Be a member of an outing-risk group; and/or
+- Have performed professional activities in support of an outing-risk group (except for political figures)
 
--
+- Outing the undercover status of law enforcement, military, or security personnel if the content contains the agent’s name, their face or badge and any of the following:
 
-Share familial and/or romantic relationships with a member(s) of an outing-risk group; and/or
+- The agent’s law enforcement organization
 
--
+- The agent’s law enforcement operation
 
-Have performed professional activities in support of an outing-risk group (except for political figures)
+- Explicit mentions of their undercover status
 
--
+- Coordinating, threatening, supporting, or admitting to swatting except in the context of awareness raising or condemnation, fictional or staged settings or redemption.
 
-Outing the undercover status of law enforcement, military, or security personnel if the content contains the agent’s name, their face or badge and any of the following:
-
--
-
-The agent’s law enforcement organization
-
--
-
-The agent’s law enforcement operation
-
--
-
-Explicit mentions of their undercover status
-
--
-
-Coordinating, threatening, supporting, or admitting to swatting except in the context of awareness raising or condemnation, fictional or staged settings or redemption.
-
--
-
-Depicting, promoting, advocating for or encouraging participation in a high-risk viral challenge except in the context of awareness raising or condemnation. Where imagery is depicted in these contexts, we include a label so that people are aware that the content may be sensitive.
+- Depicting, promoting, advocating for or encouraging participation in a high-risk viral challenge except in the context of awareness raising or condemnation. Where imagery is depicted in these contexts, we include a label so that people are aware that the content may be sensitive.
 
 Harm against animals
 
--
+- Coordinating, threatening, supporting or admitting to acts of physical harm against animals (in written, visual or verbal form) except in cases of:
 
-Coordinating, threatening, supporting or admitting to acts of physical harm against animals (in written, visual or verbal form) except in cases of:
+- Awareness-raising or condemnation
 
--
+- Redemption
 
-Awareness-raising or condemnation
+- Survival or defense of self, another human or another animal
 
--
+- Fictional or staged settings EXCEPT where it depicts staged animal fights or fake animal rescues
 
-Redemption
+- Hunting or fishing
 
--
+- Religious sacrifice
 
-Survival or defense of self, another human or another animal
+- Food preparation or processing
 
--
+- Pests or vermin
 
-Fictional or staged settings EXCEPT where it depicts staged animal fights or fake animal rescues
+- Mercy killing
 
--
+- Bullfighting
 
-Hunting or fishing
-
--
-
-Religious sacrifice
-
--
-
-Food preparation or processing
-
--
-
-Pests or vermin
-
--
-
-Mercy killing
-
--
-
-Bullfighting
-
--
-
-Coordinating, threatening, supporting, depicting or admitting to staged animal fights or depicting video imagery of fake animal rescues except in the context of awareness raising or condemnation or redemption.
+- Coordinating, threatening, supporting, depicting or admitting to staged animal fights or depicting video imagery of fake animal rescues except in the context of awareness raising or condemnation or redemption.
 
 Harm against property
 
--
+- Coordinating, threatening, supporting or admitting to vandalism or theft (in written, visual or verbal form), except in the context of
 
-Coordinating, threatening, supporting or admitting to vandalism or theft (in written, visual or verbal form), except in the context of
+- Awareness raising or condemnation,
 
--
+- Redemption,
 
-Awareness raising or condemnation,
+- Fictional or staged settings,
 
--
+- Admitting in the context of defense of self, or another human
 
-Redemption,
+- depicting vandalism in protest context,
 
--
+- depicting graffiti, or
 
-Fictional or staged settings,
-
--
-
-Admitting in the context of defense of self, or another human
-
--
-
-depicting vandalism in protest context,
-
--
-
-depicting graffiti, or
-
--
-
-speaking positively about vandalism and theft committed by others.
+- speaking positively about vandalism and theft committed by others.
 
 Voter and/or census fraud
 
--
+- Offers to buy or sell votes with cash, gifts, services or other material goods, except if shared in condemning, awareness raising, news reporting, or humorous or satirical contexts.
 
-Offers to buy or sell votes with cash, gifts, services or other material goods, except if shared in condemning, awareness raising, news reporting, or humorous or satirical contexts.
-
--
-
-Advocating, providing instructions for, or demonstrating explicit intent to illegally participate in a voting (for example, voting twice or fabricating your voting eligibility) or census process (for example, misrepresenting demographic information or how many people are in your household), except if shared in condemning, awareness raising, news reporting, or humorous or satirical contexts.
+- Advocating, providing instructions for, or demonstrating explicit intent to illegally participate in a voting (for example, voting twice or fabricating your voting eligibility) or census process (for example, misrepresenting demographic information or how many people are in your household), except if shared in condemning, awareness raising, news reporting, or humorous or satirical contexts.
 
 For the following content, we include a label so that people are aware the content may be sensitive:
 
--
-
-Imagery depicting a high-risk viral challenge if shared condemning or raising awareness of the associated risks.
+- Imagery depicting a high-risk viral challenge if shared condemning or raising awareness of the associated risks.
 
 For the following content, we limit the ability to view the content to adults aged 18 and older:
 
--
-
-Imagery depicting dangerous forms of driving a motor vehicle that could lead to life-threatening injuries or death to the driver or others, except if shared in fictional or professional settings.
+- Imagery depicting dangerous forms of driving a motor vehicle that could lead to life-threatening injuries or death to the driver or others, except if shared in fictional or professional settings.
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
 We Remove:
 
--
+- Outing: exposing the identity of a person and putting them at risk of harm:
 
-Outing: exposing the identity of a person and putting them at risk of harm:
+- LGBTQIA+ members
 
--
+- Unveiled women
 
-LGBTQIA+ members
+- Non-convicted individuals as predators in the context of a sexual predator Sting Operation
 
--
+- Individuals involved in legal cases, when their involvement is restricted from public disclosure
 
-Unveiled women
+- Witnesses, informants , activists, detained persons or hostages
 
--
+- Defectors, when reported by credible government channel
 
-Non-convicted individuals as predators in the context of a sexual predator Sting Operation
+- Prisoners of war, in the context of an armed conflict
 
--
+- Imagery that is likely to deceive the public as to its origin if:
 
-Individuals involved in legal cases, when their involvement is restricted from public disclosure
+- The entity depicted or an authorized representative objects to the imagery, and
 
--
+- The imagery has the potential to cause harm to members of the public.
 
-Witnesses, informants , activists, detained persons or hostages
+- Statement of intent, call to action, or encouragement to either:
 
--
+- Block access to essential services when there is confirmation or publicly available confirmation that emergency vehicles are blocked, OR
 
-Defectors, when reported by credible government channel
+- Target an individual or specific group of people by blocking their access to essential services or unobstructed passage in a way that may threaten their safety
 
--
+- Voter or census interference, including:
 
-Prisoners of war, in the context of an armed conflict
+- Calls for coordinated interference that would affect an individual’s ability to participate in an official election or census.
 
--
+- Claims that voting or census participation may or will result in law enforcement consequences (for example, arrest, deportation or imprisonment).
 
-Imagery that is likely to deceive the public as to its origin if:
+- Threats to go to an election site to monitor or watch voters or election officials’ activities if combined with a reference to intimidation (e.g., “Let’s show them who's boss!,”, “They want a war? We’ll give them a war.”).
 
--
-
-The entity depicted or an authorized representative objects to the imagery, and
-
--
-
-The imagery has the potential to cause harm to members of the public.
-
--
-
-Statement of intent, call to action, or encouragement to either:
-
--
-
-Block access to essential services when there is confirmation or publicly available confirmation that emergency vehicles are blocked, OR
-
--
-
-Target an individual or specific group of people by blocking their access to essential services or unobstructed passage in a way that may threaten their safety
-
--
-
-Voter or census interference, including:
-
--
-
-Calls for coordinated interference that would affect an individual’s ability to participate in an official election or census.
-
--
-
-Claims that voting or census participation may or will result in law enforcement consequences (for example, arrest, deportation or imprisonment).
-
--
-
-Threats to go to an election site to monitor or watch voters or election officials’ activities if combined with a reference to intimidation (e.g., “Let’s show them who's boss!,”, “They want a war? We’ll give them a war.”).
-
--
-
-Threats to go to a post-election activity site if combined with a reference to intimidation (e.g., “Let’s show them who's boss!,”, “They want a war? We’ll give them a war.”).
+- Threats to go to a post-election activity site if combined with a reference to intimidation (e.g., “Let’s show them who's boss!,”, “They want a war? We’ll give them a war.”).
 
 User experiences
 
@@ -1655,24 +969,6 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with coordinating harm and promoting crime
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
 
 ---
 
@@ -1684,55 +980,31 @@ We do not allow:
 
 Attempts to compromise or access accounts via unauthorized means, including:
 
--
+- Accessing accounts, profiles, or other Meta entities other than one’s own through deceptive means or without explicit permission from the account, profile, or entity owner.
 
-Accessing accounts, profiles, or other Meta entities other than one’s own through deceptive means or without explicit permission from the account, profile, or entity owner.
+- Obtaining, acquiring or requesting another user’s login information, personal information, or other sensitive user information for the purpose of unauthorized access, including through the following tactics:
 
--
+- Phishing, defined as the practice of creating communications or websites that are designed to look like more trusted or reputable communications or websites for the purpose of fraudulently acquiring sensitive user information.
 
-Obtaining, acquiring or requesting another user’s login information, personal information, or other sensitive user information for the purpose of unauthorized access, including through the following tactics:
+- Social Engineering, such as repeated or consistent attempts to harvest or acquire the answers to common account or password recovery questions.
 
--
-
-Phishing, defined as the practice of creating communications or websites that are designed to look like more trusted or reputable communications or websites for the purpose of fraudulently acquiring sensitive user information.
-
--
-
-Social Engineering, such as repeated or consistent attempts to harvest or acquire the answers to common account or password recovery questions.
-
--
-
-Malware, Greyware, Spyware or other malicious code, as described below.
+- Malware, Greyware, Spyware or other malicious code, as described below.
 
 Attempts to share, develop, host, or distribute malicious or harmful code, including:
 
--
+- Encouraging or deceiving users to download or run files, apps, or programs that will compromise a user’s online or data security, including, but not limited to:
 
-Encouraging or deceiving users to download or run files, apps, or programs that will compromise a user’s online or data security, including, but not limited to:
+- Malware, defined as code or software designed to harm or gain unauthorized access to systems. This includes programs designed to harm computer systems, as well as software designed to extract money from victims, like ransomware.
 
--
+- Spyware, defined as code or software that collects data on users and sends it to third parties without the informed consent of the user, or that uses the data for illicit purposes (e.g., sextortion, blackmail, illicit access to systems).
 
-Malware, defined as code or software designed to harm or gain unauthorized access to systems. This includes programs designed to harm computer systems, as well as software designed to extract money from victims, like ransomware.
+- Greyware, defined as code or software which detracts from the use of hardware or software and may be difficult to remove from a computer system or network.
 
--
+- Creating, sharing or hosting malicious software including browser extensions and mobile applications, on or off the platform that put our users or products and services at risk.
 
-Spyware, defined as code or software that collects data on users and sends it to third parties without the informed consent of the user, or that uses the data for illicit purposes (e.g., sextortion, blackmail, illicit access to systems).
+- Threatening, admitting to, or enabling hacking - Including by sharing or advertising software, courses, or products that enable people to circumvent security systems, including software that encourages hacking of software or credentials
 
--
-
-Greyware, defined as code or software which detracts from the use of hardware or software and may be difficult to remove from a computer system or network.
-
--
-
-Creating, sharing or hosting malicious software including browser extensions and mobile applications, on or off the platform that put our users or products and services at risk.
-
--
-
-Threatening, admitting to, or enabling hacking - Including by sharing or advertising software, courses, or products that enable people to circumvent security systems, including software that encourages hacking of software or credentials
-
--
-
-Providing online infrastructure, including web hosting services, domain name system servers and ad networks that enables abusive links such that a majority of those links on our services violate the spam or cybersecurity sections of the Community Standards.
+- Providing online infrastructure, including web hosting services, domain name system servers and ad networks that enables abusive links such that a majority of those links on our services violate the spam or cybersecurity sections of the Community Standards.
 
 User experiences
 
@@ -1755,24 +1027,6 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with cybersecurity
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
 
 ---
 
@@ -1790,39 +1044,27 @@ We recognize that users may share content that includes references to designated
 
 News reporting includes information that is shared to raise awareness about local and global events in which designated dangerous organizations and individuals are involved.
 
--
+- E.g. “Breaking News: Al-Shabab claimed responsibility for the attack in Somalia”
 
-E.g. “Breaking News: Al-Shabab claimed responsibility for the attack in Somalia”
-
--
-
-E.g. “Timeline and expert analysis: How the shooting at the Buffalo Supermarket unfolded and what did the perpetrator say in court”
+- E.g. “Timeline and expert analysis: How the shooting at the Buffalo Supermarket unfolded and what did the perpetrator say in court”
 
 Neutral discussion includes factual statements, commentary, questions, and other information that do not express positive judgment around the designated dangerous organization or individual and their behavior.
 
--
+- E.g. “Al Qaeda represents less threat than ISIS given the lack of leadership and finance”
 
-E.g. “Al Qaeda represents less threat than ISIS given the lack of leadership and finance”
-
--
-
-E.g. “Anders Breivik is one example of how complex the radicalization process can be”
+- E.g. “Anders Breivik is one example of how complex the radicalization process can be”
 
 Condemnation includes disapproval, disgust, rejection, criticism, mockery, and other negative expressions about a designated dangerous organization or individual and their behavior.
 
--
+- E.g. “I feel disgusted by the crime of Salvador Ramos. The judge’s words resonated so much to me. He should get no mercy by the court”
 
-E.g. “I feel disgusted by the crime of Salvador Ramos. The judge’s words resonated so much to me. He should get no mercy by the court”
-
--
-
-E.g. “Hitler’s crimes shall never be forgotten ever. These were some of the darkest moments in history”
+- E.g. “Hitler’s crimes shall never be forgotten ever. These were some of the darkest moments in history”
 
 Our policies are designed to allow room for these types of discussions while simultaneously limiting risks of potential offline harm. We thus require people to clearly indicate their intent when creating or sharing such content. If a user's intention is ambiguous or unclear, we default to removing content.
 
 In line with international human rights law, our policies allow discussions about the human rights of designated individuals or members of designated dangerous entities, unless the content includes other glorification, support, or representation of designated entities or other policy violations, such as incitement to violence.
 
-Please see our Corporate Human Rights Policy for more information about our commitment to internationally recognized human rights.
+Please see our [Corporate Human Rights Policy](https://about.fb.com/wp-content/uploads/2021/03/Facebooks-Corporate-Human-Rights-Policy.pdf) for more information about our commitment to internationally recognized human rights.
 
 We Remove:
 
@@ -1830,29 +1072,17 @@ We remove Glorification, Support and Representation of various dangerous organiz
 
 Glorification , defined as any of the below:
 
--
+- Legitimizing or defending the violent or hateful acts of a designated entity by claiming that those acts have a moral, political, logical or other justification that makes them acceptable or reasonable.
 
-Legitimizing or defending the violent or hateful acts of a designated entity by claiming that those acts have a moral, political, logical or other justification that makes them acceptable or reasonable.
+- E.g. "Hitler did nothing wrong."
 
--
+- Characterizing or celebrating the violence or hate of a designated entity as an achievement or accomplishment;
 
-E.g. "Hitler did nothing wrong."
+- E.g. “Hizbul Mujahideen is winning the war for a free and independent Kashmir”
 
--
+- An aspirational statement of membership or statement that you would like to be a designated entity or the perpetrator of a violating violent event.
 
-Characterizing or celebrating the violence or hate of a designated entity as an achievement or accomplishment;
-
--
-
-E.g. “Hizbul Mujahideen is winning the war for a free and independent Kashmir”
-
--
-
-An aspirational statement of membership or statement that you would like to be a designated entity or the perpetrator of a violating violent event.
-
--
-
-E.g. “I wish I can join ISIS and be part of the Khilafah”
+- E.g. “I wish I can join ISIS and be part of the Khilafah”
 
 We remove Glorification of Tier 1 and Tier 2 entities as well as designated events.
 
@@ -1860,73 +1090,41 @@ For Tier 1 and designated events, we may also remove unclear or contextless refe
 
 Support , defined as any of the below:
 
--
+- Material Support
 
-Material Support
+- Any act which improves the financial status of a designated entity – including funneling money towards or away from a designated entity;
 
--
+- E.g., “Donate to the KKK!”
 
-Any act which improves the financial status of a designated entity – including funneling money towards or away from a designated entity;
+- Any act which provides material aid to a designated entity or event;
 
--
+- E.g., “If you want to send care packages to the Sinaloa Cartel, use this address:”
 
-E.g., “Donate to the KKK!”
+- Recruiting on behalf of a designated entity or event;
 
--
+- E.g., “If you want to fight for the Caliphate, DM me”
 
-Any act which provides material aid to a designated entity or event;
+- Other Support
 
--
+- Channeling information or resources, including official communications, on behalf of a designated entity or event
 
-E.g., “If you want to send care packages to the Sinaloa Cartel, use this address:”
+- E.g., Directly quoting a designated entity without caption that condemns, neutrally discusses, or is a part of news reporting.
 
--
+- Putting out a call to action on behalf of a designated entity or event;
 
-Recruiting on behalf of a designated entity or event;
-
--
-
-E.g., “If you want to fight for the Caliphate, DM me”
-
--
-
-Other Support
-
--
-
-Channeling information or resources, including official communications, on behalf of a designated entity or event
-
--
-
-E.g., Directly quoting a designated entity without caption that condemns, neutrally discusses, or is a part of news reporting.
-
--
-
-Putting out a call to action on behalf of a designated entity or event;
-
--
-
-E.g. "Contact the Atomwaffen Division – (XXX) XXX-XXXX"
+- E.g. "Contact the Atomwaffen Division – (XXX) XXX-XXXX"
 
 We remove all Support of Tier 1 and Material Support of Tier 2.
 
 Representation , defined as any of the below:
 
--
+- Stating that you are a member of a designated entity, or are a designated entity;
 
-Stating that you are a member of a designated entity, or are a designated entity;
+- E.g., “I am a grand dragon of the KKK.”
 
--
+- Creating a Page, Profile, Event, Group, or other Facebook entity that is or purports to be owned by a Designated Entity or run on their behalf, or is or purports to be a designated event.
 
-E.g., “I am a grand dragon of the KKK.”
-
--
-
-Creating a Page, Profile, Event, Group, or other Facebook entity that is or purports to be owned by a Designated Entity or run on their behalf, or is or purports to be a designated event.
-
--
-
-E.g., A Page named “American Nazi Party.”
+- E.g., A Page named “American Nazi Party.”
 
 We remove Representation of Tier 1 and 2 Designated Organizations and designated events.
 
@@ -1942,85 +1140,49 @@ We also do not allow Glorification, Support, or Representation of designated hat
 
 Terrorist organizations and individuals , defined as a non-state actor that:
 
--
+- Engages in, advocates, or lends substantial support to purposive and planned acts of violence,
 
-Engages in, advocates, or lends substantial support to purposive and planned acts of violence,
+- Which causes or attempts to cause death, injury or serious harm to civilians, or any other person not taking direct part in the hostilities in a situation of armed conflict, and/or significant damage to property linked to death, serious injury or serious harm to civilians
 
--
+- With the intent to coerce, intimidate and/or influence a civilian population, government, or international organization
 
-Which causes or attempts to cause death, injury or serious harm to civilians, or any other person not taking direct part in the hostilities in a situation of armed conflict, and/or significant damage to property linked to death, serious injury or serious harm to civilians
-
--
-
-With the intent to coerce, intimidate and/or influence a civilian population, government, or international organization
-
--
-
-In order to achieve a political, religious, or ideological aim.
+- In order to achieve a political, religious, or ideological aim.
 
 Hate Entity , defined as an organization or individual that spreads and encourages hate against others based on their protected characteristics. The entity’s activities are characterized by at least some of the following behaviors:
 
--
+- Violence, threatening rhetoric, or dangerous forms of harassment targeting people based on their protected characteristics;
 
-Violence, threatening rhetoric, or dangerous forms of harassment targeting people based on their protected characteristics;
+- Repeated use of [hate speech](sources/platform-meta-community-standards-11.transparency-meta-com.html) ;
 
--
+- Representation of Hate Ideologies or other designated Hate Entities, and/or
 
-Repeated use of hate speech ;
-
--
-
-Representation of Hate Ideologies or other designated Hate Entities, and/or
-
--
-
-Glorification or Support of other designated Hate Entities or Hate Ideologies.
+- Glorification or Support of other designated Hate Entities or Hate Ideologies.
 
 Criminal Organizations , defined as an association of three or more people that:
 
--
+- is united under a name, color(s), hand gesture(s) or recognized indicia; and
 
-is united under a name, color(s), hand gesture(s) or recognized indicia; and
-
--
-
-has engaged in or threatens to engage in criminal activity such as homicide, drug trafficking, or kidnapping.
+- has engaged in or threatens to engage in criminal activity such as homicide, drug trafficking, or kidnapping.
 
 Multiple-Victim Violence and Serial Murders
 
--
+- We consider an event to be multiple-victim violence or attempted multiple-victim violence if it results in three or more casualties in one incident, defined as deaths or serious injuries. Any Individual who has committed such an attack is considered to be a perpetrator or an attempted perpetrator of multiple-victim violence.
 
-We consider an event to be multiple-victim violence or attempted multiple-victim violence if it results in three or more casualties in one incident, defined as deaths or serious injuries. Any Individual who has committed such an attack is considered to be a perpetrator or an attempted perpetrator of multiple-victim violence.
-
--
-
-We consider any individual who has committed two or more murders over multiple incidents or locations a serial murderer.
+- We consider any individual who has committed two or more murders over multiple incidents or locations a serial murderer.
 
 Hateful Ideologies
 
--
+- While our designations of organizations and individuals focus on behavior, we also recognize that there are certain ideologies and beliefs that are inherently tied to violence and attempts to organize people around calls for violence or exclusion of others based on their protected characteristics. In these cases, we designate the ideology itself and remove content that supports this ideology from our platform. These ideologies include:
 
-While our designations of organizations and individuals focus on behavior, we also recognize that there are certain ideologies and beliefs that are inherently tied to violence and attempts to organize people around calls for violence or exclusion of others based on their protected characteristics. In these cases, we designate the ideology itself and remove content that supports this ideology from our platform. These ideologies include:
+- Nazism
 
--
+- White Supremacy
 
-Nazism
+- White Nationalism
 
--
+- White Separatism
 
-White Supremacy
-
--
-
-White Nationalism
-
--
-
-White Separatism
-
--
-
-We remove explicit Glorification, Support, and Representation of these ideologies, and remove individuals and organizations that ascribe to one or more of these hateful ideologies.
+- We remove explicit Glorification, Support, and Representation of these ideologies, and remove individuals and organizations that ascribe to one or more of these hateful ideologies.
 
 Tier 2: Violent Non-State Actors and Violence Inducing Entities
 
@@ -2028,45 +1190,29 @@ Organizations and individuals designated by Meta as Violent Non-state Actors or 
 
 Violent Non-State Actors , defined as any non-state actor that:
 
--
+- Engages in a pattern of purposive and planned acts of high-severity violence targeting government, military or other armed groups taking direct part in the hostilities in a situation of armed conflict, and does not intentionally and explicitly target civilians with high-severity violence; AND/OR
 
-Engages in a pattern of purposive and planned acts of high-severity violence targeting government, military or other armed groups taking direct part in the hostilities in a situation of armed conflict, and does not intentionally and explicitly target civilians with high-severity violence; AND/OR
+- Deprives communities of access to critical infrastructure or natural resources; AND/OR
 
--
-
-Deprives communities of access to critical infrastructure or natural resources; AND/OR
-
--
-
-Engages in a pattern of attacks intended to bring significant damage to infrastructure that is not linked to death, serious injury or serious harm to civilians.
+- Engages in a pattern of attacks intended to bring significant damage to infrastructure that is not linked to death, serious injury or serious harm to civilians.
 
 Violence Inducing Entities are defined as follows:
 
 A Violence Inducing Entity (General) is a non-state actor that:
 
--
+- Has as its stated goal or intended function to provide, through violence, an unsanctioned governmental enforcing function (such as, police, military, immigration) in place of, or in addition to, the government itself; or to disrupt through violence a governmental enforcing function;
 
-Has as its stated goal or intended function to provide, through violence, an unsanctioned governmental enforcing function (such as, police, military, immigration) in place of, or in addition to, the government itself; or to disrupt through violence a governmental enforcing function;
+- Has engaged in a substantial step towards this stated goal on Meta’s platforms; and
 
--
-
-Has engaged in a substantial step towards this stated goal on Meta’s platforms; and
-
--
-
-Has engaged in multiple instances of threatening or inciting high-severity violence (online or offline);
+- Has engaged in multiple instances of threatening or inciting high-severity violence (online or offline);
 
 A Hate Banned Entity is a non-state actor that:
 
--
-
-Engages in repeated hateful conduct or rhetoric, but does not rise to the level of a Tier 1 entity because they have not engaged in or explicitly advocated for violence, or because they lack sufficient connections to previously designated organizations or figures.
+- Engages in repeated hateful conduct or rhetoric, but does not rise to the level of a Tier 1 entity because they have not engaged in or explicitly advocated for violence, or because they lack sufficient connections to previously designated organizations or figures.
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
--
-
-In certain cases, we will allow content that may otherwise violate the Community Standards when it is determined that the content is satirical. Content will only be allowed if the violating elements of the content are being satirized or attributed to something or someone else in order to mock or criticize them.
+- In certain cases, we will allow content that may otherwise violate the Community Standards when it is determined that the content is satirical. Content will only be allowed if the violating elements of the content are being satirized or attributed to something or someone else in order to mock or criticize them.
 
 User experiences
 
@@ -2090,28 +1236,6 @@ USER EXPERIENCE
 
 Warning screens
 
-Data
-
-View the latest Community Standards Enforcement Report
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with dangerous individuals and organizations
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
@@ -2126,443 +1250,241 @@ Loan Fraud and Scams
 
 Content that:
 
--
+- Offers loans requiring the user to pay an advance fee to obtain a loan.
 
-Offers loans requiring the user to pay an advance fee to obtain a loan.
+- Offers loans with guarantee or near-guarantee of approval, either explicitly stated or implicitly understood based on context (such as claims to approve loan without asking for financial information).
 
--
-
-Offers loans with guarantee or near-guarantee of approval, either explicitly stated or implicitly understood based on context (such as claims to approve loan without asking for financial information).
-
--
-
-Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
+- Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
 
 Gambling Fraud and Scams
 
 Content that:
 
--
+- Offers real money gambling services (“Real money” is real-world currency that can be used to buy goods or services in the real world, including national currencies such as U.S. Dollars and virtual currencies such as Bitcoin):
 
-Offers real money gambling services (“Real money” is real-world currency that can be used to buy goods or services in the real world, including national currencies such as U.S. Dollars and virtual currencies such as Bitcoin):
+- with a guarantee of winning.
 
--
+- implying or admitting to have rigged the outcome of a game or match.
 
-with a guarantee of winning.
-
--
-
-implying or admitting to have rigged the outcome of a game or match.
-
--
-
-soliciting people to enable match fixing or looking for help or tips on how to fix a match or game.
+- soliciting people to enable match fixing or looking for help or tips on how to fix a match or game.
 
 Social casino games that simulate gambling with no opportunity to win real money fall under our
 
-Community Standard for Restricted Goods and Services .
+[Community Standard for Restricted Goods and Services](sources/platform-meta-community-standards-20.transparency-meta-com.html) .
 
 Investment or Financial Fraud and Scams
 
--
+- Investment Opportunities. Content that:
 
-Investment Opportunities. Content that:
+- Offers investment opportunities where returns on investment are guaranteed or risk-free.
 
--
+- Offers investment opportunities where returns on investment or compensation is partly or fully based on recruitment of others to participate in the scheme.
 
-Offers investment opportunities where returns on investment are guaranteed or risk-free.
+- Offers investment opportunities where the opportunity is of a “get-rich-quick” nature and/or claims that a small investment can be turned into a large amount.
 
--
+- Money/Cash Flip. Content that:
 
-Offers investment opportunities where returns on investment or compensation is partly or fully based on recruitment of others to participate in the scheme.
-
--
-
-Offers investment opportunities where the opportunity is of a “get-rich-quick” nature and/or claims that a small investment can be turned into a large amount.
-
--
-
-Money/Cash Flip. Content that:
-
--
-
-Offers to turn a certain sum of money into a larger one through flipping or trick or strategy involving explicit mentions of ”cash flip,” "money flip,” or similar terminology.
+- Offers to turn a certain sum of money into a larger one through flipping or trick or strategy involving explicit mentions of ”cash flip,” "money flip,” or similar terminology.
 
 Money Muling and Laundering Fraud and Scams
 
--
+- Money Muling. Content that:
 
-Money Muling. Content that:
+- Offers or asks for money muling (causing victims to be unknowing participants in money laundering by offering money or share of profits in exchange for allowing others to use their bank accounts or transferring money on behalf of others).
 
--
+- Offers or asks for money muling by offering employment to accept and transfer money to third parties using the victim’s bank account.
 
-Offers or asks for money muling (causing victims to be unknowing participants in money laundering by offering money or share of profits in exchange for allowing others to use their bank accounts or transferring money on behalf of others).
+- Money Laundering. Content that:
 
--
+- Requests, solicits, or offers to facilitate money laundering, which is an attempt to make illegally obtained money appear legitimate by disguising the origin of the money through a complex sequence of financial transactions, including through any of the following means:
 
-Offers or asks for money muling by offering employment to accept and transfer money to third parties using the victim’s bank account.
+- Seeking transfer of funds through SWIFT (Society for Worldwide Interbank Financial Telecommunications) or similar methods,
 
--
-
-Money Laundering. Content that:
-
--
-
-Requests, solicits, or offers to facilitate money laundering, which is an attempt to make illegally obtained money appear legitimate by disguising the origin of the money through a complex sequence of financial transactions, including through any of the following means:
-
--
-
-Seeking transfer of funds through SWIFT (Society for Worldwide Interbank Financial Telecommunications) or similar methods,
-
--
-
-Seeking or offering details on types of bank accounts available to support receipt or transfer of cash.
+- Seeking or offering details on types of bank accounts available to support receipt or transfer of cash.
 
 Inauthentic Identity Fraud and Scams
 
 Content that:
 
--
+- Attempts to scam or defraud users by misrepresenting the identity of the poster or nature of a request:
 
-Attempts to scam or defraud users by misrepresenting the identity of the poster or nature of a request:
+- Charity Fraud and Scam, which are fraudulent requests for money or donations for charitable causes together with claims that the donation is urgent and includes information, such as bank accounts, where money can be sent.
 
--
+- Romance Fraud and Scam, which are fraudulent attempts to establish online romantic relationships by seeking non-sexual companionship or relationship and offering or asking for money or its equivalent in exchange.
 
-Charity Fraud and Scam, which are fraudulent requests for money or donations for charitable causes together with claims that the donation is urgent and includes information, such as bank accounts, where money can be sent.
-
--
-
-Romance Fraud and Scam, which are fraudulent attempts to establish online romantic relationships by seeking non-sexual companionship or relationship and offering or asking for money or its equivalent in exchange.
-
--
-
-Established Business/Entity Fraud and Scams, which involve falsely claiming to represent, or speak in the voice of, an established business or entity, in an attempt to scam or defraud.
+- Established Business/Entity Fraud and Scams, which involve falsely claiming to represent, or speak in the voice of, an established business or entity, in an attempt to scam or defraud.
 
 Product or Reward Fraud and Scams
 
--
+- Government Grant Fraud and Scam. Content that:
 
-Government Grant Fraud and Scam. Content that:
+- Falsely offers money from government grants or any other governmental source of funding. We consider various signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it comes from a verified entity.
 
--
+- Tangible, Spiritual or Illuminati Fraud and Scam. Content that:
 
-Falsely offers money from government grants or any other governmental source of funding. We consider various signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it comes from a verified entity.
+- Offers tangible rewards, such as money, goods, or services that have a monetary value including physical, digital and virtual currencies, and physical or digital goods and services for membership in or joining an association, cult, religious sect (for example, the Illuminati brotherhood).
 
--
+- Offers tangible rewards for using black magic or spells or magical items (for example, spells, lucky charms, amulets, tokens, potions, magic wallet, etc.).
 
-Tangible, Spiritual or Illuminati Fraud and Scam. Content that:
+- Insurance Fraud and Scams. Content that:
 
--
+- Offers false, heavily discounted insurance with requests for an up-front fee (admin fee, or deposit, or otherwise).
 
-Offers tangible rewards, such as money, goods, or services that have a monetary value including physical, digital and virtual currencies, and physical or digital goods and services for membership in or joining an association, cult, religious sect (for example, the Illuminati brotherhood).
+- Offers false, heavily discounted insurance with promises of large savings on insurance compared to conventional insurance providers (at least 30% less).
 
--
+- Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution
 
-Offers tangible rewards for using black magic or spells or magical items (for example, spells, lucky charms, amulets, tokens, potions, magic wallet, etc.).
+- Job Fraud and Scams. Content that:
 
--
+- Offers jobs with an unclear or vague job description and get-rich-quick opportunities promising money with little time investment or effort.
 
-Insurance Fraud and Scams. Content that:
+- Offers jobs containing no job information, simply referencing job vacancies.
 
--
+- Offers work from home but the job title implies the employee cannot WFH.
 
-Offers false, heavily discounted insurance with requests for an up-front fee (admin fee, or deposit, or otherwise).
+- Offers jobs with advance promises of salary.
 
--
+- Offers guaranteed jobs.
 
-Offers false, heavily discounted insurance with promises of large savings on insurance compared to conventional insurance providers (at least 30% less).
+- Offers jobs with a demand for an advance fee before the job is granted.
 
--
+- Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity
 
-Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution
+- Debt Relief and Credit Repair Fraud and Scam. Content that:
 
--
+- Promises to delete or eliminate or reduce debt by a particular amount in a set period of time.
 
-Job Fraud and Scams. Content that:
+- Promises to stop or delete all debt collections or lawsuits.
 
--
+- Promises to forgive or cancel debt through "new government program” or change in law or equivalent statement.
 
-Offers jobs with an unclear or vague job description and get-rich-quick opportunities promising money with little time investment or effort.
+- Promises to delete or remove credit information from credit reports or create new "credit identity".
 
--
+- Note: We also look for other signals to determine an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution
 
-Offers jobs containing no job information, simply referencing job vacancies.
+- Giveaway Fraud and Scam. Content that:
 
--
+- Offers a guaranteed reward of real money in exchange for users needing to:
 
-Offers work from home but the job title implies the employee cannot WFH.
+- Register at an off-site link.
 
--
+- Share Personal Identifiable Information (PII) or Other Personal Information.
 
-Offers jobs with advance promises of salary.
+- Contact off-platform or on-platform via private message.
 
--
+- Take no action.
 
-Offers guaranteed jobs.
+- Advance Fee Fraud and Scam. Content that:
 
--
-
-Offers jobs with a demand for an advance fee before the job is granted.
-
--
-
-Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity
-
--
-
-Debt Relief and Credit Repair Fraud and Scam. Content that:
-
--
-
-Promises to delete or eliminate or reduce debt by a particular amount in a set period of time.
-
--
-
-Promises to stop or delete all debt collections or lawsuits.
-
--
-
-Promises to forgive or cancel debt through "new government program” or change in law or equivalent statement.
-
--
-
-Promises to delete or remove credit information from credit reports or create new "credit identity".
-
--
-
-Note: We also look for other signals to determine an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution
-
--
-
-Giveaway Fraud and Scam. Content that:
-
--
-
-Offers a guaranteed reward of real money in exchange for users needing to:
-
--
-
-Register at an off-site link.
-
--
-
-Share Personal Identifiable Information (PII) or Other Personal Information.
-
--
-
-Contact off-platform or on-platform via private message.
-
--
-
-Take no action.
-
--
-
-Advance Fee Fraud and Scam. Content that:
-
--
-
-Falsely promises money in exchange for an up-front fee/wire transfer/payment.
+- Falsely promises money in exchange for an up-front fee/wire transfer/payment.
 
 Fake Documents Fraud and Scams
 
--
+- Fake or Forged Documents. Content that:
 
-Fake or Forged Documents. Content that:
+- Offers solicitation, creation, sale, purchase or trade of fake or forged documents.
 
--
+- Offers sale of visas or green cards.
 
-Offers solicitation, creation, sale, purchase or trade of fake or forged documents.
+- Guarantees visa or green card approval.
 
--
+- Enables users to get visa approvals without fulfilling normal requirements.
 
-Offers sale of visas or green cards.
+- Fake or Counterfeit Currency. Content that:
 
--
+- Offers sale, purchase or trade of fake or counterfeit currency, except board-game currency (e.g., Monopoly money) if there is clear context that it is for board-game purposes.
 
-Guarantees visa or green card approval.
+- Fake or Counterfeit Vouchers. Content that:
 
--
+- Offers sharing, sale, purchase or trade of fake or counterfeit vouchers.
 
-Enables users to get visa approvals without fulfilling normal requirements.
+- Admits to, promotes, or solicits the use of physical or digital coupons or vouchers to achieve atypical pricing by either:
 
--
+- using coupons or vouchers to purchase items those coupons or vouchers are not intended for; or
 
-Fake or Counterfeit Currency. Content that:
+- by using expired coupons or vouchers.
 
--
+- Fake or forged educational and professional certificates. Content that:
 
-Offers sale, purchase or trade of fake or counterfeit currency, except board-game currency (e.g., Monopoly money) if there is clear context that it is for board-game purposes.
-
--
-
-Fake or Counterfeit Vouchers. Content that:
-
--
-
-Offers sharing, sale, purchase or trade of fake or counterfeit vouchers.
-
--
-
-Admits to, promotes, or solicits the use of physical or digital coupons or vouchers to achieve atypical pricing by either:
-
--
-
-using coupons or vouchers to purchase items those coupons or vouchers are not intended for; or
-
--
-
-by using expired coupons or vouchers.
-
--
-
-Fake or forged educational and professional certificates. Content that:
-
--
-
-Offers sale, purchase or trade of fake or forged educational and professional certificates.
+- Offers sale, purchase or trade of fake or forged educational and professional certificates.
 
 Stolen Information, Goods or Services Fraud and Scam
 
--
+- Carding Fraud and Scam. Content that:
 
-Carding Fraud and Scam. Content that:
+- Involves buying, selling or trading of stolen credit cards or other financial instruments that can be used for unauthorized purchases (also known as "carding").
 
--
+- PII Fraud and Scam. Content that:
 
-Involves buying, selling or trading of stolen credit cards or other financial instruments that can be used for unauthorized purchases (also known as "carding").
+- Offers buying, selling or trading of Personal Identifiable Information (PII) or Other Personal Information except if it belongs to a fictional character.
 
--
+- Fake Review Fraud and Scam. Content that:
 
-PII Fraud and Scam. Content that:
+- Calls for buying, selling or trading of product reviews/ratings.
 
--
+- Implicitly or explicitly incentivises users to provide reviews in exchange for discounts, refunds or free items.
 
-Offers buying, selling or trading of Personal Identifiable Information (PII) or Other Personal Information except if it belongs to a fictional character.
+- Subscription Fraud and Scam. Content that:
 
--
+- Offers buying, selling or trading of credentials for subscription services (login credentials to online services which require a recurring payment at regular intervals) by making references to a paid online service, either by naming it or by sharing its logo.
 
-Fake Review Fraud and Scam. Content that:
+- Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
 
--
+- Cheating Fraud and Scam. Content that:
 
-Calls for buying, selling or trading of product reviews/ratings.
+- Involves sharing, selling, trading, or buying of:
 
--
+- future exam papers or answer sheets.
 
-Implicitly or explicitly incentivises users to provide reviews in exchange for discounts, refunds or free items.
+- Products or services that enable cheating in exams.
 
--
-
-Subscription Fraud and Scam. Content that:
-
--
-
-Offers buying, selling or trading of credentials for subscription services (login credentials to online services which require a recurring payment at regular intervals) by making references to a paid online service, either by naming it or by sharing its logo.
-
--
-
-Note: We also look for other signals to determine if an entity is posting legitimate, non-fraudulent content, such as when it is a verified entity and a bank or financial institution.
-
--
-
-Cheating Fraud and Scam. Content that:
-
--
-
-Involves sharing, selling, trading, or buying of:
-
--
-
-future exam papers or answer sheets.
-
--
-
-Products or services that enable cheating in exams.
-
--
-
-Products or services that enable passing drug tests in an unauthorized manner
+- Products or services that enable passing drug tests in an unauthorized manner
 
 Unauthorized Use of Devices Fraud and Scam
 
--
+- Device Manipulation Fraud and Scam. Content that
 
-Device Manipulation Fraud and Scam. Content that
+- Calls for buying, selling, trading or sharing of any manipulated, altered, or fake measurement devices.
 
--
+- Admits to, promotes or solicits use of physical manipulation of devices to achieve inaccurate pricing.
 
-Calls for buying, selling, trading or sharing of any manipulated, altered, or fake measurement devices.
+- Digital Content Fraud and Scam. Content that
 
--
-
-Admits to, promotes or solicits use of physical manipulation of devices to achieve inaccurate pricing.
-
--
-
-Digital Content Fraud and Scam. Content that
-
--
-
-Offers or asks for products that facilitate or encourage access to digital content in an unauthorized manner. These include but are not limited to: augmented set top boxes, fully loaded/KODI installed boxes and KODI services.
+- Offers or asks for products that facilitate or encourage access to digital content in an unauthorized manner. These include but are not limited to: augmented set top boxes, fully loaded/KODI installed boxes and KODI services.
 
 Deceptive and Misleading Practices
 
--
+- Misleading Health Practices. Content that
 
-Misleading Health Practices. Content that
-
--
-
-Promotes false or misleading health claims or guarantees in a weight loss context by employing click-bait tactics, such as the use of sensational language that make exaggerated or extreme claims
+- Promotes false or misleading health claims or guarantees in a weight loss context by employing click-bait tactics, such as the use of sensational language that make exaggerated or extreme claims
 
 For the following content, we limit the ability to view the content to adults, ages 18 and older:
 
 Content that
 
--
-
-Promises specific weight-loss results in specific time with no qualifying or disclaimer language.
+- Promises specific weight-loss results in specific time with no qualifying or disclaimer language.
 
 Notwithstanding the above, we do not prohibit content that condemns, raises awareness of or educates others about fraud and scams, without either revealing sensitive information or promoting fraud or scams
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
--
+- We may remove content:
 
-We may remove content:
+- Involving fraud/scam that have been reported by a trusted entity.
 
--
+- Related to bribery or embezzlement.
 
-Involving fraud/scam that have been reported by a trusted entity.
+- That offers vaccines in an attempt to scam or defraud users.
 
--
+- That attempts to establish a fake persona, pretends to be a famous person, or makes unauthorized use of an image of a famous person in an attempt to scam or defraud.
 
-Related to bribery or embezzlement.
+- That offers or asks for products or services designed to facilitate the surreptitious viewing or recording of individuals, e.g., spy cams, mobile phone trackers (including those that allow tracing unknown phone numbers), or other hidden surveillance equipment.
 
--
+- That offers litigant recruitment opportunities for people to participate in class action lawsuits by impersonating a government entity or a news outlet, by using sensationalist language, or by using exaggerated claims.
 
-That offers vaccines in an attempt to scam or defraud users.
+- That offers subscription services that prompt users to enter Personal Information.
 
--
-
-That attempts to establish a fake persona, pretends to be a famous person, or makes unauthorized use of an image of a famous person in an attempt to scam or defraud.
-
--
-
-That offers or asks for products or services designed to facilitate the surreptitious viewing or recording of individuals, e.g., spy cams, mobile phone trackers (including those that allow tracing unknown phone numbers), or other hidden surveillance equipment.
-
--
-
-That offers litigant recruitment opportunities for people to participate in class action lawsuits by impersonating a government entity or a news outlet, by using sensationalist language, or by using exaggerated claims.
-
--
-
-That offers subscription services that prompt users to enter Personal Information.
-
--
-
-We do not allow entities to participate in or claim to engage in organized Fraud or Scam behavior, including the use of multiple accounts on our services in concert to perpetrate fraudulent behaviors.
+- We do not allow entities to participate in or claim to engage in organized Fraud or Scam behavior, including the use of multiple accounts on our services in concert to perpetrate fraudulent behaviors.
 
 In certain cases, we allow content that may otherwise violate the Community Standards when it is determined that the content is satirical. Content will only be allowed if the violating elements of the content are being satirized or attributed to something or someone else in order to mock or criticize them.
 
@@ -2588,24 +1510,6 @@ USER EXPERIENCE
 
 Warning screens
 
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with fraud, scams, and deceptive practices
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
@@ -2626,153 +1530,87 @@ Tier 1
 
 Content targeting a person or group of people (except groups described as having carried out violent or sexual crimes or representing less than half of a group) on the basis of their aforementioned protected characteristic(s) or immigration status in written or visual form with:
 
--
+- Dehumanizing speech in the form of comparisons to or generalizations about animals, pathogens, or other sub-human life forms, including:
 
-Dehumanizing speech in the form of comparisons to or generalizations about animals, pathogens, or other sub-human life forms, including:
+- Insects (including but not limited to: cockroaches, locusts)
 
--
+- Animals in general or specific types of animals that are culturally perceived as inferior (including but not limited to: Black people and apes or ape-like creatures; Jewish people and rats; Muslim people and pigs; Mexican people and worms)
 
-Insects (including but not limited to: cockroaches, locusts)
+- Bacteria, viruses, or microbes
 
--
+- Subhumanity (including but not limited to: savages, devils, monsters)
 
-Animals in general or specific types of animals that are culturally perceived as inferior (including but not limited to: Black people and apes or ape-like creatures; Jewish people and rats; Muslim people and pigs; Mexican people and worms)
+- Allegations of serious immorality and criminality:
 
--
+- Sexual predators and pedophiles (including but not limited to: Muslim people having sex with goats or pigs)
 
-Bacteria, viruses, or microbes
+- Violent criminals (including but not limited to: terrorists, murderers)
 
--
+- Calls and hopes for the following harms (serious or specific threats and calls for violence are addressed under our Violence and Incitement policy):
 
-Subhumanity (including but not limited to: savages, devils, monsters)
+- Contracting a disease
 
--
+- Experiencing a natural disaster
 
-Allegations of serious immorality and criminality:
+- Self-injury or suicide
 
--
+- Death without a perpetrator or method
 
-Sexual predators and pedophiles (including but not limited to: Muslim people having sex with goats or pigs)
+- Accidents and other physical harms caused either by no perpetrator or by a deity
 
--
+- Harmful stereotypes historically linked to intimidation or violence, such as Blackface; Holocaust denial; claims that Jewish people control financial, political, or media institutions; references to Dalits as menial laborers; and comparing Black people to farm equipment.
 
-Violent criminals (including but not limited to: terrorists, murderers)
+- Mocking the concept, events or victims of hate crimes even if no real person is depicted in an image.
 
--
+- Mocking people for having or experiencing a disease.
 
-Calls and hopes for the following harms (serious or specific threats and calls for violence are addressed under our Violence and Incitement policy):
-
--
-
-Contracting a disease
-
--
-
-Experiencing a natural disaster
-
--
-
-Self-injury or suicide
-
--
-
-Death without a perpetrator or method
-
--
-
-Accidents and other physical harms caused either by no perpetrator or by a deity
-
--
-
-Harmful stereotypes historically linked to intimidation or violence, such as Blackface; Holocaust denial; claims that Jewish people control financial, political, or media institutions; references to Dalits as menial laborers; and comparing Black people to farm equipment.
-
--
-
-Mocking the concept, events or victims of hate crimes even if no real person is depicted in an image.
-
--
-
-Mocking people for having or experiencing a disease.
-
--
-
-Content that describes or negatively targets people with slurs. Slurs are defined as words that inherently create an atmosphere of exclusion and intimidation against people on the basis of a protected characteristic, often because these words are tied to historical discrimination, oppression, and violence.
+- Content that describes or negatively targets people with slurs. Slurs are defined as words that inherently create an atmosphere of exclusion and intimidation against people on the basis of a protected characteristic, often because these words are tied to historical discrimination, oppression, and violence.
 
 Tier 2
 
 Content targeting a person or group of people on the basis of their protected characteristic(s) (in written or visual form) with:
 
--
+- Calls or support for exclusion or segregation or statements of intent to exclude or segregate, defined as:
 
-Calls or support for exclusion or segregation or statements of intent to exclude or segregate, defined as:
+- General exclusion, which means calling for general exclusion or segregation, such as “No X allowed!”
 
--
+- Political exclusion, which means denying the right to political participation or arguing for incarceration or denial of political rights.
 
-General exclusion, which means calling for general exclusion or segregation, such as “No X allowed!”
+- Economic exclusion, which means denying access to economic entitlements and limiting participation in the labor market. We do allow content arguing for gender-based limitations of military, law enforcement, and teaching jobs. We also allow the same content based on sexual orientation, when the content is based on religious beliefs.
 
--
+- Social exclusion, which means things like denying access to spaces (physical and online) and social services, except for sex or gender-based exclusion from spaces commonly limited by sex or gender, such as restrooms, sports and sports leagues, health and support groups, and specific schools.
 
-Political exclusion, which means denying the right to political participation or arguing for incarceration or denial of political rights.
+- Insults, including those about:
 
--
+- Character, including but not limited to allegations of cowardice, dishonesty, basic criminality, and sexual promiscuity or other sexual immorality.
 
-Economic exclusion, which means denying access to economic entitlements and limiting participation in the labor market. We do allow content arguing for gender-based limitations of military, law enforcement, and teaching jobs. We also allow the same content based on sexual orientation, when the content is based on religious beliefs.
+- Mental characteristics, including but not limited to allegations of stupidity, intellectual capacity, and mental illness, and unsupported comparisons between PC groups on the basis of inherent intellectual capacity. We do allow allegations of mental illness or abnormality when based on gender or sexual orientation, given political and religious discourse about transgenderism and homosexuality and common non-serious usage of words like “weird.”
 
--
+- Other areas, including but not limited to allegations of worthlessness, uselessness, ugliness, dirtiness.
 
-Social exclusion, which means things like denying access to spaces (physical and online) and social services, except for sex or gender-based exclusion from spaces commonly limited by sex or gender, such as restrooms, sports and sports leagues, health and support groups, and specific schools.
+- Expressions that suggest the target causes sickness, including but not limited to “make me vomit.”
 
--
+- Targeted cursing, except certain gender-based cursing in a romantic break-up context, defined as:
 
-Insults, including those about:
+- Targeted use of “fuck” or variations of “fuck” with intent to insult, such as “Fuck the [Protected Characteristic]!”
 
--
-
-Character, including but not limited to allegations of cowardice, dishonesty, basic criminality, and sexual promiscuity or other sexual immorality.
-
--
-
-Mental characteristics, including but not limited to allegations of stupidity, intellectual capacity, and mental illness, and unsupported comparisons between PC groups on the basis of inherent intellectual capacity. We do allow allegations of mental illness or abnormality when based on gender or sexual orientation, given political and religious discourse about transgenderism and homosexuality and common non-serious usage of words like “weird.”
-
--
-
-Other areas, including but not limited to allegations of worthlessness, uselessness, ugliness, dirtiness.
-
--
-
-Expressions that suggest the target causes sickness, including but not limited to “make me vomit.”
-
--
-
-Targeted cursing, except certain gender-based cursing in a romantic break-up context, defined as:
-
--
-
-Targeted use of “fuck” or variations of “fuck” with intent to insult, such as “Fuck the [Protected Characteristic]!”
-
--
-
-Terms or phrases calling for engagement in sexual activity, or contact with genitalia, anus, feces or urine, including but not limited to: suck my dick, kiss my ass, eat shit.
+- Terms or phrases calling for engagement in sexual activity, or contact with genitalia, anus, feces or urine, including but not limited to: suck my dick, kiss my ass, eat shit.
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
 Do not post:
 
--
+- Content explicitly providing or offering to provide products or services that aim to change people’s sexual orientation or gender identity.
 
-Content explicitly providing or offering to provide products or services that aim to change people’s sexual orientation or gender identity.
-
--
-
-Content attacking concepts, institutions, ideas, practices, or beliefs associated with protected characteristics, which are likely to contribute to imminent physical harm, intimidation or discrimination against the people associated with that protected characteristic. Meta looks at a range of signs to determine whether there is a threat of harm in the content. These include but are not limited to: content that could incite imminent violence or intimidation; whether there is a period of heightened tension such as an election or ongoing conflict; and whether there is a recent history of violence against the targeted protected group. In some cases, we may also consider whether the speaker is a public figure or occupies a position of authority.
+- Content attacking concepts, institutions, ideas, practices, or beliefs associated with protected characteristics, which are likely to contribute to imminent physical harm, intimidation or discrimination against the people associated with that protected characteristic. Meta looks at a range of signs to determine whether there is a threat of harm in the content. These include but are not limited to: content that could incite imminent violence or intimidation; whether there is a period of heightened tension such as an election or ongoing conflict; and whether there is a recent history of violence against the targeted protected group. In some cases, we may also consider whether the speaker is a public figure or occupies a position of authority.
 
 In certain cases, we will allow content that may otherwise violate the Community Standards when it is determined that the content is satirical. Content will only be allowed if the violating elements of the content are being satirized or attributed to something or someone else in order to mock or criticize them.
 
 Note: if you are a European Union user, and are seeing content that you believe violates hate speech laws within your country, you can submit a legal removal request to
 
-Facebook or
+[Facebook](https://www.facebook.com/help/contact/319149701968527) or
 
-Instagram .
+[Instagram](https://help.instagram.com/contact/406206379945942) .
 
 User experiences
 
@@ -2796,28 +1634,6 @@ USER EXPERIENCE
 
 Warning screens
 
-Data
-
-View the latest Community Standards Enforcement Report
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with hateful conduct
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
@@ -2834,41 +1650,23 @@ Do not post:
 
 Content, activity or interactions that recruits people for, facilitates or exploits people through any of the following forms of human trafficking:
 
--
+- Sex trafficking (any commercial sexual activity with a minor or any commercial sexual activity with an adult involving force, fraud, or coercion)
 
-Sex trafficking (any commercial sexual activity with a minor or any commercial sexual activity with an adult involving force, fraud, or coercion)
+- Sales of children or illegal adoption
 
--
+- Orphanage trafficking and orphanage volun-tourism
 
-Sales of children or illegal adoption
+- Forced marriages (including child marriages)
 
--
+- Labor exploitation (including bonded labor)
 
-Orphanage trafficking and orphanage volun-tourism
+- Domestic servitude
 
--
+- Non-regenerative organ trafficking not including organ removal, donation, or transplant in a non-exploitative organ donation context
 
-Forced marriages (including child marriages)
+- Forced criminal activity (e.g. forced begging, forced drug trafficking)
 
--
-
-Labor exploitation (including bonded labor)
-
--
-
-Domestic servitude
-
--
-
-Non-regenerative organ trafficking not including organ removal, donation, or transplant in a non-exploitative organ donation context
-
--
-
-Forced criminal activity (e.g. forced begging, forced drug trafficking)
-
--
-
-Recruitment of child soldiers
+- Recruitment of child soldiers
 
 Content where a third party actor recruits for, facilitates or benefits from (financially or otherwise) commercial sexual activity
 
@@ -2908,24 +1706,6 @@ USER EXPERIENCE
 
 Warning screens
 
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with human exploitation
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
@@ -2938,41 +1718,29 @@ These enforcement actions and standards apply agnostic of content or ideology an
 
 When we identify these networks, we remove the fake accounts, Pages, Groups, or other Meta assets directly involved in the operation. In cases where these people also create, manage, co-opt, target, or control Pages, Groups or communities that represent authentic entities not involved in the violating behavior, we may take steps to remove the violating individuals but allow the uninvolved people and communities to remain on our services.
 
-Whenever possible, we share our findings about networks of CIB in our Adversarial Threat Reports, found here . These reports are not meant to cover the entire universe of enforcements under the Inauthentic Behavior policy, but help inform our community’s understanding of the evolving nature of threats we face in this space.
+Whenever possible, we share our findings about networks of CIB in our Adversarial Threat Reports, found [here](https://transparency.meta.com/metasecurity/threat-reporting/) . These reports are not meant to cover the entire universe of enforcements under the Inauthentic Behavior policy, but help inform our community’s understanding of the evolving nature of threats we face in this space.
 
 We do not allow:
 
 The creation, use, or claimed use of Inauthentic Meta Assets (Accounts, Pages, Groups, etc.) in order to:
 
--
+- Deceive Meta or our users about the identity, or origin of an audience or the entity that they represent
 
-Deceive Meta or our users about the identity, or origin of an audience or the entity that they represent
+- To Evade enforcement under the Community Standards.
 
--
-
-To Evade enforcement under the Community Standards.
-
--
-
-Misuse Meta reporting systems to harass, intimidate or silence others.
+- Misuse Meta reporting systems to harass, intimidate or silence others.
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
 We do not allow:
 
--
-
-Entities to engage in, or claim to engage in
+- Entities to engage in, or claim to engage in
 
 Coordinated Inauthentic Behavior , defined as particularly sophisticated forms of Inauthentic Behavior where false identities are central to the operation and operators use adversarial methods to evade detection or appear authentic; and
 
--
+- Entities to engage in, or claim to engage in Foreign Interference, defined as Coordinated Inauthentic Behavior where the network operators are not located in the same country as the audience the operation targets
 
-Entities to engage in, or claim to engage in Foreign Interference, defined as Coordinated Inauthentic Behavior where the network operators are not located in the same country as the audience the operation targets
-
--
-
-Governments that have instituted sustained blocks of social media to use their official departments, agencies, and embassies to deny the use of force or violent events in the context of an attack against the territorial integrity of another state in violation of Article 2(4) of the UN charter.
+- Governments that have instituted sustained blocks of social media to use their official departments, agencies, and embassies to deny the use of force or violent events in the context of an attack against the territorial integrity of another state in violation of Article 2(4) of the UN charter.
 
 User experiences
 
@@ -2996,79 +1764,41 @@ USER EXPERIENCE
 
 Warning screens
 
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with inauthentic behavior
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
 
-Meta takes intellectual property rights seriously and is committed to protecting these rights while promoting expression, creativity, and innovation in a space built on community trust.
+Meta takes [intellectual property rights](https://www.facebook.com/help/399224883474207?ref=ccs) seriously and is committed to protecting these rights while promoting expression, creativity, and innovation in a space built on community trust.
 
-For this reason, we enforce a policy against posting content that violates someone else’s intellectual property rights, including copyright , trademark , or other legal rights. We publish information about the intellectual property reports we receive in our Intellectual Property Transparency Report .
+For this reason, we enforce a policy against posting content that violates someone else’s intellectual property rights, including [copyright](https://www.facebook.com/help/1020633957973118/) , [trademark](https://www.facebook.com/help/507663689427413/) , or other legal rights. We publish information about the intellectual property reports we receive in our [Intellectual Property Transparency Report](https://transparency.meta.com/reports/intellectual-property/) .
 
-To report content that you feel may infringe upon your intellectual property rights, please visit our Intellectual Property Help Center , visit our Business Protection page , or consider applying for access to Brand Rights Protection .
+To report content that you feel may infringe upon your intellectual property rights, please visit our [Intellectual Property Help Center](https://www.facebook.com/help/intellectual_property) , visit our [Business Protection page](https://www.facebook.com/business/protecting-businesses) , or consider applying for access to [Brand Rights Protection](https://www.facebook.com/index.php?next=https%3A%2F%2Fbusiness.facebook.com%2Fbrand-rights-protection%2F) .
 
 Upon receipt of a report from a rights holder or an authorized representative, we will remove or restrict content that engages in:
 
--
+- Copyright infringement.
 
-Copyright infringement.
+- Trademark infringement.
 
--
+- The sale or promotion of counterfeit goods
 
-Trademark infringement.
+- False affiliation with brand(s)
 
--
-
-The sale or promotion of counterfeit goods
-
--
-
-False affiliation with brand(s)
-
--
-
-Any other infringement or violation of intellectual property rights or other proprietary rights
+- Any other infringement or violation of intellectual property rights or other proprietary rights
 
 We also remove content that:
 
--
+- Contains signs that suggest the content is selling or promoting counterfeits of branded goods
 
-Contains signs that suggest the content is selling or promoting counterfeits of branded goods
+- Contains off-platform links to websites dedicated to the sale or promotion of suspected counterfeit goods
 
--
+- Sells or promotes suspected counterfeit goods that are identical or highly similar to content that has been previously reported as counterfeit by a rightsholder
 
-Contains off-platform links to websites dedicated to the sale or promotion of suspected counterfeit goods
-
--
-
-Sells or promotes suspected counterfeit goods that are identical or highly similar to content that has been previously reported as counterfeit by a rightsholder
-
--
-
-Shares, promotes, or facilitates suspected copyright infringement
+- Shares, promotes, or facilitates suspected copyright infringement
 
 We remove accounts that:
 
--
-
-Engage in repeated violations of this policy.
+- Engage in repeated violations of this policy.
 
 We allow content that Is authorized by the rights holder and follows established fair use principles
 
@@ -3094,37 +1824,19 @@ USER EXPERIENCE
 
 Warning screens
 
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with Third-Party Intellectual Property Infringement
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
 
 When regulators or government entities believe content on our services goes against local law, they may ask us to restrict the content. Non-government entities and members of the public may also send reports alleging content is unlawful. We may also receive court orders.
 
-When we receive a report or an order, we first review it against the Community Standards. If we determine that the content goes against our policies, we remove it. If content does not go against our policies, in line with our commitments as a member of the Global Network Initiative and our Corporate Human Rights Policy , we conduct a careful legal review as well as human rights due diligence to determine whether the report is valid.
+When we receive a report or an order, we first review it against the Community Standards. If we determine that the content goes against our policies, we remove it. If content does not go against our policies, in line with our commitments as a member of the [Global Network Initiative](https://globalnetworkinitiative.org/) and our [Corporate Human Rights Policy](https://about.fb.com/wp-content/uploads/2021/03/Facebooks-Corporate-Human-Rights-Policy.pdf) , we conduct a careful legal review as well as human rights due diligence to determine whether the report is valid.
 
 In cases where we believe that reports are not legally valid, are overly broad, or are inconsistent with international human rights standards, we may request clarification or take no action.
 
 Where we do act against user content on the basis of local law rather than our Community Standards, we endeavor to restrict access to the content only in the jurisdiction where it is alleged to be unlawful and do not impose any other penalties or feature restrictions. We also notify the affected user.
 
-We also publish reports detailing how we assess reports of content violating local law and instances where we restricted access to content in such cases, available here .
+We also publish reports detailing how we assess reports of content violating local law and instances where we restricted access to content in such cases, available [here](https://transparency.meta.com/reports/content-restrictions/) .
 
 User experiences
 
@@ -3147,24 +1859,6 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with locally illegal content, products, or services
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
 
 ---
 
@@ -3176,57 +1870,33 @@ On Facebook, we have made it possible for people to identify a legacy contact to
 
 Requests to memorialize Facebook or Instagram accounts that belong to deceased users can be made with the requisite information by:
 
--
+- Facebook friends
 
-Facebook friends
+- Instagram followers
 
--
-
-Instagram followers
-
--
-
-Family members with the correct documentation
+- Family members with the correct documentation
 
 For victims of murder and suicide we will remove the following content on Facebook and Instagram if it appears on the deceased’s profile photo, cover photo, or among recent timeline posts when requested by a family member of the deceased. We may also remove this content on Facebook when requested by the Facebook legacy contact:
 
--
+- Content related to the deceased's death
 
-Content related to the deceased's death
+- Praise or support for the death, disease, or harm of the deceased
 
--
+- Visual depiction of the object used in the deceased’s death.
 
-Praise or support for the death, disease, or harm of the deceased
+- Imagery of the convicted or alleged murderer of the deceased.
 
--
-
-Visual depiction of the object used in the deceased’s death.
-
--
-
-Imagery of the convicted or alleged murderer of the deceased.
-
--
-
-Relationship status or friend status of the convicted or alleged murderer of the deceased
+- Relationship status or friend status of the convicted or alleged murderer of the deceased
 
 For the following Community Standards, we require additional information and/or context to make the following changes when requested by an authorized representative of the deceased and on Facebook-only, by the legacy contact:
 
--
+- Remove violating comments on a memorialized profile, which would typically require the individual to self report so that we know that they are unwanted.
 
-Remove violating comments on a memorialized profile, which would typically require the individual to self report so that we know that they are unwanted.
+- Change the deceased's individual's privacy settings from public to friends-only when there is harmful content on the profile
 
--
+- Change the name on the profile if it violates our Community Standards, in accordance with our Authentic Name policy
 
-Change the deceased's individual's privacy settings from public to friends-only when there is harmful content on the profile
-
--
-
-Change the name on the profile if it violates our Community Standards, in accordance with our Authentic Name policy
-
--
-
-Add friends or followers to the profile if they were removed following the deceased’s passing
+- Add friends or followers to the profile if they were removed following the deceased’s passing
 
 User experiences
 
@@ -3249,112 +1919,56 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with memorialization
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
 
 ---
 
 Policy Rationale
 
-Meta dedicates substantial resources to the development, protection, and proper usage of its intellectual property. This policy helps to ensure that Meta’s intellectual property is not used unlawfully, without our prior written permission, or in a manner that is inconsistent with our Brand Resource Center .
+Meta dedicates substantial resources to the development, protection, and proper usage of its intellectual property. This policy helps to ensure that Meta’s intellectual property is not used unlawfully, without our prior written permission, or in a manner that is inconsistent with our [Brand Resource Center](https://about.meta.com/brand/resources/) .
 
 Do not post content that:
 
--
+- Brand usage:
 
-Brand usage:
+- Uses Meta’s copyrights or trademarks without Meta’s prior written permission or in a manner that is prohibited by the Meta Brand Resource Center.
 
--
+- Represents any of Meta’s brands in a way that makes it the most distinctive or prominent feature of the creative.
 
-Uses Meta’s copyrights or trademarks without Meta’s prior written permission or in a manner that is prohibited by the Meta Brand Resource Center.
+- Modifies Meta’s brand assets in any way, such as by changing the design or color, or using them in special effects or animation.
 
--
+- Brand endorsement:
 
-Represents any of Meta’s brands in a way that makes it the most distinctive or prominent feature of the creative.
+- Implies, without Meta’s prior written permission, an endorsement or partnership of any kind with any of Meta’s brands.
 
--
+- Implies, without Meta’s prior written permission, an endorsement or support by any of Meta’s brands (such as Facebook, Instagram or WhatsApp), technology or program.
 
-Modifies Meta’s brand assets in any way, such as by changing the design or color, or using them in special effects or animation.
+- Depicts the user interface of any products in a manner that:
 
--
+- Is an inaccurate depiction of the current appearance, features, or functionality of the products.
 
-Brand endorsement:
+- Modifies the user interface in any way, such as adding special effects, interference or animation.
 
--
+- Uses elements of the user interface separately or individually
 
-Implies, without Meta’s prior written permission, an endorsement or partnership of any kind with any of Meta’s brands.
+- Does not depict the user interface within the context of a relevant device like a mobile or desktop.
 
--
+- Uses music or other content in a manner that violates Meta’s music licensing agreements.
 
-Implies, without Meta’s prior written permission, an endorsement or support by any of Meta’s brands (such as Facebook, Instagram or WhatsApp), technology or program.
+- Streams Meta-owned and/or exclusively licensed Facebook Watch content without prior written approval.
 
--
+- Uses intellectual property rights owned by Meta without prior written permission.
 
-Depicts the user interface of any products in a manner that:
-
--
-
-Is an inaccurate depiction of the current appearance, features, or functionality of the products.
-
--
-
-Modifies the user interface in any way, such as adding special effects, interference or animation.
-
--
-
-Uses elements of the user interface separately or individually
-
--
-
-Does not depict the user interface within the context of a relevant device like a mobile or desktop.
-
--
-
-Uses music or other content in a manner that violates Meta’s music licensing agreements.
-
--
-
-Streams Meta-owned and/or exclusively licensed Facebook Watch content without prior written approval.
-
--
-
-Uses intellectual property rights owned by Meta without prior written permission.
-
--
-
-Uses marks that are confusingly similar to Meta’s trademarks.
+- Uses marks that are confusingly similar to Meta’s trademarks.
 
 We Remove:
 
--
-
-Accounts that engage in repeated violations of this policy, including by creating new accounts after removal.
+- Accounts that engage in repeated violations of this policy, including by creating new accounts after removal.
 
 We allow content that uses intellectual property rights owned and/or licensed by Meta in a manner that is:
 
--
+- Explicitly permitted by Meta in writing, and/or
 
-Explicitly permitted by Meta in writing, and/or
-
--
-
-Consistent with the guidelines in the Meta Brand Resource Center .
+- Consistent with the guidelines in the Meta [Brand Resource Center](https://about.meta.com/brand/resources/) .
 
 User experiences
 
@@ -3377,24 +1991,6 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with using Meta intellectual property and licenses
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
 
 ---
 
@@ -3408,11 +2004,11 @@ We remove misinformation where it is likely to directly contribute to the risk o
 
 For all other misinformation, we focus on reducing its prevalence or creating an environment that fosters a productive dialogue. We know that people often use misinformation in harmless ways, such as to exaggerate a point (“This team has the worst record in the history of the sport!”) or in humor or satire (“My husband just won Husband of the Year.”) They also may share their experience through stories that contain inaccuracies. In some cases, people share deeply-held personal opinions that others consider false or share information that they believe to be true but others consider incomplete or misleading.
 
-Recognizing how common such speech is, we focus on providing users with helpful information when there is potentially misleading or confusing content. As part of that effort, outside of the United States we partner with third-party fact checking organizations in many parts of the world to review and rate the accuracy of the most viral content on our platforms (see here and here for our approach in the United States). Beginning in the United States, the Community Notes program lets people add more context to Facebook, Instagram and Threads posts that are potentially misleading or confusing (see here ). We also provide resources to increase media and digital literacy so people can decide what to read, trust, and share themselves. We require people to disclose, using our AI-disclosure tool, whenever they post organic content with photorealistic video or realistic-sounding audio that was digitally created or altered, and we may apply penalties if they fail to do so. We may also add a label to certain digitally created or altered content that creates a particularly high risk of misleading people on a matter of public importance.
+Recognizing how common such speech is, we focus on providing users with helpful information when there is potentially misleading or confusing content. As part of that effort, outside of the United States we partner with third-party fact checking organizations in many parts of the world to review and rate the accuracy of the most viral content on our platforms (see [here](https://transparency.fb.com/features/how-fact-checking-works/) and [here](https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes) for our approach in the United States). Beginning in the United States, the Community Notes program lets people add more context to Facebook, Instagram and Threads posts that are potentially misleading or confusing (see [here](https://transparency.meta.com/features/community-notes/) ). We also provide resources to increase media and digital literacy so people can decide what to read, trust, and share themselves. We require people to disclose, using our AI-disclosure tool, whenever they post organic content with photorealistic video or realistic-sounding audio that was digitally created or altered, and we may apply penalties if they fail to do so. We may also add a label to certain digitally created or altered content that creates a particularly high risk of misleading people on a matter of public importance.
 
-Finally, we prohibit content and behavior in other areas that often overlap with the spread of misinformation. For example, our Community Standards prohibit fake accounts , fraud , and coordinated inauthentic behavior .
+Finally, we prohibit content and behavior in other areas that often overlap with the spread of misinformation. For example, our Community Standards prohibit [fake accounts](https://www.facebook.com/communitystandards/misrepresentation) , [fraud](https://www.facebook.com/communitystandards/fraud_deception) , and [coordinated inauthentic behavior](https://www.facebook.com/communitystandards/inauthentic_behavior) .
 
-As online and offline environments change and evolve, we will continue to evolve these policies. Accounts that repeatedly share the misinformation listed below may, in addition to having their content enforced on in accordance with this policy, receive decreased distribution, limitations on their ability to advertise, or be removed from our platforms. Additional information on what happens when Meta removes content can be found here .
+As online and offline environments change and evolve, we will continue to evolve these policies. Accounts that repeatedly share the misinformation listed below may, in addition to having their content enforced on in accordance with this policy, receive decreased distribution, limitations on their ability to advertise, or be removed from our platforms. Additional information on what happens when Meta removes content can be found [here](https://www.facebook.com/help/260743102021762) .
 
 Guidelines
 
@@ -3432,91 +2028,51 @@ II. Harmful Health Misinformation
 
 We consult with leading health organizations to identify health misinformation likely to directly contribute to imminent harm to public health and safety. The harmful health misinformation that we remove includes the following:
 
--
+- Misinformation about vaccines. We remove misinformation primarily about vaccines when public health authorities conclude that the information is false and likely to directly contribute to imminent vaccine refusals. They include:
 
-Misinformation about vaccines. We remove misinformation primarily about vaccines when public health authorities conclude that the information is false and likely to directly contribute to imminent vaccine refusals. They include:
+- Vaccines cause autism (Ex: “Increased vaccinations are why so many kids have autism these days.”)
 
--
+- Vaccines cause Sudden Infant Death Syndrome (Ex: “Don’t you know vaccines cause SIDS?”
 
-Vaccines cause autism (Ex: “Increased vaccinations are why so many kids have autism these days.”)
+- Vaccines cause the disease against which they are meant to protect, or cause the person receiving the vaccine to be more likely to get the disease (Ex: “Taking a vaccine actually makes you more likely to get the disease since there’s a strain of the disease inside. Beware!”)
 
--
+- Vaccines or their ingredients are deadly, toxic, poisonous, harmful, or dangerous (Ex: “Sure, you can take vaccines, if you don’t mind putting poison in your body.”)
 
-Vaccines cause Sudden Infant Death Syndrome (Ex: “Don’t you know vaccines cause SIDS?”
+- Natural immunity is safer than vaccine-acquired immunity (Ex: “It’s safest to just get the disease rather than the vaccine.”)
 
--
+- It is dangerous to get several vaccines in a short period of time, even if that timing is medically recommended (Ex: “Never take more than one vaccine at the same time, that is dangerous - I don’t care what your doctor tells you!”)
 
-Vaccines cause the disease against which they are meant to protect, or cause the person receiving the vaccine to be more likely to get the disease (Ex: “Taking a vaccine actually makes you more likely to get the disease since there’s a strain of the disease inside. Beware!”)
+- Vaccines are not effective at preventing the disease against which they purport to protect. However, for the COVID-19, flu, and malaria vaccines, we do not remove claims that those vaccines are not effective in preventing someone from contracting those viruses. (Ex’s: Remove – “The polio vaccine doesn’t do anything to stop you from getting the disease”; Remove – “Vaccines actually don’t do anything to stop you from getting diseases”; Allow – “The vaccine doesn’t stop you from getting COVID-19, that’s why you still need to socially distance and wear a mask when you’re around others.”)
 
--
+- Acquiring measles cannot cause death (requires additional information and/or context) (Ex: “Don’t worry about whether you get measles, it can’t be fatal.”)
 
-Vaccines or their ingredients are deadly, toxic, poisonous, harmful, or dangerous (Ex: “Sure, you can take vaccines, if you don’t mind putting poison in your body.”)
+- Vitamin C is as effective as vaccines in preventing diseases for which vaccines exist.
 
--
+- Misinformation about health during public health emergencies. We remove misinformation during public health emergencies when public health authorities conclude that the information is false and likely to directly contribute to the risk of imminent physical harm, including by contributing to the risk of individuals getting or spreading a harmful disease or refusing an associated vaccine. We identify public health emergencies in partnership with global and local health authorities.
 
-Natural immunity is safer than vaccine-acquired immunity (Ex: “It’s safest to just get the disease rather than the vaccine.”)
-
--
-
-It is dangerous to get several vaccines in a short period of time, even if that timing is medically recommended (Ex: “Never take more than one vaccine at the same time, that is dangerous - I don’t care what your doctor tells you!”)
-
--
-
-Vaccines are not effective at preventing the disease against which they purport to protect. However, for the COVID-19, flu, and malaria vaccines, we do not remove claims that those vaccines are not effective in preventing someone from contracting those viruses. (Ex’s: Remove – “The polio vaccine doesn’t do anything to stop you from getting the disease”; Remove – “Vaccines actually don’t do anything to stop you from getting diseases”; Allow – “The vaccine doesn’t stop you from getting COVID-19, that’s why you still need to socially distance and wear a mask when you’re around others.”)
-
--
-
-Acquiring measles cannot cause death (requires additional information and/or context) (Ex: “Don’t worry about whether you get measles, it can’t be fatal.”)
-
--
-
-Vitamin C is as effective as vaccines in preventing diseases for which vaccines exist.
-
--
-
-Misinformation about health during public health emergencies. We remove misinformation during public health emergencies when public health authorities conclude that the information is false and likely to directly contribute to the risk of imminent physical harm, including by contributing to the risk of individuals getting or spreading a harmful disease or refusing an associated vaccine. We identify public health emergencies in partnership with global and local health authorities.
-
--
-
-Promoting or advocating for harmful miracle cures for health issues. These include treatments where the recommended application, in a health context, is likely to directly contribute to the risk of serious injury or death, and the treatment has no legitimate health use (ex: bleach, disinfectant, black salve, caustic soda).
+- Promoting or advocating for harmful miracle cures for health issues. These include treatments where the recommended application, in a health context, is likely to directly contribute to the risk of serious injury or death, and the treatment has no legitimate health use (ex: bleach, disinfectant, black salve, caustic soda).
 
 III. Voter or Census Interference
 
 In an effort to promote election and census integrity, we remove misinformation that is likely to directly contribute to a risk of interference with people’s ability to participate in those processes. This includes the following:
 
--
+- Misinformation about the dates, locations, times, and methods for voting, voter registration, or census participation.
 
-Misinformation about the dates, locations, times, and methods for voting, voter registration, or census participation.
+- Misinformation about who can vote, qualifications for voting, whether a vote will be counted, and what information or materials must be provided in order to vote.
 
--
+- Misinformation about whether a candidate is running or not.
 
-Misinformation about who can vote, qualifications for voting, whether a vote will be counted, and what information or materials must be provided in order to vote.
+- Misinformation about who can participate in the census and what information or materials must be provided in order to participate.
 
--
+- Misinformation about government involvement in the census, including, where applicable, that an individual's census information will be shared with another (non-census) government agency.
 
-Misinformation about whether a candidate is running or not.
+- False or unverified claims that the U.S. Immigration and Customs Enforcement (ICE) is at a voting location.
 
--
+- Explicit false claims that people will be infected by COVID-19 (or another communicable disease) if they participate in the voting process.
 
-Misinformation about who can participate in the census and what information or materials must be provided in order to participate.
+- False claims about current conditions at a U.S. voting location that would make it impossible to vote, as verified by an election authority.
 
--
-
-Misinformation about government involvement in the census, including, where applicable, that an individual's census information will be shared with another (non-census) government agency.
-
--
-
-False or unverified claims that the U.S. Immigration and Customs Enforcement (ICE) is at a voting location.
-
--
-
-Explicit false claims that people will be infected by COVID-19 (or another communicable disease) if they participate in the voting process.
-
--
-
-False claims about current conditions at a U.S. voting location that would make it impossible to vote, as verified by an election authority.
-
-We have additional policies intended to cover calls for violence, the promotion of illegal participation, and calls for coordinated interference in elections, which are represented in other sections of our Community Standards.
+We have additional policies intended to cover calls for violence, the promotion of illegal participation, and calls for coordinated interference in elections, which are represented in other [sections](https://www.facebook.com/communitystandards/coordinating_harm_publicizing_crime) of our Community Standards.
 
 For the following content, we include an informative label:
 
@@ -3524,9 +2080,7 @@ Manipulated Media
 
 Media can be edited in a variety of ways. In many cases, these changes are benign, such as content being cropped or shortened for artistic reasons or music being added. In other cases, the manipulation is not apparent and could mislead.
 
--
-
-Content Digitally Created or Altered that May Mislead. For content that does not otherwise violate the Community Standards, we may place an informative label on the face of content – or reject content submitted as an advertisement – when the content is a photorealistic image or video, or realistic sounding audio, that was digitally created or altered and creates a particularly high risk of materially deceiving the public on a matter of public importance.
+- Content Digitally Created or Altered that May Mislead. For content that does not otherwise violate the Community Standards, we may place an informative label on the face of content – or reject content submitted as an advertisement – when the content is a photorealistic image or video, or realistic sounding audio, that was digitally created or altered and creates a particularly high risk of materially deceiving the public on a matter of public importance.
 
 User experiences
 
@@ -3549,24 +2103,6 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with misinformation
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
 
 ---
 
@@ -3578,7 +2114,7 @@ We remove content that shares, offers, or solicits personally identifiable infor
 
 We have additional restrictions for paid content. Although we allow ads that provide a positive user experience by focusing on the product’s or service’s details, we remove ads that exploit users’ personal hardships, appear to make negative or inaccurate characterizations about them, or imply knowledge of sensitive personal information. For more information on our privacy rules for paid content, see our Advertising Standard on
 
-Privacy Violations and Personal Attributes .
+[Privacy Violations and Personal Attributes](https://transparency.meta.com/policies/ad-standards/objectionable-content/privacy-violations-personal-attributes/) .
 
 We do not allow:
 
@@ -3586,243 +2122,133 @@ Content that shares or asks for private information, either on our services or t
 
 Personally identifiable information (PII)
 
--
+- Content sharing Personally Identifiable Information (information that uniquely identifies an individual) of the poster or others. This includes:
 
-Content sharing Personally Identifiable Information (information that uniquely identifies an individual) of the poster or others. This includes:
+- National identification numbers such as social security numbers (SSN), passport numbers or individual taxpayer identification numbers (ITIN).
 
--
+- Government IDs of law enforcement, military or security personnel.
 
-National identification numbers such as social security numbers (SSN), passport numbers or individual taxpayer identification numbers (ITIN).
+- Records or official documentation of civil registry information such as marriage, birth, death, name change or gender recognition documents
 
--
+- Immigration and work status documents such as green cards, work permits or visas
 
-Government IDs of law enforcement, military or security personnel.
-
--
-
-Records or official documentation of civil registry information such as marriage, birth, death, name change or gender recognition documents
-
--
-
-Immigration and work status documents such as green cards, work permits or visas
-
--
-
-Content asking for Personally Identifiable Information of others
+- Content asking for Personally Identifiable Information of others
 
 Personal Contact Information
 
--
-
-Content sharing personal contact information of others, except when made public by the individual or when shared or solicited to promote charitable causes, facilitate finding missing people, animals, or owners of missing objects, or contact a business or service provider (unless it is established that the personal contact information is shared without the consent of the individual).
+- Content sharing personal contact information of others, except when made public by the individual or when shared or solicited to promote charitable causes, facilitate finding missing people, animals, or owners of missing objects, or contact a business or service provider (unless it is established that the personal contact information is shared without the consent of the individual).
 
 Residential information
 
 Content sharing information that makes a residence reasonably identifiable, such as:
 
--
+- Content sharing full private residential addresses of others, including building name or pins on a map identifying the address (even if the information is in an off-platform link), except in the following contexts:
 
-Content sharing full private residential addresses of others, including building name or pins on a map identifying the address (even if the information is in an off-platform link), except in the following contexts:
+- when shared to promote charitable causes, facilitate finding missing people, animals, or owners of missing objects, or contact a business or service providers
 
--
+- when the residence is an official residence or embassy provided to a high-ranking public official
 
-when shared to promote charitable causes, facilitate finding missing people, animals, or owners of missing objects, or contact a business or service providers
+- Content sharing partial private residential addresses of others (except when the residence is an official residence or embassy provided to a high-ranking public official):
 
--
+- When shared in the context of organizing protests or surveillance of the resident and the location of the residence is identified by any one of the following:
 
-when the residence is an official residence or embassy provided to a high-ranking public official
+- Street
 
--
+- City or neighborhood (only for cities with fewer than 50,000 residents)
 
-Content sharing partial private residential addresses of others (except when the residence is an official residence or embassy provided to a high-ranking public official):
+- Postal code
 
--
+- GPS pins or pins on a map identifying any of these (even if the pins are in an off-platform link)
 
-When shared in the context of organizing protests or surveillance of the resident and the location of the residence is identified by any one of the following:
+- Imagery that displays the external view of private residences if all of the following conditions apply:
 
--
+- The residence is a single-family home, or the resident's unit number/building name is identified in the image/caption.
 
-Street
+- The location of the residence is identified by any one of the following:
 
--
+- Street
 
-City or neighborhood (only for cities with fewer than 50,000 residents)
+- City or neighborhood (only for cities with fewer than 50,000 residents)
 
--
+- Postal code
 
-Postal code
+- GPS pins or pins on a map identifying any of these (even if the pins are in an off-platform link)
 
--
+- The content identifies the resident(s).
 
-GPS pins or pins on a map identifying any of these (even if the pins are in an off-platform link)
+- Either that resident objects to the exposure of their private residence, or there is context of organizing protests against the resident.
 
--
-
-Imagery that displays the external view of private residences if all of the following conditions apply:
-
--
-
-The residence is a single-family home, or the resident's unit number/building name is identified in the image/caption.
-
--
-
-The location of the residence is identified by any one of the following:
-
--
-
-Street
-
--
-
-City or neighborhood (only for cities with fewer than 50,000 residents)
-
--
-
-Postal code
-
--
-
-GPS pins or pins on a map identifying any of these (even if the pins are in an off-platform link)
-
--
-
-The content identifies the resident(s).
-
--
-
-Either that resident objects to the exposure of their private residence, or there is context of organizing protests against the resident.
-
--
-
-The imagery of the residence is not being shared because the residence is the focus of a news story (except when shared in the context of organizing protests against the resident)
+- The imagery of the residence is not being shared because the residence is the focus of a news story (except when shared in the context of organizing protests against the resident)
 
 Content asking for the following information:
 
--
+- Content asking for private residential information of others (except when the residence is an official residence or embassy provided to a high-ranking public official)
 
-Content asking for private residential information of others (except when the residence is an official residence or embassy provided to a high-ranking public official)
+- Content asking for location of safe houses or exposing information about safe houses by sharing any of the below (except when the safe house is actively promoting information about their facility)
 
--
+- Actual address (Note: "Post Box only" is allowed)
 
-Content asking for location of safe houses or exposing information about safe houses by sharing any of the below (except when the safe house is actively promoting information about their facility)
+- Images of the safe house
 
--
+- Identifiable city/neighborhood of the safe house
 
-Actual address (Note: "Post Box only" is allowed)
-
--
-
-Images of the safe house
-
--
-
-Identifiable city/neighborhood of the safe house
-
--
-
-Information exposing the identity of the safe house residents
+- Information exposing the identity of the safe house residents
 
 Medical information
 
--
-
-Content sharing or asking for medical, psychological, biometric, or genetic/hereditary information of others (including when displayed visually or shared through audio or video),when it is clear that the information comes from medical records or other official documents.
+- Content sharing or asking for medical, psychological, biometric, or genetic/hereditary information of others (including when displayed visually or shared through audio or video),when it is clear that the information comes from medical records or other official documents.
 
 Financial information
 
--
+- Content sharing or asking for personal financial information about the poster or others, defined as information about a person’s individual finances including:
 
-Content sharing or asking for personal financial information about the poster or others, defined as information about a person’s individual finances including:
+- Non-public financial records or statements.
 
--
+- Bank account numbers with security or pin codes.
 
-Non-public financial records or statements.
+- Digital payment method information with log in details, security or pin codes.
 
--
+- Credit or debit card information with validity dates or security pins or codes.
 
-Bank account numbers with security or pin codes.
+- Content sharing or asking for non-public financial information of a business or organization, defined as information about a business’ or organization’s finances, except when originally shared by the organization itself (including subsequent shares with the original context intact) or shared through public reporting requirements (for example as required by stock exchanges or regulatory agencies), including:
 
--
+- Non-public financial records or statements
 
-Digital payment method information with log in details, security or pin codes.
+- Bank account numbers accompanied by security or pin codes.
 
--
-
-Credit or debit card information with validity dates or security pins or codes.
-
--
-
-Content sharing or asking for non-public financial information of a business or organization, defined as information about a business’ or organization’s finances, except when originally shared by the organization itself (including subsequent shares with the original context intact) or shared through public reporting requirements (for example as required by stock exchanges or regulatory agencies), including:
-
--
-
-Non-public financial records or statements
-
--
-
-Bank account numbers accompanied by security or pin codes.
-
--
-
-Digital payment method information accompanied by log in details, security or pin codes.
+- Digital payment method information accompanied by log in details, security or pin codes.
 
 Information obtained from hacked sources
 
--
-
-Content claimed by the poster or confirmed to come from a hacked source, regardless of whether the affected person is a public figure or a private individual.
+- Content claimed by the poster or confirmed to come from a hacked source, regardless of whether the affected person is a public figure or a private individual.
 
 The following content also may be removed:
 
--
+- A reported photo or video of people where the person depicted in the image is:
 
-A reported photo or video of people where the person depicted in the image is:
+- A minor under 13 years old, and the content was reported by the minor or a parent or legal guardian.
 
--
+- A minor between 13 and 18 years old, and the content was reported by the minor.
 
-A minor under 13 years old, and the content was reported by the minor or a parent or legal guardian.
+- An adult, where the content was reported by the adult from outside the United States and applicable law may provide rights to removal.
 
--
-
-A minor between 13 and 18 years old, and the content was reported by the minor.
-
--
-
-An adult, where the content was reported by the adult from outside the United States and applicable law may provide rights to removal.
-
--
-
-Any person who is incapacitated and unable to report the content on their own.
+- Any person who is incapacitated and unable to report the content on their own.
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
--
+- Depictions of Individuals & Medical Facilities, defined as content that displays an individual in a medical or health facility or a private individual or minor entering or exiting a medical or health facility, and is reported by:
 
-Depictions of Individuals & Medical Facilities, defined as content that displays an individual in a medical or health facility or a private individual or minor entering or exiting a medical or health facility, and is reported by:
+- The person in the image
 
--
+- A representative of the person in the image
 
-The person in the image
+- The medical or health facility with care responsibilities for the person in the image, or
 
--
+- The medical or health facility that employs the person in the image
 
-A representative of the person in the image
+- Source material that purports to reveal nonpublic information relevant to an election shared as part of a foreign government influence operation.
 
--
-
-The medical or health facility with care responsibilities for the person in the image, or
-
--
-
-The medical or health facility that employs the person in the image
-
--
-
-Source material that purports to reveal nonpublic information relevant to an election shared as part of a foreign government influence operation.
-
--
-
-We remove reporting on such a leak by state-controlled media entities from the country behind the leak.
+- We remove reporting on such a leak by state-controlled media entities from the country behind the leak.
 
 User experiences
 
@@ -3846,24 +2272,6 @@ USER EXPERIENCE
 
 Warning screens
 
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with privacy violations
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
@@ -3872,45 +2280,25 @@ To encourage safety and deter potentially harmful activities, we prohibit attemp
 
 Restricted Goods and Services consist of the following categories:
 
--
+- Drugs and Pharmaceuticals
 
-Drugs and Pharmaceuticals
+- Weapons, Ammunitions, or Explosives
 
--
+- Tobacco and Related Products
 
-Weapons, Ammunitions, or Explosives
+- Alcohol
 
--
+- Health and Wellness
 
-Tobacco and Related Products
+- Online Gambling and Games
 
--
+- Endangered and protected species (wildlife and plants)
 
-Alcohol
+- Historic Artifacts
 
--
+- Hazardous Goods and Materials
 
-Health and Wellness
-
--
-
-Online Gambling and Games
-
--
-
-Endangered and protected species (wildlife and plants)
-
--
-
-Historic Artifacts
-
--
-
-Hazardous Goods and Materials
-
--
-
-Body Parts and Fluids
+- Body Parts and Fluids
 
 Each category is detailed below.
 
@@ -3922,149 +2310,87 @@ High-risk drugs (drugs that have a high potential for misuse, addiction, or are 
 
 Content that:
 
--
+- Attempts to buy, sell, trade, co-ordinate the trade of, donate, gift or ask for high-risk drugs.
 
-Attempts to buy, sell, trade, co-ordinate the trade of, donate, gift or ask for high-risk drugs.
+- Admits to buying, trading or co-ordinating the trade of high-risk drugs by the poster of the content by themselves or through others.
 
--
+- Admits to personal use without acknowledgment of or reference to recovery, treatment, or other assistance to combat usage. This content may not speak positively about, encourage use of, coordinate or provide instructions to make or use high-risk drugs.
 
-Admits to buying, trading or co-ordinating the trade of high-risk drugs by the poster of the content by themselves or through others.
+- Coordinates or promotes (by which we mean speaks positively about, encourages the use of, or provides instructions to use or make) high-risk drugs.
 
--
-
-Admits to personal use without acknowledgment of or reference to recovery, treatment, or other assistance to combat usage. This content may not speak positively about, encourage use of, coordinate or provide instructions to make or use high-risk drugs.
-
--
-
-Coordinates or promotes (by which we mean speaks positively about, encourages the use of, or provides instructions to use or make) high-risk drugs.
-
--
-
-Note: Debating or advocating for the legality or discussing scientific or medical merits of high risk drugs is allowed. This includes news and public service announcements.
+- Note: Debating or advocating for the legality or discussing scientific or medical merits of high risk drugs is allowed. This includes news and public service announcements.
 
 Non-medical drugs (drugs or substances that are not being used for an intended medical purpose or are used to achieve a high - this includes precursor chemicals or substances that are used for the production of these drugs.)
 
 Content that:
 
--
+- Attempts to buy, sell, trade, co-ordinate the trade of, donate, gift or asks for non-medical drugs.
 
-Attempts to buy, sell, trade, co-ordinate the trade of, donate, gift or asks for non-medical drugs.
+- Admits to buying, trading or co-ordinating the trade of non-medical drugs by the poster of the content by themselves or through others.
 
--
+- Admits to personal use without acknowledgment of or reference to recovery, treatment, or other assistance to combat usage. This content may not speak positively about, encourage use of, coordinate or provide instructions to make or use non-medical drugs.
 
-Admits to buying, trading or co-ordinating the trade of non-medical drugs by the poster of the content by themselves or through others.
+- Coordinates or promotes (by which we mean speaks positively about, encourages the use of, or provides instructions to use or make) non-medical drugs.
 
--
+- Attempts to sell or promote non-medical drugs paraphernalia.
 
-Admits to personal use without acknowledgment of or reference to recovery, treatment, or other assistance to combat usage. This content may not speak positively about, encourage use of, coordinate or provide instructions to make or use non-medical drugs.
-
--
-
-Coordinates or promotes (by which we mean speaks positively about, encourages the use of, or provides instructions to use or make) non-medical drugs.
-
--
-
-Attempts to sell or promote non-medical drugs paraphernalia.
-
--
-
-Contains merchandise depicting non-medical drugs.
+- Contains merchandise depicting non-medical drugs.
 
 Prescription drugs (drugs that require a prescription or medical professionals to administer)
 
 Content that:
 
--
+- Attempts to buy, sell or trade prescription drugs except when:
 
-Attempts to buy, sell or trade prescription drugs except when:
+- Listing the price of vaccines in an explicit education or discussion context when restricted to adults 18 years of age or over.
 
--
+- Offering delivery when posted by legitimate healthcare e-commerce businesses when restricted to adults 18 years of age or over. This content must also include a disclaimer to consult a licensed health professional or obtain a valid prescription.
 
-Listing the price of vaccines in an explicit education or discussion context when restricted to adults 18 years of age or over.
+- Attempts to donate or gift prescription drugs, except in the event of an economic, health, societal or natural disaster crisis.
 
--
+- Asks for prescription drugs, except when content discusses the affordability, accessibility or efficacy of prescription drugs in a medical context.
 
-Offering delivery when posted by legitimate healthcare e-commerce businesses when restricted to adults 18 years of age or over. This content must also include a disclaimer to consult a licensed health professional or obtain a valid prescription.
-
--
-
-Attempts to donate or gift prescription drugs, except in the event of an economic, health, societal or natural disaster crisis.
-
--
-
-Asks for prescription drugs, except when content discusses the affordability, accessibility or efficacy of prescription drugs in a medical context.
-
--
-
-Note: Debating or advocating for the legality or discussing scientific or medical merits of prescription drugs is allowed. This includes news and public service announcements.
+- Note: Debating or advocating for the legality or discussing scientific or medical merits of prescription drugs is allowed. This includes news and public service announcements.
 
 Entheogens
 
--
+- Content that attempts to buy, sell, trade, donate or gift or asks for entheogens.
 
-Content that attempts to buy, sell, trade, donate or gift or asks for entheogens.
-
--
-
-Note: Debating or advocating for the legality or discussing scientific or medical merits of entheogens is allowed.
+- Note: Debating or advocating for the legality or discussing scientific or medical merits of entheogens is allowed.
 
 Cannabis and Cannabis Derived Products
 
--
-
-Content that attempts to buy, sell, trade, donate or gift or asks for marijuana and products containing THC or related psychoactive components.
+- Content that attempts to buy, sell, trade, donate or gift or asks for marijuana and products containing THC or related psychoactive components.
 
 For the following content, we restrict visibility to adults 18 years of age and older:
 
 Entheogens
 
--
+- Content that shows admission to personal use of, coordinates or promotes (by which we mean speaks positively about), or encourages the use of entheogens.
 
-Content that shows admission to personal use of, coordinates or promotes (by which we mean speaks positively about), or encourages the use of entheogens.
-
--
-
-Except when any of the above occurs in a fictional or documentary context.
+- Except when any of the above occurs in a fictional or documentary context.
 
 Cannabis and Cannabis Derived Products
 
--
+- Content that coordinates or promotes (by which we mean speaks positively about, encourages the use of, or provides instructions to use or make) marijuana and products containing THC or related psychoactive components.
 
-Content that coordinates or promotes (by which we mean speaks positively about, encourages the use of, or provides instructions to use or make) marijuana and products containing THC or related psychoactive components.
+- Business related content posted by marijuana dispensaries where there are no attempts to buy, sell or trade marijuana and products containing THC or related psychoactive components.
 
--
+- Content that attempts to buy, sell, trade, donate, gift or ask for ingestible cannabidiol (CBD) or similar cannabinoid products.
 
-Business related content posted by marijuana dispensaries where there are no attempts to buy, sell or trade marijuana and products containing THC or related psychoactive components.
+- Content that attempts to buy, sell, trade, donate, gift or ask for non-ingestible cannabidiol (CBD) or similar cannabinoid products.
 
--
+- Content making disease claims relating to non-ingestible cannabidiol (CBD) or similar cannabinoid products.
 
-Content that attempts to buy, sell, trade, donate, gift or ask for ingestible cannabidiol (CBD) or similar cannabinoid products.
-
--
-
-Content that attempts to buy, sell, trade, donate, gift or ask for non-ingestible cannabidiol (CBD) or similar cannabinoid products.
-
--
-
-Content making disease claims relating to non-ingestible cannabidiol (CBD) or similar cannabinoid products.
-
--
-
-Content depicting marijuana paraphernalia.
+- Content depicting marijuana paraphernalia.
 
 Prescription drugs
 
--
+- Content that attempts to buy, sell or trade prescription drugs in any context, including when posted by legitimate healthcare e-commerce businesses.
 
-Content that attempts to buy, sell or trade prescription drugs in any context, including when posted by legitimate healthcare e-commerce businesses.
+- Content that attempts to buy, sell, trade, donate, gift or ask for over-the-counter medicine.
 
--
-
-Content that attempts to buy, sell, trade, donate, gift or ask for over-the-counter medicine.
-
--
-
-Content that includes admission or consumption of prescription drugs.
+- Content that includes admission or consumption of prescription drugs.
 
 Weapons, Ammunitions, or Explosives
 
@@ -4072,61 +2398,37 @@ We do not allow:
 
 Content that:
 
--
+- Attempts to buy, sell, or trade, firearms, firearm parts, ammunition, explosives, or lethal enhancements except when:
 
-Attempts to buy, sell, or trade, firearms, firearm parts, ammunition, explosives, or lethal enhancements except when:
+- posted by a Page, Group or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, websites, brands or government agencies (e.g. police department, fire department) or a private individual sharing content on behalf of legitimate brick-and-mortar entities; and visibility is restricted to adults 21 years of age and over.
 
--
+- Attempts to donate or gift firearms, firearm parts, ammunition, explosives, or lethal enhancements except when posted in the following contexts:
 
-posted by a Page, Group or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, websites, brands or government agencies (e.g. police department, fire department) or a private individual sharing content on behalf of legitimate brick-and-mortar entities; and visibility is restricted to adults 21 years of age and over.
+- Donating, trading in or buying back firearms and ammunition by a Page, Group or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, websites, brands or government agencies, or a private individual sharing content on behalf of legitimate brick-and-mortar entities; and visibility is restricted to adults 21 years of age and over.
 
--
+- An auction or raffle of firearms by legitimate brick-and-mortar entities, including retail businesses, government-affiliated organizations or non-profits, or private individuals affiliated with or sponsored by legitimate brick-and-mortar entities; and visibility is restricted to adults 21 years of age and over.
 
-Attempts to donate or gift firearms, firearm parts, ammunition, explosives, or lethal enhancements except when posted in the following contexts:
+- Asks for firearms, firearm parts, ammunition, explosives, or lethal enhancements.
 
--
+- Attempts to buy, sell, gift, exchange, transfer, coordinate, speaks positively about, encourages the use of or provides access to 3D printing or computer-aided manufacturing instructions for firearms or firearms parts regardless of context or poster.
 
-Donating, trading in or buying back firearms and ammunition by a Page, Group or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, websites, brands or government agencies, or a private individual sharing content on behalf of legitimate brick-and-mortar entities; and visibility is restricted to adults 21 years of age and over.
-
--
-
-An auction or raffle of firearms by legitimate brick-and-mortar entities, including retail businesses, government-affiliated organizations or non-profits, or private individuals affiliated with or sponsored by legitimate brick-and-mortar entities; and visibility is restricted to adults 21 years of age and over.
-
--
-
-Asks for firearms, firearm parts, ammunition, explosives, or lethal enhancements.
-
--
-
-Attempts to buy, sell, gift, exchange, transfer, coordinate, speaks positively about, encourages the use of or provides access to 3D printing or computer-aided manufacturing instructions for firearms or firearms parts regardless of context or poster.
-
--
-
-Attempts to buy, sell, trade, donate, gift, asks for or admits ownership machine gun conversion devices.
+- Attempts to buy, sell, trade, donate, gift, asks for or admits ownership machine gun conversion devices.
 
 For the following content, we restrict visibility to adults 21 years of age and older:
 
 Weapons, Ammunitions, or Explosives
 
--
-
-Content posted by or promoting legitimate brick-and-mortar store, entities, including retail businesses, websites, brands, or government agencies which attempt to buy, sell, trade, donate, gift or asks for (including in the context of an auction or a raffle) firearms, firearm parts, ammunition, explosives, or lethal enhancements.
+- Content posted by or promoting legitimate brick-and-mortar store, entities, including retail businesses, websites, brands, or government agencies which attempt to buy, sell, trade, donate, gift or asks for (including in the context of an auction or a raffle) firearms, firearm parts, ammunition, explosives, or lethal enhancements.
 
 For the following content, we restrict visibility to adults 18 years of age and older:
 
 Bladed items and other weapons:
 
--
+- Content that attempts to buy, sell, trade, coordinate, donate, gift or asks for: bladed items and any other weapons (e.g., pepper spray or knuckle rings).
 
-Content that attempts to buy, sell, trade, coordinate, donate, gift or asks for: bladed items and any other weapons (e.g., pepper spray or knuckle rings).
+- Content that speaks positively about, provides instructions to use or encourages the use of firearms, firearm parts, ammunition, explosives, lethal enhancements, or bladed items in product reviews
 
--
-
-Content that speaks positively about, provides instructions to use or encourages the use of firearms, firearm parts, ammunition, explosives, lethal enhancements, or bladed items in product reviews
-
--
-
-Sales offers and the promotion of non-lethal accessories
+- Sales offers and the promotion of non-lethal accessories
 
 Tobacco and Related Products
 
@@ -4134,55 +2436,31 @@ We do not allow:
 
 Content that:
 
--
+- Attempts to buy, sell or trade tobacco/nicotine related products, or products that simulate smoking, including all kinds of “ENDS” Electronic Nicotine Delivery Systems Products (e.g., electronic cigarettes, vapes, and nicotine free-vapes).
 
-Attempts to buy, sell or trade tobacco/nicotine related products, or products that simulate smoking, including all kinds of “ENDS” Electronic Nicotine Delivery Systems Products (e.g., electronic cigarettes, vapes, and nicotine free-vapes).
+- Except when posted by a Page, Group, or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, websites, brands, or a private individual sharing content on behalf of legitimate brick-and-mortar entities, including offering delivery services and brand giveaways.
 
--
+- Attempts to donate or gift tobacco/nicotine products, or “ENDS” products.
 
-Except when posted by a Page, Group, or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, websites, brands, or a private individual sharing content on behalf of legitimate brick-and-mortar entities, including offering delivery services and brand giveaways.
+- Except when posted by a Page, Group, or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, websites, brands, or a private individual sharing content on behalf of legitimate brick-and-mortar entities, including offering delivery services and brand giveaways.
 
--
-
-Attempts to donate or gift tobacco/nicotine products, or “ENDS” products.
-
--
-
-Except when posted by a Page, Group, or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, websites, brands, or a private individual sharing content on behalf of legitimate brick-and-mortar entities, including offering delivery services and brand giveaways.
-
--
-
-Asks for tobacco/nicotine products, or products that simulate smoking, including all kinds of “ENDS” products (nicotine-free vapes).
+- Asks for tobacco/nicotine products, or products that simulate smoking, including all kinds of “ENDS” products (nicotine-free vapes).
 
 For the following content, we restrict visibility to adults 18 years of age and older:
 
--
+- Content posted by or promoting legitimate brick-and-mortar entities, including retail businesses, websites or brands, which attempt to buy, sell, trade, donate or gift of alcohol or tobacco products.
 
-Content posted by or promoting legitimate brick-and-mortar entities, including retail businesses, websites or brands, which attempt to buy, sell, trade, donate or gift of alcohol or tobacco products.
+- Content depicting the consumption of tobacco, nicotine products, or “ENDS” products.
 
--
+- Content that coordinates or promotes the use of tobacco, nicotine products, “ENDS” products, or tobacco brands.
 
-Content depicting the consumption of tobacco, nicotine products, or “ENDS” products.
+- Content depicting Tobacco Cessation Products
 
--
+- Content discussing or promoting the use of tobacco, tobacco paraphernalia, or tobacco brands
 
-Content that coordinates or promotes the use of tobacco, nicotine products, “ENDS” products, or tobacco brands.
+- Media content depicting smoking or tobacco consumption in a non-fictional context
 
--
-
-Content depicting Tobacco Cessation Products
-
--
-
-Content discussing or promoting the use of tobacco, tobacco paraphernalia, or tobacco brands
-
--
-
-Media content depicting smoking or tobacco consumption in a non-fictional context
-
--
-
-Except in the context of anti-smoking campaigns, counseling services for smoking addiction, smoking rehabilitation, or PSA context
+- Except in the context of anti-smoking campaigns, counseling services for smoking addiction, smoking rehabilitation, or PSA context
 
 Alcohol
 
@@ -4190,39 +2468,23 @@ We do not allow:
 
 Content that:
 
--
+- Attempts to buy, sell or trade alcohol except when:
 
-Attempts to buy, sell or trade alcohol except when:
+- Posted by a Page, Group, or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, websites or brands, or a private individual sharing content on behalf of legitimate brick-and-mortar entities, including offering delivery services and brand giveaways.
 
--
+- Content refers to alcohol or offering an invitation to an alcohol venue where alcohol will be exchanged or consumed on location at an event, restaurant, bar, or party.
 
-Posted by a Page, Group, or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, websites or brands, or a private individual sharing content on behalf of legitimate brick-and-mortar entities, including offering delivery services and brand giveaways.
+- Attempts to donate or gift alcohol or tobacco except when posted by a Page, Group, or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, websites or brands, or a private individual sharing content on behalf of legitimate brick-and-mortar entities.
 
--
-
-Content refers to alcohol or offering an invitation to an alcohol venue where alcohol will be exchanged or consumed on location at an event, restaurant, bar, or party.
-
--
-
-Attempts to donate or gift alcohol or tobacco except when posted by a Page, Group, or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, websites or brands, or a private individual sharing content on behalf of legitimate brick-and-mortar entities.
-
--
-
-Asks for alcohol products and beverages.
+- Asks for alcohol products and beverages.
 
 For the following content, we restrict visibility to adults 18 years of age and older:
 
--
+- Content posted by or promoting legitimate brick-and-mortar entities, including retail businesses, websites or brands, which attempt to buy, sell, trade, donate or gift alcohol products or beverages.
 
-Content posted by or promoting legitimate brick-and-mortar entities, including retail businesses, websites or brands, which attempt to buy, sell, trade, donate or gift alcohol products or beverages.
+- Content depicting the consumption of alcohol products or beverages or sharing recipes for alcoholic beverages.
 
--
-
-Content depicting the consumption of alcohol products or beverages or sharing recipes for alcoholic beverages.
-
--
-
-Content referring to alcohol products or offering an invitation to an alcohol venue where alcohol will be exchanged or consumed.
+- Content referring to alcohol products or offering an invitation to an alcohol venue where alcohol will be exchanged or consumed.
 
 Health and Wellness
 
@@ -4232,49 +2494,29 @@ Weight loss products or services
 
 Content that:
 
--
+- Attempts to buy, sell, trade, donate, gift, mention or ask for weight loss products or services.
 
-Attempts to buy, sell, trade, donate, gift, mention or ask for weight loss products or services.
+- Admits to or depicts using a weight loss product, in a favorable context or discusses its side effects.
 
--
+- Shows coordination or promotion (by which we mean speaks positively, encourages the use of or provides instructions to use or make) a diet product.
 
-Admits to or depicts using a weight loss product, in a favorable context or discusses its side effects.
-
--
-
-Shows coordination or promotion (by which we mean speaks positively, encourages the use of or provides instructions to use or make) a diet product.
-
--
-
-Depict a before and after body-change comparison in the context of weight loss, showcasing weight loss after using a product in a manner that may make people feel bad about their appearance or imply negative self-perception.
+- Depict a before and after body-change comparison in the context of weight loss, showcasing weight loss after using a product in a manner that may make people feel bad about their appearance or imply negative self-perception.
 
 Cosmetic Products, Procedures, or Surgeries
 
 Content that:
 
--
+- Attempts to buy, sell, trade, donate, gift, mention, or ask for cosmetic products, procedures, or surgeries. This includes:
 
-Attempts to buy, sell, trade, donate, gift, mention, or ask for cosmetic products, procedures, or surgeries. This includes:
+- Skin Whitening products such as bleaching creams.
 
--
+- Cosmetic procedures with the intention to treat, or restore function or structure of people’s faces or bodies.
 
-Skin Whitening products such as bleaching creams.
+- Admits to or depicts using a cosmetic procedure or surgery, highlighting its positive or negative impact, or side effects.
 
--
+- Shows coordination or promotion (by which we mean speaks positively, encourages the use of or provides instructions to use or perform) of a cosmetic procedure or surgery.
 
-Cosmetic procedures with the intention to treat, or restore function or structure of people’s faces or bodies.
-
--
-
-Admits to or depicts using a cosmetic procedure or surgery, highlighting its positive or negative impact, or side effects.
-
--
-
-Shows coordination or promotion (by which we mean speaks positively, encourages the use of or provides instructions to use or perform) of a cosmetic procedure or surgery.
-
--
-
-Depict the before and after transformation of skin conditions after the usage of a cosmetic product, procedure, or surgery in a manner that may make people feel bad about their appearance or imply negative self-perception.
+- Depict the before and after transformation of skin conditions after the usage of a cosmetic product, procedure, or surgery in a manner that may make people feel bad about their appearance or imply negative self-perception.
 
 Note: Fitness services such as Pilates, and temporary cosmetics such as makeup are not covered by this policy.
 
@@ -4282,77 +2524,45 @@ Adult sexual arousal products
 
 Content that:
 
--
+- Attempts to buy, sell, promote, trade, donate, gift or ask for adult sexual arousal products, where the primary focus is to stimulate a person’s sexual pleasure or increase a person’s sexual arousal, in a fictional or non-fictional context. This includes:
 
-Attempts to buy, sell, promote, trade, donate, gift or ask for adult sexual arousal products, where the primary focus is to stimulate a person’s sexual pleasure or increase a person’s sexual arousal, in a fictional or non-fictional context. This includes:
+- Sex toys
 
--
+- Erotic products
 
-Sex toys
+- Non-surgical genital enhancement products, such as products that stimulate sexual desire or improve sexual performance
 
--
+- Products where the primary focus is to stimulate sexual desire or arousal
 
-Erotic products
-
--
-
-Non-surgical genital enhancement products, such as products that stimulate sexual desire or improve sexual performance
-
--
-
-Products where the primary focus is to stimulate sexual desire or arousal
-
--
-
-Depiction of sex toys with no clear context
+- Depiction of sex toys with no clear context
 
 Reproductive Health or Wellness Products
 
 Content that:
 
--
+- Attempts to buy, sell, promote, trade, donate, gift or ask for reproductive health or wellness products, where the primary focus is on sexual pleasure and not medical benefits. This includes:
 
-Attempts to buy, sell, promote, trade, donate, gift or ask for reproductive health or wellness products, where the primary focus is on sexual pleasure and not medical benefits. This includes:
+- Reproductive Health or Wellness products when focused on sexual pleasure and containing phallic or yonic objects
 
--
+- Products addressing sexual reproductive disorders, where the primary focus is on sexual pleasure and not medical benefits
 
-Reproductive Health or Wellness products when focused on sexual pleasure and containing phallic or yonic objects
+- Cosmetic genital surgeries
 
--
+- Adult genital surgeries
 
-Products addressing sexual reproductive disorders, where the primary focus is on sexual pleasure and not medical benefits
-
--
-
-Cosmetic genital surgeries
-
--
-
-Adult genital surgeries
-
--
-
-Sex education with focus on sexual pleasure
+- Sex education with focus on sexual pleasure
 
 Adult sexual businesses
 
 Content that:
 
--
+- Attempts to buy, sell, promote, or ask for adult sexual businesses, that can stimulate a person’s sexual pleasure or increase a person’s sexual arousal. This includes:
 
-Attempts to buy, sell, promote, or ask for adult sexual businesses, that can stimulate a person’s sexual pleasure or increase a person’s sexual arousal. This includes:
+- Adult entertainment businesses
 
--
+- Adult establishments
 
-Adult entertainment businesses
-
--
-
-Adult establishments
-
--
-
-Instructional sexual services
+- Instructional sexual services
 
 Online Gambling and Games
 
@@ -4360,29 +2570,19 @@ For the following content, we restrict visibility to adults 18 years of age and 
 
 Online Gambling and Games
 
--
+- Content that attempts to sell, trade, depict or promote online gaming and gambling services where anything of monetary value (including cash or digital/virtual currencies, e.g., bitcoin) is required to play and anything of monetary value forms part of the prize. This includes but is not limited to:
 
-Content that attempts to sell, trade, depict or promote online gaming and gambling services where anything of monetary value (including cash or digital/virtual currencies, e.g., bitcoin) is required to play and anything of monetary value forms part of the prize. This includes but is not limited to:
+- Games of skill, lotteries/raffles, betting, sports betting, casino games, games of chance, or sweepstakes/prize draws.
 
--
-
-Games of skill, lotteries/raffles, betting, sports betting, casino games, games of chance, or sweepstakes/prize draws.
-
--
-
-Gambling Games offering a limited trial period and requiring payment thereafter.
+- Gambling Games offering a limited trial period and requiring payment thereafter.
 
 Social Casino Games
 
--
-
-Content that attempts to sell, trade, depict or promote social casino games that simulate gambling games such as slot machines, where there is no opportunity to win money or money’s worth. This includes content that indicates the opportunity to win “coins” of no monetary value.
+- Content that attempts to sell, trade, depict or promote social casino games that simulate gambling games such as slot machines, where there is no opportunity to win money or money’s worth. This includes content that indicates the opportunity to win “coins” of no monetary value.
 
 Free-to-play games with Gambling context
 
--
-
-Content that attempts to sell, trade, depict or promote free-to-play games that simulate gambling games, where anything of monetary value is not required to play the game, but there may be an opportunity to win money or money’s worth.
+- Content that attempts to sell, trade, depict or promote free-to-play games that simulate gambling games, where anything of monetary value is not required to play the game, but there may be an opportunity to win money or money’s worth.
 
 Endangered and protected species (wildlife and plants)
 
@@ -4390,51 +2590,29 @@ We do not allow:
 
 Content that:
 
--
+- Attempts to buy, sell, trade, donate, or gift or asks for endangered species or their parts or protected plants species.
 
-Attempts to buy, sell, trade, donate, or gift or asks for endangered species or their parts or protected plants species.
+- Admits to or encourages the poaching, buying or trading of endangered species or their parts committed by the poster of the content either by themselves or their associates through others. This does not include depictions of poaching by strangers.
 
--
+- Depicts poaching of endangered species or their parts committed by the poster of the content by themselves or their associates.
 
-Admits to or encourages the poaching, buying or trading of endangered species or their parts committed by the poster of the content either by themselves or their associates through others. This does not include depictions of poaching by strangers.
-
--
-
-Depicts poaching of endangered species or their parts committed by the poster of the content by themselves or their associates.
-
--
-
-Shows coordination or promotion (by which we mean speaks positively about, encourages the poaching of, or provides instructions) to use or make products from endangered species or their parts, or any endangered wildlife or plants.
+- Shows coordination or promotion (by which we mean speaks positively about, encourages the poaching of, or provides instructions) to use or make products from endangered species or their parts, or any endangered wildlife or plants.
 
 Non-endangered animals
 
--
+- Content that attempts to buy, sell or trade live non-endangered animals except when:
 
-Content that attempts to buy, sell or trade live non-endangered animals except when:
+- Posted by a Page, Group or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, legitimate websites, brands, or rehoming shelters, or a private individual sharing content on behalf of legitimate brick-and-mortar entities.
 
--
+- Posted in the context of adopting, gifting, asking for, donating or rehoming live non-endangered animals, including rehoming fees for peer-to-peer adoptions
 
-Posted by a Page, Group or Instagram profile representing legitimate brick-and-mortar entities, including retail businesses, legitimate websites, brands, or rehoming shelters, or a private individual sharing content on behalf of legitimate brick-and-mortar entities.
+- Selling an animal for a religious offering, or offering a reward for lost pets.
 
--
+- Posted in the context of sale of livestock.
 
-Posted in the context of adopting, gifting, asking for, donating or rehoming live non-endangered animals, including rehoming fees for peer-to-peer adoptions
+- Posted in the context of buying, selling or gifting, asking for, donating animal horns, organs, limbs, carcasses, taxidermy, feces (excluding compost or fertilizer).
 
--
-
-Selling an animal for a religious offering, or offering a reward for lost pets.
-
--
-
-Posted in the context of sale of livestock.
-
--
-
-Posted in the context of buying, selling or gifting, asking for, donating animal horns, organs, limbs, carcasses, taxidermy, feces (excluding compost or fertilizer).
-
--
-
-Posted in the context of offering animals’ related products for human consumption such as: eggs, fish, etc.
+- Posted in the context of offering animals’ related products for human consumption such as: eggs, fish, etc.
 
 Historic Artifacts
 
@@ -4454,23 +2632,15 @@ We do not allow:
 
 Content that:
 
--
+- Attempts to buy, sell or trade human body parts, even beyond the human-trafficking content prohibited under the
 
-Attempts to buy, sell or trade human body parts, even beyond the human-trafficking content prohibited under the
+[Human Exploitation policy](sources/platform-meta-community-standards-12.transparency-meta-com.html) .
 
-Human Exploitation policy .
+- Asking for human fluids exchange.
 
--
+- Attempts to buy, sell or trade human fluids.
 
-Asking for human fluids exchange.
-
--
-
-Attempts to buy, sell or trade human fluids.
-
--
-
-Except when posted for donation of human fluids such as semen or blood plasma.
+- Except when posted for donation of human fluids such as semen or blood plasma.
 
 Recalled Goods
 
@@ -4500,28 +2670,6 @@ USER EXPERIENCE
 
 Warning screens
 
-Data
-
-View the latest Community Standards Enforcement Report
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with restricted goods and services
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
@@ -4530,145 +2678,85 @@ We recognize the importance of our services as a place to discuss and draw atten
 
 To protect survivors, we remove images that depict incidents of sexual violence and intimate images shared without the consent of the person(s) pictured. As noted in the introduction, we also work with external safety experts to discuss and improve our policies and enforcement around online safety issues, and we may remove content when we receive information that content is linked to harmful activity. We have written about the
 
-technology we use to protect against non-consensual intimate images and the
+[technology we use to protect against non-consensual intimate images](https://about.fb.com/news/2019/03/detecting-non-consensual-intimate-images/) and the
 
-research that has informed our work . We’ve also put together resources for reporting threats and intimate images shared without permission to Meta to proactively prevent people’s intimate image from spreading online .
+[research that has informed our work](https://about.fb.com/news/2019/03/protecting-intimate-images/) . We’ve also put together resources for [reporting threats and intimate images shared without permission to Meta to proactively prevent people’s intimate image from spreading online](https://about.meta.com/actions/safety/topics/bullying-harassment/ncii/#prevent) .
 
 We do not allow:
 
 Content depicting, advocating for, or mocking non-consensual sexual touching, including:
 
--
+- Imagery depicting non-consensual sexual touching (except in real-world art depicting non-real people, with a condemning or neutral caption)
 
-Imagery depicting non-consensual sexual touching (except in real-world art depicting non-real people, with a condemning or neutral caption)
+- Statements attempting or threatening to share, offering, or asking for imagery depicting non-consensual sexual touching
 
--
+- Descriptions of non-consensual sexual touching, unless shared by or in support of the survivor
 
-Statements attempting or threatening to share, offering, or asking for imagery depicting non-consensual sexual touching
+- Advocacy (including aspirational and conditional statements) for, threats to commit, or admission of participation in non-consensual sexual touching
 
--
+- Content mocking survivors or the concept of non-consensual sexual touching
 
-Descriptions of non-consensual sexual touching, unless shared by or in support of the survivor
-
--
-
-Advocacy (including aspirational and conditional statements) for, threats to commit, or admission of participation in non-consensual sexual touching
-
--
-
-Content mocking survivors or the concept of non-consensual sexual touching
-
--
-
-Content shared by a third party that identifies survivors of sexual assault when reported by the survivor
+- Content shared by a third party that identifies survivors of sexual assault when reported by the survivor
 
 Content, activity or interactions that attempts to exploit people by:
 
--
+- Coercing money, favors or intimate imagery from people with threats to expose their intimate imagery or intimate information (sextortion)
 
-Coercing money, favors or intimate imagery from people with threats to expose their intimate imagery or intimate information (sextortion)
+- Sharing, threatening, stating an intent to share, offering or asking for non-consensual intimate imagery (NCII) that fulfills all of the three following conditions:
 
--
+- Imagery is non-commercial and produced in a private setting.
 
-Sharing, threatening, stating an intent to share, offering or asking for non-consensual intimate imagery (NCII) that fulfills all of the three following conditions:
+- Person in the imagery is (near) nude, engaged in sexual activity or in a sexually suggestive pose (this includes digitally created or AI-generated imagery).
 
--
+- Lack of consent to share the imagery is indicated by meeting any of the signals:
 
-Imagery is non-commercial and produced in a private setting.
+- Vengeful context (such as, caption, comments or page title).
 
--
+- Independent sources such as law enforcement records, media reports (such as, leak of images confirmed by media) or representatives of a survivor of NCII
 
-Person in the imagery is (near) nude, engaged in sexual activity or in a sexually suggestive pose (this includes digitally created or AI-generated imagery).
+- Report from a person depicted in the image or who shares the same name as the person depicted in the image.
 
--
+- Promoting, threatening to share, or offering to make NCII or kissing imagery through applications or services (including AI), or instructions, even if there is no commercial or non-commercial imagery shared in the content (sometimes referred to as “nudify” apps or “AI kissing” apps).
 
-Lack of consent to share the imagery is indicated by meeting any of the signals:
+- Sharing secretly taken non-commercial imagery focusing on a person's commonly sexualized body parts (such as breasts, groin, buttocks, or thighs), a person in a sexually suggestive pose, or of a person engaged in sexual activity, and is shared with an intent to mock, sexualize or reveal the identity of the person depicted in the imagery. This imagery is commonly known as "creepshots" or "upskirts".
 
--
+- Sharing, threatening to share or stating an intent to share private sexual conversations where a lack of consent to share is indicated by by any of the following:
 
-Vengeful context (such as, caption, comments or page title).
+- Vengeful context and/or threatening context,
 
--
+- Independent sources such as media coverage or law enforcement records, or
 
-Independent sources such as law enforcement records, media reports (such as, leak of images confirmed by media) or representatives of a survivor of NCII
-
--
-
-Report from a person depicted in the image or who shares the same name as the person depicted in the image.
-
--
-
-Promoting, threatening to share, or offering to make NCII or kissing imagery through applications or services (including AI), or instructions, even if there is no commercial or non-commercial imagery shared in the content (sometimes referred to as “nudify” apps or “AI kissing” apps).
-
--
-
-Sharing secretly taken non-commercial imagery focusing on a person's commonly sexualized body parts (such as breasts, groin, buttocks, or thighs), a person in a sexually suggestive pose, or of a person engaged in sexual activity, and is shared with an intent to mock, sexualize or reveal the identity of the person depicted in the imagery. This imagery is commonly known as "creepshots" or "upskirts".
-
--
-
-Sharing, threatening to share or stating an intent to share private sexual conversations where a lack of consent to share is indicated by by any of the following:
-
--
-
-Vengeful context and/or threatening context,
-
--
-
-Independent sources such as media coverage or law enforcement records, or
-
--
-
-Report from a person depicted in the image or who shares the same name as the person depicted in the image
+- Report from a person depicted in the image or who shares the same name as the person depicted in the image
 
 Content relating to necrophilia or forced stripping, including:
 
--
+- Imagery depicting necrophilia or forced stripping (except in real-world art depicting non-real people, with a condemning or neutral caption
 
-Imagery depicting necrophilia or forced stripping (except in real-world art depicting non-real people, with a condemning or neutral caption
+- Statements attempting to share, offer, ask, or threatening to share the imagery of necrophilia or forced stripping
 
--
-
-Statements attempting to share, offer, ask, or threatening to share the imagery of necrophilia or forced stripping
-
--
-
-Statements that contain descriptions, advocacy for, aspirational or conditional statements about, statements of intent or calls for action to commit, admission of participation in, or mocking of survivors of necrophilia or forced stripping
+- Statements that contain descriptions, advocacy for, aspirational or conditional statements about, statements of intent or calls for action to commit, admission of participation in, or mocking of survivors of necrophilia or forced stripping
 
 For the following content, we include a sensitivity screen so that people are aware the content may be upsetting to some:
 
 Narratives and statements that contain a description of non-consensual sexual touching (written or verbal) that includes details beyond mere naming or mentioning the act if:
 
--
+- Shared by the survivor, or
 
-Shared by the survivor, or
-
--
-
-Shared by a third party (other than the survivor) in support of the survivor or condemnation of the act or for general awareness to be determined by context/caption.
+- Shared by a third party (other than the survivor) in support of the survivor or condemnation of the act or for general awareness to be determined by context/caption.
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
 We may restrict visibility to people over the age of 18 and include a warning label on certain content including:
 
--
+- Content depicting non-consensual sexual touching when:
 
-Content depicting non-consensual sexual touching when:
+- Shared to raise awareness (without entertainment or sensational context),
 
--
+- The survivor is not identifiable, and
 
-Shared to raise awareness (without entertainment or sensational context),
+- The content does not involve nudity
 
--
-
-The survivor is not identifiable, and
-
--
-
-The content does not involve nudity
-
--
-
-Content depicting fictional non-consensual sexual touching (movie trailers, etc.) when shared by trusted partners to raise awareness and without sensational context
+- Content depicting fictional non-consensual sexual touching (movie trailers, etc.) when shared by trusted partners to raise awareness and without sensational context
 
 We may restrict visibility to people over the age of 18 and include a warning label on certain content depicting non-consensual sexual touching, when it is shared to raise awareness and without entertainment or sensational context, where the victim or survivor is not identifiable and where the content does not involve nudity.
 
@@ -4698,29 +2786,11 @@ USER EXPERIENCE
 
 Warning screens
 
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with adult sexual exploitation
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
 
-As noted in the Adult Sexual Exploitation policy, people use our services to discuss and draw attention to sexual violence and exploitation. We recognize the importance of and allow for this discussion. We also allow for the discussion of sex worker rights advocacy and sex work regulation. However, we draw the line, however, when content facilitates sexual encounters or commercial sexual services between adults or when content asks for or offers pornographic or sexual content. We do this to avoid facilitating transactions that may involve trafficking, coercion and non-consensual sexual acts.
+As noted in the [Adult Sexual Exploitation](https://www.facebook.com/communitystandards/sexual_exploitation_adults) policy, people use our services to discuss and draw attention to sexual violence and exploitation. We recognize the importance of and allow for this discussion. We also allow for the discussion of sex worker rights advocacy and sex work regulation. However, we draw the line, however, when content facilitates sexual encounters or commercial sexual services between adults or when content asks for or offers pornographic or sexual content. We do this to avoid facilitating transactions that may involve trafficking, coercion and non-consensual sexual acts.
 
 We also restrict sexually-explicit language that may lead to sexual solicitation because some audiences within our global community may be sensitive to this type of content, and it may impede the ability for people to connect with their friends and the broader community.
 
@@ -4728,101 +2798,59 @@ We do not allow:
 
 Content that offers, asks or provides methods of contact for prostitution, which is defined as asking for or offering oneself for sexual encounters in exchange for money or anything of value by:
 
--
+- Offering or asking for sexual encounters (for example, escort services, sexual/erotic massages, sex chats/conversations, fetish/domination services)
 
-Offering or asking for sexual encounters (for example, escort services, sexual/erotic massages, sex chats/conversations, fetish/domination services)
+- Using slang terms for prostitution combined with an ask or offer of availability, price, or any signal of a transaction for money or something of value, location, or contact information
 
--
+- Engaging in sexual solicitation combined with a price or any signal of a transaction for money or something of value
 
-Using slang terms for prostitution combined with an ask or offer of availability, price, or any signal of a transaction for money or something of value, location, or contact information
+- Depicting or mentioning sexual encounters or partners with a price or any signals of monetary or in-kind transactions.
 
--
-
-Engaging in sexual solicitation combined with a price or any signal of a transaction for money or something of value
-
--
-
-Depicting or mentioning sexual encounters or partners with a price or any signals of monetary or in-kind transactions.
-
--
-
-Recruiting or offering other people for third-party commercial sex work is covered by the Human Exploitation policy.
+- Recruiting or offering other people for third-party commercial sex work is covered by the Human Exploitation policy.
 
 Content that engages in sexual solicitation by, offering, asking or providing methods of contact for sexual encounters such as:
 
--
+- Sexual intercourse or stimulation
 
-Sexual intercourse or stimulation
+- Oral sex
 
--
+- Sexual Fetishes
 
-Oral sex
+- Sex chats or conversations
 
--
+- Sexual or erotic massages
 
-Sexual Fetishes
+- Erotic dancing or stripping
 
--
-
-Sex chats or conversations
-
--
-
-Sexual or erotic massages
-
--
-
-Erotic dancing or stripping
-
--
-
-Sharing of nude imagery (such as nudes, sex videos)
+- Sharing of nude imagery (such as nudes, sex videos)
 
 Content that asks for, offers or provides methods of contact to acquire pornographic material, or contains usernames or links to pornographic websites.
 
 Sexually explicit language that uses explicit or graphic detail about:
 
--
+- Genitals,
 
-Genitals,
+- States of sexual arousal (e.g., wetness or erection)
 
--
+- Sexual Encounters
 
-States of sexual arousal (e.g., wetness or erection)
-
--
-
-Sexual Encounters
-
--
-
-The above does not include content shared in a humorous, satirical context or as sexual cursing
+- The above does not include content shared in a humorous, satirical context or as sexual cursing
 
 We allow content that is otherwise covered by this policy when posted in condemnation, educational, awareness raising or news reporting contexts. We also do not prohibit discussing sexual practices under the policy. However, these could be restricted to adults over 18 years of age as per the Health & Wellness policy to facilitate age-appropriate experiences for minors.
 
 For the following content, we limit the ability to view the content to adults, ages 18 and older:
 
--
+- Content discussing sexual practices or experiences
 
-Content discussing sexual practices or experiences
+- Content that contains usernames, links to or logos of Adult Subscription Websites
 
--
+- Sexually explicit language in humorous or satirical contexts, including sexual metaphors
 
-Content that contains usernames, links to or logos of Adult Subscription Websites
-
--
-
-Sexually explicit language in humorous or satirical contexts, including sexual metaphors
-
--
-
-Sexually suggestive language that refers to sexual encounters
+- Sexually suggestive language that refers to sexual encounters
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
--
-
-In certain cases, we will allow content that may otherwise violate the Community Standards when it is determined that the content is satirical. Content will only be allowed if the violating elements of the content are being satirized or attributed to something or someone else in order to mock or criticize them.
+- In certain cases, we will allow content that may otherwise violate the Community Standards when it is determined that the content is satirical. Content will only be allowed if the violating elements of the content are being satirized or attributed to something or someone else in order to mock or criticize them.
 
 User experiences
 
@@ -4845,24 +2873,6 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with adult sexual solicitation and sexually explicit language
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
 
 ---
 
@@ -4874,95 +2884,51 @@ Online spam is a lucrative industry. Our policies and detection must constantly 
 
 We do not allow:
 
--
+- Posting, sharing, engaging with content or creating accounts, Groups, Pages, Events or other assets, either manually or automatically, at very high frequencies.
 
-Posting, sharing, engaging with content or creating accounts, Groups, Pages, Events or other assets, either manually or automatically, at very high frequencies.
+- We may place restrictions on accounts that are acting at lower frequencies when other indicators of Spam (e.g., posting repetitive content) or signals of inauthenticity are present.
 
--
+- Attempting to or successfully selling, buying, or exchanging platform assets, such as accounts, groups, pages, etc.
 
-We may place restrictions on accounts that are acting at lower frequencies when other indicators of Spam (e.g., posting repetitive content) or signals of inauthenticity are present.
+- Attempting to or successfully selling, buying, or exchanging site privileges, such as admin or moderator roles, or permission to post in specific spaces.
 
--
+- Attempting to or successfully selling, buying, or exchanging content for something of monetary value, except clearly identified Branded Content, as defined by our
 
-Attempting to or successfully selling, buying, or exchanging platform assets, such as accounts, groups, pages, etc.
+[Branded Content Policy](https://www.facebook.com/business/help/221149188908254) .
 
--
+- Attempting to or successfully selling, buying, or exchanging for engagement, such as likes, shares, views, follows, clicks, use of specific hashtags, etc. This includes:
 
-Attempting to or successfully selling, buying, or exchanging site privileges, such as admin or moderator roles, or permission to post in specific spaces.
+- Offering giveaways (i.e., offering others a chance to win) of cash or cash equivalents in exchange for engagement. (e.g., “Anyone that likes my page will be entered to win $500”)
 
--
+- Offering to provide anything of monetary value in exchange for engagement. (e.g., “If you like my page, I will give you an iPhone!”)
 
-Attempting to or successfully selling, buying, or exchanging content for something of monetary value, except clearly identified Branded Content, as defined by our
+- Requiring or claiming that users are required to engage with content (e.g., liking, sharing) before they are able to view or interact with promised content.
 
-Branded Content Policy .
+- Sharing deceptive or misleading URLs, domains, or applications including:
 
--
+- [Cloaking](https://about.fb.com/news/2017/08/news-feed-fyi-addressing-cloaking-so-people-see-more-authentic-posts/) : Cloaking is any attempt to circumvent our content policies by intentionally presenting different off-platform content, such as URLs or applications, to our integrity systems versus what is shown to users.
 
-Attempting to or successfully selling, buying, or exchanging for engagement, such as likes, shares, views, follows, clicks, use of specific hashtags, etc. This includes:
+- Misleading Links : Content containing a link that promises one type of content but delivers something substantially different.This can include content in a promised app or software.
 
--
+- Deceptive redirect behavior : Websites that require an action (e.g. captcha, watch ad, click here) in order to view the expected landing page content and the domain name of the URL changes after the required action is complete, or automatically redirects users to a substantially different domain without any user action.
 
-Offering giveaways (i.e., offering others a chance to win) of cash or cash equivalents in exchange for engagement. (e.g., “Anyone that likes my page will be entered to win $500”)
+- Like/share-gating : Requiring users to engage (in the form of likes, shares, follows, or any other public-facing form of engagement) to gain access to specific, exclusive content.
 
--
+- Deceptive platform functionality - Mimicking the features or functionality of our services, such as mimicking fundraising, in-line polls, play buttons, or the Like button where that functionality does not exist or does not function as expected, in order to get a user to follow a link.
 
-Offering to provide anything of monetary value in exchange for engagement. (e.g., “If you like my page, I will give you an iPhone!”)
+- Deceptive landing page functionality : Websites that have a misleading user interface, which results in accidental traffic being generated (e.g. pop-ups/unders, clickjacking, etc.).This includes tactics like trapping, where irrelevant pop-ups appear when a person attempts to leave the landing page.
 
--
+- Landing page or domain impersonation - An off-platform landing page, URL, or external website or domain that pretends to be a reputable brand or service by using a name, domain or content that features typos, misspellings or other means to impersonate well-known websites, domains or brands using a landing page similar to another, trusted site.
 
-Requiring or claiming that users are required to engage with content (e.g., liking, sharing) before they are able to view or interact with promised content.
+- Other deceptive uses of URLs or links that are substantially similar to the above.
 
--
+- Notwithstanding the above, we do not prohibit:
 
-Sharing deceptive or misleading URLs, domains, or applications including:
+- Cross promotion that is not triggered by payment to a third party
 
--
+- Transferring admin or moderation responsibilities for a page or group to another user based on their interest in the page or group, rather than an exchange of value.
 
-Cloaking : Cloaking is any attempt to circumvent our content policies by intentionally presenting different off-platform content, such as URLs or applications, to our integrity systems versus what is shown to users.
-
--
-
-Misleading Links : Content containing a link that promises one type of content but delivers something substantially different.This can include content in a promised app or software.
-
--
-
-Deceptive redirect behavior : Websites that require an action (e.g. captcha, watch ad, click here) in order to view the expected landing page content and the domain name of the URL changes after the required action is complete, or automatically redirects users to a substantially different domain without any user action.
-
--
-
-Like/share-gating : Requiring users to engage (in the form of likes, shares, follows, or any other public-facing form of engagement) to gain access to specific, exclusive content.
-
--
-
-Deceptive platform functionality - Mimicking the features or functionality of our services, such as mimicking fundraising, in-line polls, play buttons, or the Like button where that functionality does not exist or does not function as expected, in order to get a user to follow a link.
-
--
-
-Deceptive landing page functionality : Websites that have a misleading user interface, which results in accidental traffic being generated (e.g. pop-ups/unders, clickjacking, etc.).This includes tactics like trapping, where irrelevant pop-ups appear when a person attempts to leave the landing page.
-
--
-
-Landing page or domain impersonation - An off-platform landing page, URL, or external website or domain that pretends to be a reputable brand or service by using a name, domain or content that features typos, misspellings or other means to impersonate well-known websites, domains or brands using a landing page similar to another, trusted site.
-
--
-
-Other deceptive uses of URLs or links that are substantially similar to the above.
-
--
-
-Notwithstanding the above, we do not prohibit:
-
--
-
-Cross promotion that is not triggered by payment to a third party
-
--
-
-Transferring admin or moderation responsibilities for a page or group to another user based on their interest in the page or group, rather than an exchange of value.
-
--
-
-Posting or sharing clearly identified Branded Content.
+- Posting or sharing clearly identified Branded Content.
 
 User experiences
 
@@ -4985,28 +2951,6 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Data
-
-View the latest Community Standards Enforcement Report
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with spam
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
 
 ---
 
@@ -5020,111 +2964,67 @@ We remove any content that encourages suicide, self-injury or eating disorders, 
 
 When people post or search for suicide, self-injury or eating disorders related content, we will direct them to local organizations that can provide support and if our Community Operations team is concerned about immediate harm we will contact local emergency services to get them help. For more information, visit the
 
-Meta Safety Center.
+[Meta Safety Center.](https://www.facebook.com/safety/wellbeing/suicideprevention)
 
 With respect to live content, experts have told us that if someone is saying they intend to attempt suicide on a livestream, we should leave the content up for as long as possible because the longer someone is talking to a camera, the more opportunity there is for a friend or family member to call emergency services.However, to minimize the risk of others being negatively impacted by viewing this content, we will stop the livestream at the point at which the threat turns into an attempt. As mentioned above, in any case, we will contact emergency services if we identify someone is at immediate risk of harming themselves.
 
 We do not allow:
 
--
+- Content that promotes, encourages, coordinates, or provides instructions for suicide, self-injury, or eating disorders.
 
-Content that promotes, encourages, coordinates, or provides instructions for suicide, self-injury, or eating disorders.
+- Content that depicts graphic suicide, self-injury or eating disorder imagery
 
--
+- Content depicting a person who engaged in a suicide attempt or death by suicide
 
-Content that depicts graphic suicide, self-injury or eating disorder imagery
+- Imagery of people when shared together with terms associated with eating disorders
 
--
+- Content that focuses on depiction of ribs, collar bones, thigh gaps, hips, concave stomach, protruding spine, scapula, visible bones in arms or legs or hollow cheeks when shared together with terms associated with eating disorders
 
-Content depicting a person who engaged in a suicide attempt or death by suicide
+- Content that contains instructions for extreme weight loss behaviour
 
--
+- Content admitting to extreme weight loss behaviour when shared together with terms associated with eating disorders
 
-Imagery of people when shared together with terms associated with eating disorders
+- Content that contains instructions for restrictive dieting when shared together with terms associated with eating disorders
 
--
+- Content that mocks victims or survivors of suicide, self-injury or eating disorders who are either publicly known or implied to be experiencing or have experienced suicide, self-injury or eating disorders
 
-Content that focuses on depiction of ribs, collar bones, thigh gaps, hips, concave stomach, protruding spine, scapula, visible bones in arms or legs or hollow cheeks when shared together with terms associated with eating disorders
-
--
-
-Content that contains instructions for extreme weight loss behaviour
-
--
-
-Content admitting to extreme weight loss behaviour when shared together with terms associated with eating disorders
-
--
-
-Content that contains instructions for restrictive dieting when shared together with terms associated with eating disorders
-
--
-
-Content that mocks victims or survivors of suicide, self-injury or eating disorders who are either publicly known or implied to be experiencing or have experienced suicide, self-injury or eating disorders
-
--
-
-Imagery depicting body modification (e.g., tattoo, piercing, scarification, self-flagellation, etc.) when shared in a suicide or self-injury context
+- Imagery depicting body modification (e.g., tattoo, piercing, scarification, self-flagellation, etc.) when shared in a suicide or self-injury context
 
 For the following content, we include a warning screen so that people are aware the content may be sensitive. We also limit the ability to view the content to adults, ages 18 and older:
 
--
+- Photos or videos depicting a person who engaged in euthanasia/assisted suicide in a medical setting.
 
-Photos or videos depicting a person who engaged in euthanasia/assisted suicide in a medical setting.
+- Content that depicts older instances of self-injury such as healed cuts or other non-graphic self-injury imagery in a self-injury, suicide or recovery context
 
--
-
-Content that depicts older instances of self-injury such as healed cuts or other non-graphic self-injury imagery in a self-injury, suicide or recovery context
-
--
-
-Content that depicts ribs, collar bones, thigh gaps, hips, concave stomach, protruding spine, scapula, visible bones in arms or legs or hollow cheeks in a recovery context
+- Content that depicts ribs, collar bones, thigh gaps, hips, concave stomach, protruding spine, scapula, visible bones in arms or legs or hollow cheeks in a recovery context
 
 For the following content, we provide resources to people and limit the ability to view the content to adults aged 18 and older:
 
--
+- Written or verbal admission of suicide, self-injury or eating disorders.
 
-Written or verbal admission of suicide, self-injury or eating disorders.
-
--
-
-Vague, potentially suicidal statements or references (including memes or stock imagery about sad mood depression, presenting death as an escape, or content from popular culture with emphasis on dark, depressive thoughts) in a suicide or self-injury context.
+- Vague, potentially suicidal statements or references (including memes or stock imagery about sad mood depression, presenting death as an escape, or content from popular culture with emphasis on dark, depressive thoughts) in a suicide or self-injury context.
 
 For the following content, we limit the ability to view the content to adults aged 18 and older:
 
--
+- Mocking or dismissing the concept of suicide, self-injury or eating disorders
 
-Mocking or dismissing the concept of suicide, self-injury or eating disorders
+- Narratives that contain a description of suicide with details that go beyond the mere naming or mentioning of the act or the aftermath
 
--
-
-Narratives that contain a description of suicide with details that go beyond the mere naming or mentioning of the act or the aftermath
-
--
-
-Admitting to extreme weight loss behavior
+- Admitting to extreme weight loss behavior
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
--
+- We may remove suicide notes when we have confirmation of a suicide or suicide attempt. We try to identify suicide notes using several factors, including but not limited to:
 
-We may remove suicide notes when we have confirmation of a suicide or suicide attempt. We try to identify suicide notes using several factors, including but not limited to:
+- Family or legal representative requests,
 
--
+- Reports from media, law enforcement, or other third party sources (e.g. government agencies, NGOs), or the
 
-Family or legal representative requests,
+[Suicidal Content Contact Form](https://www.facebook.com/help/contact/305410456169423/) or
 
--
+[Instagram Contact Form](https://help.instagram.com/contact/383679321740945/) .
 
-Reports from media, law enforcement, or other third party sources (e.g. government agencies, NGOs), or the
-
-Suicidal Content Contact Form or
-
-Instagram Contact Form .
-
--
-
-We may take into account off-platform signals of admission to or promotion of suicide, self-injury, eating disorders or extreme weight-loss behaviors from a user to assess whether specific content posted by them on Meta platforms could present a risk to others.
+- We may take into account off-platform signals of admission to or promotion of suicide, self-injury, eating disorders or extreme weight-loss behaviors from a user to assess whether specific content posted by them on Meta platforms could present a risk to others.
 
 User experiences
 
@@ -5147,28 +3047,6 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Data
-
-View the latest Community Standards Enforcement Report
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with suicide, self-injury, and eating disorders
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
 
 ---
 
@@ -5178,13 +3056,9 @@ Meta responds to requests for account removal in accordance with applicable law 
 
 We comply with requests for removal of:
 
--
+- Accounts when requested by the account owner
 
-Accounts when requested by the account owner
-
--
-
-Accounts belonging to an incapacitated individual when requested by an authorized representative with Proof of Authority and medical documentation confirming incapacitation
+- Accounts belonging to an incapacitated individual when requested by an authorized representative with Proof of Authority and medical documentation confirming incapacitation
 
 User experiences
 
@@ -5207,24 +3081,6 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with user requests
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
 
 ---
 
@@ -5244,21 +3100,13 @@ Universal protections for everyone
 
 Everyone is protected from the following threats:
 
--
+- Threats of violence that could lead to death (or other forms of high-severity violence)
 
-Threats of violence that could lead to death (or other forms of high-severity violence)
+- Threats of violence that could lead to serious injury (mid-severity violence). We remove such threats against public figures and groups not based on protected characteristics when credible, and we remove them against any other targets (including groups based on protected characteristics) regardless of credibility
 
--
+- Admissions to high-severity or mid-severity violence (in written or verbal form, or visually depicted by the perpetrator or an associate), except when shared in a context of redemption, self-defense, contact sports (mid-severity or less), or when committed by law enforcement, military or state security personnel
 
-Threats of violence that could lead to serious injury (mid-severity violence). We remove such threats against public figures and groups not based on protected characteristics when credible, and we remove them against any other targets (including groups based on protected characteristics) regardless of credibility
-
--
-
-Admissions to high-severity or mid-severity violence (in written or verbal form, or visually depicted by the perpetrator or an associate), except when shared in a context of redemption, self-defense, contact sports (mid-severity or less), or when committed by law enforcement, military or state security personnel
-
--
-
-Threats or depictions of kidnappings or abductions, unless it is clear that the content is being shared by a victim or their family as a plea for help, or shared for informational, condemnation or awareness-raising purposes
+- Threats or depictions of kidnappings or abductions, unless it is clear that the content is being shared by a victim or their family as a plea for help, or shared for informational, condemnation or awareness-raising purposes
 
 Additional protections for Private Adults, All Children, high-risk persons and persons or groups based on their protected characteristics:
 
@@ -5268,117 +3116,63 @@ Other Violence
 
 In addition to all of the protections listed above, we remove the following:
 
--
+- Content that asks for, offers, or admits to offering services of high-severity violence (for example, hitmen, mercenaries, assassins, female genital mutilation) or advocates for the use of these services
 
-Content that asks for, offers, or admits to offering services of high-severity violence (for example, hitmen, mercenaries, assassins, female genital mutilation) or advocates for the use of these services
+- Instructions on how to make or use weapons where there is language explicitly stating the goal to seriously injure or kill people, or imagery that shows or simulates the end result, unless with context that the content is for a non-violent purpose such as educational self-defense (for example, combat training, martial arts) and military training
 
--
+- Instructions on how to make or use explosives, unless with context that the content is for a non-violent purpose such as recreational uses (for example, fireworks and commercial video games, fishing)
 
-Instructions on how to make or use weapons where there is language explicitly stating the goal to seriously injure or kill people, or imagery that shows or simulates the end result, unless with context that the content is for a non-violent purpose such as educational self-defense (for example, combat training, martial arts) and military training
+- Threats to take up weapons or to bring weapons to a location or forcibly enter a location (including but not limited to places of worship, educational facilities, polling places or locations used to count votes or administer an election), or locations where there are temporary signals of a heightened risk of violence.
 
--
+- Threats of violence related to voting, voter registration, or the administration or outcome of an election, even if there is no target.
 
-Instructions on how to make or use explosives, unless with context that the content is for a non-violent purpose such as recreational uses (for example, fireworks and commercial video games, fishing)
-
--
-
-Threats to take up weapons or to bring weapons to a location or forcibly enter a location (including but not limited to places of worship, educational facilities, polling places or locations used to count votes or administer an election), or locations where there are temporary signals of a heightened risk of violence.
-
--
-
-Threats of violence related to voting, voter registration, or the administration or outcome of an election, even if there is no target.
-
--
-
-Glorification of gender-based violence that is either intimate partner violence or honor-based violence
+- Glorification of gender-based violence that is either intimate partner violence or honor-based violence
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
 We Remove:
 
--
+- Threats against law enforcement officers or election officials, regardless of their public figure status or credibility of the threat.
 
-Threats against law enforcement officers or election officials, regardless of their public figure status or credibility of the threat.
+- Coded statements where the method of violence is not clearly articulated, but the threat is veiled or implicit, as shown by the combination of both a threat signal and contextual signal from the list below.
 
--
+- Threat: a coded statement that is one of the following:
 
-Coded statements where the method of violence is not clearly articulated, but the threat is veiled or implicit, as shown by the combination of both a threat signal and contextual signal from the list below.
+- Shared in a retaliatory context (e.g., expressions of desire to engage in violence against others in response to a grievance or threat that may be real, perceived or anticipated)
 
--
+- References to historical or fictional incidents of violence (e.g., content that threatens others by referring to known historical incidents of violence that have been committed throughout history or in fictional settings)
 
-Threat: a coded statement that is one of the following:
+- Acts as a threatening call to action (e.g., content inviting or encouraging others to carry out violent acts or to join in carrying out the violent acts)
 
--
+- Indicates knowledge of or shares sensitive information that could expose others to violence (e.g., content that either makes note of or implies awareness of personal information that might make a threat of violence more credible. This includes implying knowledge of a person's residential address, their place of employment or education, daily commute routes or current location)
 
-Shared in a retaliatory context (e.g., expressions of desire to engage in violence against others in response to a grievance or threat that may be real, perceived or anticipated)
+- Context
 
--
+- Local context or expertise confirms that the statement in question could lead to imminent violence.
 
-References to historical or fictional incidents of violence (e.g., content that threatens others by referring to known historical incidents of violence that have been committed throughout history or in fictional settings)
+- The target of the content or an authorized representative reports the content to us.
 
--
+- The target is a child.
 
-Acts as a threatening call to action (e.g., content inviting or encouraging others to carry out violent acts or to join in carrying out the violent acts)
+- Implicit threats to bring armaments to locations, including but not limited to places of worship, educational facilities, polling places or locations used to count votes or administer an election (or encouraging others to do the same) or locations where there are temporary signals of a heightened risk of violence.
 
--
+- Claims or speculation about election-related corruption, irregularities, or bias when combined with a signal that content is threatening violence (e.g., threats to take up or bring a weapon, visual depictions of a weapon, references to arson, theft, vandalism), including:
 
-Indicates knowledge of or shares sensitive information that could expose others to violence (e.g., content that either makes note of or implies awareness of personal information that might make a threat of violence more credible. This includes implying knowledge of a person's residential address, their place of employment or education, daily commute routes or current location)
+- Targeting individual(s)
 
--
+- Targeting a specific location (state or smaller)
 
-Context
+- Where the target is not explicit
 
--
+- References to election-related gatherings or events when combined with a signal that content is threatening violence (e.g., threats to take up or bring a weapon, visual depictions of a weapon, references to arson, theft, vandalism).
 
-Local context or expertise confirms that the statement in question could lead to imminent violence.
+- Threats of high- or mid-severity violence in the defense of self or another human when the criteria below are met.
 
--
+- Against a person (excluding persons identifiable by name or face, people targeted based on their protected characteristics, and children)
 
-The target of the content or an authorized representative reports the content to us.
+- In the context of home entry or interpersonal violence that is proportional to the violence responded to and is an immediate threat
 
--
-
-The target is a child.
-
--
-
-Implicit threats to bring armaments to locations, including but not limited to places of worship, educational facilities, polling places or locations used to count votes or administer an election (or encouraging others to do the same) or locations where there are temporary signals of a heightened risk of violence.
-
--
-
-Claims or speculation about election-related corruption, irregularities, or bias when combined with a signal that content is threatening violence (e.g., threats to take up or bring a weapon, visual depictions of a weapon, references to arson, theft, vandalism), including:
-
--
-
-Targeting individual(s)
-
--
-
-Targeting a specific location (state or smaller)
-
--
-
-Where the target is not explicit
-
--
-
-References to election-related gatherings or events when combined with a signal that content is threatening violence (e.g., threats to take up or bring a weapon, visual depictions of a weapon, references to arson, theft, vandalism).
-
--
-
-Threats of high- or mid-severity violence in the defense of self or another human when the criteria below are met.
-
--
-
-Against a person (excluding persons identifiable by name or face, people targeted based on their protected characteristics, and children)
-
--
-
-In the context of home entry or interpersonal violence that is proportional to the violence responded to and is an immediate threat
-
--
-
-The potential impact on voice outweighs the risk of imminent violence
+- The potential impact on voice outweighs the risk of imminent violence
 
 User experiences
 
@@ -5402,28 +3196,6 @@ USER EXPERIENCE
 
 Warning screens
 
-Data
-
-View the latest Community Standards Enforcement Report
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with violence and incitement
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center
-
 ---
 
 Policy Rationale
@@ -5434,7 +3206,7 @@ We recognize that users may share content in order to shed light on or condemn a
 
 For paid advertising, we provide additional protections. For example, content that has been deemed sensitive is not eligible to run in ads. We also prohibit ads from including images and videos that are shocking, gruesome, or otherwise sensational. For more information, please consult our
 
-Advertising Standards .
+[Advertising Standards](https://transparency.meta.com/policies/ad-standards/objectionable-content/sensational-content/) .
 
 Do not post:
 
@@ -5442,21 +3214,13 @@ Imagery of people
 
 Videos of people, living or deceased, in non-medical contexts, depicting:
 
--
+- Dismemberment.
 
-Dismemberment.
+- Visible innards, such as exposed organs, bones, or muscle tissue on living or deceased persons;
 
--
+- Burning or charred persons; or
 
-Visible innards, such as exposed organs, bones, or muscle tissue on living or deceased persons;
-
--
-
-Burning or charred persons; or
-
--
-
-Throat-slitting.
+- Throat-slitting.
 
 Live-streams of capital punishments.
 
@@ -5466,17 +3230,11 @@ Sadistic remarks are commentary – such as captions or comments – expressing 
 
 We remove
 
--
+- Sadistic remarks made toward imagery (both videos and still images) that otherwise receives a warning screen under this policy, advising people that the content may be sensitive; unless the imagery depicts acts of self-defense (e.g., video of someone defending themselves from armed robbery) or is in a medical context (e.g., an image of medical professionals performing surgery).
 
-Sadistic remarks made toward imagery (both videos and still images) that otherwise receives a warning screen under this policy, advising people that the content may be sensitive; unless the imagery depicts acts of self-defense (e.g., video of someone defending themselves from armed robbery) or is in a medical context (e.g., an image of medical professionals performing surgery).
+- Explicit sadistic remarks made towards the suffering of animals depicted in imagery, and imagery depicting animals going from live to dead.
 
--
-
-Explicit sadistic remarks made towards the suffering of animals depicted in imagery, and imagery depicting animals going from live to dead.
-
--
-
-Offering or soliciting imagery that is deleted or receives a warning screen under this policy, when accompanied by sadistic remarks.
+- Offering or soliciting imagery that is deleted or receives a warning screen under this policy, when accompanied by sadistic remarks.
 
 For the following content, we include a warning screen so that people are aware the content may be sensitive. We also limit the ability to view the content to adults, ages 18 and older:
 
@@ -5484,39 +3242,23 @@ Imagery of people
 
 Videos of people, living or deceased, in medical contexts depicting:
 
--
+- Dismemberment.
 
-Dismemberment.
+- VIsible innards, such as exposed organs, bones, or muscle tissue on living or deceased persons;
 
--
+- Burning or charred persons, including in contexts of cremation; or
 
-VIsible innards, such as exposed organs, bones, or muscle tissue on living or deceased persons;
-
--
-
-Burning or charred persons, including in contexts of cremation; or
-
--
-
-Throat-slitting.
+- Throat-slitting.
 
 Still images of people, living or deceased, depicting:
 
--
+- Dismemberment.
 
-Dismemberment.
+- Visible innards, such as exposed organs, bones, or muscle tissue on living or deceased persons;
 
--
+- Burning or charred persons; or
 
-Visible innards, such as exposed organs, bones, or muscle tissue on living or deceased persons;
-
--
-
-Burning or charred persons; or
-
--
-
-Throat-slitting.
+- Throat-slitting.
 
 Imagery (both videos and still images) depicting a persons’ violent death (including their moment of death or the aftermath) or a person experiencing a life threatening event (such as being struck by a car, falling from a great height, or experiencing other possibly-fatal physical injury).
 
@@ -5568,77 +3310,43 @@ Fictional Imagery
 
 Imagery depicting fictional people in the following contexts:
 
--
+- Dismemberment;
 
-Dismemberment;
+- Visible innards, such as exposed organs, bones, or muscle tissue;
 
--
+- Burning or charred persons;
 
-Visible innards, such as exposed organs, bones, or muscle tissue;
+- Throat-slitting; or
 
--
-
-Burning or charred persons;
-
--
-
-Throat-slitting; or
-
--
-
-Violent deaths or life threatening events.
+- Violent deaths or life threatening events.
 
 Imagery depicting fictional people that is photorealistic (where the imagery looks like or closely resembles a photograph or video of a real person), in the following contexts:
 
--
+- Non-medical foreign objects (e.g., knives, nails, or other metal objects) piercing the skin;
 
-Non-medical foreign objects (e.g., knives, nails, or other metal objects) piercing the skin;
+- Human waste or bodily fluids (e.g., feces, urine, vomit, earwax, mucus, or byproduct of dermal extractions), excluding blood;
 
--
-
-Human waste or bodily fluids (e.g., feces, urine, vomit, earwax, mucus, or byproduct of dermal extractions), excluding blood;
-
--
-
-Deceased babies or fetuses outside the womb;
+- Deceased babies or fetuses outside the womb;
 
 Imagery depicting fictional, but photorealistic, animals in the following contexts:
 
--
+- Dismemberment;
 
-Dismemberment;
+- Visible innards, such as exposed organs, bones, or muscle tissue;
 
--
+- Burning or charred animals;
 
-Visible innards, such as exposed organs, bones, or muscle tissue;
+- Animals being boiled alive;
 
--
+- Blood is present;
 
-Burning or charred animals;
+- Animals going from live to dead;
 
--
+- People committing acts of brutality (e.g., e.g. kicking, drowning, or plucking feathers) on living animals;
 
-Animals being boiled alive;
+- Injured animals suffering
 
--
-
-Blood is present;
-
--
-
-Animals going from live to dead;
-
--
-
-People committing acts of brutality (e.g., e.g. kicking, drowning, or plucking feathers) on living animals;
-
--
-
-Injured animals suffering
-
--
-
-Animals with insects coming out from inside them (e.g., maggots or worms).
+- Animals with insects coming out from inside them (e.g., maggots or worms).
 
 For the following Community Standards, we require additional information and/or context to enforce:
 
@@ -5673,25 +3381,3 @@ Takedown experience
 USER EXPERIENCE
 
 Warning screens
-
-Data
-
-View the latest Community Standards Enforcement Report
-
-Enforcement
-
-We have the same policies around the world, for everyone on Facebook.
-
-Review teams
-
-Our global team of over 15,000 reviewers work every day to keep people on Facebook safe.
-
-Stakeholder engagement
-
-Outside experts, academics, NGOs and policymakers help inform the Facebook Community Standards.
-
-Get help with violent and graphic content
-
-Learn what you can do if you see something on Facebook that goes against our Community Standards.
-
-Visit our Help Center

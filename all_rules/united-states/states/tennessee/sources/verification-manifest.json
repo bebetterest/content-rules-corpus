@@ -8,15 +8,18 @@
     "source_urls": [
       "https://www.capitol.tn.gov/Bills/113/Bill/HB1891.pdf"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/united-states/states/tennessee/sources/us-state-tennessee-protecting-children-social-media-act.capitol-tn-gov.pdf"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 110,
-    "body_sha256": "c72c760de7f2033d723eebb7082311c06d54e78d45e1281af0c897e0ca9fcedf",
+    "paragraph_count": 109,
+    "body_sha256": "ec023f65f8c3bec68cdfd0ed3cb591f515f285c30509e201b84c44a5fb62390c",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -24,8 +27,8 @@
         "source_file": "all_rules/united-states/states/tennessee/sources/us-state-tennessee-protecting-children-social-media-act.capitol-tn-gov.pdf",
         "sha256": "92110dde316bffba4f9351b5d4a91f4e1bc22e644147425d3ce71018fccbfdb4",
         "bytes": 21838,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "downloader": "cached",
+        "fallback_from": null,
         "content_type": null
       }
     ]

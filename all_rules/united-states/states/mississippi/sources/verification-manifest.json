@@ -8,9 +8,12 @@
     "source_urls": [
       "https://billstatus.ls.state.ms.us/documents/2024/html/HB/1100-1199/HB1126SG.htm"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/united-states/states/mississippi/sources/us-state-mississippi-walker-montgomery-act.billstatus-ls-state-ms-us.html"
     ],
+    "linked_source_files": [],
     "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
@@ -24,8 +27,8 @@
         "source_file": "all_rules/united-states/states/mississippi/sources/us-state-mississippi-walker-montgomery-act.billstatus-ls-state-ms-us.html",
         "sha256": "e7db1be0cc38e92fd61c4899d52ed24222320ff8f3151640b960bd9b71c8a341",
         "bytes": 31424,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "downloader": "cached",
+        "fallback_from": null,
         "content_type": null
       }
     ]

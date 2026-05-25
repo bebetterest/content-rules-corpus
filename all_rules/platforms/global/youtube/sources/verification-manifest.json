@@ -128,8 +128,8 @@
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 3162,
-    "body_sha256": "4307322e477bd6e974d87e61c3423ecf287c7fde6734341731aba3ccbc025944",
+    "paragraph_count": 3156,
+    "body_sha256": "4a00de6f0e2fd5e1eb719f50ed096285eddaea0c224f01ff0da49f0844ebd6bd",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -481,7 +481,7 @@
         "source_file": "all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-linked-22-answer-9057652.support-google-com.html",
         "sha256": "65b4fa7e2feff56053df363468c8d7f6c197c1c8b152e654417dccfb2b1b5bbc",
         "bytes": 1364000,
-        "downloader": "curl",
+        "downloader": "cached",
         "fallback_from": null,
         "content_type": null
       }

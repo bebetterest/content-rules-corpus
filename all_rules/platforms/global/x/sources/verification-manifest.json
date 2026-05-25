@@ -122,8 +122,8 @@
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 1885,
-    "body_sha256": "027c49d116ca9baba31ff58f5f58dfa94da9db1f5313cef79e48c7bec15084b7",
+    "paragraph_count": 1822,
+    "body_sha256": "be1450bcc7d797b80255dae0e0b4cb4598601ea4702dafbc0aec103897e0624c",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -283,129 +283,129 @@
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-19-rules-and-policies-enforcement-options.help-x-com.html",
         "sha256": "40d27ad3fc80275b02ee3a8898abcd2edaf99d96f57c8c99f2463d3ec81e50da",
         "bytes": 86050,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-20-rules-and-policies-public-interest.help-x-com.html",
         "sha256": "2b7cb31b9525f0c003601801cdc58d708cc1a4995f30ac29abcd0e1833084151",
         "bytes": 93112,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-21-rules-and-policies-media-settings.help-x-com.html",
         "sha256": "6ba8644086ab5cee6ea232d47413ab964aef12e7f1787d75bad56f3917a6dc0d",
         "bytes": 99542,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-22-rules-and-policies-notices-on-x.help-x-com.html",
         "sha256": "094d5b7d5cf4f84b200116cb841f9bfdd21933770f9268bac92d164da49c0574",
         "bytes": 116807,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-23-rules-and-policies-violent-content.help-x-com.html",
         "sha256": "a2d3881fc9040b57439f4d38ee9a5395564b3b573e7d89af9bda1eb2d3c9c439",
         "bytes": 89014,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-24-rules-and-policies-violent-threats-glorification.help-x-com.html",
         "sha256": "ba75819c4bdee983586980d983d9ac25f0cfefab6ba2f70465691acb5d9a9186",
         "bytes": 75451,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-25-rules-and-policies-child-safety.help-x-com.html",
         "sha256": "a50aeebcccd56a09cbeec07d04f234c1ecf6fa7f0e942500927758d5f4062c25",
         "bytes": 93388,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-26-rules-and-policies-x-law-enforcement-support.help-x-com.html",
         "sha256": "9bc7dfcdfecf66a6200c8ccfbf8999e357d3cd0a819ec93513a9535db98fa8d2",
         "bytes": 116353,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-27-safety-and-security-self-harm-and-suicide.help-x-com.html",
         "sha256": "8689b3fb1b28d080c7748b2e1af90aaa7c71031162864ddccaf0caad8f9ceb09",
         "bytes": 86158,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-28-rules-and-policies-notices-on-twitter.help-x-com.html",
         "sha256": "3d2088e41498f6cff8818253dc1fb3243d3a558db1fb21bbd7b18426ba737515",
         "bytes": 116809,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-29-rules-and-policies-adult-content.help-x-com.html",
         "sha256": "fe5e779ead286ce2945c3b020277886e7c619ea24d4df1925a8fc18ff33f2ded",
         "bytes": 81968,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-30-developer-terms-agreement-and-policy.developer-twitter-com.html",
         "sha256": "cc474c7f88151ce5d786e404934cdee42e41c80cddc0a5933ed67ae6915942ad",
         "bytes": 877658,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-31-rules-and-policies-profile-labels.help-x-com.html",
         "sha256": "e67f9ac9a5de66621f3ad8bea9846a65f141a5ad9b6b8e0853ab6558a1384aa7",
         "bytes": 90097,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-32-rules-and-policies-x-trademark-policy.help-x-com.html",
         "sha256": "76d9ca91abde8be0cdff4de0a5fa4a9b9fced5adca8ce7a7be9abacc5780b915",
         "bytes": 83752,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-33-rules-and-policies-fair-use-policy.help-x-com.html",
         "sha256": "4f9de8710c440380931f3a5ac9787dabf4b3563bd481d95802c66266b7e5316f",
         "bytes": 82128,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/x/sources/platform-x-rules-linked-34-rules-and-policies-parody-account-policy.help-x-com.html",
         "sha256": "3e664f00761ee4aa0b99ddb3c0f3d2dc15f6ee67b5089cb4fcc333fe7626f2cf",
         "bytes": 75449,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       }
     ]
   }

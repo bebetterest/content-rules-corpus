@@ -8,10 +8,13 @@
     "source_urls": [
       "https://legislation.nysenate.gov/pdf/bills/2023/S7694A"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/united-states/states/new-york/sources/us-state-new-york-safe-for-kids-act.legislation-nysenate-gov.pdf"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
@@ -24,8 +27,8 @@
         "source_file": "all_rules/united-states/states/new-york/sources/us-state-new-york-safe-for-kids-act.legislation-nysenate-gov.pdf",
         "sha256": "c3c171c77247f86a1c6d11a340571bcee2a5f87cd2ee946484d61a3aadb1ffaf",
         "bytes": 19047,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "downloader": "cached",
+        "fallback_from": null,
         "content_type": null
       }
     ]

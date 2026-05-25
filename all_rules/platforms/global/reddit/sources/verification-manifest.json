@@ -8,15 +8,18 @@
     "source_urls": [
       "https://redditinc.com/policies/reddit-rules"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/platforms/global/reddit/sources/platform-reddit-rules.redditinc-com.html"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 3303,
-    "body_sha256": "4ea06c29325c60460148949c5ef2a85df9ef0356317dcd35c357cfd59debb4d8",
+    "paragraph_count": 69,
+    "body_sha256": "5280a242927f47e2d511810fa031a2cc12ef9c8d7c580c8036a58c7544d30dbe",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -24,9 +27,9 @@
         "source_file": "all_rules/platforms/global/reddit/sources/platform-reddit-rules.redditinc-com.html",
         "sha256": "c8a776770397c485cfd0f14c1ef5747ef302a688737eb632c338d68f016265b4",
         "bytes": 499075,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=UTF-8"
+        "content_type": null
       }
     ]
   }

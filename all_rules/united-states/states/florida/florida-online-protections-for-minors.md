@@ -10,7 +10,7 @@
 - https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0500-0599/0501/Sections/0501.1736.html
 - https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0500-0599/0501/Sections/0501.1737.html
 - https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0500-0599/0501/Sections/0501.1738.html
-- Retrieval Date: 2026-05-23
+- Retrieval Date: 2026-05-24
 - Language: en
 - Fetch Method: html
 - Extractor: generic-html
@@ -20,217 +20,9 @@
 - all_rules/united-states/states/florida/sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html: 4b72b9fdd79c4f10c29d88b2b61b0ac92cbf414cbd80c5fdb9294b544d3da2ad
 - all_rules/united-states/states/florida/sources/us-state-florida-online-protections-for-minors-02.leg-state-fl-us.html: f40903d9260503c61ec8f7ad55aff8c2861f536ad3956d99376a01e83afa19bf
 - all_rules/united-states/states/florida/sources/us-state-florida-online-protections-for-minors-03.leg-state-fl-us.html: 630449ac390c65c6d85b24b02898c8e94652aa49089dcd09c2bff7775688dd59
-- Body SHA-256: 806d85ac5fbca9371290d370d38ca234f729ccf7859aa8c4502cdad6b5021465
+- Body SHA-256: 68b06e19f072abd3925f2b17e2aacc4981470fc4ad386084bf77856fe047b35c
 
 ## Source Text
-
-Statutes & Constitution
-
-:View Statutes
-
-:
-
-Online Sunshine
-
-Skip to Menu | Skip to Main Content
-
-May 23, 2026
-
-Search Statutes:
-
-2025
-
-2024
-
-2023
-
-2022
-
-2021
-
-2020
-
-2019
-
-2018
-
-2017
-
-2016
-
-2015
-
-2014
-
-2013
-
-2012
-
-2011
-
-2010
-
-2009
-
-2008
-
-2007
-
-2006
-
-2005
-
-2004
-
-2003
-
-2002
-
-2001
-
-2000
-
-1999
-
-1998
-
-1997
-
-Search Terms:
-
-Home
-
-Senate
-
-House
-
-Citator
-
-Statutes, Constitution,
-
-& Laws of Florida
-
-- Florida Statutes
-
-- Search & Browse Download
-
-- Search Statutes
-
-- Search Tips
-
-- Florida Constitution
-
-- Laws of Florida
-
-Legislative & Executive Branch Lobbyists
-
-Information Center
-
-Joint Legislative Committees &
-
-Other Entities
-
-- Joint Administrative Procedures Committee (JAPC)
-
-- Joint Committee on Public Counsel Oversight(JCPO)
-
-- Joint Legislative Auditing Committee (JLAC)
-
-- Joint Legislative Budget Commission (JLBC)
-
-- Joint Select Committee on Collective Bargaining (JSCB)
-
-- Office of Program Policy Analysis & Government Accountability (OPPAGA)
-
-- Auditor General
-
-- Commission on Ethics
-
-- Economic and Demographic Research (EDR)
-
-- Florida Historic Capitol
-
-Florida Government Efficiency Task Force
-
-Legislative Employment
-
-Legistore
-
-Links
-
-Select Year:
-
-2025
-
-2024
-
-2023
-
-2022
-
-2021
-
-2020
-
-2019
-
-2018
-
-2017
-
-2016
-
-2015
-
-2014
-
-2013
-
-2012
-
-2011
-
-2010
-
-2009
-
-2008
-
-2007
-
-2006
-
-2005
-
-2004
-
-2003
-
-2002
-
-2001
-
-2000
-
-1999
-
-1998
-
-1997
-
-The Florida Statutes
-
-The 2025 Florida Statutes
-
-Title XXXIII
-
-REGULATION OF TRADE, COMMERCE, INVESTMENTS, AND SOLICITATIONS
-
-Chapter 501
-
-CONSUMER PROTECTION
-
-View Entire Chapter
 
 F.S. 501.1736
 
@@ -310,7 +102,7 @@ The term does not include an online service, website, or application where the e
 
 4.  Permanently delete all personal information held by the social media platform relating to the terminated account, unless there are legal requirements to maintain such information.
 
-(5)  Any knowing or reckless violation of subsection (2), subsection (3), or, if in effect, subsection (4) is deemed an unfair and deceptive trade practice actionable under part II of this chapter solely by the department against a social media platform. If the department has reason to believe that a social media platform is in violation of subsection (2), subsection (3), or, if in effect, subsection (4), the department, as the enforcing authority, may bring an action against such platform for an unfair or deceptive act or practice. For the purpose of bringing an action pursuant to this section, ss. 501.211 and 501.212 do not apply. In addition to other remedies under part II of this chapter, the department may collect a civil penalty of up to $50,000 per violation and reasonable attorney fees and court costs. When the social media platform’s failure to comply with subsection (2), subsection (3), or, if in effect, subsection (4) is a consistent pattern of knowing or reckless conduct, punitive damages may be assessed against the social media platform.
+(5)  Any knowing or reckless violation of subsection (2), subsection (3), or, if in effect, subsection (4) is deemed an unfair and deceptive trade practice actionable under part II of this chapter solely by the department against a social media platform. If the department has reason to believe that a social media platform is in violation of subsection (2), subsection (3), or, if in effect, subsection (4), the department, as the enforcing authority, may bring an action against such platform for an unfair or deceptive act or practice. For the purpose of bringing an action pursuant to this section, ss. [501.211](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) and [501.212](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) do not apply. In addition to other remedies under part II of this chapter, the department may collect a civil penalty of up to $50,000 per violation and reasonable attorney fees and court costs. When the social media platform’s failure to comply with subsection (2), subsection (3), or, if in effect, subsection (4) is a consistent pattern of knowing or reckless conduct, punitive damages may be assessed against the social media platform.
 
 (6)(a)  A social media platform that knowingly or recklessly violates subsection (2), subsection (3), or, if in effect, subsection (4) is liable to the minor account holder, including court costs and reasonable attorney fees as ordered by the court. Claimants may be awarded up to $10,000 in damages.
 
@@ -334,7 +126,7 @@ The term does not include an online service, website, or application where the e
 
 (e)  Any entity or person upon whom a subpoena is served pursuant to this section shall comply with the terms thereof unless otherwise provided by order of the court. Any entity or person that fails to appear with the intent to avoid, evade, or prevent compliance in whole or in part with any investigation under this part or who removes from any place, conceals, withholds, mutilates, alters, or destroys, or by any other means falsifies any documentary material in the possession, custody, or control of any entity or person subject to any such subpoena, or knowingly conceals any relevant information with the intent to avoid, evade, or prevent compliance shall be liable for a civil penalty of not more than $5,000 per week in violation, reasonable attorney fees, and costs.
 
-(11)(a)  All information held by the department pursuant to a notification of a violation of this section or an investigation of a violation of this section is confidential and exempt from s. 119.07 (1) and s. 24(a), Art. I of the State Constitution, until such time as the investigation is completed or ceases to be active. This exemption shall be construed in conformity with s. 119.071 (2)(c).
+(11)(a)  All information held by the department pursuant to a notification of a violation of this section or an investigation of a violation of this section is confidential and exempt from s. [119.07](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) (1) and s. 24(a), Art. I of the State Constitution, until such time as the investigation is completed or ceases to be active. This exemption shall be construed in conformity with s. [119.071](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) (2)(c).
 
 (b)  During an active investigation, information made confidential and exempt pursuant to paragraph (a) may be disclosed by the department:
 
@@ -344,9 +136,9 @@ The term does not include an online service, website, or application where the e
 
 3.  To another governmental entity in the furtherance of its official duties and responsibilities.
 
-(c)  Upon completion of an investigation or once an investigation ceases to be active, the following information held by the department shall remain confidential and exempt from s. 119.07 (1) and s. 24(a), Art. I of the State Constitution:
+(c)  Upon completion of an investigation or once an investigation ceases to be active, the following information held by the department shall remain confidential and exempt from s. [119.07](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) (1) and s. 24(a), Art. I of the State Constitution:
 
-1.  Information that is otherwise confidential or exempt from s. 119.07 (1) and s. 24(a), Art. I of the State Constitution.
+1.  Information that is otherwise confidential or exempt from s. [119.07](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) (1) and s. 24(a), Art. I of the State Constitution.
 
 2.  Personal identifying information.
 
@@ -368,223 +160,13 @@ The term does not include an online service, website, or application where the e
 
 5.  Reveals competitive interests, the disclosure of which would impair the competitive advantage of the social media platform that is the subject of the information.
 
-(e)  This subsection is subject to the Open Government Sunset Review Act in accordance with s. 119.15 and shall stand repealed on October 2, 2029, unless reviewed and saved from repeal through reenactment by the Legislature.
+(e)  This subsection is subject to the Open Government Sunset Review Act in accordance with s. [119.15](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) and shall stand repealed on October 2, 2029, unless reviewed and saved from repeal through reenactment by the Legislature.
 
 (12)  The department may adopt rules to implement this section.
 
 History. — s. 1, ch. 2024-42; s. 1, ch. 2024-54.
 
-Copyright &copy; 1995-2026 The Florida Legislature • Privacy Statement • Contact Us
-
 ---
-
-Statutes & Constitution
-
-:View Statutes
-
-:
-
-Online Sunshine
-
-Skip to Menu | Skip to Main Content
-
-May 23, 2026
-
-Search Statutes:
-
-2025
-
-2024
-
-2023
-
-2022
-
-2021
-
-2020
-
-2019
-
-2018
-
-2017
-
-2016
-
-2015
-
-2014
-
-2013
-
-2012
-
-2011
-
-2010
-
-2009
-
-2008
-
-2007
-
-2006
-
-2005
-
-2004
-
-2003
-
-2002
-
-2001
-
-2000
-
-1999
-
-1998
-
-1997
-
-Search Terms:
-
-Home
-
-Senate
-
-House
-
-Citator
-
-Statutes, Constitution,
-
-& Laws of Florida
-
-- Florida Statutes
-
-- Search & Browse Download
-
-- Search Statutes
-
-- Search Tips
-
-- Florida Constitution
-
-- Laws of Florida
-
-Legislative & Executive Branch Lobbyists
-
-Information Center
-
-Joint Legislative Committees &
-
-Other Entities
-
-- Joint Administrative Procedures Committee (JAPC)
-
-- Joint Committee on Public Counsel Oversight(JCPO)
-
-- Joint Legislative Auditing Committee (JLAC)
-
-- Joint Legislative Budget Commission (JLBC)
-
-- Joint Select Committee on Collective Bargaining (JSCB)
-
-- Office of Program Policy Analysis & Government Accountability (OPPAGA)
-
-- Auditor General
-
-- Commission on Ethics
-
-- Economic and Demographic Research (EDR)
-
-- Florida Historic Capitol
-
-Florida Government Efficiency Task Force
-
-Legislative Employment
-
-Legistore
-
-Links
-
-Select Year:
-
-2025
-
-2024
-
-2023
-
-2022
-
-2021
-
-2020
-
-2019
-
-2018
-
-2017
-
-2016
-
-2015
-
-2014
-
-2013
-
-2012
-
-2011
-
-2010
-
-2009
-
-2008
-
-2007
-
-2006
-
-2005
-
-2004
-
-2003
-
-2002
-
-2001
-
-2000
-
-1999
-
-1998
-
-1997
-
-The Florida Statutes
-
-The 2025 Florida Statutes
-
-Title XXXIII
-
-REGULATION OF TRADE, COMMERCE, INVESTMENTS, AND SOLICITATIONS
-
-Chapter 501
-
-CONSUMER PROTECTION
-
-View Entire Chapter
 
 F.S. 501.1737
 
@@ -592,7 +174,7 @@ F.S. 501.1737
 
 (1)  As used in this section, the term:
 
-(a)  “Anonymous age verification” has the same meaning as in s. 501.1738 .
+(a)  “Anonymous age verification” has the same meaning as in s. [501.1738](sources/us-state-florida-online-protections-for-minors-03.leg-state-fl-us.html) .
 
 (b)  “Commercial entity” includes a corporation, a limited liability company, a partnership, a limited partnership, a sole proprietorship, and any other legally recognized entity.
 
@@ -604,7 +186,7 @@ F.S. 501.1737
 
 1.  The average person applying contemporary community standards would find, taken as a whole, appeals to the prurient interest;
 
-2.  Depicts or describes, in a patently offensive way, sexual conduct as specifically defined in s. 847.001 (19); and
+2.  Depicts or describes, in a patently offensive way, sexual conduct as specifically defined in s. [847.001](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) (19); and
 
 3.  When taken as a whole, lacks serious literary, artistic, political, or scientific value for minors.
 
@@ -624,15 +206,15 @@ F.S. 501.1737
 
 (2)  A commercial entity that knowingly and intentionally publishes or distributes material harmful to minors on a website or application, if the website or application contains a substantial portion of material harmful to minors, must use either anonymous age verification or standard age verification to verify that the age of a person attempting to access the material is 18 years of age or older and prevent access to the material by a person younger than 18 years of age. The commercial entity must offer anonymous age verification and standard age verification, and a person attempting to access the material may select which method will be used to verify his or her age.
 
-(3)  A commercial entity must ensure that the requirements of s. 501.1738 are met.
+(3)  A commercial entity must ensure that the requirements of s. [501.1738](sources/us-state-florida-online-protections-for-minors-03.leg-state-fl-us.html) are met.
 
 (4)(a)  This section does not apply to any bona fide news or public interest broadcast, website video, report, or event and does not affect the rights of a news-gathering organization.
 
 (b)  An Internet service provider or its affiliates or subsidiaries, a search engine, or a cloud service provider does not violate this section solely for providing access or connection to or from a website or other information or content on the Internet or a facility, system, or network not under the provider’s control, including transmission, downloading, intermediate storage, or access software, to the extent the provider is not responsible for the creation of the content of the communication which constitutes material harmful to minors.
 
-(5)(a)  Any violation of subsection (2) or subsection (3) is deemed an unfair and deceptive trade practice actionable under part II of this chapter solely by the department on behalf of a resident minor against a commercial entity. If the department has reason to believe that a commercial entity is in violation of subsection (2) or subsection (3), the department, as the enforcing authority, may bring an action against the commercial entity for an unfair or deceptive act or practice. For the purpose of bringing an action pursuant to this section, ss. 501.211 and 501.212 do not apply. In addition to any other remedy under part II of this chapter, the department may collect a civil penalty of up to $50,000 per violation and reasonable attorney fees and court costs. When the commercial entity’s failure to comply with subsection (2) or subsection (3) is a consistent pattern of conduct of the commercial entity, punitive damages may be assessed against the commercial entity.
+(5)(a)  Any violation of subsection (2) or subsection (3) is deemed an unfair and deceptive trade practice actionable under part II of this chapter solely by the department on behalf of a resident minor against a commercial entity. If the department has reason to believe that a commercial entity is in violation of subsection (2) or subsection (3), the department, as the enforcing authority, may bring an action against the commercial entity for an unfair or deceptive act or practice. For the purpose of bringing an action pursuant to this section, ss. [501.211](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) and [501.212](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) do not apply. In addition to any other remedy under part II of this chapter, the department may collect a civil penalty of up to $50,000 per violation and reasonable attorney fees and court costs. When the commercial entity’s failure to comply with subsection (2) or subsection (3) is a consistent pattern of conduct of the commercial entity, punitive damages may be assessed against the commercial entity.
 
-(b)  A third party that performs age verification for a commercial entity in violation of s. 501.1738 is deemed to have committed an unfair and deceptive trade practice actionable under part II of this chapter solely by the department against such third party. If the department has reason to believe that the third party is in violation of s. 501.1738 , the department, as the enforcing authority, may bring an action against such third party for an unfair or deceptive act or practice. For the purpose of bringing an action pursuant to this section, ss. 501.211 and 501.212 do not apply. In addition to other remedies under part II of this chapter, the department may collect a civil penalty of up to $50,000 per violation and reasonable attorney fees and court costs.
+(b)  A third party that performs age verification for a commercial entity in violation of s. [501.1738](sources/us-state-florida-online-protections-for-minors-03.leg-state-fl-us.html) is deemed to have committed an unfair and deceptive trade practice actionable under part II of this chapter solely by the department against such third party. If the department has reason to believe that the third party is in violation of s. [501.1738](sources/us-state-florida-online-protections-for-minors-03.leg-state-fl-us.html) , the department, as the enforcing authority, may bring an action against such third party for an unfair or deceptive act or practice. For the purpose of bringing an action pursuant to this section, ss. [501.211](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) and [501.212](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) do not apply. In addition to other remedies under part II of this chapter, the department may collect a civil penalty of up to $50,000 per violation and reasonable attorney fees and court costs.
 
 (c)  A commercial entity that violates subsection (2) for failing to prohibit access or prohibit a minor from future access to material harmful to minors after a report of unauthorized or unlawful access is liable to the minor for such access, including court costs and reasonable attorney fees as ordered by the court. Claimants may be awarded up to $10,000 in damages. A civil action for a claim under this paragraph must be brought within 1 year from the date the complainant knew, or reasonably should have known, of the alleged violation.
 
@@ -652,7 +234,7 @@ F.S. 501.1737
 
 (e)  Any entity or person upon whom a subpoena is served pursuant to this section shall comply with the terms thereof unless otherwise provided by order of the court. Any entity or person that fails to appear with the intent to avoid, evade, or prevent compliance in whole or in part with any investigation under this part or that removes from any place, conceals, withholds, mutilates, alters, or destroys, or by any other means falsifies any documentary material in the possession, custody, or control of any entity or person subject to any such subpoena, or knowingly conceals any relevant information with the intent to avoid, evade, or prevent compliance, shall be liable for a civil penalty of not more than $5,000 per week in violation, reasonable attorney fees, and costs.
 
-(9)(a)  All information held by the department pursuant to a notification of a violation of this section or an investigation of a violation of this section is confidential and exempt from s. 119.07 (1) and s. 24(a), Art. I of the State Constitution, until such time as the investigation is completed or ceases to be active. This exemption shall be construed in conformity with s. 119.071 (2)(c).
+(9)(a)  All information held by the department pursuant to a notification of a violation of this section or an investigation of a violation of this section is confidential and exempt from s. [119.07](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) (1) and s. 24(a), Art. I of the State Constitution, until such time as the investigation is completed or ceases to be active. This exemption shall be construed in conformity with s. [119.071](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) (2)(c).
 
 (b)  During an active investigation, information made confidential and exempt pursuant to paragraph (a) may be disclosed by the department:
 
@@ -662,9 +244,9 @@ F.S. 501.1737
 
 3.  To another governmental entity in the furtherance of its official duties and responsibilities.
 
-(c)  Upon completion of an investigation or once an investigation ceases to be active, the following information held by the department shall remain confidential and exempt from s. 119.07 (1) and s. 24(a), Art. I of the State Constitution:
+(c)  Upon completion of an investigation or once an investigation ceases to be active, the following information held by the department shall remain confidential and exempt from s. [119.07](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) (1) and s. 24(a), Art. I of the State Constitution:
 
-1.  Information that is otherwise confidential or exempt from s. 119.07 (1) or s. 24(a), Art. I of the State Constitution.
+1.  Information that is otherwise confidential or exempt from s. [119.07](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) (1) or s. 24(a), Art. I of the State Constitution.
 
 2.  Personal identifying information.
 
@@ -686,223 +268,13 @@ F.S. 501.1737
 
 5.  Reveals competitive interests, the disclosure of which would impair the competitive advantage of the commercial entity that is the subject of the information.
 
-(e)  This subsection is subject to the Open Government Sunset Review Act in accordance with s. 119.15 and shall stand repealed on October 2, 2029, unless reviewed and saved from repeal through reenactment by the Legislature.
+(e)  This subsection is subject to the Open Government Sunset Review Act in accordance with s. [119.15](sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html) and shall stand repealed on October 2, 2029, unless reviewed and saved from repeal through reenactment by the Legislature.
 
 (10)  The department may adopt rules to implement this section.
 
 History. — s. 2, ch. 2024-42; s. 3, ch. 2024-54.
 
-Copyright &copy; 1995-2026 The Florida Legislature • Privacy Statement • Contact Us
-
 ---
-
-Statutes & Constitution
-
-:View Statutes
-
-:
-
-Online Sunshine
-
-Skip to Menu | Skip to Main Content
-
-May 23, 2026
-
-Search Statutes:
-
-2025
-
-2024
-
-2023
-
-2022
-
-2021
-
-2020
-
-2019
-
-2018
-
-2017
-
-2016
-
-2015
-
-2014
-
-2013
-
-2012
-
-2011
-
-2010
-
-2009
-
-2008
-
-2007
-
-2006
-
-2005
-
-2004
-
-2003
-
-2002
-
-2001
-
-2000
-
-1999
-
-1998
-
-1997
-
-Search Terms:
-
-Home
-
-Senate
-
-House
-
-Citator
-
-Statutes, Constitution,
-
-& Laws of Florida
-
-- Florida Statutes
-
-- Search & Browse Download
-
-- Search Statutes
-
-- Search Tips
-
-- Florida Constitution
-
-- Laws of Florida
-
-Legislative & Executive Branch Lobbyists
-
-Information Center
-
-Joint Legislative Committees &
-
-Other Entities
-
-- Joint Administrative Procedures Committee (JAPC)
-
-- Joint Committee on Public Counsel Oversight(JCPO)
-
-- Joint Legislative Auditing Committee (JLAC)
-
-- Joint Legislative Budget Commission (JLBC)
-
-- Joint Select Committee on Collective Bargaining (JSCB)
-
-- Office of Program Policy Analysis & Government Accountability (OPPAGA)
-
-- Auditor General
-
-- Commission on Ethics
-
-- Economic and Demographic Research (EDR)
-
-- Florida Historic Capitol
-
-Florida Government Efficiency Task Force
-
-Legislative Employment
-
-Legistore
-
-Links
-
-Select Year:
-
-2025
-
-2024
-
-2023
-
-2022
-
-2021
-
-2020
-
-2019
-
-2018
-
-2017
-
-2016
-
-2015
-
-2014
-
-2013
-
-2012
-
-2011
-
-2010
-
-2009
-
-2008
-
-2007
-
-2006
-
-2005
-
-2004
-
-2003
-
-2002
-
-2001
-
-2000
-
-1999
-
-1998
-
-1997
-
-The Florida Statutes
-
-The 2025 Florida Statutes
-
-Title XXXIII
-
-REGULATION OF TRADE, COMMERCE, INVESTMENTS, AND SOLICITATIONS
-
-Chapter 501
-
-CONSUMER PROTECTION
-
-View Entire Chapter
 
 F.S. 501.1738
 
@@ -925,5 +297,3 @@ F.S. 501.1738
 (d)  Must protect personal identifying information used to verify age from unauthorized or illegal access, destruction, use, modification, or disclosure through reasonable security procedures and practices appropriate to the nature of the personal information.
 
 History. — s. 3, ch. 2024-42.
-
-Copyright &copy; 1995-2026 The Florida Legislature • Privacy Statement • Contact Us

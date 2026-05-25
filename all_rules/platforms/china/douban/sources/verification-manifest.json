@@ -8,15 +8,18 @@
     "source_urls": [
       "https://www.douban.com/about/guideline"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/platforms/china/douban/sources/platform-douban-community-guidelines.douban-com.html"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "zh-CN",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 196,
-    "body_sha256": "af9990ffe786592af4042c9ebedab2e48bae1b3212520bf95ccf63d372fd2167",
+    "paragraph_count": 145,
+    "body_sha256": "7df5d34f4a98d59f535445788227d8909f0b24eb40a52738581cc1f1bfa5f23e",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -24,9 +27,9 @@
         "source_file": "all_rules/platforms/china/douban/sources/platform-douban-community-guidelines.douban-com.html",
         "sha256": "f03668180a566f31b0a337fb3ed16b2a638e387d091efa8aec112cde88d0f31f",
         "bytes": 24756,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       }
     ]
   }

@@ -16,7 +16,7 @@
 - Source SHA-256:
 - all_rules/platforms/china/xiaohongshu/sources/platform-xiaohongshu-community-guideline-01.agree-xiaohongshu-com.html: 78f479bac997b0f3bd13be3ef5361bbecd8d108f4c2ff25e66f234830195a406
 - all_rules/platforms/china/xiaohongshu/sources/platform-xiaohongshu-community-guideline-02.oacontract-xiaohongshu-com.json: 45a1fd5f5391e2b6bc0da6592d50be8f6fc6e792e57307f4c8d94f6489d5a1a5
-- Body SHA-256: 785e29bb17fa6a8aff7c86bb2ac922b63a2c81bcdb3715a781563db87fd9296d
+- Body SHA-256: c670abf2391c81a7d77362f74e7c6b4ff85ca6c15b92c478322a6dbf32510bc2
 
 ## Source Text
 
@@ -102,7 +102,7 @@
 
 2.3.1 禁止传播违法内容涉及违禁物品，包括但不限于：毒品、违禁药物、违法工具等，如大麻、鸦片、处方药物、投资理财产品、假币、枪支、烟草、爆炸物、翻墙软件、外挂程序等其他内容, b.涉及违禁活动，包括但不限于：有关传销、胎儿性别鉴定、售卖假货等其他内容
 
-2.3.2 禁止发布欺诈或赌博信息发布欺诈信息，如假冒官方客服、正规网站，以短信、站内私信或链接等形式提示虚假中奖信息，设计&ldquo;杀猪盘&rdquo;类欺诈行为等, b.提供赌博交易平台信息或赌博性质类服务，如赌博平台链接、币商、中介、游戏币回收等, c.涉及赌博技巧、赌博器具等赌博内容，如老虎机、透视扑克等
+2.3.2 禁止发布欺诈或赌博信息发布欺诈信息，如假冒官方客服、正规网站，以短信、站内私信或链接等形式提示虚假中奖信息，设计“杀猪盘”类欺诈行为等, b.提供赌博交易平台信息或赌博性质类服务，如赌博平台链接、币商、中介、游戏币回收等, c.涉及赌博技巧、赌博器具等赌博内容，如老虎机、透视扑克等
 
 2.4 抵制一切色情低俗内容
 
@@ -240,11 +240,11 @@
 
 七、友情链接
 
-7.1 社区公约： 《小红书社区公约》
+7.1 社区公约： [《小红书社区公约》](https://www.xiaohongshu.com/crown/community/agreement?fullscreen=true)
 
-7.2 商业推广笔记： 《推广笔记社区规范》
+7.2 商业推广笔记： [《推广笔记社区规范》](https://www.xiaohongshu.com/discovery/item/5b691fbe910cf67d445794f6)
 
-当小红薯违反社区规范，小红书平台将对违规内容和用户做相应处理及通知。对处理结果有任何异议，均可通过APP- 帮助与客服 -笔记/账号申诉进行反馈。
+当小红薯违反社区规范，小红书平台将对违规内容和用户做相应处理及通知。对处理结果有任何异议，均可通过APP- [帮助与客服](https://www.xiaohongshu.com/cs/home?_v=e57906b) -笔记/账号申诉进行反馈。
 
 同时，维护社区环境离不开各位小红薯的共同努力，我们欢迎小红薯们对任何可能违规的内容进行一键举报。
 

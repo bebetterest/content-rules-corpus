@@ -27,9 +27,9 @@
         "source_file": "all_rules/platforms/global/gitlab/sources/platform-gitlab-acceptable-use-policy.handbook-gitlab-com.html",
         "sha256": "2f77849f6dbfec80ffcd5bff71cabf67a70a81ca2147180368b3c98160c4a7c9",
         "bytes": 2277645,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       }
     ]
   }

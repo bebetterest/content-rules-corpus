@@ -6,7 +6,7 @@
 - Source Authority: Kuaishou
 - Source URL:
 - https://www.kuaishou.com/norm?tab=community
-- Retrieval Date: 2026-05-23
+- Retrieval Date: 2026-05-24
 - Language: zh-CN
 - Fetch Method: html
 - Extractor: generic-html
@@ -14,23 +14,9 @@
 - Status Note: Official Kuaishou community rules page.
 - Source SHA-256:
 - all_rules/platforms/china/kuaishou/sources/platform-kuaishou-community-management-standard.kuaishou-com.html: 74f9d95be85c680ccfb5821acfec08681052a72412d22f353be29b86d08bae58
-- Body SHA-256: fa13a5a9ff5f8e888ca3e684acd385fadb2617cd711dbd26b8f3d3981c799dff
+- Body SHA-256: 3c0d095ac292558116dd6f4ed9fc5b44ccafda92a8037ce21c0c1451845c6708
 
 ## Source Text
-
-社区规则-社区管理规范
-
-- 首页
-
-- 社区管理规范
-
-- 直播管理规范
-
-- 用户资料规范
-
-- 社区评论规范
-
-- 直播封面规范
 
 社区管理规范
 
@@ -277,33 +263,3 @@
 三、快手团队可依照互联网发展的不同阶段，随着社区管理经验的不断丰富，出于维护快手社区秩序的目的，不断完善本规定。用户应能反复查看本规定，以便获得最新信息。
 
 四、本规定自发布之日起施行。
-
-关于我们
-
-关于快手 加入我们 企业社会责任 推广快手 联系我们 商务合作 违规举报 法律声明 帮助中心 中文官网 英文官网 专家委员会 社区规范 媒体资料库 投资者关系 廉正举报 知识产权平台 十五运会和残特奥会举报专区
-
-创作者服务
-
-快手音乐人 创作者服务平台 用户认证 机构服务平台 上传视频 机构入驻
-
-快手直播
-
-快手直播 直播伴侣 直播开放平台 娱乐直播公会入驻
-
-商业服务
-
-快币充值 磁力引擎 快手电商 服务号 快手小程序
-
-系列产品
-
-快影 一甜相机 AcFun
-
-网上有害信息举报专区 中央网信办（国家网信办）违法和不良信息举报中心 扫黄打非举报专区
-
-快手举报专线： 4000066666 | 未成年人关怀热线： 4001502277 | 举报邮箱： support@kuaishou.com
-
-营业执照 | 增值电信业务经营许可证 | 网络文化经营许可证 京网文〔2025〕0487-152号 | 广播电视节目制作经营许可证 | 人力资源服务许可证 | 互联网宗教信息服务许可证 京(2025)0000012
-
-信息网络传播视听节目许可证 | 药品医疗器械网络信息服务备案 | 互联网新闻信息服务许可证11220240001
-
-www.kuaishou.com 2018 @ All rights Reserved 京ICP备15023266号-136 京公网安备11010802038443号

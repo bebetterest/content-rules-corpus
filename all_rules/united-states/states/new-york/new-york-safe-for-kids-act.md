@@ -8,7 +8,7 @@
 - Source Authority: New York State Senate Open Legislation
 - Source URL:
 - https://legislation.nysenate.gov/pdf/bills/2023/S7694A
-- Retrieval Date: 2026-05-23
+- Retrieval Date: 2026-05-24
 - Language: en
 - Fetch Method: pdf
 - Extractor: pdf-text

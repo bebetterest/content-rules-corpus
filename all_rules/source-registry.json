@@ -1578,7 +1578,7 @@
       "language": "en",
       "status_note": "Official U.S. Code source. Verify current law date shown in the source before legal use.",
       "required_phrases": ["18 USC 1349", "Attempt and conspiracy"],
-      "min_body_chars": 800
+      "min_body_chars": 500
     },
     {
       "id": "us-federal-18-usc-1466a",

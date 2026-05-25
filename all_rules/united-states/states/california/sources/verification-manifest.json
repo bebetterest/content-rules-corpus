@@ -8,15 +8,18 @@
     "source_urls": [
       "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.47.&part=4.&chapter=&article="
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/united-states/states/california/sources/us-state-california-age-appropriate-design-code-act.leginfo-legislature-ca-gov.html"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 230,
-    "body_sha256": "6aa4bb321b3f50cecdb2fc1373cc97cbfd44a18120c120d1c97a1d86ddb3f697",
+    "paragraph_count": 134,
+    "body_sha256": "5d11df164c7a0d6bac14c0ba40fba8129c5f2754b8c525aaf01e8ffdb0c178f5",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -24,9 +27,9 @@
         "source_file": "all_rules/united-states/states/california/sources/us-state-california-age-appropriate-design-code-act.leginfo-legislature-ca-gov.html",
         "sha256": "10ab32d2d58af3cd57551b9d150c6808414c70bcc38e36b3b7c6b884631ed2ba",
         "bytes": 158027,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=UTF-8"
+        "content_type": null
       }
     ]
   },
@@ -39,15 +42,18 @@
     "source_urls": [
       "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=BPC&division=8.&title=&part=&chapter=22.8.&article="
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/united-states/states/california/sources/us-state-california-ab587-social-media-terms-reports.leginfo-legislature-ca-gov.html"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 192,
-    "body_sha256": "c94a51793bed5dbfd5d20eedbd79d284bec4ef384307fee6eb56bf7207c159ab",
+    "paragraph_count": 96,
+    "body_sha256": "92f9233052c9ad76cbab7d51252c2d881ed3b29f1be63cf8ab44dc51157fbfd4",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -55,9 +61,9 @@
         "source_file": "all_rules/united-states/states/california/sources/us-state-california-ab587-social-media-terms-reports.leginfo-legislature-ca-gov.html",
         "sha256": "ff0d452a05fa53fc045593c1c5daa0bd072693af0cab4a7fa6906730506e4758",
         "bytes": 149449,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=UTF-8"
+        "content_type": null
       }
     ]
   },
@@ -70,15 +76,18 @@
     "source_urls": [
       "https://www.leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=24.&division=20.&lawCode=HSC&part=&title="
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/united-states/states/california/sources/us-state-california-social-media-addiction-act.leginfo-legislature-ca-gov.html"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 173,
-    "body_sha256": "6c2f51e43efeb202624a8e78e1152d1f2098c78865743e57a918683f88159ca6",
+    "paragraph_count": 77,
+    "body_sha256": "76c3b517a9640eccb6900c2c7a4c19e96475b5e341b67618b5ee5b95ef4e0922",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -86,9 +95,9 @@
         "source_file": "all_rules/united-states/states/california/sources/us-state-california-social-media-addiction-act.leginfo-legislature-ca-gov.html",
         "sha256": "d8c556f921a468ae278648c0eef5b8f5161e0a8ea1b9f13466cd5b5f61406580",
         "bytes": 146996,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=UTF-8"
+        "content_type": null
       }
     ]
   }

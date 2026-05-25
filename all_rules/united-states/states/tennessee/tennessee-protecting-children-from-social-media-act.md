@@ -8,7 +8,7 @@
 - Source Authority: Tennessee General Assembly
 - Source URL:
 - https://www.capitol.tn.gov/Bills/113/Bill/HB1891.pdf
-- Retrieval Date: 2026-05-23
+- Retrieval Date: 2026-05-24
 - Language: en
 - Fetch Method: pdf
 - Extractor: pdf-text
@@ -16,7 +16,7 @@
 - Status Note: Official Tennessee bill PDF source. Check codified text and current litigation status before legal use.
 - Source SHA-256:
 - all_rules/united-states/states/tennessee/sources/us-state-tennessee-protecting-children-social-media-act.capitol-tn-gov.pdf: 92110dde316bffba4f9351b5d4a91f4e1bc22e644147425d3ce71018fccbfdb4
-- Body SHA-256: c72c760de7f2033d723eebb7082311c06d54e78d45e1281af0c897e0ca9fcedf
+- Body SHA-256: ec023f65f8c3bec68cdfd0ed3cb591f515f285c30509e201b84c44a5fb62390c
 
 ## Source Text
 
@@ -71,9 +71,6 @@ internet application, and an internet portal;
 
 (A) Under eighteen (18) years of age; and
 
-HB1891
-010802
--1-
 (B) Not emancipated;
 
 (4) "Parent" means the parent, guardian, or person who has custody of,
@@ -122,7 +119,6 @@ to, directly related to, or dependent upon, the preselected
 
 content described in subdivision (8)(B)(iii)(a); and
 
--2- 010802
 (9) "User" means a person who consumes posts on a social media
 
 platform, but is not an account holder.
@@ -171,7 +167,6 @@ the social media company must prevent the individual from becoming an account
 
 holder or accessing a current account, except to delete a current account.
 
--3- 010802
 (4) Once age and parental consent, if applicable, have been verified to
 
 confirm that an individual may become or continue as an account holder, then
@@ -222,7 +217,6 @@ other relief authorized under § 47-18-108.
 
 supplementary to all other powers and remedies otherwise provided by law. The
 
--4- 010802
 invocation of one (1) power or remedy in this part does not exclude or prohibit the use of
 
 another available remedy.
@@ -246,5 +240,3 @@ limitation described in subsection (a), notwithstanding a contract or choice of 
 provision in a contract.
 
 SECTION 2. This act takes effect upon becoming a law, the public welfare requiring it.
-
--5- 010802

@@ -14,15 +14,15 @@
 - Status Note: Official Roblox Community Standards page from about.roblox.com. The page must be browser-rendered and its accordion sections expanded to collect the detailed policy text.
 - Source SHA-256:
 - all_rules/platforms/global/roblox/sources/platform-roblox-community-standards.about-roblox-com.html: 41f3687f9c35658b4f0c51bbd45de997f4fdb61cee83b34132ef9dca0ce27ac6
-- Body SHA-256: 3a15d4c60b591379cbeefdce1e04731902a34a7a4c2442265d3e7352fe7a2595
+- Body SHA-256: 3e79a3b407eecfce8878484c06fce70c940acc32346edc424aa8c1660b77c256
 
 ## Source Text
 
-At Roblox, our mission is to connect a billion people with optimism and civility. We’re working hard to build a community that feels safe and welcoming for everyone—a place where you can be yourself, make positive connections, and let your creativity run wild. Our Community Standards are here to make sure everyone feels at home and protected while they explore. For our Youth Guide to Community Standards, see here .
+At Roblox, our mission is to connect a billion people with optimism and civility. We’re working hard to build a community that feels safe and welcoming for everyone—a place where you can be yourself, make positive connections, and let your creativity run wild. Our Community Standards are here to make sure everyone feels at home and protected while they explore. For our Youth Guide to Community Standards, see [here](https://about.roblox.com/youth-guide-to-community-standards) .
 
 Our community is always growing and changing so we’re constantly learning, and that means our Standards might change too. We will always ask everyone to treat each other with kindness and respect—just like you would in person. If we find users or content that are breaking these rules, we’ll take action against that content and the accounts of those who created it. In cases where someone’s safety is at risk offline, we’ll work closely with the relevant authorities to keep everyone safe.
 
-We know we’re not perfect, and even with all our best efforts, sometimes things slip through the cracks. If you ever see something that you think might violate these rules or otherwise makes you feel unsafe, please use our ' Report Abuse ' tool to let us know. We’re in this together, and your voice helps us keep this a space we can all be proud of. If you want to dive into the more formal legal side of things, our Terms of Use are always there for you to read.
+We know we’re not perfect, and even with all our best efforts, sometimes things slip through the cracks. If you ever see something that you think might violate these rules or otherwise makes you feel unsafe, please use our ' [Report Abuse](https://about.roblox.com/reporting-and-blocking) ' tool to let us know. We’re in this together, and your voice helps us keep this a space we can all be proud of. If you want to dive into the more formal legal side of things, our Terms of Use are always there for you to read.
 
 Safety
 
@@ -72,9 +72,7 @@ Threatening others with offline or online harm, inciting violence against people
 
 - Threatening, insulting, abusing, mocking, or excluding individuals or groups on the basis of their membership in a protected category, including -
 
--
-
-- Age
+- - Age
 
 - Race, perceived race, or ethnicity
 
@@ -106,7 +104,7 @@ We take our users’ well-being seriously and we’re here to help, including by
 
 - Dangerous physical challenges or stunts performed offline
 
-If you or a loved one are having thoughts of suicide or self-harm, there is help available. Reach out to a suicide prevention hotline like the one found here. For additional global resources, here is a good place to start.
+If you or a loved one are having thoughts of suicide or self-harm, there is help available. Reach out to a suicide prevention hotline like the one found here. For additional global resources, [here](https://roblox.findahelpline.com/) is a good place to start.
 
 Harmful Off-Platform Speech or Behavior
 
@@ -144,7 +142,7 @@ Although some experiences on Roblox may include weapons and violence, we do not 
 
 - Realistic or real-world depictions of extreme gore, graphic violence, or death
 
-For Restricted experiences, please see Roblox’s Restricted Content Policy Standards .
+For Restricted experiences, please see Roblox’s [Restricted Content Policy Standards](https://en.help.roblox.com/hc/en-us/articles/15869919570708-Restricted-Content-Policy) .
 
 Romantic and Sexual Content
 
@@ -158,11 +156,11 @@ Roblox isn’t the place for seeking offline or online romantic connections or e
 
 - Pursuing or soliciting romantic relationships online or offline
 
-- Depicting private spaces, such as bathroom stalls or bedrooms, in experiences labeled as Social Hangouts
+- Depicting private spaces, such as bathroom stalls or bedrooms, in experiences [labeled as Social Hangouts](https://create.roblox.com/docs/production/promotion/content-maturity#social-hangout)
 
-For more information about creating assets or bundles that comply with these policies, including required use of modesty layers, please review the guidelines here .
+For more information about creating assets or bundles that comply with these policies, including required use of modesty layers, please review the guidelines [here](https://create.roblox.com/docs/marketplace/marketplace-policy) .
 
-For Restricted experiences, please see Roblox’s Restricted Content Policy Standards .
+For Restricted experiences, please see Roblox’s [Restricted Content Policy Standards](https://en.help.roblox.com/hc/en-us/articles/15869919570708-Restricted-Content-Policy) .
 
 Illegal and Regulated Goods and Activities
 
@@ -190,9 +188,9 @@ Additionally, we prohibit content that claims to offer authoritative information
 
 Except where prohibited by local law or regulation, we allow unplayable gambling content, such as references to gambling and related imagery. However, we prohibit both simulated and actual gambling activities on the platform. No real money, Robux, or in-experience items of value may be exchanged in connection with any gambling activities.
 
-If you or someone you know is struggling with substance abuse, help is available. You can start here .
+If you or someone you know is struggling with substance abuse, help is available. You can start [here](https://www.samhsa.gov/find-help) .
 
-For Restricted experiences, please see Roblox’s Restricted Content Policy Standards .
+For Restricted experiences, please see Roblox’s [Restricted Content Policy Standards](https://en.help.roblox.com/hc/en-us/articles/15869919570708-Restricted-Content-Policy) .
 
 Profanity
 
@@ -202,7 +200,7 @@ On Roblox, it’s not ok to swear in any language, text, images, or uploaded aud
 
 - Quoting or using audio containing profane lyrics
 
-For Restricted experiences, please see Roblox’s Restricted Content Policy Standards .
+For Restricted experiences, please see Roblox’s [Restricted Content Policy Standards](https://en.help.roblox.com/hc/en-us/articles/15869919570708-Restricted-Content-Policy) .
 
 Political Figures and Entities
 
@@ -256,13 +254,13 @@ Roblox takes fraud on the platform and in the virtual economy seriously, and the
 
 Promotional Offers
 
-Developers may not independently use off-platform services or products to sell on-platform items (including exclusive features or other in-experience enhancements) for money or Robux, either directly or as a bundle with another transaction or exchange. All off-platform commercial promotions bundled with on-platform rewards must be created in contractual agreement with Roblox. Find more details on acceptable promo codes here . To inquire about entering into a contractual agreement with Roblox, submit a form here .
+Developers may not independently use off-platform services or products to sell on-platform items (including exclusive features or other in-experience enhancements) for money or Robux, either directly or as a bundle with another transaction or exchange. All off-platform commercial promotions bundled with on-platform rewards must be created in contractual agreement with Roblox. Find more details on acceptable promo codes [here](https://en.help.roblox.com/hc/en-us/articles/10549651908244-Promo-Offers-for-Virtual-Rewards) . To inquire about entering into a contractual agreement with Roblox, submit a form [here](https://about.roblox.com/request-approval) .
 
 Commerce
 
-Developers leveraging our Commerce program and features must comply with the Commerce Standards .
+Developers leveraging our Commerce program and features must comply with the [Commerce Standards](https://en.help.roblox.com/hc/en-us/articles/36495190721172-Commerce-Standards) .
 
-Eligible developers may link to authorized Shopify stores in order to sell physical products within their experience(s). Certain developers may also be eligible to bundle a digital reward with a user's purchase of their physical products. To learn more about offering physical products for sale within your experience, please see here .
+[Eligible developers](https://create.roblox.com/docs/en-us/production/monetization/commerce-products#eligibility) may link to authorized Shopify stores in order to sell physical products within their experience(s). Certain developers may also be eligible to bundle a digital reward with a user's purchase of their physical products. To learn more about offering physical products for sale within your experience, please see [here](https://create.roblox.com/docs/production/monetization/commerce-products) .
 
 Soliciting Donations
 
@@ -280,7 +278,7 @@ Paid Item Trading
 
 Some experiences let players buy items with Robux or in-game currencies that cost Robux, and they also let players trade those items in-game. However, some users are ineligible to trade paid items based on their local laws.
 
-If paid item trading is available in an experience, creators must use the IsPaidItemTradingAllowed attribute of PolicyService to ensure paid item trading is only accessible by eligible users.
+If paid item trading is available in an experience, creators must use the IsPaidItemTradingAllowed attribute of [PolicyService](https://create.roblox.com/docs/reference/engine/classes/PolicyService#GetPolicyInfoForPlayerAsync) to ensure paid item trading is only accessible by eligible users.
 
 Paid Random Items
 
@@ -288,23 +286,15 @@ Types of Paid Random Items
 
 Paid random items are purchases made directly with Robux (or indirectly via in-game currencies acquired with Robux) that give the buyer a random outcome with odds defined by the developer. Examples of these include purchases of:
 
--
+- Capsule Type Items that result in one of multiple random outcomes
 
-Capsule Type Items that result in one of multiple random outcomes
+- Enhancement Type Items that apply a random effect to an existing item
 
--
+- Combination Type Items that can be consumed or exchanged in combination with other items to access random outcomes
 
-Enhancement Type Items that apply a random effect to an existing item
+- Probability Modifier Items that change the odds of random outcomes
 
--
-
-Combination Type Items that can be consumed or exchanged in combination with other items to access random outcomes
-
--
-
-Probability Modifier Items that change the odds of random outcomes
-
-More details on these item types and their variations can be found in Creator Hub .
+More details on these item types and their variations can be found in [Creator Hub](https://create.roblox.com/docs/production/monetization/virtual-items) .
 
 Note: Bundling several items including a random item into a single paid “pack” or single transaction would still make the entire bundle a paid random item.
 
@@ -318,11 +308,11 @@ All possible outcomes for a paid random item must provide some benefit to the us
 
 Ineligible Users
 
-Some Roblox users are ineligible to acquire paid random items. Creators offering paid random items in their experience must use the ArePaidRandomItemsRestricted attribute of PolicyService API to ensure these purchases are only accessible to eligible users. For best practices on alternative paths for ineligible users, review CreatorHub.
+Some Roblox users are ineligible to acquire paid random items. Creators offering paid random items in their experience must use the ArePaidRandomItemsRestricted attribute of [PolicyService API](https://create.roblox.com/docs/reference/engine/classes/PolicyService#GetPolicyInfoForPlayerAsync) to ensure these purchases are only accessible to eligible users. For best practices on alternative paths for ineligible users, review CreatorHub.
 
 Peer Trading
 
-If paid random items are available in your experience, users who are eligible to acquire them may still be ineligible to trade them in-game. Creators offering trading mechanisms for these paid random items in their experience must use the IsPaidItemTradingAllowed attribute of PolicyService API to ensure these purchases are only tradeable for eligible users.
+If paid random items are available in your experience, users who are eligible to acquire them may still be ineligible to trade them in-game. Creators offering trading mechanisms for these paid random items in their experience must use the IsPaidItemTradingAllowed attribute of [PolicyService API](https://create.roblox.com/docs/reference/engine/classes/PolicyService#GetPolicyInfoForPlayerAsync) to ensure these purchases are only tradeable for eligible users.
 
 Contests & Sweepstakes
 
@@ -336,21 +326,13 @@ Roblox prohibits content or behavior that disrupts or misleads others on the pla
 
 This includes:
 
--
+- Deceptive, sensational, duplicative, or otherwise misleading content or metadata - including content that is confusingly similar to that of other creators - used to drive discoverability, monetization, or engagement
 
-Deceptive, sensational, duplicative, or otherwise misleading content or metadata - including content that is confusingly similar to that of other creators - used to drive discoverability, monetization, or engagement
+- Repeatedly uploading content identical or nearly identical to existing content
 
--
+- Creating experiences solely to direct users off Roblox
 
-Repeatedly uploading content identical or nearly identical to existing content
-
--
-
-Creating experiences solely to direct users off Roblox
-
--
-
-Disruptive user behavior such as repetitive and disruptive messaging to other users (i.e., spamming)
+- Disruptive user behavior such as repetitive and disruptive messaging to other users (i.e., spamming)
 
 Cheating and Scams
 
@@ -364,61 +346,47 @@ Intellectual Property Violations
 
 We expect you to respect the intellectual property rights of others, and will remove infringing content upon receiving a valid copyright or trademark takedown request from a rights holder. Roblox may also proactively delete or archive assets if we suspect that the content may be infringing on someone’s intellectual property rights.
 
-- For information on how to use Roblox’s name and logo in marketing materials, please see here
+- For information on how to use Roblox’s name and logo in marketing materials, please see [here](https://en.help.roblox.com/hc/en-us/articles/115001708126-Roblox-Name-and-Logo-Community-Usage-Guidelines)
 
-- For more information about how to file copyright and registered trademark takedown requests, see here .
+- For more information about how to file copyright and registered trademark takedown requests, see [here](https://create.roblox.com/docs/production/publishing/rights-manager) .
 
-- You can learn more about intellectual property reporting on Roblox here .
+- You can learn more about intellectual property reporting on Roblox [here](https://create.roblox.com/docs/production/publishing/dmca-guidelines) .
 
 Advertising
 
 Roblox considers the following content as “Advertising” that is subject to requirements in the Advertising Standards:
 
--
+- Content that is published in exchange for any form of compensation to promote a brand, product, service, event, or persona; or
 
-Content that is published in exchange for any form of compensation to promote a brand, product, service, event, or persona; or
+- Content that includes calls to action or promotes demand, attributes, information, or availability for specific off-platform products, services, events, or personas.
 
--
-
-Content that includes calls to action or promotes demand, attributes, information, or availability for specific off-platform products, services, events, or personas.
-
-All Advertising content, including Advertising Integrations, on Roblox must adhere to Roblox’s Advertising Standards . Creator guidance for complying with the Advertising Standards can be found here .
+All Advertising content, including Advertising Integrations, on Roblox must adhere to Roblox’s [Advertising Standards](https://en.help.roblox.com/hc/en-us/articles/13722260778260-Advertising-Standards) . Creator guidance for complying with the Advertising Standards can be found [here](https://create.roblox.com/docs/production/promotion/comply-with-advertising-standards) .
 
 Advertising Integrations
 
-Starting May 4, 2026, Developers wanting to integrate advertisements other than Roblox-operated ad units must comply with the new Independent Advertising policy, renamed to Advertising Integrations Policy . Roblox requires registration of all Advertising Integration campaign assets (“Ad Integration”) prior to audience exposure and requires the use of Roblox advertising tools that we offer.
+Starting May 4, 2026, Developers wanting to integrate advertisements other than Roblox-operated ad units must comply with the new Independent Advertising policy, renamed to [Advertising Integrations Policy](https://en.help.roblox.com/hc/en-us/articles/13722260778260-Advertising-Standards#advertising-integrations) . Roblox requires registration of all Advertising Integration campaign assets (“Ad Integration”) prior to audience exposure and requires the use of Roblox advertising tools that we offer.
 
 Additionally:
 
--
+- Experiences may not make programmatic calls to third-party advertising and measurement services.
 
-Experiences may not make programmatic calls to third-party advertising and measurement services.
+- Developers may not share personally identifiable user engagement information with advertisers and must comply with the Creator Analytics Terms of Use and Roblox Terms of Use in their treatment of all user information.
 
--
+- Developers are prohibited from creating personalized activity profiles of users or using activity data from Roblox or third-parties to personalize advertising campaigns.
 
-Developers may not share personally identifiable user engagement information with advertisers and must comply with the Creator Analytics Terms of Use and Roblox Terms of Use in their treatment of all user information.
+- Developers may not reuse or repurpose Roblox Immersive Ad content.
 
--
-
-Developers are prohibited from creating personalized activity profiles of users or using activity data from Roblox or third-parties to personalize advertising campaigns.
-
--
-
-Developers may not reuse or repurpose Roblox Immersive Ad content.
-
--
-
-Ads may not be personalized for users under the age of 18.
+- Ads may not be personalized for users under the age of 18.
 
 Any Ad Integration that does not comply with the new process and policy may be subject to removal of the content, suspension of the experience, or suspension of the associated accounts, among other penalties.
 
-To register your Ad Integration campaign in accordance with the new policy, please see Creator guidance here .
+To register your Ad Integration campaign in accordance with the new policy, please see Creator guidance [here](https://create.roblox.com/docs/production/promotion/ad-integrations) .
 
 Security
 
 For our community to thrive, everyone must feel digitally safe as well as physically safe. This section describes how players and creators should treat others’ information and protect their own and others’ digital security.
 
-For information about how Roblox handles your personal information, please visit the Privacy Policy . For more information on how to keep your account secure - including how to enable additional security features such as two-step verification - visit our help page here . For more information for third party app developers and third party usage – visit our creator third party app policy here .
+For information about how Roblox handles your personal information, please visit the [Privacy Policy](https://en.help.roblox.com/hc/en-us/articles/115004630823-Roblox-Privacy-and-Cookie-Policy) . For more information on how to keep your account secure - including how to enable additional security features such as two-step verification - visit our help page [here](https://en.help.roblox.com/hc/en-us/articles/203313380-Keep-Your-Account-Safe) . For more information for third party app developers and third party usage – visit our creator third party app policy [here](https://en.help.roblox.com/hc/en-us/articles/37924211313044-Creator-Third-Party-App-Policy) .
 
 To help maintain a safe platform, Roblox does not permit creating content related to, engaging with, or expressing support for the following activities:
 
@@ -470,7 +438,7 @@ Evading Safety and Security Systems
 
 - Offering access to your Roblox account or soliciting access to another’s Roblox account for the purpose of evading enforcement action or safety systems
 
-- Failing to use required PolicyService APIs and TextChatService APIs to declare features in your experience that are covered by Roblox policy, such as text chat
+- Failing to use required [PolicyService APIs](https://create.roblox.com/docs/reference/engine/classes/PolicyService) and [TextChatService APIs](https://create.roblox.com/docs/reference/engine/classes/TextChatService) to declare features in your experience that are covered by Roblox policy, such as text chat
 
 - Third party applications and/or services conducting kicks and bans within an experience without utilizing Roblox provided Kick and Ban API
 
@@ -484,6 +452,6 @@ Disruptive Content and Behavior
 
 - Invading or flooding experiences or groups in an effort to disrupt the experience or its reputation
 
-For more information about creating bundles that comply with these policies, including requirements for clothing and accessories, please review the guidelines here .
+For more information about creating bundles that comply with these policies, including requirements for clothing and accessories, please review the guidelines [here](https://create.roblox.com/docs/marketplace/marketplace-policy) .
 
-For more information about how to safely offer text chat in your experience, please see here .
+For more information about how to safely offer text chat in your experience, please see [here](https://create.roblox.com/docs/chat/in-experience-text-chat#migrating-from-legacy-chat) .

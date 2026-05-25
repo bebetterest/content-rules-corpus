@@ -31,7 +31,7 @@
 - all_rules/platforms/china/douyin/sources/platform-douyin-user-service-agreement-linked-05-rule-main.douyin-com.html: d2358c8ac1be1d4ea92f183a40bdfcb964efef91fe1b8252df359b5e6f601be8
 - all_rules/platforms/china/douyin/sources/platform-douyin-user-service-agreement-linked-06-douyin-agreement-douyin-agreement-privacy.douyin-com.html: 308f543144cb6745a762faa119af5deeafa013acacec0a99b41c9c37c1376fb8
 - all_rules/platforms/china/douyin/sources/platform-douyin-user-service-agreement-linked-07-douyin-agreement-70c3d13a-73cf-403a-8ecf-a16f70887c21.lf3-cdn-tos-draftstatic-com.html: f69d97eb821fd2b35b4f732370647e4fcb467ca6dfe2449fe92ea1fe0a00700d
-- Body SHA-256: 29918a6c61596fbbbca7b7a06e884a18a363e603d6fa0e20cd91095b80ef9675
+- Body SHA-256: e7327c6b966ba5d8b6c8b2d9acff8d8cdd6140d060bb10aafd0da55fbf4a1a6a
 
 ## Source Text
 
@@ -767,106 +767,6 @@
 
 ---
 
-抖音安全与信任中心
-
-首页
-
-信息公开
-
-我们是如何运行的
-
-社区公约
-
-我们遵守哪些规范
-
-社区倡导
-
-我们倡导什么价值
-
-用户服务
-
-我们提供哪些服务
-
--
-
--
-
--
-
--
-
--
-
-- [广告投放](https://www.oceanengine.com/resource/douyin?source=douyin-pc) [用户服务协议](sources/platform-douyin-user-service-agreement.douyin-com.html) [隐私政策](sources/platform-douyin-user-service-agreement.douyin-com.html) [账号找回](https://www.douyin.com/recovery_account/) [联系我们](https://www.douyin.com/aboutus/#contact) [加入我们](https://www.douyin.com/aboutus/#join) [营业执照](https://www.douyin.com/business_license/) [友情链接](https://www.douyin.com/friend_links)
-
-2026 © 抖音
-
-[京ICP备16016397号-3](https://beian.miit.gov.cn/)
-
-[京公网安备 11000002002046号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002002046)
-
-[广播电视节目制作经营许可证](https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/license/jiemuzhizuojingying.jpg)
-
-[京B2-20170846](https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/license/zengzhixuke.jpg)
-
-[网络文化许可证-京网文-（2025）0181-061号](https://lf3-static.bytednsdoc.com/obj/eden-cn/ylaulj_azbya_upfbvk/ljhwZthlaukjlkulzlp/%E7%BD%91%E7%BB%9C%E6%96%87%E5%8C%96%E7%BB%8F%E8%90%A5%E8%AE%B8%E5%8F%AF%E8%AF%81-2025.jpeg)
-
-[网络谣言曝光台](https://www.piyao.org.cn/yybgt/index.htm)
-
-[网上有害信息举报](https://www.12377.cn/)
-
-违法和不良信息举报：400-140-2108
-
-青少年守护专线 400-9922-556
-
-网络内容从业人员违法违规行为举报：feedback@douyin.com
-
-欢迎来到抖音安全与信任中心！
-
-抖音致力于打造一个开放、积极、多元、友善的平台，帮助用户记录自我，分享美好生活。
-
-要实现这一目标，离不开安全与信任的平台环境。我们希望通过抖音安全与信任中心，更好地迈向这一目标。
-
-透明
-
-公开抖音算法技术、治理政策等信息，持续增加透明度
-
-安全
-
-持续提升平台治理能力，主动公示违规案例治理情况
-
-服务
-
-提供便捷的服务方案及解决路径，全力为各方提供更好服务
-
-信任
-
-明确抖音倡导方向，共建平等友善、记录美好的内容平台
-
-我们希望以信任为基石，和所有用户、创作者、社会各界共建美好社区。本网站为试运行阶段，欢迎各界提交反馈和问题。
-
-反馈渠道：95152 及 feedback@douyin.com
-
-开始浏览
-
----
-
-抖音规则中心
-
-[首页](https://www.douyin.com/rule/) [规则与公告](sources/platform-douyin-user-service-agreement-linked-04-rule-policy.douyin-com.html) [规则学院](https://www.douyin.com/rule/encyclopedia) 创作服务平台 透明度报告
-
-广告投放 用户服务协议 隐私政策 账号找回 联系我们 加入我们 营业执照 下载抖音
-
-[网络谣言曝光台](https://www.piyao.org.cn/yybgt/index.htm) ｜ [网上有害信息举报](https://www.12377.cn/) ｜ 违法和不良信息举报：400-140-2108 ｜ 青少年守护专线：400-9922-556 ｜ 网络内容从业人员违法违规行为举报：feedback@douyin.com
-
-2026 © 抖音 ｜ [京ICP备16016397号-3](https://beian.miit.gov.cn/) ｜ 北京抖音科技有限公司 ｜ [广播电视节目制作经营许可证](https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/license/jiemuzhizuojingying.jpg) ｜ [京B2-20170846](https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/license/zengzhixuke.jpg) ｜ [网络文化许可证-京网文-（2016）2282-264号](https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/license/wangluowenhuajingying.jpg) ｜ [京公网安备 11000002002046号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002002046)
-
----
-
-抖音规则中心
-
-[首页](https://www.douyin.com/rule/) [规则与公告](sources/platform-douyin-user-service-agreement-linked-04-rule-policy.douyin-com.html) [规则学院](https://www.douyin.com/rule/encyclopedia) 创作服务平台 透明度报告
-
 平台规则
 
 查看详情 >
@@ -1383,17 +1283,9 @@
 
 506次收藏
 
-广告投放 用户服务协议 隐私政策 账号找回 联系我们 加入我们 营业执照 下载抖音
-
-[网络谣言曝光台](https://www.piyao.org.cn/yybgt/index.htm) ｜ [网上有害信息举报](https://www.12377.cn/) ｜ 违法和不良信息举报：400-140-2108 ｜ 青少年守护专线：400-9922-556 ｜ 网络内容从业人员违法违规行为举报：feedback@douyin.com
-
-2026 © 抖音 ｜ [京ICP备16016397号-3](https://beian.miit.gov.cn/) ｜ 北京抖音科技有限公司 ｜ [广播电视节目制作经营许可证](https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/license/jiemuzhizuojingying.jpg) ｜ [京B2-20170846](https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/license/zengzhixuke.jpg) ｜ [网络文化许可证-京网文-（2016）2282-264号](https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/license/wangluowenhuajingying.jpg) ｜ [京公网安备 11000002002046号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002002046)
-
 ---
 
 【抖音】记录美好生活-Douyin.com
-
-[抖音](https://www.douyin.com/) [| 记录美好生活](https://www.douyin.com/)
 
 “抖音”隐私政策
 
@@ -2068,12 +1960,6 @@ a) 发送邮件至Dataprivacy@bytedance.com
 b) 邮寄至 北京市朝阳区融中心A座 法务部 数据安全与隐私保护中心
 
 我们将尽快查看您提出的问题或建议，并在验证您的用户身份后的十五个工作日内回复。
-
-2026 © 抖音 | [京ICP备16016397号- 3](https://beian.miit.gov.cn/) | 北京抖音科技有限公司 | 地址 : 北京市海淀区北三环西路甲18号院4号楼2层2022
-
-[中国互联网举报中心](https://www.12377.cn/) | 网络文化许可证-京网文-（2016）2282-264号 | 违法和不良信息举报：400-140-2108
-
-[京公网安备 11000002002046号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002002046)
 
 ---
 

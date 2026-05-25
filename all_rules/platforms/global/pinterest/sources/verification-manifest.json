@@ -8,15 +8,18 @@
     "source_urls": [
       "https://policy.pinterest.com/en/community-guidelines"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/platforms/global/pinterest/sources/platform-pinterest-community-guidelines.policy-pinterest-com.html"
     ],
+    "linked_source_files": [],
     "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 306,
-    "body_sha256": "1034aa3229a2687aaeee26fb22791e9faf4b6ef01cd34bb72a94f68956c8aa61",
+    "paragraph_count": 207,
+    "body_sha256": "44531d3ca5980a020c2e23fcf1b601f7e6dc9f7baaad80015e49a7256b1b41e8",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -24,8 +27,8 @@
         "source_file": "all_rules/platforms/global/pinterest/sources/platform-pinterest-community-guidelines.policy-pinterest-com.html",
         "sha256": "ad879446e480aee4e85e0dc16ac50a958a4d562afdd1b13e3bbea639eb08dfc6",
         "bytes": 49858,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "downloader": "cached",
+        "fallback_from": null,
         "content_type": null
       }
     ]

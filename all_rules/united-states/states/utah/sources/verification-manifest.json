@@ -8,15 +8,18 @@
     "source_urls": [
       "https://le.utah.gov/xcode/Title13/Chapter71/C13-71_2024100120240501.pdf"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/united-states/states/utah/sources/us-state-utah-minor-protection-social-media-act.le-utah-gov.pdf"
     ],
+    "linked_source_files": [],
     "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 35,
-    "body_sha256": "a45c8c0e27a3cd373ef64fb963f1bb5b3814b4bd32b1f4a02df45820142ea27c",
+    "paragraph_count": 28,
+    "body_sha256": "5edf7a27d996b479b90da7380cddf0336f04ba914e59003af02760df6304ea68",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -24,8 +27,8 @@
         "source_file": "all_rules/united-states/states/utah/sources/us-state-utah-minor-protection-social-media-act.le-utah-gov.pdf",
         "sha256": "b044dec62841037405a0208dd524bf593bd34115e73ac5179b13f4d03f72a3c3",
         "bytes": 16118,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "downloader": "cached",
+        "fallback_from": null,
         "content_type": null
       }
     ]

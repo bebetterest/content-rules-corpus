@@ -8,15 +8,18 @@
     "source_urls": [
       "https://www.arkleg.state.ar.us/Acts/FTPDocument?ddBienniumSession=2023%2F2023R&file=689.pdf&path=%2FACTS%2F2023R%2FPublic%2F"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/united-states/states/arkansas/sources/us-state-arkansas-social-media-safety-act.arkleg-state-ar-us.html"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 1706,
-    "body_sha256": "b337d1829c10bea18c7899270ddda433976217d1cda7dd11b165288e0f686282",
+    "paragraph_count": 8,
+    "body_sha256": "d5bb7a75b73404a4932920704eb08030b969dbfdb6b544faf46d898c48e303f1",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -24,8 +27,8 @@
         "source_file": "all_rules/united-states/states/arkansas/sources/us-state-arkansas-social-media-safety-act.arkleg-state-ar-us.html",
         "sha256": "611f1ae67bee15adce6e36b5c6b9f3d7ced4b5950417735addcd6c695a3d9b6a",
         "bytes": 273626,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "downloader": "cached",
+        "fallback_from": null,
         "content_type": null
       }
     ]

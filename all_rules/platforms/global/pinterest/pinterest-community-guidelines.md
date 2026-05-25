@@ -14,73 +14,17 @@
 - Status Note: Official Pinterest policy page.
 - Source SHA-256:
 - all_rules/platforms/global/pinterest/sources/platform-pinterest-community-guidelines.policy-pinterest-com.html: ad879446e480aee4e85e0dc16ac50a958a4d562afdd1b13e3bbea639eb08dfc6
-- Body SHA-256: 1034aa3229a2687aaeee26fb22791e9faf4b6ef01cd34bb72a94f68956c8aa61
+- Body SHA-256: 44531d3ca5980a020c2e23fcf1b601f7e6dc9f7baaad80015e49a7256b1b41e8
 
 ## Source Text
 
-Community guidelines | Pinterest Policy
-
-Skip to footer
-
-Policy
-
-Terms
-
-Terms of Service
-
-Privacy
-
-Privacy Policy Non-User Notice Sales
-
-Guidelines
-
-Community Guidelines Merchant Guidelines Advertising Guidelines Developer Guidelines Commercial and Branded Content Guidelines GenAI Acceptable Use Guidelines
-
-Intellectual Property
-
-Copyright Trademark
-
-Enforcement
-
-Enforcement
-
-Transparency
-
-Transparency
-
-Policy
-
-Terms
-
-Privacy
-
-Guidelines
-
-Intellectual Property
-
-Enforcement
-
-Transparency
-
 Community guidelines
-
-Table of Contents
-
-Our mission
-
-Content safety
-
-Intellectual property and other rights
-
-Site security and access
-
-Spam
 
 Our mission
 
 Pinterest's mission is to bring everyone the inspiration to create a life they love. That being said, not all content is inspiring - so we have community guidelines to outline what we do and don’t allow on Pinterest. These guidelines are our acceptable use policy, so if you find content that shouldn’t be on Pinterest, please
 
-report it to us . We appreciate your feedback and work hard to review your report and take appropriate action in a timely fashion. We use your reports to learn and evolve our standards, and work with subject matter experts to inform and update our guidelines. You can learn more about how we enforce these guidelines in our biannual transparency report .
+[report it to us](https://help.pinterest.com/article/report-something-on-pinterest) . We appreciate your feedback and work hard to review your report and take appropriate action in a timely fashion. We use your reports to learn and evolve our standards, and work with subject matter experts to inform and update our guidelines. You can learn more about how we enforce these guidelines in our biannual [transparency report](https://policy.pinterest.com/transparency-report) .
 
 Content safety
 
@@ -88,17 +32,15 @@ Pinterest isn’t a place for antagonistic, explicit, false or misleading, harmf
 
 We do not allow accounts that belong to violent actors, hate groups or malicious misinformation actors. We may consider off-platform actions in assessing enforcement against a Pinterest account belonging to one of these groups or associated individuals.
 
-You can read more about how we put our Community Guidelines into practice on our Enforcement page here .
+You can read more about how we put our Community Guidelines into practice on our Enforcement page [here](https://policy.pinterest.com/enforcement) .
 
-We’re committed to presenting you with clear and transparent expectations that are easy to understand and follow. If you have questions or encounter problems on Pinterest, please contact us .
+We’re committed to presenting you with clear and transparent expectations that are easy to understand and follow. If you have questions or encounter problems on Pinterest, please [contact us](https://help.pinterest.com/contact?page=about_you_page) .
 
 Adult sexual content & nudity
 
 Pinterest isn’t a place for sexual content or visible intimate body parts. We remove or limit the distribution of this type of content, including:
 
--
-
-Sexually explicit depictions or descriptions.
+- Sexually explicit depictions or descriptions.
 
 - Sexually suggestive depictions or descriptions.
 
@@ -114,7 +56,7 @@ Sexually explicit depictions or descriptions.
 
 - Sexual enhancement products.
 
-- Non-consensual creation and/or distribution of intimate images including intimate image abuse (referred to as “NCII” or “IBSA”), upskirting, down-blousing and hidden camera images, or the threat to do so (referred to as “sextortion”). We’ve put together some resources for you and if you come across NCII, please report it to us .
+- Non-consensual creation and/or distribution of intimate images including intimate image abuse (referred to as “NCII” or “IBSA”), upskirting, down-blousing and hidden camera images, or the threat to do so (referred to as “sextortion”). We’ve put together [some resources for you](https://help.pinterest.com/article/combating-non-consensual-intimate-imagery) and if you come across NCII, [please report it to us](https://help.pinterest.com/report-ncii) .
 
 Prohibited and regulated goods, services and activities
 
@@ -162,7 +104,7 @@ Dangerous activities
 
 Animal exploitation
 
-- The sale of wild animals or protected and endangered wildlife. For a full list of prohibited wildlife products, please visit our partner, the World Wildlife Fund .
+- The sale of wild animals or protected and endangered wildlife. For a full list of prohibited wildlife products, please visit our partner, the [World Wildlife Fund](https://www.endwildlifetraffickingonline.org/coalition-prohibited-wildlife-policy) .
 
 - Corpses, animal parts or products derived from cat or dog parts, or protected and endangered wildlife, including ivory.
 
@@ -212,7 +154,7 @@ Pinterest isn’t a place to attack or antagonize individuals or groups of peopl
 
 - Mocking someone for experiencing sadness, grief, loss or outrage.
 
-We’ve also put together some resources for you to protect yourself.
+We’ve also put together [some resources](https://help.pinterest.com/article/report-harassment-and-cyberbullying) for you to protect yourself.
 
 Child safety
 
@@ -236,11 +178,11 @@ Pinterest does not tolerate child sexual exploitation of any kind. That means we
 
 In addition to enforcing strict policies for content or accounts that may exploit or endanger minors, Pinterest strives to provide minors with safe, age-appropriate experiences on our services. These efforts include:
 
-- Requiring users to be at least 13 years old to use Pinterest.
+- Requiring users to be [at least 13 years old](https://help.pinterest.com/article/age-requirements-for-using-pinterest) to use Pinterest.
 
-- Accounts for users under 16 are set to private, and we offer stricter privacy and safety settings for teens .
+- Accounts for users under 16 are set to private, and we offer stricter privacy and safety [settings for teens](https://help.pinterest.com/article/teen-safety-options) .
 
-- Offering parents and caregivers the ability to provide guidance on your teen's account by setting up a parental passcode .
+- Offering parents and caregivers the ability to provide guidance on your teen's account by setting up a [parental passcode](https://help.pinterest.com/article/manage-a-parental-passcode) .
 
 Private information
 
@@ -260,13 +202,13 @@ We don’t allow content or behavior that reveals personally identifiable inform
 
 - Other private information considered personal or confidential
 
-If you come across unwanted photos of or information about you, you can report it to us . Minors or their authorized representatives can also reach out to
+If you come across unwanted photos of or information about you, you can [report it to us](https://help.pinterest.com/article/report-something-on-pinterest) . Minors or their authorized representatives can also reach out to
 
 privacy-support@pinterest.com regarding unwanted photos or information.
 
 Self-injury and harmful behavior
 
-If you or someone you know is struggling with suicidal thoughts or is considering hurting themselves, we have resources in our Help Center where you can get free, confidential and immediate support.
+If you or someone you know is struggling with suicidal thoughts or is considering hurting themselves, we have [resources](https://help.pinterest.com/article/suicide-and-self-harm-prevention) in our Help Center where you can get free, confidential and immediate support.
 
 Pinterest isn’t a place for content that displays, rationalizes or encourages self-harm including suicide, self-injury, eating disorders or substance abuse. We’ll remove or limit the distribution such content, including:
 
@@ -386,7 +328,7 @@ We don’t allow accounts that impersonate or misrepresent their affiliation wit
 
 We allow fan, parody, or commentary accounts for public figures or brands in certain contexts. It should be clear through your username or other account details that you aren’t officially affiliated with them.
 
-If you have identified an account you believe to be impersonating you or someone else, you can report it to us .
+If you have identified an account you believe to be impersonating you or someone else, you can [report it to us](https://help.pinterest.com/article/report-something-on-pinterest) .
 
 Comments
 
@@ -404,13 +346,13 @@ All of our Community Guidelines apply in comments posted on Pins. In addition, c
 
 - Hateful activities
 
-- Harassment or privacy violations, including cyberbullying
+- Harassment or privacy violations, including [cyberbullying](https://help.pinterest.com/article/report-harassment-and-cyberbullying)
 
 - Copyright or trademark infringement
 
 Messages
 
-All of our Community Guidelines apply to messages sent between Pinners. Messages should also be welcomed and relevant. In addition to Pinners’ ability to block someone from sending additional unwelcome messages, we may warn or suspend accounts that violate our guidelines, including by sending messages that contain:
+All of our [Community Guidelines](https://policy.pinterest.com/messages-comments-tries) apply to messages sent between Pinners. Messages should also be welcomed and relevant. In addition to Pinners’ ability to [block someone from sending additional](https://help.pinterest.com/article/block-or-unblock-someone) unwelcome messages, we may warn or suspend accounts that violate our guidelines, including by sending messages that contain:
 
 - Spam
 
@@ -422,7 +364,7 @@ All of our Community Guidelines apply to messages sent between Pinners. Messages
 
 - Hateful activities like racial slurs
 
-- Harassing content or behavior, including cyberbullying
+- Harassing content or behavior, including [cyberbullying](https://help.pinterest.com/article/report-harassment-and-cyberbullying)
 
 - Exploitation of private information
 
@@ -436,7 +378,7 @@ To respect the rights of people on and off Pinterest, please:
 
 - Don’t do anything or post any content that violates laws or regulations.
 
-- Don’t use Pinterest’s name, logo or trademark in a way that confuses people (check out our brand guidelines for more details).
+- Don’t use Pinterest’s name, logo or trademark in a way that confuses people (check out our [brand guidelines](https://business.pinterest.com/brand-guidelines) for more details).
 
 Site security and access
 
@@ -444,7 +386,7 @@ To protect the Pinterest platform, we ask that you please:
 
 - Don’t access, use or tamper with our systems or our technical providers’ systems.
 
-- Don’t break or circumvent our security measures or test the vulnerability of our systems or networks, except as part of an authorized Pinterest bug bounty program .
+- Don’t break or circumvent our security measures or test the vulnerability of our systems or networks, except as part of an authorized Pinterest [bug bounty program](https://policy.pinterest.com/responsible-disclosure-statement) .
 
 - Don’t use any undocumented or unsupported method to access, search, scrape, download or change any part of Pinterest.
 
@@ -458,7 +400,7 @@ To protect the Pinterest platform, we ask that you please:
 
 - Don’t attempt to buy or sell access to your account, boards, or usernames, or otherwise transfer account features for compensation.
 
-You can’t use Pinterest if it would be prohibited by US sanctions . Personal accounts and business accounts are currently not available in North Korea. Business accounts are currently not available in Crimea, Cuba, Donetsk People's Republic, Iran, Luhansk People's Republic, North Korea or Syria.
+You can’t use Pinterest if it would be prohibited by [US sanctions](https://www.treasury.gov/resource-center/sanctions/Pages/default.aspx) . Personal accounts and business accounts are currently not available in North Korea. Business accounts are currently not available in Crimea, Cuba, Donetsk People's Republic, Iran, Luhansk People's Republic, North Korea or Syria.
 
 Spam
 
@@ -466,11 +408,11 @@ We want the inspiration and ideas on Pinterest to be high-quality and useful, so
 
 Our guidelines around spam are:
 
-- Don't use automation that hasn't been explicitly approved by Pinterest. This includes unauthorized services that automatically perform actions on your behalf. You can find information on approved partner tools on our Partners website .
+- Don't use automation that hasn't been explicitly approved by Pinterest. This includes unauthorized services that automatically perform actions on your behalf. You can find information on approved partner tools on our [Partners website](https://business.pinterest.com/pinterest-partners) .
 
 - Don't create or operate accounts that aren't authentic, create accounts en masse, or create new accounts for the purpose of violating these guidelines.
 
-- Don't create or save content that is repetitive, deceptive, or irrelevant in an attempt to make money. To learn how to make great Pins, you can always refer to our creative best practices .
+- Don't create or save content that is repetitive, deceptive, or irrelevant in an attempt to make money. To learn how to make great Pins, you can always refer to our [creative best practices](https://business.pinterest.com/creative-best-practices) .
 
 - In general, don't attempt to make money from Pinners or Pinner web traffic in ways that are misleading, detract from the Pinner experience, or don't add value for Pinners.
 
@@ -489,143 +431,3 @@ Our guidelines around spam are:
 - With respect to redirection, we encourage you to follow a “no surprises” principle — Pinners should be able to reasonably anticipate where your link will take them. Links that exhibit excessive or deceptive redirection, as well as shortener services that are abused for spam, may be blocked.
 
 Last updated: December 2025
-
-Skip to navigation
-
-English (US)
-
-English (US)
-
-Afrikaans
-
-Azərbaycan dili
-
-Bahasa Indonesia
-
-Bahasa Malaysia
-
-Dansk
-
-Deutsch
-
-Eesti keel
-
-English (UK)
-
-Español
-
-Filipino
-
-Français
-
-Gaeilge
-
-Hrvatski
-
-Italiano
-
-Latviešu
-
-Lietuvių kalba
-
-Magyar
-
-Maltese
-
-Nederlands
-
-Norsk bokmål
-
-Polski
-
-Português (Brasil)
-
-Português (Europeu)
-
-Română
-
-Shqip
-
-Slovenčina
-
-Slovenščina
-
-Suomi
-
-Svenska
-
-Tiếng Việt
-
-Türkçe
-
-Čeština
-
-Ελληνικά
-
-Кыргызча
-
-Македонски
-
-Монгол
-
-Русский
-
-Српски
-
-Українська
-
-български
-
-Қазақша
-
-Հայերեն
-
-עברית
-
-العربية
-
-हिन्दी
-
-বাংলা
-
-தமிழ்
-
-తెలుగు
-
-සිංහල
-
-ภาษาไทย
-
-ქართული
-
-日本語
-
-简体中文
-
-繁體中文
-
-한국어
-
-Company
-
-About Pinterest Newsroom Careers Investors
-
-More from Pinterest
-
-Help Center Businesses Creators Developers
-
-©
-
-2026
-
-Pinterest
-
-Terms of Service
-
-Copyright
-
-&
-
-Trademark
-
-Privacy Policy Non-user notice Cookies policy Personalized ads

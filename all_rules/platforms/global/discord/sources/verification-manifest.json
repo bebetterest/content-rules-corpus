@@ -101,8 +101,8 @@
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 4449,
-    "body_sha256": "e91c1de2dee8663231175da74cbc4c43a94cdee95cafa3ae63d273d5a3274b26",
+    "paragraph_count": 1158,
+    "body_sha256": "4fed33f4ef1f1dcddd75a6b7fc41d98dbd2fbdc1de64a108b19dc4fd204f190f",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -126,9 +126,9 @@
         "source_file": "all_rules/platforms/global/discord/sources/platform-discord-community-guidelines-linked-02-policies-and-agreements-developer-terms-of-service.discord-com.html",
         "sha256": "f28709418f95b49e3dfb8c1b2778b25b6f7ea6b3f3b01ce1c0fc975b05d4b431",
         "bytes": 190709,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/global/discord/sources/platform-discord-community-guidelines-linked-03-policies-and-agreements-developer-policy.discord-com.html",

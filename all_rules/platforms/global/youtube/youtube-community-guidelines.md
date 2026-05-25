@@ -101,7 +101,7 @@
 - all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-linked-20-answer-6162278.support-google-com.html: 7d385fc4b7849fd09b30830e99227714224530a1b805a3cc2f4830bb189045d3
 - all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-linked-21-answer-2801895.support-google-com.html: bcb90bd7437fc50c6a3711a8c285f1e6f328be741ce20f4f198ad85c3fa3218c
 - all_rules/platforms/global/youtube/sources/platform-youtube-community-guidelines-linked-22-answer-9057652.support-google-com.html: 65b4fa7e2feff56053df363468c8d7f6c197c1c8b152e654417dccfb2b1b5bbc
-- Body SHA-256: 4307322e477bd6e974d87e61c3423ecf287c7fde6734341731aba3ccbc025944
+- Body SHA-256: 4a00de6f0e2fd5e1eb719f50ed096285eddaea0c224f01ff0da49f0844ebd6bd
 
 ## Source Text
 
@@ -116,8 +116,6 @@ Sometimes, content that would otherwise violate our Community Guidelines may sta
 These policies apply to all types of content on our platform, including, for example, unlisted and private content, comments, [links](sources/platform-youtube-community-guidelines-04.support-google-com.html) , posts, and thumbnails. This list isn’t complete.
 
 [Creating with Common Sense: YouTube Community Guidelines](https://www.youtube.com/watch?v=m8jHLFAmPO0)
-
-Subscribe to the [YouTube Creators channel](https://www.youtube.com/channel/UCkRfArvrzheW2E7b6SVT7vQ) for the latest news, updates, and tips.
 
 Spam & deceptive practices
 
@@ -2815,8 +2813,6 @@ To check if a video that you reported has been removed, you can view your [Repor
 
 [The Life of a Flag](https://www.youtube.com/watch?v=WK8qRNSmhEU)
 
-Subscribe to the [YouTube Viewers channel](https://www.youtube.com/channel/UCMDQxm7cUx3yXkfeHa5zJIQ) for the latest news, updates, and tips.
-
 How to report content
 
 Report a video
@@ -3156,8 +3152,6 @@ Policies and guidelines
 When you use YouTube, you join a community of people from all over the world. The guidelines and policies help keep the YouTube community safe, fun and enjoyable for everyone. Check out this video for an overview of the various guidelines and rules that apply to content on YouTube.
 
 [Community Guidelines: YouTube’s Rules of the Road (Part 1)](https://www.youtube.com/watch?v=IvQkb8aHPu8)
-
-Subscribe to the [YouTube Creators channel](https://www.youtube.com/channel/UCkRfArvrzheW2E7b6SVT7vQ) for the latest news, updates, and tips.
 
 Things to keep in mind
 
@@ -3696,8 +3690,6 @@ You’ll see handles in places like comments, mentions, Live Chat, and Shorts. Y
 Note: All YouTube users can select a handle, but each channel can only have one handle. Any legacy [personalized URLs](https://support.google.com/youtube/answer/6180214) that you have will continue to work. YouTube reserves the right to change, reclaim, or remove a handle at any time.
 
 [Handles on YouTube](https://www.youtube.com/watch?v=cUcxoScgWS4)
-
-Subscribe to the [YouTube Creators channel](https://www.youtube.com/channel/UCkRfArvrzheW2E7b6SVT7vQ) for the latest news, updates, and tips.
 
 Handle naming guidelines
 
@@ -4423,8 +4415,6 @@ Reporting tools & policies for YouTube safety
 
 [Staying Safe on YouTube: Policies and Tools for Creators](https://www.youtube.com/watch?v=LpUk_Ms1EVw)
 
-Subscribe to the [YouTube Creators channel](https://www.youtube.com/channel/UCkRfArvrzheW2E7b6SVT7vQ) for the latest news, updates, and tips.
-
 YouTube is a place where people come to share their story, express an opinion, and engage with one another. We want to ensure creators and viewers feel safe doing so. While the majority of YouTube’s creators and viewers want to share, learn, and connect, we know there are instances of abuse, or even harassment. Learn more about the policies and tools in place to protect you on YouTube below.
 
 Creators and users also have a responsibility to keep YouTube a safe and healthy platform. Learn more [here](https://support.google.com/youtube/answer/7650329) about how we hold creators and users accountable for maintaining these standards.
@@ -4484,8 +4474,6 @@ If you’re in the YouTube Partner Program, you can share revenue from ads. This
 Our systems don't always get it right, but you can [request human review](https://support.google.com/youtube/answer/7083671?hl=en) of decisions made by our automated systems.
 
 [Advertiser-friendly Content Guidelines & Yellow Monetization Icons](https://www.youtube.com/watch?v=shmGG87ZELI)
-
-Subscribe to the [YouTube Creators channel](https://www.youtube.com/channel/UCkRfArvrzheW2E7b6SVT7vQ) for the latest news, updates, and tips.
 
 Note : All content uploaded to YouTube must comply with both our [Community Guidelines](https://www.youtube.com/howyoutubeworks/policies/community-guidelines/) and [our Program Policies](https://support.google.com/adsense/answer/48182) . If your content violates our Community Guidelines, it may be removed from YouTube. If you see violative content, [you can report it](sources/platform-youtube-community-guidelines-linked-01-answer-2802027.support-google-com.html) .
 

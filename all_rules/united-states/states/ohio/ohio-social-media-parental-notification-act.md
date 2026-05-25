@@ -16,21 +16,21 @@
 - Status Note: Official Ohio Laws codified source for Ohio Revised Code section 1349.09. Current litigation and enforceability status should be verified before legal use.
 - Source SHA-256:
 - all_rules/united-states/states/ohio/sources/us-state-ohio-social-media-parental-notification-act.codes-ohio-gov.html: 5b5e5a797c54d55adfff9f344d506d8ec8af5118177f93e472886bfe56a4378d
-- Body SHA-256: c02437cf2bfd2789b821b897552ddee19574d06ba36927961b404e2a7d13509f
+- Body SHA-256: 1f9e2c511157e5a13f396e807ba8a795fb52041077480d409d0fcd6dfd0d0647
 
 ## Source Text
 
 Section 1349.09 | Parental notification by social media operators [applies beginning 1/15/2024 per Section 803.380 of H.B. 33, 135th General Assembly].
 
-Ohio Revised Code
+[Ohio Revised Code](https://codes.ohio.gov/ohio-revised-code)
 
 /
 
-Title 13 Commercial Transactions
+[Title 13 Commercial Transactions](https://codes.ohio.gov/ohio-revised-code/title-13)
 
 /
 
-Chapter 1349 Consumer Protection
+[Chapter 1349 Consumer Protection](https://codes.ohio.gov/ohio-revised-code/chapter-1349)
 
 Effective:
 
@@ -42,7 +42,7 @@ House Bill 33 - 135th General Assembly
 
 PDF:
 
-Download Authenticated PDF
+[Download Authenticated PDF](https://codes.ohio.gov/assets/laws/revised-code/authenticated/13/1349/1349.09/10-3-2023/1349.09-10-3-2023.pdf)
 
 (A) As used in this section:
 
@@ -108,7 +108,7 @@ Download Authenticated PDF
 
 (F) If a parent or legal guardian receives confirmation of consent, as described in division (D) of this section, and determines that consent was given in error, or if the parent or legal guardian chooses to withdraw consent for any reason, the parent or legal guardian shall notify the operator, and the operator shall terminate the child's use of or access to the online web site, service, or product within thirty days after receiving such notification.
 
-(G) The attorney general shall investigate any noncompliance with this section in the same manner, by the same means, and with the same jurisdiction, powers, and duties as in section 1349.191 of the Revised Code. Nothing in this section shall be interpreted to serve as the basis for a private right of action.
+(G) The attorney general shall investigate any noncompliance with this section in the same manner, by the same means, and with the same jurisdiction, powers, and duties as in section [1349.191](https://codes.ohio.gov/ohio-revised-code/section-1349.191) of the Revised Code. Nothing in this section shall be interpreted to serve as the basis for a private right of action.
 
 (H) If it appears that an operator of an online web site, service, or product failed to comply with this section, the attorney general has the exclusive authority to bring a civil action in a court of common pleas, or other appropriate court, for appropriate relief including a temporary restraining order, preliminary or permanent injunction, and civil penalties.
 
@@ -120,7 +120,7 @@ Download Authenticated PDF
 
 (3) In addition to the civil penalties required by divisions (I)(1) and (2) of this section, up to ten thousand dollars for each subsequent day the operator failed to comply with this section, commencing with the ninety-first day.
 
-(J) Any civil penalty that is imposed under division (I) of this section shall be deposited into the consumer protection enforcement fund created under section 1345.51 of the Revised Code.
+(J) Any civil penalty that is imposed under division (I) of this section shall be deposited into the consumer protection enforcement fund created under section [1345.51](https://codes.ohio.gov/ohio-revised-code/section-1345.51) of the Revised Code.
 
 (K) Any operator that is found by the court to have failed to comply with this section is liable to the attorney general for the attorney general's costs in conducting an investigation and bringing an action under this section.
 
@@ -149,11 +149,3 @@ Download Authenticated PDF
 (1) Reviewing products offered for sale by electronic commerce or commenting on reviews posted by other users;
 
 (2) Comments incidental to content posted by an established and widely recognized media outlet, the primary purpose of which is to report news and current events.
-
-Last updated December 6, 2023 at 10:54 AM
-
-Available Versions of this Section
-
--
-
-October 3, 2023 &ndash; Enacted by House Bill 33 - 135th General Assembly

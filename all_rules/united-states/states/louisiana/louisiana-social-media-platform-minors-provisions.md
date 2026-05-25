@@ -8,7 +8,7 @@
 - Source Authority: Louisiana State Legislature
 - Source URL:
 - https://legis.la.gov/legis/LawPrint.aspx?d=1337818
-- Retrieval Date: 2026-05-23
+- Retrieval Date: 2026-05-24
 - Language: en
 - Fetch Method: html
 - Extractor: generic-html

@@ -14,11 +14,9 @@
 - Status Note: Official Utah Code PDF source. Current stay/enforcement status should be verified before legal use.
 - Source SHA-256:
 - all_rules/united-states/states/utah/sources/us-state-utah-minor-protection-social-media-act.le-utah-gov.pdf: b044dec62841037405a0208dd524bf593bd34115e73ac5179b13f4d03f72a3c3
-- Body SHA-256: a45c8c0e27a3cd373ef64fb963f1bb5b3814b4bd32b1f4a02df45820142ea27c
+- Body SHA-256: 5edf7a27d996b479b90da7380cddf0336f04ba914e59003af02760df6304ea68
 
 ## Source Text
-
-Utah Code
 
 Effective 10/1/2024
 Chapter 71
@@ -67,9 +65,6 @@ identified individual or an identifiable individual.
 (ix) any other identifier that a person may use to contact a specific individual.
 (11) "Push notification" means an automatic electronic message displayed on an account holder's
 device, when the user interface for the social media service is not actively open or visible on the
-
-Page 1
-Utah Code
 
 device, that prompts the account holder to repeatedly check and engage with the social media
 service.
@@ -120,9 +115,6 @@ exposing minors to risks that could be mitigated with proper parental involvemen
 including regulations on motor vehicles, medications, and products and services targeted to
 children;
 
-Page 2
-Utah Code
-
 (6) prolonged and unregulated social media use has been linked to adverse effects on the mental
 health of minors, including increased rates of anxiety, depression, and social isolation;
 (7) existing measures employed by social media companies to protect minors have proven
@@ -169,9 +161,6 @@ Utah minor account holder's account;
 (2) implement and maintain reasonable security measures, including data encryption, to protect
 the confidentiality, security, and integrity of personal information collected from a Utah minor
 account holder;
-
-Page 3
-Utah Code
 
 (3) provide an easily accessible and understandable notice that:
 (a) describes any information the social media company collects from a Utah minor account
@@ -221,9 +210,6 @@ consent.
 presumed to include an assurance of confidentiality for the Utah minor account holder's
 personal information.
 
-Page 4
-Utah Code
-
 (3) The presumption of confidentiality in Subsection (2) may be overcome if the social media
 company obtains verifiable parental consent.
 (4) The presumption of confidentiality in Subsection (2) does not apply to a social media
@@ -270,9 +256,6 @@ subject to a civil penalty of no more than $5,000 for each violation.
 (b) A civil penalty authorized under this section may be imposed in any civil action brought by the
 division, or by the attorney general on behalf of the division.
 
-Page 5
-Utah Code
-
 (5) All money received for the payment of a fine or civil penalty imposed under this section shall be
 deposited into the Consumer Protection Education and Training Fund established in Section
 13-2-109.
@@ -308,5 +291,3 @@ chapter shall be given effect without the invalid provision or application.
 the laws of this state or the United States.
 
 Enacted by Chapter 206, 2024 General Session
-
-Page 6

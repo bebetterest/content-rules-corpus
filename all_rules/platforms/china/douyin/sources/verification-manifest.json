@@ -35,8 +35,8 @@
     "language": "zh-CN",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 225,
-    "body_sha256": "80dfc18a66ec6171aa0ca7fa26238edb1be0b712a112bc8106cd2a88e6ff5d8d",
+    "paragraph_count": 170,
+    "body_sha256": "4ecf9be0a079ae486808b1688028df1764d52288f84b1bece16c47e619241f74",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -132,8 +132,8 @@
     "language": "zh-CN",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 1102,
-    "body_sha256": "29918a6c61596fbbbca7b7a06e884a18a363e603d6fa0e20cd91095b80ef9675",
+    "paragraph_count": 1045,
+    "body_sha256": "e7327c6b966ba5d8b6c8b2d9acff8d8cdd6140d060bb10aafd0da55fbf4a1a6a",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [

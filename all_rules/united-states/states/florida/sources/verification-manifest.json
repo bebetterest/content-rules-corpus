@@ -10,17 +10,20 @@
       "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0500-0599/0501/Sections/0501.1737.html",
       "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0500-0599/0501/Sections/0501.1738.html"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/united-states/states/florida/sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html",
       "all_rules/united-states/states/florida/sources/us-state-florida-online-protections-for-minors-02.leg-state-fl-us.html",
       "all_rules/united-states/states/florida/sources/us-state-florida-online-protections-for-minors-03.leg-state-fl-us.html"
     ],
-    "retrieved_date": "2026-05-23",
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-24",
     "language": "en",
     "extraction_status": "extracted",
     "extraction_note": null,
-    "paragraph_count": 452,
-    "body_sha256": "806d85ac5fbca9371290d370d38ca234f729ccf7859aa8c4502cdad6b5021465",
+    "paragraph_count": 137,
+    "body_sha256": "68b06e19f072abd3925f2b17e2aacc4981470fc4ad386084bf77856fe047b35c",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -28,24 +31,24 @@
         "source_file": "all_rules/united-states/states/florida/sources/us-state-florida-online-protections-for-minors-01.leg-state-fl-us.html",
         "sha256": "4b72b9fdd79c4f10c29d88b2b61b0ac92cbf414cbd80c5fdb9294b544d3da2ad",
         "bytes": 41768,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "downloader": "cached",
+        "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/united-states/states/florida/sources/us-state-florida-online-protections-for-minors-02.leg-state-fl-us.html",
         "sha256": "f40903d9260503c61ec8f7ad55aff8c2861f536ad3956d99376a01e83afa19bf",
         "bytes": 37155,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "downloader": "cached",
+        "fallback_from": null,
         "content_type": null
       },
       {
         "source_file": "all_rules/united-states/states/florida/sources/us-state-florida-online-protections-for-minors-03.leg-state-fl-us.html",
         "sha256": "630449ac390c65c6d85b24b02898c8e94652aa49089dcd09c2bff7775688dd59",
         "bytes": 19401,
-        "downloader": "curl",
-        "fallback_from": "fetch failed",
+        "downloader": "cached",
+        "fallback_from": null,
         "content_type": null
       }
     ]

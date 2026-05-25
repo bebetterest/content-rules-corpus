@@ -52,17 +52,17 @@
         "source_file": "all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-01.member-bilibili-com.html",
         "sha256": "11b89d18fac7c28c3e0efea3e55a9683616f9771ec63df3e789d9aaa7ee30e02",
         "bytes": 1742,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-02.s1-hdslb-com.html",
         "sha256": "3a3421dd531b130e1865a4c671c131b87cdd4dc4d939b4d4589371b82d9e2d6b",
         "bytes": 133490,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "application/javascript; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-linked-01-eden-news.link-bilibili-com.html",
@@ -100,25 +100,25 @@
         "source_file": "all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-linked-05-blackboard-help.bilibili-com.html",
         "sha256": "772a85d712fb3c7fc32d400778c2d3b931d6fb20033b49dfbeba2f9c0c45316b",
         "bytes": 245768,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-linked-06-blackboard-help.bilibili-com.html",
         "sha256": "f676178c2703d60f74203d9cded960fdb6c758d3a9d31cd3d2a1d683c1c99491",
         "bytes": 254330,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/china/bilibili/sources/platform-bilibili-community-convention-linked-07-blackboard-help.bilibili-com.html",
         "sha256": "8cda1eee4e33b8b920c889713465929986e8e636c3e3451042d0f0db6c5bef65",
         "bytes": 245638,
-        "downloader": "playwright",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": null
       }
     ]
   }

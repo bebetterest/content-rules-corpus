@@ -6,7 +6,7 @@
 - Source Authority: Twitch Safety Center
 - Source URL:
 - https://safety.twitch.tv/articles/en_US/Knowledge/Community-Guidelines
-- Retrieval Date: 2026-05-23
+- Retrieval Date: 2026-05-24
 - Language: en
 - Fetch Method: html
 - Extractor: generic-html
@@ -14,11 +14,11 @@
 - Status Note: Official Twitch Safety Center page.
 - Source SHA-256:
 - all_rules/platforms/global/twitch/sources/platform-twitch-community-guidelines.safety-twitch-tv.html: b2cfe78ddfe81d275823a9279210926170c26f72c90b3317d2eec0e064f7c840
-- Body SHA-256: 47b51b7d0c9dc976418bc9c20af8d59388b01c7fb5352b0dec96edfb50bd8b8b
+- Body SHA-256: 8b0452ef72fba2f5259eaa236c5946d6ba2ca3505ac78afcbfffaa9a47afa858
 
 ## Source Text
 
-Login | Forgot Your Password?
+[Login](https://safety.twitch.tv/site/SiteLogin.apexp) | [Forgot Your Password?](https://safety.twitch.tv/site/ForgotPassword.apexp)
 
 Community Guidelines
 
@@ -52,11 +52,11 @@ Introduction to Safety on Twitch
 
 Community is the heart of Twitch. From individual communities, built by streamers and their viewers, to the Twitch Community at large, the magic of Twitch comes from enjoying the things we love together. But before you can do what you do best, a very important prerequisite must be met: safety.
 
-Safety is the foundation beneath streamers, moderators, and everyone in chat. We want to foster a community that supports and sustains streamers’ ability to express themselves, and provides a welcoming and entertaining environment for viewers, free of illegal, harmful, and negative interactions. As a result, we take an approach to safety that combines the efforts of both Twitch and members of the community, working together globally to promote safety in real time. It starts with our Community Guidelines, which seek to balance user expression with community safety, and set expectations for the behavior that everyone on Twitch is expected to demonstrate. When we talk about harm, we mean actions that lead to physical, emotional, social or financial damage or loss to our users or to society.
+Safety is the foundation beneath streamers, moderators, and everyone in chat. We want to foster a community that supports and sustains streamers’ ability to express themselves, and provides a welcoming and entertaining environment for viewers, free of illegal, harmful, and negative interactions. As a result, we take [an approach to safety](https://safety.twitch.tv/s/article/Safety-at-Twitch) that combines the efforts of both Twitch and members of the community, working together globally to promote safety in real time. It starts with our Community Guidelines, which seek to balance user expression with community safety, and set expectations for the behavior that everyone on Twitch is expected to demonstrate. When we talk about harm, we mean actions that lead to physical, emotional, social or financial damage or loss to our users or to society.
 
-These guidelines set the guardrails for what behavior is and is not allowed on our service, and apply to all content on our service, including video, chat, whispers, and accounts. When we find someone has violated our Community Guidelines we take actions that can include removal of content, removal of monetization tools, a warning, and/or suspension of their account. If someone who receives an account enforcement believes it was issued by mistake or in error, they may file an appeal using our Appeals procedures .
+These guidelines set the guardrails for what behavior is and is not allowed on our service, and apply to all content on our service, including video, chat, whispers, and accounts. When we find someone has violated our Community Guidelines [we take actions](https://help.twitch.tv/s/article/about-account-suspensions-dmca-suspensions-and-chat-bans) that can include removal of content, removal of monetization tools, a warning, and/or suspension of their account. If someone who receives an account enforcement believes it was issued by mistake or in error, they may file an appeal using our [Appeals procedures](https://safety.twitch.tv/s/article/appeals) .
 
-We consider our Community Guidelines to be a living document, and we work with streamers, mods, and external safety and policy experts to review and update them regularly. In addition to these guidelines, streamers and moderators can also use customizable Twitch safety tools to tailor their channel standards to meet their needs. Viewers, moderators, and streamers play a crucial role by reporting content or behavior that breaks our Community Guidelines. Reports are reviewed by our global Safety Operations team who work 24/7/365 to ensure a swift response. In this way, we all work together to promote a safe and welcoming live environment.
+We consider our Community Guidelines to be a living document, and we work with streamers, mods, and external safety and policy experts to review and update them regularly. In addition to these guidelines, streamers and moderators can also use customizable [Twitch safety tools](https://safety.twitch.tv/s/article/Chat-Tools) to tailor their channel standards to meet their needs. Viewers, moderators, and streamers play a crucial role by reporting content or behavior that breaks our Community Guidelines. Reports are reviewed by our global Safety Operations team who work 24/7/365 to ensure a swift response. In this way, we all work together to promote a safe and welcoming live environment.
 
 Enforcement Notes
 
@@ -86,7 +86,7 @@ For example, you may not show or promote [content warning]:
 
 - Dangerous or distracted driving, including using a phone while driving and driving under the influence
 
-If you feel like you’re struggling, or you know someone who you believe might hurt themselves or others, or if someone is at immediate risk of suicide, please contact someone you trust, a healthcare provider, mental health hotline, or local law enforcement for immediate help and support. We also have resources and help lines available for you here .
+If you feel like you’re struggling, or you know someone who you believe might hurt themselves or others, or if someone is at immediate risk of suicide, please contact someone you trust, a healthcare provider, mental health hotline, or local law enforcement for immediate help and support. We also have resources and help lines available for you [here](https://safety.twitch.tv/s/article/Crisis-Prevention) .
 
 Enforcement Notes and Clarifications:
 
@@ -128,7 +128,7 @@ In situations where a user has lost control of their broadcast due to severe inj
 
 In exceptional circumstances, we may preemptively suspend accounts when we believe an individual’s use of Twitch poses a high likelihood of inciting violence. In weighing the risk of harm, we consider an individual’s influence, the level of recklessness in their past behaviors (on Twitch or elsewhere), whether or not there continues to be a risk of harm, and the scale of ongoing threats.
 
-Content or activities that threaten or promote sexual violence are strictly prohibited and may be reported to law enforcement. See Adult Sexual Violence for more detail.
+Content or activities that threaten or promote sexual violence are strictly prohibited and may be reported to law enforcement. See [Adult Sexual Violence](https://safety.twitch.tv/s/article/Community-Guidelines#6AdultSexualViolence) for more detail.
 
 Terrorism and Violent Extremism
 
@@ -152,7 +152,7 @@ For example, you may not show, promote, or engage in [content warning]:
 
 Youth Safety
 
-Twitch prohibits any content or activity that endangers youth. This includes content that features or promotes child sexual abuse material (CSAM), and the sexual exploitation, sexual misconduct or grooming of youth (which is defined by this policy as minors under 18). We report all illegal content or activity to the National Center for Missing and Exploited Children , which works with global law enforcement agencies around the world, and the consequence for engaging in such activity or with such content is immediate and indefinite suspension.
+Twitch prohibits any content or activity that endangers youth. This includes content that features or promotes child sexual abuse material (CSAM), and the sexual exploitation, sexual misconduct or grooming of youth (which is defined by this policy as minors under 18). We report all illegal content or activity to the [National Center for Missing and Exploited Children](https://www.missingkids.org/HOME) , which works with global law enforcement agencies around the world, and the consequence for engaging in such activity or with such content is immediate and indefinite suspension.
 
 For example, you may not show, promote, or engage in [content warning]:
 
@@ -420,9 +420,7 @@ Enforcement Notes are additional examples of what is and isn’t allowed on Twit
 
 - Allowed examples: Speaking of an experience where a slur was used against yourself or which you overheard - “I was at the supermarket and heard someone yell [slur]” or “I was once called a [slur] at work by a colleague”.
 
--
-
-We prohibit the use of terms that may not be harmful or abusive in isolation, but can be used as a slur or to denigrate others in certain contexts. Similar to other terms that may be used as a proxy for a protected group, we treat “Zionists” as a proxy for Jews or Israelis if the word is used in a context to promote harm or violence, or when used to make dehumanizing comparisons or perpetuate antisemitic stereotypes. Comments regarding Zionism that are about the political movement, including criticisms, do not violate our Hateful Conduct Policy. Comments that call for violence against Zionism as a political movement, or comments that would otherwise violate our policies, are not allowed.
+- We prohibit the use of terms that may not be harmful or abusive in isolation, but can be used as a slur or to denigrate others in certain contexts. Similar to other terms that may be used as a proxy for a protected group, we treat “Zionists” as a proxy for Jews or Israelis if the word is used in a context to promote harm or violence, or when used to make dehumanizing comparisons or perpetuate antisemitic stereotypes. Comments regarding Zionism that are about the political movement, including criticisms, do not violate our Hateful Conduct Policy. Comments that call for violence against Zionism as a political movement, or comments that would otherwise violate our policies, are not allowed.
 
 - Allowed example: Zionist settlers keep encroaching Palestinian borders.
 
@@ -572,7 +570,7 @@ Harassment becomes hateful conduct when the behavior is targeted at an individua
 
 Am I required to communicate to another user that I feel harassed by their behavior in order for my report to be considered valid?
 
-No, you may decide that some forms of harassment are severe enough to warrant reporting without first communicating to the other user that they are unwanted. You may choose to communicate that this conduct is unwanted, but we strongly recommend that you do so only if you feel that it is safe and appropriate. If the unwanted behavior persists, we recommend you report the user and consider other options to manage the situation such as blocking the user’s account(s) or banning them from chat. For more information on managing abuse directed towards you, see our guide on How to Manage Harassment in Chat .
+No, you may decide that some forms of harassment are severe enough to warrant reporting without first communicating to the other user that they are unwanted. You may choose to communicate that this conduct is unwanted, but we strongly recommend that you do so only if you feel that it is safe and appropriate. If the unwanted behavior persists, we recommend you report the user and consider other options to manage the situation such as blocking the user’s account(s) or banning them from chat. For more information on managing abuse directed towards you, see our guide on [How to Manage Harassment in Chat](https://help.twitch.tv/s/article/how-to-manage-harassment-in-chat) .
 
 How can I indicate that a behavior is unwanted?
 
@@ -592,7 +590,7 @@ You are responsible for ensuring that content that appears on your stream abides
 
 Are streamers responsible for all hateful content in their channel?
 
-Streamers are role models and leaders of the communities they create or foster around them. Streamers are expected to use channel moderators and the tools we provide, such as AutoMod , chat timeouts and bans, to mitigate hateful conduct in their channel. Not using the provided tools to moderate hateful conduct appearing on a channel—or otherwise attempting to mitigate the behavior/content—will lead to a suspension.
+Streamers are role models and leaders of the communities they create or foster around them. Streamers are expected to use channel moderators and the [tools](https://help.twitch.tv/s/article/setting-up-moderation-for-your-twitch-channel) we provide, such as [AutoMod](https://help.twitch.tv/s/article/how-to-use-automod) , chat timeouts and bans, to mitigate hateful conduct in their channel. Not using the provided tools to moderate hateful conduct appearing on a channel—or otherwise attempting to mitigate the behavior/content—will lead to a suspension.
 
 What slurs are considered violating?
 
@@ -608,7 +606,7 @@ We will take action on all instances of hateful conduct and harassment, with an 
 
 How should I handle cases of potential criminal misconduct?
 
-We encourage users to submit reports against harassment or hateful conduct directed towards themselves. If you feel that this abuse rises to a legal claim or to a crime, however, we encourage you to also seek help from an attorney or your local law enforcement. If someone else’s behavior has made you fear for your own safety or that of your immediate family, we encourage you to report this to your local law enforcement immediately. When contacted by law enforcement through the appropriate legal process, Twitch will provide the relevant information, as laid out in our Terms of Service .
+We encourage users to submit reports against harassment or hateful conduct directed towards themselves. If you feel that this abuse rises to a legal claim or to a crime, however, we encourage you to also seek help from an attorney or your local law enforcement. If someone else’s behavior has made you fear for your own safety or that of your immediate family, we encourage you to report this to your local law enforcement immediately. When contacted by law enforcement through the appropriate legal process, Twitch will provide the relevant information, as laid out in our [Terms of Service](https://www.twitch.tv/p/legal/terms-of-service/) .
 
 Illegal Activity
 
@@ -644,15 +642,15 @@ For example, without permission from the rights holders or unless otherwise perm
 
 - Closed Alphas/Betas and Pre-Release Games. We ask that you respect all publisher/developer-enforced release dates, embargoes, and NDAs by waiting to broadcast these games until everyone else gets to. Unless given prior approval, your channel may be subject to DMCA takedown by a rights holder.
 
-Learn more about our policies regarding including music in your Twitch channel.
+[Learn more](https://legal.twitch.com/legal/music/) about our policies regarding including music in your Twitch channel.
 
 Any unauthorized content users share on Twitch violates our Terms of Service and is subject to removal. Multiple violations of our policies may lead to a permanent suspension of a user’s account. Rights holders may request that Twitch remove unauthorized content and/or issue penalties through the following processes:
 
-- For copyrighted works, the notice-and-takedown process described in our DMCA Guidelines .
+- For copyrighted works, the notice-and-takedown process described in our [DMCA Guidelines](https://www.twitch.tv/p/legal/dmca-guidelines/) .
 
-- For trademarks, the process described in our Trademark Policy .
+- For trademarks, the process described in our [Trademark Policy](https://www.twitch.tv/p/legal/trademark-policy/) .
 
-- For copyrighted works owned by rights holders with whom Twitch has contractual arrangements, we may have separate reporting and handling processes, for example, the Music Reporting Process .
+- For copyrighted works owned by rights holders with whom Twitch has contractual arrangements, we may have separate reporting and handling processes, for example, the [Music Reporting Process](https://www.twitch.tv/p/en/legal/dmca-guidelines/music-reporting-process) .
 
 Sensitive Content
 
@@ -674,19 +672,17 @@ For example, you may not show, offer, or promote [content warning]:
 
 - Explicit, simulated, fictional, or implied sex or masturbation. This includes oral, anal, and vaginal sex, touching of genitals in self or mutual masturbation, or prolonged audio that implies sex/masturbation/orgasm.
 
-- Adult nudity without implied or real sex acts is subject to our Adult Nudity policies
+- Adult nudity without implied or real sex acts is subject to our [Adult Nudity](https://safety.twitch.tv/s/article/Community-Guidelines#21AdultNudity) policies
 
 - Display of sexual bodily fluids
 
 - Advertisement or solicitation of sexual services, including prostitution, escort services, sexual massages, and filmed sexual activity
 
--
-
-Content that focuses on clothed intimate body parts such as the buttocks, groin, or breasts for extended periods of time.
+- Content that focuses on clothed intimate body parts such as the buttocks, groin, or breasts for extended periods of time.
 
 - Consensual sexual violence such as flogging or whipping another person
 
-- Non-consensual sexual violence is subject to our Adult Sexual Violence and Exploitation policies
+- Non-consensual sexual violence is subject to our [Adult Sexual Violence and Exploitation](https://safety.twitch.tv/s/article/Community-Guidelines?#6AdultSexualViolenceandExploitation) policies
 
 - Graphic descriptions of sex acts such as phone sex or erotica
 
@@ -696,7 +692,7 @@ The foregoing list is not exhaustive, and Twitch reserves the right to remove co
 
 Users may not directly link, promote, or advertise pornographic content in their broadcasts, profile, or chat. While users may not directly link to pornographic or sexually explicit content in their broadcasts, profile, or chat, users will not be penalized for linking to their personal websites or social media pages that may incidentally contain these links.
 
-For information about content relating to sexuality and sexual themes that is allowed with a label, see the Sexual Themes policy .
+For information about content relating to sexuality and sexual themes that is allowed with a label, see the [Sexual Themes policy](https://safety.twitch.tv/s/article/Content-Classification-Guidelines#2II:SexualThemes) .
 
 Enforcement Notes and Clarifications [content warning]:
 
@@ -722,7 +718,7 @@ Enforcement Notes are additional examples of what is and isn’t allowed on Twit
 
 - If your channel is reported multiple times in a short period of time for sexual content (or for any other policy violation), this will not result in your channel being suspended if you did nothing wrong. All of our sexual content enforcements are manually reviewed and issued.
 
-- Emotes, badges, and cheermotes are also subject to our policies. Because subscriber emotes are available for use globally across Twitch and highly visible outside of their original channels, our emote guidelines may be more restrictive than our general Community Guidelines in some instances. Please refer to the Emote Guidelines to review emote-specific standards for sexual content.
+- Emotes, badges, and cheermotes are also subject to our policies. Because subscriber emotes are available for use globally across Twitch and highly visible outside of their original channels, our emote guidelines may be more restrictive than our general Community Guidelines in some instances. Please refer to the [Emote Guidelines](https://help.twitch.tv/s/article/emote-guidelines) to review emote-specific standards for sexual content.
 
 - Games featuring nudity, pornography, sex, or sexual violence as a core focus or feature are entirely prohibited. Custom gameplay or visual modifications that include nudity or sex content, including uncensored patches, in otherwise allowed games are prohibited.
 
@@ -900,7 +896,7 @@ Indefinite suspensions are issued for usernames and display names that constitut
 
 - Creating an account with a nearly identical name to another Twitch user and attempting to pass yourself off as them
 
-- Attempting to pose as a representative of a company or organization without authorization (See the Trademark Policy for more information on usernames that may constitute legal violation of a trademark.)
+- Attempting to pose as a representative of a company or organization without authorization (See the [Trademark Policy](https://www.twitch.tv/p/legal/trademark-policy/) for more information on usernames that may constitute legal violation of a trademark.)
 
 - Glorification of natural or violent tragedies
 
@@ -952,7 +948,7 @@ These additional standards are often tied to values that exist in our Community 
 
 If Twitch has the ability to reset account usernames, why suspend some accounts indefinitely?
 
-Our suspension data indicates that the vast majority of users who create names that would result in indefinite suspensions create many such accounts, and are often involved in malicious raiding, brigading, and harassment campaigns. Because these individuals harm and spread toxicity within the Twitch community, we indefinitely suspend them immediately in order to mitigate this abuse, as well as remove the username. As with all account enforcements, if you have been suspended under this policy and believe that there has been a mistake or error, you may submit a suspension appeal (instructions can be found here ).
+Our suspension data indicates that the vast majority of users who create names that would result in indefinite suspensions create many such accounts, and are often involved in malicious raiding, brigading, and harassment campaigns. Because these individuals harm and spread toxicity within the Twitch community, we indefinitely suspend them immediately in order to mitigate this abuse, as well as remove the username. As with all account enforcements, if you have been suspended under this policy and believe that there has been a mistake or error, you may submit a suspension appeal (instructions can be found [here](https://safety.twitch.tv/s/article/appeals) ).
 
 If usernames can be such a large issue, what is Twitch doing to proactively monitor them at account sign-up?
 
@@ -1094,7 +1090,7 @@ For example, on Twitch you may not:
 
 - Verbally refer your chat to a site containing dice games
 
-Furthermore, similar to our prohibited games policy , we do not allow the sites below to be streamed on Twitch, or linked to in chat. We consider many factors in determining whether a site is allowed, including whether the site includes safety protections, such as deposit limits, waiting periods, and age verification systems. We also take into account whether streamers use or encourage VPNs to evade geoblocking, and whether the site is licensed in the US or other jurisdictions that provide sufficient consumer protections.
+Furthermore, similar to our [prohibited games policy](https://safety.twitch.tv/s/article/Prohibited-Games) , we do not allow the sites below to be streamed on Twitch, or linked to in chat. We consider many factors in determining whether a site is allowed, including whether the site includes safety protections, such as deposit limits, waiting periods, and age verification systems. We also take into account whether streamers use or encourage VPNs to evade geoblocking, and whether the site is licensed in the US or other jurisdictions that provide sufficient consumer protections.
 
 We do not allow the following sites or associated domains:
 
@@ -1148,7 +1144,7 @@ Enforcement Notes and Clarifications:
 
 Enforcement Notes are additional examples of what is and isn’t allowed on Twitch, focused on clarifying existing policies already being enforced. Updates here do not indicate a change in policy, but are additional examples of existing enforcements.
 
-- If you are being impersonated as a streamer on Twitch and the content does not qualify for action under the DMCA process (such as a branded trademark), please report the stream under “Impersonation”. Please provide full information in the report.
+- If you are being impersonated as a streamer on Twitch and the content does not qualify for action under [the DMCA process](https://www.twitch.tv/p/legal/dmca-guidelines/) (such as a branded trademark), please report the stream under “Impersonation”. Please provide full information in the report.
 
 - We take into account a number of factors such as usernames and bios, as well as if the person being impersonated submits the report when determining whether to enforce.
 
@@ -1194,7 +1190,7 @@ Enforcement Notes are additional examples of what is and isn’t allowed on Twit
 
 - Prohibited example: Using VODs or static images to stream with the core purpose of “Drop Farming”.
 
-- Shared Viewership , through utilizing Shared Chat as a tool, is designed to highlight the total number of community members present when two or more streamers are both live and collaborating together. Abusing these tools to artificially promote or inflate viewership without appropriate collaboration is not allowed, with some exceptions as noted below.
+- [Shared Viewership](https://link.twitch.tv/SharedViewership) , through utilizing Shared Chat as a tool, is designed to highlight the total number of community members present when two or more streamers are both live and collaborating together. Abusing these tools to artificially promote or inflate viewership without appropriate collaboration is not allowed, with some exceptions as noted below.
 
 - Allowed example: Two streamers are playing a game and are in the same game interacting with each other over audio (e.g. Stream Together audio or in-game comms).
 
@@ -1253,5 +1249,3 @@ Under this policy we cover the following topic areas, and will continue to updat
 Content Labeling
 
 You are expected to accurately label your content to the best of your ability. When choosing a category or tag, please choose whichever best describes your content.
-
-Powered by

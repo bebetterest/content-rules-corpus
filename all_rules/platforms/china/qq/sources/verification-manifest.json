@@ -9,16 +9,19 @@
       "https://rule.tencent.com/rule/46a15f24-e42c-4cb6-a308-2347139b1201",
       "https://rule.tencent.com/rule_out_api/domestic/web/info?link=46a15f24-e42c-4cb6-a308-2347139b1201"
     ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
     "source_files": [
       "all_rules/platforms/china/qq/sources/platform-qq-software-license-service-agreement-01.rule-tencent-com.html",
       "all_rules/platforms/china/qq/sources/platform-qq-software-license-service-agreement-02.rule-tencent-com.json"
     ],
+    "linked_source_files": [],
     "retrieved_date": "2026-05-24",
     "language": "zh-CN",
     "extraction_status": "extracted",
     "extraction_note": null,
     "paragraph_count": 229,
-    "body_sha256": "c351e22acab6f14c8926b23de7053b4b43b8da7742b69fbfa7fbd3f360de41bb",
+    "body_sha256": "5fe8bf5ed1e523920d97683fd6a4f847b5f6a9f26ab70051ff0224825071a320",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
     "source_sha256": [
@@ -26,17 +29,17 @@
         "source_file": "all_rules/platforms/china/qq/sources/platform-qq-software-license-service-agreement-01.rule-tencent-com.html",
         "sha256": "906d172585f954560e014adbca98524b28e475c4ab69e5b8ead65e8560e8fbd8",
         "bytes": 1643,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "text/html"
+        "content_type": null
       },
       {
         "source_file": "all_rules/platforms/china/qq/sources/platform-qq-software-license-service-agreement-02.rule-tencent-com.json",
         "sha256": "5bb1bbe5c672728b7588dbc9c69e18f56520ee994f08a5c5fc873dac44eeab17",
         "bytes": 95813,
-        "downloader": "fetch",
+        "downloader": "cached",
         "fallback_from": null,
-        "content_type": "application/json"
+        "content_type": null
       }
     ]
   }
