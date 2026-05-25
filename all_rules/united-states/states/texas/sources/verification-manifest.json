@@ -6,17 +6,37 @@
     "jurisdiction": "Texas state law",
     "output_file": "all_rules/united-states/states/texas/texas-business-commerce-code-chapter-509.md",
     "source_urls": [
-      "https://statutes.capitol.texas.gov/Docs/BC/pdf/BC.509.pdf"
+      "https://web.archive.org/web/20250901233925id_/https://statutes.capitol.texas.gov/Docs/BC/htm/BC.509.v2.htm"
     ],
-    "source_files": [],
-    "retrieved_date": "2026-05-24",
+    "reference_urls": [
+      "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.509.v2.htm",
+      "https://www.lrl.texas.gov/legis/billsearch/BillDetails.cfm?billTypeDetail=HB&billnumberDetail=18&legSession=88-0",
+      "https://www.lrl.texas.gov/scanned/sessionLaws/88-0/HB_18_CH_795.pdf",
+      "https://www.lrl.texas.gov/scanned/signedBills/88-0/HB18.pdf"
+    ],
+    "linked_source_urls": [],
+    "linked_source_errors": [],
+    "source_files": [
+      "all_rules/united-states/states/texas/sources/us-state-texas-scope-act.web-archive-org.html"
+    ],
+    "linked_source_files": [],
+    "retrieved_date": "2026-05-25",
     "language": "en",
-    "extraction_status": "stub",
-    "extraction_note": "https://statutes.capitol.texas.gov/Docs/BC/pdf/BC.509.pdf: attempt 1: fetch failed: fetch failed; curl failed: curl: (22) The requested URL returned error: 503",
-    "paragraph_count": 0,
-    "body_sha256": null,
+    "extraction_status": "extracted",
+    "extraction_note": null,
+    "paragraph_count": 146,
+    "body_sha256": "fa040020fb6851be96e1490b184d0a37fb4d53ccb91c27eb02b7db824ed0c353",
     "attempted_text_sha256": null,
     "attempted_text_length": null,
-    "source_sha256": []
+    "source_sha256": [
+      {
+        "source_file": "all_rules/united-states/states/texas/sources/us-state-texas-scope-act.web-archive-org.html",
+        "sha256": "0a134493ce84401eeb549b051e80d1c438167e4d67d2a3be60ff924ceb3df42d",
+        "bytes": 31676,
+        "downloader": "curl",
+        "fallback_from": "fetch failed",
+        "content_type": null
+      }
+    ]
   }
 ]

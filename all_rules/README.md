@@ -10,7 +10,7 @@ This directory stores collected rule texts. Subdirectories should be organized b
 
 ## Source Registry
 
-- `source-registry.json` records source IDs, titles, jurisdictions, scope notes, authority labels, source URLs, fetch methods, output files, languages, status notes, and risk categories where applicable.
+- `source-registry.json` records source IDs, titles, jurisdictions, scope notes, authority labels, source URLs, reference URLs, fetch methods, output files, languages, status notes, and risk categories where applicable.
 - `scripts/fetch_rules.mjs` reads the registry and writes Markdown outputs, raw source artifacts, and `sources/verification-manifest.json` files.
 - Entries with `fetch_method: "rendered-html"` use Python Playwright to save browser-rendered official HTML before extraction.
 - Files that cannot be verified as complete official full-text extractions remain source stubs.

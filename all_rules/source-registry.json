@@ -2578,16 +2578,22 @@
       "collection": "united-states",
       "jurisdiction": "Texas state law",
       "scope_note": "Applies only within the scope of Texas law; not nationwide federal law. Current enforceability may be affected by litigation or injunctions and must be checked before legal use.",
-      "source_url": "https://statutes.capitol.texas.gov/Docs/BC/pdf/BC.509.pdf",
-      "source_authority": "Texas Constitution and Statutes",
-      "fetch_method": "pdf",
+      "source_url": "https://web.archive.org/web/20250901233925id_/https://statutes.capitol.texas.gov/Docs/BC/htm/BC.509.v2.htm",
+      "reference_urls": [
+        "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.509.v2.htm",
+        "https://www.lrl.texas.gov/legis/billsearch/BillDetails.cfm?billTypeDetail=HB&billnumberDetail=18&legSession=88-0",
+        "https://www.lrl.texas.gov/scanned/sessionLaws/88-0/HB_18_CH_795.pdf",
+        "https://www.lrl.texas.gov/scanned/signedBills/88-0/HB18.pdf"
+      ],
+      "source_authority": "Texas Constitution and Statutes official page, archived by Internet Archive",
+      "fetch_method": "html",
       "extractor": "generic-html",
       "output_file": "all_rules/united-states/states/texas/texas-business-commerce-code-chapter-509.md",
       "language": "en",
-      "status_note": "Official Texas Constitution and Statutes codified source. On 2026-05-24, the official Texas statutes and legislature sites returned HTTP 503 maintenance responses with Retry-After Tue, 26 May 2026 12:00:00 GMT, so this entry remains a source stub until the official source is available.",
+      "status_note": "Official Texas Constitution and Statutes live codified source and Texas Legislative Reference Library sources returned maintenance HTTP 503 responses on 2026-05-25 with Retry-After Tue, 26 May 2026 12:00:00 GMT. This file is generated from the 2025-09-01 Internet Archive snapshot of the official BC.509.v2.htm page. The archived source itself notes that Sections 509.001 and 509.002 were amended by the 89th Legislature pending publication of current statutes; verify the live official source when maintenance ends before legal use.",
       "retry_count": 0,
-      "required_phrases": ["Securing Children Online through Parental Empowerment", "USE OF DIGITAL SERVICES BY MINORS"],
-      "min_body_chars": 5000
+      "required_phrases": ["USE OF DIGITAL SERVICES BY MINORS", "DIGITAL SERVICE PROVIDER DUTY TO PREVENT HARM TO KNOWN MINORS", "PRIVATE CAUSE OF ACTION"],
+      "min_body_chars": 10000
     },
     {
       "id": "us-state-florida-online-protections-for-minors",

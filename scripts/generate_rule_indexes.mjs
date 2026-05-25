@@ -17,6 +17,7 @@ const METADATA_KEYS = {
   "Scope Note": "scope_note",
   "Source Authority": "source_authority",
   "Source URL": "source_urls",
+  "Reference URL": "reference_urls",
   "Retrieval Date": "retrieval_date",
   Language: "language",
   "Fetch Method": "fetch_method",
@@ -65,13 +66,22 @@ function parseMetadata(markdown) {
   const metadata = {};
   const lines = markdown.split(/\r?\n/);
   let sourceUrlBlock = false;
+  let referenceUrlBlock = false;
   const sourceUrls = [];
+  const referenceUrls = [];
 
   for (const line of lines) {
     if (sourceUrlBlock) {
       const sourceUrlMatch = line.match(/^- (https?:\/\/\S.*)$/);
       if (sourceUrlMatch) {
         sourceUrls.push(sourceUrlMatch[1].trim());
+        continue;
+      }
+    }
+    if (referenceUrlBlock) {
+      const referenceUrlMatch = line.match(/^- (https?:\/\/\S.*)$/);
+      if (referenceUrlMatch) {
+        referenceUrls.push(referenceUrlMatch[1].trim());
         continue;
       }
     }
@@ -82,9 +92,12 @@ function parseMetadata(markdown) {
       const mappedKey = METADATA_KEYS[rawKey.trim()];
       const value = rawValue.trim();
       sourceUrlBlock = rawKey.trim() === "Source URL";
+      referenceUrlBlock = rawKey.trim() === "Reference URL";
 
       if (mappedKey === "source_urls" && value) {
         sourceUrls.push(value);
+      } else if (mappedKey === "reference_urls" && value) {
+        referenceUrls.push(value);
       } else if (mappedKey && value) {
         metadata[mappedKey] = value;
       }
@@ -96,10 +109,18 @@ function parseMetadata(markdown) {
         sourceUrlBlock = false;
       }
     }
+    if (referenceUrlBlock) {
+      if (line.startsWith("- ") && !line.startsWith("- http")) {
+        referenceUrlBlock = false;
+      }
+    }
   }
 
   if (sourceUrls.length > 0) {
     metadata.source_urls = [...new Set(sourceUrls)];
+  }
+  if (referenceUrls.length > 0) {
+    metadata.reference_urls = [...new Set(referenceUrls)];
   }
 
   return metadata;

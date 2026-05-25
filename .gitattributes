@@ -1,2 +1,3 @@
 # Preserve downloaded source artifacts exactly and avoid text whitespace checks.
 all_rules/**/sources/** -diff
+all_rules/**/sources/verification-manifest.json diff

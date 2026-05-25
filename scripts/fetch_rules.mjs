@@ -147,6 +147,10 @@ function sourceUrlsFor(entry) {
   return [];
 }
 
+function referenceUrlsFor(entry) {
+  return Array.isArray(entry.reference_urls) ? entry.reference_urls : [];
+}
+
 function isHashRoutedSourceUrl(parsed) {
   const host = parsed.hostname.toLowerCase().replace(/^www\./, "");
   return (
@@ -718,7 +722,9 @@ function htmlToLinkedText(html, baseUrl, linkMap) {
 
 function stripHtmlToLines(html, options = {}) {
   const preBlocks = [...html.matchAll(/<pre\b[^>]*>([\s\S]*?)<\/pre>/gi)].map((match) =>
-    htmlToText(match[1])
+    /<(?:p|br|div)\b/i.test(match[1]) || /<\/(?:p|br|div)>/i.test(match[1])
+      ? stripHtmlToLines(match[1], options).join("\n")
+      : htmlToText(match[1])
   );
   if (preBlocks.join("\n").trim().length > 500) {
     return cleanText(preBlocks.join("\n")).split("\n").filter(Boolean);
@@ -1442,6 +1448,10 @@ async function extractBody(entry, downloads, linkMap = new Map()) {
 function markdownFor(entry, extraction, downloads, linkedDownloads = []) {
   const sourceUrls = sourceUrlsFor(entry);
   const sourceList = sourceUrls.map((url) => `- ${url}`).join("\n");
+  const referenceUrls = referenceUrlsFor(entry);
+  const referenceList = referenceUrls.length > 0
+    ? `- Reference URL:\n${referenceUrls.map((url) => `- ${url}`).join("\n")}\n`
+    : "";
   const linkedSourceList = linkedDownloads.length > 0
     ? `- Linked Source URL:\n${linkedDownloads
         .map((item) => `- ${item.url} -> ${outputRelative(path.join(ROOT, entry.output_file), item.sourcePath)}`)
@@ -1473,6 +1483,7 @@ ${openingNote}
 - Source Authority: ${entry.source_authority}
 - Source URL:
 ${sourceList}
+${referenceList}
 ${linkedSourceList}- Retrieval Date: ${RETRIEVED_DATE}
 - Language: ${entry.language}
 - Fetch Method: ${entry.fetch_method}
@@ -1784,6 +1795,7 @@ async function processEntry(entry) {
     jurisdiction: entry.jurisdiction,
     output_file: repoRelative(outputPath),
     source_urls: sourceUrlsFor(entry),
+    reference_urls: referenceUrlsFor(entry),
     linked_source_urls: linkedDownloads.map((item) => item.url),
     linked_source_errors: linkedErrors,
     source_files: successfulDownloads.map((item) => repoRelative(item.sourcePath)),

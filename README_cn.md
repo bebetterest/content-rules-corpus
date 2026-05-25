@@ -24,7 +24,7 @@
 - `node scripts/generate_rule_indexes.mjs`：刷新 `all_rules/` 下各目录用于内部导航的 `index.json`。
 - `node scripts/verify_rules.mjs`：校验来源链接、原始来源文件哈希、正文哈希、legacy 中国正文哈希、州法适用范围说明、已下载来源链接本地化，以及目录索引。
 
-部分平台条目使用 `fetch_method: "rendered-html"`，需要安装 Python Playwright 及 Chromium 浏览器。这些条目仍会先保存渲染后的官方 HTML artifact，再进行 Markdown 抽取。抓取器还支持显式和递归发现的 `linked_source_urls`、linked source 专用渲染抓取设置、Bilibili 帮助页这类 hash 路由来源 URL，以及对不稳定官方页面复用 primary/linked 本地缓存。
+部分平台条目使用 `fetch_method: "rendered-html"`，需要安装 Python Playwright 及 Chromium 浏览器。这些条目仍会先保存渲染后的官方 HTML artifact，再进行 Markdown 抽取。抓取器还支持显式和递归发现的 `linked_source_urls`、用于记录已检查但不作为正文下载来源的官方或权威参考页面的 `reference_urls`、linked source 专用渲染抓取设置、Bilibili 帮助页这类 hash 路由来源 URL，以及对不稳定官方页面复用 primary/linked 本地缓存。
 
 ## 收集原则
 

@@ -24,7 +24,7 @@ This repository collects rule, regulation, standard, and policy texts in a sourc
 - `node scripts/generate_rule_indexes.mjs`: refresh per-directory `index.json` files under `all_rules/` for internal navigation.
 - `node scripts/verify_rules.mjs`: verify source URLs, raw source artifact hashes, body hashes, legacy China hashes, required state-law scope notes, localized downloaded-source links, and directory indexes.
 
-Some platform entries use `fetch_method: "rendered-html"` and require Python Playwright with a Chromium browser installed. Those entries still save the rendered official HTML artifact before Markdown extraction. The fetcher also supports explicit and recursively discovered `linked_source_urls`, per-linked rendered fetch settings, hash-routed source URLs such as Bilibili help pages, and primary/linked source cache reuse for unstable official pages.
+Some platform entries use `fetch_method: "rendered-html"` and require Python Playwright with a Chromium browser installed. Those entries still save the rendered official HTML artifact before Markdown extraction. The fetcher also supports explicit and recursively discovered `linked_source_urls`, `reference_urls` for checked official or authoritative pages that are cited but not treated as downloaded body sources, per-linked rendered fetch settings, hash-routed source URLs such as Bilibili help pages, and primary/linked source cache reuse for unstable official pages.
 
 ## Collection Principles
 

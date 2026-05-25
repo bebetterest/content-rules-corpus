@@ -523,6 +523,11 @@ async function main() {
           failures.push(`${entry.id}: output missing linked source URL ${linkedSourceUrl}`);
         }
       }
+      for (const referenceUrl of entry.reference_urls || []) {
+        if (!markdown.includes(referenceUrl)) {
+          failures.push(`${entry.id}: output missing reference URL ${referenceUrl}`);
+        }
+      }
 
       const sourceFiles = new Set(entry.source_files || []);
       for (const linkedSourceFile of entry.linked_source_files || []) {
