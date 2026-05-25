@@ -250,3 +250,14 @@ Link and extraction updates:
 - No additional U.S. federal legal provisions were added in this pass.
 
 Verification status after this pass: `node scripts/verify_rules.mjs` verified 144 entries, with 143 extracted files and 1 source stub (`us-state-texas-scope-act`).
+
+## 2026-05-25 README Open Source Positioning Pass
+
+Documentation updates:
+
+- Reworked the root `README.md` as an open-source project entry point for a content-safety rule corpus.
+- Added a minimalist hand-drawn README header image at `docs/assets/readme-header.png`.
+- Clarified the project purpose: collecting and exploring laws, regulations, standards, and platform policies related to content safety and adjacent trust-and-safety topics.
+- Added project goals, current corpus scope, repository layout, environment requirements, common commands, collection workflow, source-handling policy, data-quality checks, contribution expectations, legal/use disclaimer, and current license status.
+- Synchronized `README_cn.md` with the English README.
+- Reflected the current corpus status after the Texas extraction update: `node scripts/verify_rules.mjs` verifies 144 entries, with 144 extracted files and 0 source stubs.

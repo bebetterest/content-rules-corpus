@@ -250,3 +250,14 @@
 - 本轮未增加任何美国联邦法律条文。
 
 本轮后的校验状态：`node scripts/verify_rules.mjs` 验证 144 条记录，其中 143 个文件已抽取正文，1 个文件仍为 source stub（`us-state-texas-scope-act`）。
+
+## 2026-05-25 README 开源项目定位更新
+
+文档更新：
+
+- 将根目录 `README.md` 重写为内容安全规则语料库的开源项目入口文档。
+- 在 `docs/assets/readme-header.png` 添加简约手绘 README 头图。
+- 明确项目目的：收集并探索与内容安全及相邻信任与安全议题相关的法律、法规、标准和平台政策。
+- 增加项目目标、当前语料范围、仓库结构、环境要求、常用命令、收集流程、来源文本处理政策、数据质量校验、贡献要求、法律与使用声明，以及当前 license 状态。
+- 同步更新 `README_cn.md`。
+- 反映 Texas 抽取更新后的当前语料状态：`node scripts/verify_rules.mjs` 验证 144 条记录，其中 144 个文件已抽取正文，0 个 source stub。
