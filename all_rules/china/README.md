@@ -4,7 +4,7 @@ This directory stores official Chinese rule texts. Chinese original texts use th
 
 ## Collected Texts
 
-- [Internet Information Service Management Measures](/Users/hobeter/Desktop/code/rules/all_rules/china/internet-information-service-management-measures_cn.md)
-- [Provisions on the Governance of the Online Information Content Ecosystem](/Users/hobeter/Desktop/code/rules/all_rules/china/provisions-on-governance-of-online-information-content-ecosystem_cn.md)
+- [Internet Information Service Management Measures](internet-information-service-management-measures_cn.md)
+- [Provisions on the Governance of the Online Information Content Ecosystem](provisions-on-governance-of-online-information-content-ecosystem_cn.md)
 
-Chinese version: [README_cn.md](/Users/hobeter/Desktop/code/rules/all_rules/china/README_cn.md)
+Chinese version: [README_cn.md](README_cn.md)

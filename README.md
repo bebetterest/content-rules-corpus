@@ -146,4 +146,4 @@ Some collected materials may be copyrighted by the issuing platform or source pu
 
 No project license file has been added yet. Do not assume open-source reuse rights until a license is selected and committed.
 
-Chinese version: [README_cn.md](/Users/hobeter/Desktop/code/rules/README_cn.md)
+Chinese version: [README_cn.md](README_cn.md)

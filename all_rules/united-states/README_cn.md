@@ -14,4 +14,4 @@
 - 如果现行有效性、诉讼状态、禁令状态、成文化状态或抽取完整性存在不确定，必须在文件开头说明。
 - 如果无法确认完整官方全文，只保留生成的 source stub。
 
-English version: [README.md](/Users/hobeter/Desktop/code/rules/all_rules/united-states/README.md)
+English version: [README.md](README.md)

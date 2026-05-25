@@ -146,4 +146,4 @@ node scripts/fetch_rules.mjs --collection united-states
 
 本项目尚未添加 license 文件。在 license 被选择并提交之前，不应假定本仓库具备开源复用授权。
 
-English version: [README.md](/Users/hobeter/Desktop/code/rules/README.md)
+English version: [README.md](README.md)

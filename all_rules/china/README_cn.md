@@ -4,7 +4,7 @@
 
 ## 已收集文本
 
-- [互联网信息服务管理办法](/Users/hobeter/Desktop/code/rules/all_rules/china/internet-information-service-management-measures_cn.md)
-- [网络信息内容生态治理规定](/Users/hobeter/Desktop/code/rules/all_rules/china/provisions-on-governance-of-online-information-content-ecosystem_cn.md)
+- [互联网信息服务管理办法](internet-information-service-management-measures_cn.md)
+- [网络信息内容生态治理规定](provisions-on-governance-of-online-information-content-ecosystem_cn.md)
 
-English version: [README.md](/Users/hobeter/Desktop/code/rules/all_rules/china/README.md)
+English version: [README.md](README.md)

@@ -15,4 +15,4 @@
 - 如果平台页面依赖客户端渲染、阻断自动访问，或无法确认完整官方全文抽取，生成文件必须保留为 source stub。
 - 风险索引只用于导航。具体适用仍以官方来源文件及其来源链接为准。
 
-English version: [README.md](/Users/hobeter/Desktop/code/rules/all_rules/platforms/README.md)
+English version: [README.md](README.md)

@@ -21,4 +21,4 @@
 
 `all_rules/` 下每个非 `sources/` 目录都有一个由 `scripts/generate_rule_indexes.mjs` 生成的 `index.json` 文件。这些索引会列出该目录直属的规则 Markdown 文件，并链接到子目录索引，便于内部导航。
 
-English version: [README.md](/Users/hobeter/Desktop/code/rules/all_rules/README.md)
+English version: [README.md](README.md)

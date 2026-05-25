@@ -15,4 +15,4 @@ This directory collects official platform content policies, community rules, saf
 - If a platform page is client-rendered, blocks automated access, or cannot be confirmed as a complete official full-text extraction, keep the generated file as a source stub.
 - Risk indexes are navigation aids only. The original official source file and source URL remain the authority.
 
-Chinese version: [README_cn.md](/Users/hobeter/Desktop/code/rules/all_rules/platforms/README_cn.md)
+Chinese version: [README_cn.md](README_cn.md)
