@@ -9,3 +9,7 @@ AGENTS_cn.md
 
 # macOS local metadata
 .DS_Store
+
+# Python local caches
+__pycache__/
+*.py[cod]

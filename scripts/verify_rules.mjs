@@ -7,6 +7,7 @@ import { promisify } from "node:util";
 const execFile = promisify(execFileCallback);
 const ROOT = new URL("..", import.meta.url).pathname;
 const ALL_RULES_DIR = path.join(ROOT, "all_rules");
+const SOURCE_REGISTRY = "all_rules/source-registry.json";
 const INDEX_GENERATOR = "scripts/generate_rule_indexes.mjs";
 const NON_RULE_MARKDOWN = new Set([
   "README.md",
@@ -477,6 +478,88 @@ async function verifyRuleIndexes(failures) {
   return { indexCount, indexedRules };
 }
 
+function duplicateValues(values) {
+  const seen = new Set();
+  const duplicates = new Set();
+  for (const value of values.filter(Boolean)) {
+    if (seen.has(value)) {
+      duplicates.add(value);
+    }
+    seen.add(value);
+  }
+  return [...duplicates];
+}
+
+async function verifySourceRegistryCoverage(manifests, failures) {
+  let registry;
+  try {
+    registry = JSON.parse(await readFile(path.join(ROOT, SOURCE_REGISTRY), "utf8"));
+  } catch (error) {
+    failures.push(`${SOURCE_REGISTRY}: missing or invalid source registry: ${error.message}`);
+    return;
+  }
+
+  if (registry.schema_version !== 1) {
+    failures.push(`${SOURCE_REGISTRY}: expected schema_version 1`);
+  }
+  if (!Array.isArray(registry.entries)) {
+    failures.push(`${SOURCE_REGISTRY}: entries must be an array`);
+    return;
+  }
+
+  const registryEntries = registry.entries.filter((entry) => entry?.output_file);
+  const manifestEntries = manifests.flatMap(({ entries }) => entries);
+  const registryIds = registryEntries.map((entry) => entry.id);
+  const manifestIds = manifestEntries.map((entry) => entry.id);
+  const registryOutputs = registryEntries.map((entry) => entry.output_file);
+  const manifestOutputs = manifestEntries.map((entry) => entry.output_file);
+
+  for (const id of duplicateValues(registryIds)) {
+    failures.push(`${SOURCE_REGISTRY}: duplicate registry id ${id}`);
+  }
+  for (const id of duplicateValues(manifestIds)) {
+    failures.push(`verification manifests: duplicate manifest id ${id}`);
+  }
+  for (const outputFile of duplicateValues(registryOutputs)) {
+    failures.push(`${SOURCE_REGISTRY}: duplicate output_file ${outputFile}`);
+  }
+  for (const outputFile of duplicateValues(manifestOutputs)) {
+    failures.push(`verification manifests: duplicate output_file ${outputFile}`);
+  }
+
+  const manifestIdSet = new Set(manifestIds);
+  for (const id of registryIds) {
+    if (!manifestIdSet.has(id)) {
+      failures.push(`${SOURCE_REGISTRY}: registry id missing from verification manifests ${id}`);
+    }
+  }
+
+  const registryIdSet = new Set(registryIds);
+  for (const id of manifestIds) {
+    if (!registryIdSet.has(id)) {
+      failures.push(`verification manifests: manifest id missing from source registry ${id}`);
+    }
+  }
+
+  const manifestOutputSet = new Set(manifestOutputs);
+  for (const outputFile of registryOutputs) {
+    if (!manifestOutputSet.has(outputFile)) {
+      failures.push(
+        `${SOURCE_REGISTRY}: registry output_file missing from verification manifests ${outputFile}`
+      );
+    }
+  }
+
+  const registryOutputSet = new Set(registryOutputs);
+  for (const outputFile of manifestOutputs) {
+    if (!registryOutputSet.has(outputFile)) {
+      failures.push(
+        `verification manifests: manifest output_file missing from source registry ${outputFile}`
+      );
+    }
+  }
+}
+
 async function main() {
   const manifestFiles = (await rgFiles("verification-manifest.json")).filter((file) =>
     file.startsWith("all_rules/")
@@ -496,6 +579,8 @@ async function main() {
       addManifestSourceKeys(entry, localizableSourceKeys);
     }
   }
+
+  await verifySourceRegistryCoverage(manifests, failures);
 
   for (const { entries } of manifests) {
     for (const entry of entries) {

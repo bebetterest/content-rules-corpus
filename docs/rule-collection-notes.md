@@ -278,3 +278,8 @@ Structure update:
 - Kept legal jurisdiction and platform scope metadata separate from language grouping by adding `language_group` to platform registry entries and generated Markdown metadata.
 - Updated `platform_group` values to the `<language_group>/<platform>` form so risk indexes continue to be generated per platform directory.
 - Left `all_rules/china/` unchanged because it stores China-specific legal and regulatory source texts, not platform language groups.
+
+## 2026-05-26 Repository Audit
+
+- Synchronized the two legacy China manifest IDs with `all_rules/source-registry.json`.
+- Extended `scripts/verify_rules.mjs` so verification now fails on registry/manifest ID mismatches, duplicate IDs, duplicate output paths, or registry/manifest output coverage gaps.

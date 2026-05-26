@@ -9,7 +9,7 @@ const RETRIEVED_DATE = "2026-05-23";
 
 const rules = [
   {
-    id: "internet-information-service-management-measures",
+    id: "china-internet-information-service-management-measures",
     title: "互联网信息服务管理办法",
     kind: "行政法规",
     authority: "中华人民共和国国务院",
@@ -45,7 +45,7 @@ const rules = [
     ],
   },
   {
-    id: "provisions-online-content-ecosystem",
+    id: "china-provisions-online-content-ecosystem",
     title: "网络信息内容生态治理规定",
     kind: "部门规章",
     authority: "国家互联网信息办公室",

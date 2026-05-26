@@ -278,3 +278,8 @@
 - 通过在平台 registry 条目和生成的 Markdown 元数据中加入 `language_group`，将法律司法辖区、平台适用范围与语言分组分开。
 - 将 `platform_group` 更新为 `<language_group>/<platform>` 形式，使风险索引继续按平台目录生成。
 - 保持 `all_rules/china/` 不变，因为它存放的是中国法律法规来源文本，而不是平台语言分组。
+
+## 2026-05-26 仓库审计
+
+- 将两个 legacy China manifest ID 与 `all_rules/source-registry.json` 同步。
+- 扩展 `scripts/verify_rules.mjs`，现在 registry/manifest ID 不一致、重复 ID、重复输出路径，或 registry/manifest 输出覆盖缺口都会导致验证失败。

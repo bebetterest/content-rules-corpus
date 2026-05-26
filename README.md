@@ -16,7 +16,7 @@ The project is intended for research and exploration across different rule syste
 
 ## Current Corpus
 
-As of 2026-05-25, the repository contains 144 indexed rule files:
+As of 2026-05-26, the repository contains 144 indexed rule files:
 
 - `all_rules/china/`: 2 Chinese regulatory texts.
 - `all_rules/platforms/`: 27 platform policy files, grouped by language group and platform.
@@ -120,6 +120,7 @@ If complete extraction cannot be confirmed, the output should be a clearly marke
 - downloaded-source link localization,
 - challenge-page rejection for HTML/XML artifacts,
 - unreferenced source artifacts,
+- source registry coverage for manifest IDs and output paths,
 - generated directory indexes.
 
 Verification confirms repository consistency. It does not independently prove that a law is currently enforceable, that a platform policy is still the latest version, or that a source has not changed since retrieval.
